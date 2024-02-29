@@ -12,4 +12,4 @@
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
-#### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
+#### MitziVazquez mitzi.vamo25@gmail.com
