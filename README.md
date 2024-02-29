@@ -11,10 +11,7 @@
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
-<<<<<<< HEAD
-#### DavidFlores daroan13@gmail.com
-=======
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
 #### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
->>>>>>> main
+#### DavidFlores daroan13@gmail.com
