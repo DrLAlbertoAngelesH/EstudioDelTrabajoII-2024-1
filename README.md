@@ -4,3 +4,4 @@
 ### LuisAlbertoAngeles
 #### LuisAngelPiedraMoreno luigui123piedra@gmail.com
 #### ManuelGomezHernandez
+#### EmilianoNietoLeal l22140880@queretaro.tecnm.mx 
