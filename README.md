@@ -13,3 +13,6 @@
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
+#### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
+
+
