@@ -11,3 +11,4 @@
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
+#### DavidFlores daroan13@gmail.com
