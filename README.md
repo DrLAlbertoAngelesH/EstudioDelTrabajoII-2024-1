@@ -14,3 +14,4 @@
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
 #### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
+#### DavidFlores daroan13@gmail.com
