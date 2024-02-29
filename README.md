@@ -12,4 +12,7 @@
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
+#### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
+#### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
+#### DavidFlores daroan13@gmail.com
 #### DiegoGuadalupeGomezHernandez diego.guadalupe2004@gmail.com
