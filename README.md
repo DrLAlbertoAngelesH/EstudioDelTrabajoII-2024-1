@@ -1,4 +1,4 @@
-# EstudioDelTrabajoII-2024-1
+# JuanManuelAcevez l22140954@queretaro.tecnm.mx
 ## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
 ### LuisAlbertoAngeles
