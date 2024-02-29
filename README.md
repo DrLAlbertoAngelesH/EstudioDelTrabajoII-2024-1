@@ -13,4 +13,5 @@
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
+#### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
 #### AlanGaelCoronaCruz alancoronacruz1@gmail.com
