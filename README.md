@@ -27,3 +27,4 @@
 #### JuanManuelAcevez l22140954@queretaro.tecnm.mx
 #### CristianJonathanMoralesPiña lc22140573@queretaro.tecnm.mx
 #### AnaSofiaNievesJimenez      ana20chofis04@gmail.com
+#### NancyRuizPeña l22140942@queretaro.tecnm.mx
