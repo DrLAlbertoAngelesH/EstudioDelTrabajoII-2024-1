@@ -22,3 +22,4 @@
 #### PedroDamianGarcia pedrogha432@gmail.com
 #### AlexaGiovanaGonzalezPajaro gonzalexa076@gmail.com
 #### AlanGaelCoronaCruz alancoronacruz1@gmail.com
+#### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
