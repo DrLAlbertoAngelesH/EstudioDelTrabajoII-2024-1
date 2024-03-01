@@ -24,4 +24,4 @@
 #### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
 #### JoseDeJesusRamosEstilla josedjesusramosestilla@gmail.com
 #### DiegoGuadalupeGomezHernandez diego.guadalupe2004@gmail.com
-#### JuanManuelAcevez l22140920@queretaro.tecnm.mx
+#### JuanManuelAcevez l22140914@queretaro.tecnm.mx
