@@ -32,3 +32,4 @@
 #### LuisAlonsoZavalaGonzalez l22140885@queretaro.tecnm.mx
 #### ValeriaRangelFrias l22140286@queretaro.tecnm.mx
 #### JoseDeJesusRamosEstilla josedejesusramosestilla@gmail.com
+#### JoseNatividadMirelesNavarro l22121407@queretaro.tecn.mx
