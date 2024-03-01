@@ -30,3 +30,4 @@
 #### NancyRuizPeña l22140942@queretaro.tecnm.mx
 #### JuanDiegoTeranTlalolini teran.tlalolini.juan@gmail.com
 #### LuisAlonsoZavalaGonzalez l22140885@queretaro.tecnm.mx
+#### ValeriaRangelFrias l22140286@queretaro.tecnm.mx
