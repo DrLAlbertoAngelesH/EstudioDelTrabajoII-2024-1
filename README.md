@@ -20,3 +20,4 @@
 #### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
 #### PedroDamianGarcia pedrogha432@gmail.com
+#### AlexaGiovanaGonzalezPajaro gonzalexa076@gmail.com
