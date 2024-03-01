@@ -25,3 +25,5 @@
 #### JoseDeJesusRamosEstilla josedjesusramosestilla@gmail.com
 #### DiegoGuadalupeGomezHernandez diego.guadalupe2004@gmail.com
 #### JuanManuelAcevez l22140920@queretaro.tecnm.mx
+#### LuisAlonsoZavalaGonzalez l22140885@queretaro.tecnm.mx
+
