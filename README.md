@@ -31,3 +31,4 @@
 #### JuanDiegoTeranTlalolini teran.tlalolini.juan@gmail.com
 #### LuisAlonsoZavalaGonzalez l22140885@queretaro.tecnm.mx
 #### ValeriaRangelFrias l22140286@queretaro.tecnm.mx
+#### JoseDeJesusRamosEstilla josedejesusramosestilla@gmail.com
