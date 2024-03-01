@@ -9,3 +9,8 @@
 #### BonillaZLeonardo l22140960@queretaro.tecnm.mx
 #### LuisAlonsoZavalaGozalez l22140885@queretaro.tecnm.mx
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
+
+
+
+
+#### JuanDiegoTeranTlalolini teran.tlalolini.juan@gmail.com
