@@ -33,3 +33,4 @@
 #### ValeriaRangelFrias l22140286@queretaro.tecnm.mx
 #### JoseDeJesusRamosEstilla josedejesusramosestilla@gmail.com
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
+#### DiegoSantosCástulo  diego.s0009ssc@gmail.com
