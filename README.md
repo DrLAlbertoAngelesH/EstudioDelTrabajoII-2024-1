@@ -1,4 +1,4 @@
-# JuanManuelAcevez l22140954@queretaro.tecnm.mx
+# EstudioDelTrabajoII-2024-1
 ## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
 ### LuisAlbertoAngeles
@@ -11,3 +11,4 @@
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
+#### JuanManuelAcevez l22140954@queretaro.tecnm.mx
