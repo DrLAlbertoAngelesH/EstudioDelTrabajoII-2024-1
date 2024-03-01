@@ -15,3 +15,4 @@
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
 #### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
+#### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
