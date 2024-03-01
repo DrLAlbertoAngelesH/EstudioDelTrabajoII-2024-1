@@ -14,4 +14,11 @@
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
 #### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
+#### DavidFlores daroan13@gmail.com
+#### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
+#### PilarMartinezOscarJesus pilaroscar2@gmail.com
+#### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
+#### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
+#### PedroDamianGarcia pedrogha432@gmail.com
+#### AlexaGiovanaGonzalezPajaro gonzalexa076@gmail.com
 #### AlanGaelCoronaCruz alancoronacruz1@gmail.com
