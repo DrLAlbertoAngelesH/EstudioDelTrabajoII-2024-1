@@ -16,3 +16,4 @@
 #### DavidBautistaAzcarraga l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
 #### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
+#### PilarMartinezOscarJesus pilaroscar2@gmail.com
