@@ -18,7 +18,7 @@
 #### PilarMartinezOscarJesus pilaroscar2@gmail.com
 #### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
-#### PedroDamianGarcia pedrogha432@gmail.com
+#### PedroDamianGarcia pedroghz432@gmail.com
 #### AlexaGiovanaGonzalezPajaro gonzalexa076@gmail.com
 #### AlanGaelCoronaCruz alancoronacruz1@gmail.com
 #### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
@@ -28,4 +28,5 @@
 #### CristianJonathanMoralesPiña lc22140573@queretaro.tecnm.mx
 #### AnaSofiaNievesJimenez      ana20chofis04@gmail.com
 #### NancyRuizPeña l22140942@queretaro.tecnm.mx
+#### JuanDiegoTeranTlalolini teran.tlalolini.juan@gmail.com
 #### LuisAlonsoZavalaGonzalez l22140885@queretaro.tecnm.mx
