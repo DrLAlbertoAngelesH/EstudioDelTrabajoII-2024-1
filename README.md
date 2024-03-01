@@ -8,7 +8,7 @@
 #### AlitzaAlejandraPiedra l22140912@queretaro.tecnm.mx
 #### BonillaZLeonardo l22140960@queretaro.tecnm.mx
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
-#### JosephIkerCOllmanGranados l22140906@queretaro.tecnm.mx
+#### JosephIkerCollmanGranados l22140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
