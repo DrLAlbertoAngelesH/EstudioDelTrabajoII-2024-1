@@ -8,11 +8,6 @@
 #### AlitzaAlejandraPiedra l22140912@queretaro.tecnm.mx
 #### BonillaZLeonardo l22140960@queretaro.tecnm.mx
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
-<<<<<<< HEAD
-#### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
-#### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
-#### DiegoSantosCástulo  diego.s0009ssc@gmail.com          
-=======
 #### JosephIkerCollmanGranados l22140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
@@ -38,4 +33,3 @@
 #### ValeriaRangelFrias l22140286@queretaro.tecnm.mx
 #### JoseDeJesusRamosEstilla josedejesusramosestilla@gmail.com
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
->>>>>>> 77e51b59a89bdc4712111a7acb7e188717c0b4e5
