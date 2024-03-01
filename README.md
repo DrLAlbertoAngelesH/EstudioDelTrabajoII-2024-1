@@ -24,3 +24,4 @@
 #### AlanGaelCoronaCruz alancoronacruz1@gmail.com
 #### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
 #### JoseDeJesusRamosEstilla josedjesusramosestilla@gmail.com
+#### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
