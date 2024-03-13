@@ -12,8 +12,6 @@
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
 #### MitziVazquez mitzi.vamo25@gmail.com
-<<<<<<< HEAD
-=======
 #### DavidBautistaA l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
 #### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
@@ -37,4 +35,3 @@
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
->>>>>>> main
