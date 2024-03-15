@@ -10,4 +10,4 @@
 #### LuisAlonsoZavalaGozalez l22140885@queretaro.tecnm.mx
 #### EliseoAbrahamOlveraPerez l22140900@queretaro.tecnm.mx
 #### JosephIkerCOllmanGranados 122140906@queretaro.tecnm.mx
-#### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
+#### DiegoAvilaHernández l22140920@queretaro.tecnm.mx L L
