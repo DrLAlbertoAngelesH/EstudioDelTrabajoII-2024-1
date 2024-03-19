@@ -34,7 +34,5 @@
 #### JoseDeJesusRamosEstilla josedejesusramosestilla@gmail.com
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
-<<<<<<< HEAD
-#### AbrahamRuizLopez l2240290@queretaro.tecnm.mx""
-=======
+#### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
