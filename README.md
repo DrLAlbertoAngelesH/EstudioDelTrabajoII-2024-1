@@ -15,6 +15,7 @@
 #### DavidBautistaA l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
 #### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
+#### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### PilarMartinezOscarJesus pilaroscar2@gmail.com
 #### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
