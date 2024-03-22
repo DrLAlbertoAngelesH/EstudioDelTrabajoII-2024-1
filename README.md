@@ -15,6 +15,7 @@
 #### DavidBautistaA l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
 #### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
+#### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### PilarMartinezOscarJesus pilaroscar2@gmail.com
 #### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
@@ -35,7 +36,3 @@
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
-<<<<<<< HEAD
-=======
-#### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
->>>>>>> f9fb4e0a2f776a800c71dc3ec490fb11e41b835e
