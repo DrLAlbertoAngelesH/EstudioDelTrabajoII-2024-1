@@ -8,7 +8,7 @@
 \item Trabajo: Esfuerzo humano aplicado a la producción de riqueza, en contraposición a capital.
 \item Análisis: Distinción y separación de las partes de un todo hasta llegar a conocer sus principios o elementos.
 \item Tiempo: Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro.
-\item Alcanzar: Llegar a poseer lo que se busca o solicita. lograr, obtener, llegar, conseguir.
+\item Alcanzar: Llegar a poseer lo que se busca o solicita. lograr, obtener, llegar, conseguir \cite{RAE}.
 
 
 \end{enumerate}
