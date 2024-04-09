@@ -143,6 +143,22 @@ En una forma de estudios se registra toda la información pertinente sobre el m�
 ${\-x}+-{\frac{zs}{\sqrt{n}}}$
 
 \end{center}
+\subsection{Teorema}
+\subsection{}
+\subsection{Axioma}
+\subsection{Postulado}
+\subsection{Limite}
+\subsection{Teorema de límite centarl}
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Materiales}
 
@@ -258,9 +274,57 @@ Con este orden establecido pasaremos a desglosar cada una de las característica
 \includegraphics[width=.85\textwidth]{22/img/cableMMDibujo.PDF}~\\[15cm]
 \end{center}
 
+\subsection{Desarrollo}
+\begin{center}
+    
+\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{4cm}| }
+\hline
+\multicolumn{4}{|c|}{\textbf{Instructivo del ensamblaje (Borrador) }} \\
+\hline
+  & & & \\
 
+\hline
+ Posiciona el protoboar en el área de ensamblaje. 
+ & Coloca la ESP32 en el centro del protoboar colocando los pines NC en la columna 30 y en las filas B y J de forma que el pin 3V3 esté en el punto 15-B. 
+ &  Conecta un cable MM (azul) en el punto 29-j coincidente al pin G y el otro extremo únelo a la tierra que está del lado de la línea azul (coloca todas las tierras a esta línea).
+ & Une un cable MM (morado) al punto 15-a, coincidente a 3V3 y a la corriente, la línea roja (coloca todas las corrientes a esta línea), conecta este cable y la tierra del lado derecho. \\
+ 
+\hline
 
+&&&\\
 
+\hline
+ Toma el potenciómetro para ensamblar, el cable amarillo soldado en el último pin y se coloca en el punto 21-a, coincidente a la entrada 0.
+ &  El cable rojo que está soldado al segundo pin se conecta a la corriente (línea roja), y el cable negro soldado al primer pin se conecta a tierra (línea azul). 
+ & Conecta 4 cables MM en la interfaz de la LCD de la siguiente forma, uno blanco en SCL, otro blanco en SDA, un café en VCC y un negro en GND. 
+ & El primer cable blanco conéctalo al punto 10-h y en el punto 10-i coloca una resistencia de 330 ohms unida a corriente.\\
+\hline
+
+\end{tabular}
+
+\begin{tabular}{ |p{4cm}|p{4cm}|p{4cm}|p{4cm}| }
+\hline
+  & & & \\
+
+\hline
+ El segundo cable blanco colócalo en el pin 9-h y de igual forma une a una resistencia de 330 ohms colocada en el punto 9-i de un lado y del otro a corriente. 
+ & Por último el cable café conéctalo a corriente (línea roja) y el negro a tierra (línea azul). 
+ & Conecta un cable MM (naranja) al punto 10-G a lado del cable blanco y del otro lado colócalo en el punto 20-a coincidente con el pin 7
+ & Une un cable MM (cafe) al punto 9-G, junto al otro cable blanco y de la otra punta al punto 19-a en el pin 6  \\
+ 
+\hline
+
+&&&\\
+
+\hline
+ Enchufa la ESP32 al cable de energía y este cable de energía debe estar conectado a la segunda entrada, la que tiene botón de BOOT encima.
+ &  Conecta el multicontacto a la energía y luego conecta el cable de energía a este. 
+ & & \\
+\hline
+
+\end{tabular}
+
+\end{center}
 
 \bibliographystyle{apalike}
 \bibliography{22/referencias}
