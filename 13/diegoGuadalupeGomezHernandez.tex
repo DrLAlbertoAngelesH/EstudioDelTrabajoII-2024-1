@@ -1,62 +1,210 @@
-\section{Diego Guadalupe Gomez Hernandez}
-\subsection{Definiciones}
-\begin{enumerate}
-    \item Estudio: Esfuerzo que pone el entendimiento aplicándose a conocer algo o   trabajo empleado en aprender y cultivar una ciencia o arte.
-    \item Trabajo: Acción y efecto de trabajar.
-    \item Latex: Este es un compositor y compilador de textos que contiene un sistema de composición tipográfica de alta calidad el cual es usado en la publicacion de documentos cientificos en diferentes campo ya que este software es gratis.
-    \cite{brys2019tesis}
-    \item Github: Es un repositorio  para crear proyectos abiertos de herramientas y aplicaciones teniendo funciones colaborativas ayudando a que puedan trabajar muchas personas en el mismo archivo. 
-    \cite{yúbalfernández_2019}
-    \item Git: Es un codigo con mantenimiento activo
-    \cite{astigarraga2022se}
-    \item Funcion: Sirve para descubrir fenomenos de variacion y cambio.
-    \item Exactitud: Se define con respecto a su cercania (sesgo), entre mayor cercania implica un buen grado de exactitud.  
-    \item Preciso: Es la variacion o dispercion en la cual poca variacion implica un buen grado de precision.
-    \item Estudio de movimientos y tiempos: Es el analisis de metodos, materiales, herramientas e instalacion utilizada o que se ah de utilizar en la ejecucion de un trabajo.
-    \item Analisis: Distinción y separación de las partes de algo para conocer su composición.
-    \cite{RAE2023}
-    \item Sistema: Conjunto de reglas o principios sobre una materia racionalmente enlazados entre sí.
-    \cite{asale_rae_2023}
-    \item Tiempo: Duración de las cosas sujetas a mudanza.
-    \item Sistemas de tiempo predeterminado: Conjunto de reglas o metodos para determinar con aticipacion la secuencias de sucesos.
-    \item Medicion de tiempos de metodos(MTM): Es un procedimiento que permite el análisis de todo método manual descomponiéndolo en los movimientos básicos requeridos y asignando a cada movimiento un tiempo estándar predeterminado basado en la naturaleza del movimiento y en las condiciones en las que es realizado.
-    \item Muestreo: Accion de escoger muestreosque describen de manera exacta las caracteristicas de un conjunto de datos que permitiran deducir y sacar conclusiones del fenomeno a estudiar.
-    \item Representativo: Que sirve para representar algo.
-    \item Inferir:  Deducir algo o sacarlo como conclusión de otra cosa. Producir un daño físico o moral.
-    \cite{asalerae2023}
-    \item Alcanzar: Movimiento realizado con la mano vacia.
-    \cite{asale_rae_2023}
-    \item Mover: Movimiento con un objeto en la mano.
-    \item Muestreo de trabajo: Herramienta para disminuir el costo que se presenta en el estudio continuo del tiempo.
-    \item Estudio de tiempos convencional: Es una muestra continua de n ciclos (Suponiendo que la distribución estadística es normal).
-    \item Estudio de tiempos no convencional: Es una muestra discreta (Suponiendo que la distribución estadística es binomial).
-\end{enumerate}
-\subsection{Materiales}
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|c|c|c|}
-    \hline
-    \multicolumn{3}{|c|}{MATERIALES} \\
-    \hline 
-    NOMBRE & CANTIDAD & PLANO \\
-    \hline 
-    ESP32-C6 & 1 & \includegraphics[width=.135\textwidth]{13/img/DIBUJO ESP.pdf} \\
-    \hline 
-    LCD 16x2 & 1 & \includegraphics[width=.135\textwidth]{13/img/DIBUJO lcd.pdf}  \\
-    \hline
-    Potenciometro 1K ohm & 1 &  \includegraphics [width=.135\textwidth]{13/img/DIBUJO potenciometro.pdf} \\
-    \hline
-    Resistencias & 2 & \includegraphics[width=.135\textwidth]{13/img/DIBUJO resistencia.pdf}  \\
-    \hline
-    Cable m-m & 6 & \includegraphics[width=.135\textwidth]{13/img/DIBUJO mm.pdf}  \\
-    \hline
-    Cable m-h & 4 & \includegraphics[width=.135\textwidth]{13/img/DIBUJO mh.pdf}  \\
-    \hline
-    \end{tabular}
-    \caption{MATERIALES}
-    \label{tab:my_label}
-\end{table}
-\subsection{Desarrollo}
-
-\bibliographystyle{apalike}
-\bibliography{13/referencias}
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+    \end{tikzpicture}}
+    \rhead{Autor: Gómez-Hernández}
+    \rfoot{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+    \end{tikzpicture}}
+    %----------------------------------------------------------------------------------------
+    \lfoot{ \thepage}
+    % \renewcommand{\labelenumi}{\alph{enumi}.)} 
+    %----------------------------------------------------------------------------------------
+    %----------------------------------------------------------------------------------------
+    %	TITLE SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \setlength{\droptitle}{-5\baselineskip} % Move the title up
+    \title{\textbf{Título del Artículo}} % Article title
+    
+     \author{ 
+     \textsc{Apellidos, Nombre/s}\\ 
+    %  Afiliación:
+     \texttt{ Nombre del Departamento } \\ 
+     \texttt{Nombre de la Universidad } \\ 
+     \texttt{Ciudad y País}\\ 
+     \texttt{Correo (Corresponding author)} 
+     \and 
+     \textsc{Apellidos, Nombre/s}\\ 
+    %  Afiliación:
+     \texttt{ Nombre Instituto } \\ 
+     \texttt{Nombre de la Organización } \\ 
+     \texttt{Ciudad y País}\\ 
+     \texttt{Correo electrónico} 
+    }
+    
+    
+    %----------------------------------------------------------------------------------------
+    
+    % \begin{document}
+    
+    % Print the title
+    \maketitle
+    \thispagestyle{fancy}
+    
+    %----------------------------------------------------------------------------------------
+    %	ARTICLE CONTENTS
+    %----------------------------------------------------------------------------------------
+    
+    % \section*{Resumen}
+    % \textit{Palabras clave:}
+    % El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \begin{abstract}
+    \noindent 
+    El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \end{abstract}
+    % 
+    % 
+    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    
+    \section{Introducción}
+    
+    Esta plantilla proporciona a los autores las especificaciones de formato necesarias para preparar sus trabajos. 
+    Todos los componentes estándar del documento se han especificado para facilitar el uso del documento individual y ayudarles con cumplimiento de los requisitos del evento que por consecuente facilitan la producción simultánea o posterior de productos en archivo electrónico. 
+    Los márgenes, los anchos de columna, el interlineado y los estilos de tipo están integrados en el documento, además se proporcionan ejemplos, se identifican en cursiva, y entre paréntesis. 
+    Algunos componentes, como ecuaciones de varios niveles, gráficos y tablas, no se prescriben, aunque se proporcionan los distintos estilos de texto de tabla. 
+    \textbf{La extensión máxima del artículo es de 8 páginas incluyendo figuras y referencias}. Los trabajos deberán ser de autoría propia y en caso de incluir material de terceros deberá señalarse apropiadamente en el área de “Referencias”.
+    
+    \section{Cuerpo (Metodología, modelo matemático, etc.)}
+    
+    En este apartado se describe a detalle el desarrollo del trabajo y puede contener tantas secciones sean necesarias, especificando adecuadamente títulos y numerados de forma consecutiva respecto al contenido.
+    La plantilla se utiliza para dar formato al artículo y aplicar estilo al texto. 
+    Se prescriben todos los márgenes, anchos de columna, espacios de línea y fuentes de texto; no los deben de alterar. 
+    El margen de cabeza en esta platilla mide proporcionalmente más de los que es habitual. 
+    Esta medición y otras son deliberadas, utilizando especificaciones que anticipan su documento como una parte de todo el procedimiento, y no como un documento independiente.
+    
+    \subsection{Prepara tu documento}
+    
+    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+    
+    \subsection{Acrónimos y Abreviaciones}
+    
+    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+    
+    \subsection{Ecuaciones}
+    
+    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    
+    \begin{equation}
+        \label{eq1}
+        x + y = z 
+    \end{equation}
+    
+    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+    
+    \section{Resultados y discusión}
+    
+    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+    
+    \subsection{Autores y Afiliaciones}
+    
+    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+    
+    \subsection{Identificar los encabezados}
+    
+    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+    
+    \subsection{Tablas y Figuras}
+    
+    \begin{enumerate}
+        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    \end{enumerate}
+    
+    \section{Conclusiones}
+    
+    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+    
+    \section{Agradecimientos}
+    
+    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+    
+    \section*{Referencias}
+    
+    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+    A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+    
+    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    
+    % Ejemplo
+    %  @Article{article,
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Article Title",
+    % 	volume = "30",
+    % 	number = "30",
+    % 	pages = "10127-10134",
+    % 	year = "2013",
+    % 	doi = "10.3389/fnins.2013.12345",
+    % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+    % 	journal = "Frontiers in Neuroscience"
+    % }
+    
+    % @book{book,
+    %   author    = {Author Name}, 
+    %   title     = {The title of the work},
+    %   publisher = {The name of the publisher},
+    %   address   = {The city},
+    %   year      = 1993,
+    % }
+    
+    % @incollection{chapter,
+    %   author       = {Bauthor Surname}, 
+    %   title        = {The title of the work},
+    %   editor       = {Editor Name},
+    %   booktitle    = {The title of the book},
+    %   publisher    = {The name of the publisher},
+    %   address      = {The city},
+    %   year         = 2002,
+    %   pages        = {201-213},
+    % }
+    
+    % @InProceedings{conference,
+    %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+    %   title = {The title of the work},
+    %   booktitle = {The title of the conference proceedings},
+    %   year = 1996,
+    %   publisher = {The name of the publisher},
+    %   editor = {Editor Name1 and Editor Name2},
+    %   pages = {41-50},
+    % }
+    
+    % @book{cho,
+    %   author       = {Gauthor Name1}, 
+    %   title        = {The title of the work},
+    %   publisher = {Country code and patent number},
+    %   address      = {Patent Country},
+    %   year = 2013
+    % }
+    
+    % @book{patent,
+    %   author    = {Hauthor Surname1}, 
+    %   title     = {The title of the work},
+    %   publisher = {Patent number},
+    %   address   = {Patent country},
+    %   year      = 2010,
+    % }
+    
+    % % please use misc for datasets
+    % @misc{dataset, 
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Data Title",
+    % 	year = "2011",
+    % 	doi = "10.000/55555",
+    % 	URL = "http://www.frontiersin.org/",
+    % }
+    
+    \bibliographystyle{ieeetr}
+    \bibliography{13/referencias}
