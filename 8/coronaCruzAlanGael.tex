@@ -1,56 +1,210 @@
-\section{Corona Cruz Alan Gael}
-\subsection{Definiciones}
-
-\begin{enumerate}
-    \item Exacto: Igual o que se asemeja en un grado muy alto a algo o alguien que es tomado como modelo. 
-    \item Preciso: Dicho de una cosa: Perceptible de manera clara y nítida. 
-    \item Estudio de movimientos y tiempos: Estudio de tiempos: actividad que implica la técnica de establecer un estándar de tiempo permisible para realizar una tarea determinada, con base en la medición del contenido del trabajo del método prescrito, con la debida consideración de la fatiga y las demoras personales y los retrasos inevitables.
-Estudio de movimientos: análisis cuidadoso de los diversos movimientos que efectúa el cuerpo al ejecutar un trabajo. 
-\end{enumerate}
-
-\subsection{Objetivo}
-\begin{enumerate}
-    \item Durante el semestre se trabajara en un proyecto integrador el cual estara enfocado en realizar una practica de ensamble de un circuito, esto con el proposito de realizar un estudio de tiempos y movimientos, la practica sera de gran ayuda ya que podremos familiarizarnos con este tipo de procesos los cuales son habituales en la industria, para realizar esta practica tomaremos el papel de operario y observador, tambien se hara uso de herramientas de trabajo como lo son Overlief, Visual Studio Code y Solidworks, los cuales son herramientas que se usan dia a dia en un empleo para la realizacion de proyectos, el uso de estas sera de gran ayuda para tener un conocimiento de como trabajaremos en una empresa, asi como tener un conocimiento de sus ventajas y como se conectan entre si. 
- \end{enumerate}
-
-\subsection{Material}
-
-\begin{enumerate}
-    \item Cables dupont: Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos.
-    \ref{Cables}
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.25]{8/Img/Img/Cables dupont.pdf}
-    \caption{Cables dupont}
-    \label{Cables}
-\end{figure}
-    \item Resistencias: Las resistencias son esenciales para facilitar el flujo adecuado de corriente. La resistencia sirve como un indicador que cuantifica qué tan rápido fluirá la corriente en un circuito utilizando ohmios como unidad.
-    \item Protoboard: Es una herramienta simple que se usa en proyectos de robótica que permite conectar fácilmente componentes electrónicos entre sí, sin necesidad de realizar una soldadura.
-    \item Arduino: Utilizado como un microcontrolador, cuando tiene un programa descargado desde un ordenador y funciona de forma independiente de éste, y controla y alimenta determinados dispositivos y toma decisiones de acuerdo al programa descargado e interactúa con el mundo físico gracias a sensores y actuadores.
-    \item Potenciametro: Componente electrónico similar a los resistores pero cuyo valor de resistencia en vez de ser fijo es variable, permitiendo controlar la intensidad de corriente a lo largo de un circuito conectándolo en paralelo ó la caida de tensión al conectarlo en serie.
-    \item Display: Dispositivo de ciertos aparatos electrónicos que permite mostrar información al usuario de manera visual o táctil.
-\end{enumerate}
-
-\subsection{Ensamble}
-\begin{enumerate}
-    \item Se instalara el arduino en el protoboard ensamblandolo en la linea con la letra b, insertandolo de izquiera a derecha 
-    \item Tomaremos un cable dupont y lo colocaremos en el pin numero 7 del arduino, el otro extremo se colocara en la fila con la letra g dejando 2 espacios de donde termina el arduino
-    \item Tomaremos otro cable dupont y lo colocaremos en el pin numero 6 del arduino, el otro extremo se colocara al lado derecho del cable dupont colocado anteriormente, dejando un espacio a su derecha
-    \item Tomaremos otro cable dupont el cual se colocara en el pin con descripcion 3v3 del arduino, el otro extremo se instalara del lado positivo del protoboard en el segundo espacio de derecha a izquierda 
-    \item Tomaremos otro cable dupont y lo colocaremos en el pin con descripcion G del arduino, el otro extremo se colocara en el primer espacio de izquierda a derecha del lado negativo 
-\subsection{conexiones de display}   
-    \item Tomaremos otro cable dupont el cual se colocara debajo del cable protoboard del segundo paso, el otro extremo se instalara en la parte trasera del display en el pin con descripcion SCL
-    \item Tomaremos un nuevo cable dupont el cual se colocara debajo del cable dupont del tercer paso, el otro extremo se instalara en la parte trasera del display en el pin con descripcion SDA
-    \item Tomaremos otro cable dupont el cual se colocara en el sexto espacio de derecha a izquiera del lado negativo del protoboard, el otro extremo se instalara en la parte trasera del display en el pin con descripcion GND
-    \item Tomaremos otro cable dupont el cual se colocara arriba del cable dupont del paso anterior, el otro extremo se instalara en la parte trasera del display en el pin con descripcion VCC
-\subsection{conexiones de potenciometro}
-    \item Tomaremos un cable dupont el cual se colocara del lado positivo en el primer espacio de derecha a izquierda, el otro extremo se conectara con un nuevo cable dupont, el extremo sobrante se soldara al potenciometro 
-    \item Tomaremos otro cable dupont el cual se colocara debajo del cable dupont del paso anterior, el cual terminara del lado negativo, el extremo de este se conectara de igual manera a un nuevo cable dupont y el extremo sobramte tambien se soldara al potenciometro
-    \item Se conectara un ultimo cable dupont en el protoboard el cual ira en el pin 0 del arduino, posteriormente se soldara al potenciometro
-\subsection{Resistencias}
-    \item La primera resistencia se conectara debajo del cable dupont del paso numero 6 y el otro extremo se colocara en el lado positivo a 7 espacio a la izquierda del cable dupont del paso numero 9
-    \item La segunda resistencia se colocara debajo del cable dupont del paso numero 7 dejando un espacio de separacion, el otro extremo se colocara del lado positivo del protoboard a la derecha de la resistencia del paso pasado dejando un espacio de separacion
-\subsection{conexiones de multicontacto}
-    \item Se conectara un cable con 2 entradas tipo usb, un extremo se conectara en el arduino y el otro extremo se conectara al multicontacto
-    \item Por ultimo se enchufara el multicontacto a una conexion de electricidad y se encendera 
-\end{enumerate}
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+    \end{tikzpicture}}
+    \rhead{Autor: primerApellido-segundoApellido}
+    \rfoot{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+    \end{tikzpicture}}
+    %----------------------------------------------------------------------------------------
+    \lfoot{ \thepage}
+    % \renewcommand{\labelenumi}{\alph{enumi}.)} 
+    %----------------------------------------------------------------------------------------
+    %----------------------------------------------------------------------------------------
+    %	TITLE SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \setlength{\droptitle}{-5\baselineskip} % Move the title up
+    \title{\textbf{Título del Artículo}} % Article title
+    
+     \author{ 
+     \textsc{Apellidos, Nombre/s}\\ 
+    %  Afiliación:
+     \texttt{ Nombre del Departamento } \\ 
+     \texttt{Nombre de la Universidad } \\ 
+     \texttt{Ciudad y País}\\ 
+     \texttt{Correo (Corresponding author)} 
+     \and 
+     \textsc{Apellidos, Nombre/s}\\ 
+    %  Afiliación:
+     \texttt{ Nombre Instituto } \\ 
+     \texttt{Nombre de la Organización } \\ 
+     \texttt{Ciudad y País}\\ 
+     \texttt{Correo electrónico} 
+    }
+    
+    
+    %----------------------------------------------------------------------------------------
+    
+    % \begin{document}
+    
+    % Print the title
+    \maketitle
+    \thispagestyle{fancy}
+    
+    %----------------------------------------------------------------------------------------
+    %	ARTICLE CONTENTS
+    %----------------------------------------------------------------------------------------
+    
+    % \section*{Resumen}
+    % \textit{Palabras clave:}
+    % El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \begin{abstract}
+    \noindent 
+    El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \end{abstract}
+    % 
+    % 
+    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    
+    \section{Introducción}
+    
+    Esta plantilla proporciona a los autores las especificaciones de formato necesarias para preparar sus trabajos. 
+    Todos los componentes estándar del documento se han especificado para facilitar el uso del documento individual y ayudarles con cumplimiento de los requisitos del evento que por consecuente facilitan la producción simultánea o posterior de productos en archivo electrónico. 
+    Los márgenes, los anchos de columna, el interlineado y los estilos de tipo están integrados en el documento, además se proporcionan ejemplos, se identifican en cursiva, y entre paréntesis. 
+    Algunos componentes, como ecuaciones de varios niveles, gráficos y tablas, no se prescriben, aunque se proporcionan los distintos estilos de texto de tabla. 
+    \textbf{La extensión máxima del artículo es de 8 páginas incluyendo figuras y referencias}. Los trabajos deberán ser de autoría propia y en caso de incluir material de terceros deberá señalarse apropiadamente en el área de “Referencias”.
+    
+    \section{Cuerpo (Metodología, modelo matemático, etc.)}
+    
+    En este apartado se describe a detalle el desarrollo del trabajo y puede contener tantas secciones sean necesarias, especificando adecuadamente títulos y numerados de forma consecutiva respecto al contenido.
+    La plantilla se utiliza para dar formato al artículo y aplicar estilo al texto. 
+    Se prescriben todos los márgenes, anchos de columna, espacios de línea y fuentes de texto; no los deben de alterar. 
+    El margen de cabeza en esta platilla mide proporcionalmente más de los que es habitual. 
+    Esta medición y otras son deliberadas, utilizando especificaciones que anticipan su documento como una parte de todo el procedimiento, y no como un documento independiente.
+    
+    \subsection{Prepara tu documento}
+    
+    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+    
+    \subsection{Acrónimos y Abreviaciones}
+    
+    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+    
+    \subsection{Ecuaciones}
+    
+    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    
+    \begin{equation}
+        \label{eq1}
+        x + y = z 
+    \end{equation}
+    
+    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+    
+    \section{Resultados y discusión}
+    
+    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+    
+    \subsection{Autores y Afiliaciones}
+    
+    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+    
+    \subsection{Identificar los encabezados}
+    
+    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+    
+    \subsection{Tablas y Figuras}
+    
+    \begin{enumerate}
+        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    \end{enumerate}
+    
+    \section{Conclusiones}
+    
+    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+    
+    \section{Agradecimientos}
+    
+    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+    
+    \section*{Referencias}
+    
+    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+    A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+    
+    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    
+    % Ejemplo
+    %  @Article{article,
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Article Title",
+    % 	volume = "30",
+    % 	number = "30",
+    % 	pages = "10127-10134",
+    % 	year = "2013",
+    % 	doi = "10.3389/fnins.2013.12345",
+    % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+    % 	journal = "Frontiers in Neuroscience"
+    % }
+    
+    % @book{book,
+    %   author    = {Author Name}, 
+    %   title     = {The title of the work},
+    %   publisher = {The name of the publisher},
+    %   address   = {The city},
+    %   year      = 1993,
+    % }
+    
+    % @incollection{chapter,
+    %   author       = {Bauthor Surname}, 
+    %   title        = {The title of the work},
+    %   editor       = {Editor Name},
+    %   booktitle    = {The title of the book},
+    %   publisher    = {The name of the publisher},
+    %   address      = {The city},
+    %   year         = 2002,
+    %   pages        = {201-213},
+    % }
+    
+    % @InProceedings{conference,
+    %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+    %   title = {The title of the work},
+    %   booktitle = {The title of the conference proceedings},
+    %   year = 1996,
+    %   publisher = {The name of the publisher},
+    %   editor = {Editor Name1 and Editor Name2},
+    %   pages = {41-50},
+    % }
+    
+    % @book{cho,
+    %   author       = {Gauthor Name1}, 
+    %   title        = {The title of the work},
+    %   publisher = {Country code and patent number},
+    %   address      = {Patent Country},
+    %   year = 2013
+    % }
+    
+    % @book{patent,
+    %   author    = {Hauthor Surname1}, 
+    %   title     = {The title of the work},
+    %   publisher = {Patent number},
+    %   address   = {Patent country},
+    %   year      = 2010,
+    % }
+    
+    % % please use misc for datasets
+    % @misc{dataset, 
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Data Title",
+    % 	year = "2011",
+    % 	doi = "10.000/55555",
+    % 	URL = "http://www.frontiersin.org/",
+    % }
+    
+    \bibliographystyle{ieeetr}
+    \bibliography{8/referencias}
