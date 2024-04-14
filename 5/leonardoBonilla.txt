@@ -1,4 +1,6 @@
-\section{Introducción}
+
+\section{Leonardo}
+\subsection{Introducción}
 El estudio del trabajo y el análisis de operaciones son disciplinas fundamentales en el ámbito de la ingeniería industrial y la gestión de operaciones. Estas áreas se centran en comprender, mejorar y optimizar los procesos de trabajo en una variedad de entornos, desde la manufactura hasta los servicios.
 
 El estudio del trabajo se enfoca en analizar y mejorar la forma en que se realizan las tareas individuales dentro de un proceso. Esto implica examinar cada paso de una actividad laboral, desde cómo se lleva a cabo hasta cuánto tiempo lleva, con el objetivo de aumentar la eficiencia, reducir los costos y mejorar las condiciones laborales.
@@ -8,16 +10,29 @@ El análisis de operaciones, por otro lado, se centra en el estudio de procesos 
 Ambas disciplinas son vitales para las organizaciones que buscan mantenerse competitivas en un entorno empresarial en constante cambio. Al aplicar técnicas de estudio del trabajo y análisis de operaciones, las empresas pueden identificar áreas de mejora, eliminar desperdicios, reducir los tiempos de ciclo, mejorar la calidad del producto o servicio y aumentar la satisfacción del cliente.
 
 En esta introducción, exploraremos los principios básicos del estudio del trabajo y el análisis de operaciones, así como sus aplicaciones en diferentes industrias y sectores. Además, examinaremos las herramientas y técnicas utilizadas en estas disciplinas, y cómo pueden contribuir al éxito y la eficiencia de una organización.
-\section {Desarrollo}
+\subsection {Desarrollo}
 
 \subsection{Definiciones}
 
 \begin{enumerate}
-    \item Exacto:
-    \item Preciso
-    \item Estudio:
-    \item Análisis:
+    \item Exacto: La precisión es lograr la mínima dispersión al momento de hacer una medición o de realizar una tarea. Es la variación o poca variación significa un buen grado de precisión
+    \item Preciso: Se define con respecto a su cercanía o sesgo, mayor cercanía implica un buen grado de exactitud
+    \item Estudio: Trabajo empleado en aprender y cultivar una ciencia o arte
+    \item Trabajo: Acción y efecto de trabajar
+    \item Análisis: Estudio detallado de algo, especialmente de una obra o de un escrito // Distinción y separación de las partes de algo para conocer su composición 
+    \item Sistema: Conjunto de reglas o principios sobre una materia racionalmente enlazados entre si
+    \item Tiempo: física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional, es el segundo 
+    \item Predeterminar: Determinar o resolver con anticipación a algo
+    \item Máquina: Artificio para aprovechar, dirigir o regular la acción de una fuerza // Conjunto de aparatos combinados para recibir cierta forma de energía y transformarla en otra más adecuada, o para producir un efecto determinado
+    \item Muestreo: Acción de escoger muestras que describan de manera exacta las características de un conjunto de datos que permitirán deducir y sacar conclusiones del fenómeno a estudiar
+    \item Representativa: Que sirve para representar algo // Que representa con justos títulos
+    \item Inferir: Deducir algo o sacarlo como conclusión de otra cosa // Incluir o llevar consigo algo
+    \item LaTex: Latex es un sistema de creación de textos, especialmente orientado para cubrir las necesidades de aquellos técnicos y científicos para los que un procesador de textos común, como Word, no es suficiente. Facilita mucho la escritura de fórmulas y otro tipo de elementos.
+    A diferencia de otros sistemas para procesar textos, no se obtiene el resultado final a medida que se va escribiendo, sino que primero se crea un código fuente y luego se procesa para llegar al documento. En este sentido es similar a los lenguajes de “marcas” como el HTML. Con lo cual requiere de la instalación de un editor que compile y genere el resultado tras escribir el código.
+    \item GitHub: Es una plataforma online de desarrollo de software que se usa para almacenar, supervisar y trabajar con proyectos de software. Facilita el intercambio de archivos de código y trabajar en proyectos colaborativos de código abierto.
+    \item Visual estudio code: Visual Studio es una herramienta de desarrollo eficaz que permite completar todo el ciclo de desarrollo en un solo lugar. Es un entorno de desarrollo integrado (IDE) completo que puede usar para escribir, editar, depurar y compilar el código y, luego, implementar la aplicación. Aparte de la edición y depuración del código, Visual Studio incluye compiladores, herramientas de finalización de código, control de código fuente, extensiones y muchas más características para mejorar cada fase del proceso de desarrollo de software.
 \end{enumerate}
+
     
 
 
@@ -67,3 +82,8 @@ Los Therbligs ineficientes son:
 La importancia de su estudio se ve primordialmente reflejada en los procesos industriales que requieran de alto número de repetición. En el diseño del trabajo lo más importante es que cada acción que lleve a cabo la empresa o industria brinde algún valor agregado al proceso. Por tanto el objetivo de cualquier industria es eliminar cualquier Therblig inefectivo que se encuentre en uso y, de esta forma, mejorar su productividad.
 
 Después de dividir la operación en el número de Therbligs necesarios es importante determinar los tipos de Therbligs con los que se hayan estado trabajando, los efectivos y los inefectivos. Una vez determinados los Therbligs lo usual sería realizar un mapa de operaciones que indique el flujo de procesos que existe en la industria. Posteriormente se analiza la información, se busca la pronta y posible eliminación de los Therbligs inefectivos y, de ser necesario, se busca una forma de rediseñar el proceso, recordando que el máximo objetivo de este estudio es el encontrar las condiciones más adecuadas para lograr maximizar la productividad.
+
+
+
+\bibliographystyle{ieeetr}
+\bibliography{5/referencias}
