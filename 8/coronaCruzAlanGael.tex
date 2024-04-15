@@ -1,7 +1,7 @@
 \lhead{\begin{tikzpicture}[remember picture, overlay]
     \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
     \end{tikzpicture}}
-    \rhead{Autor: primerApellido-segundoApellido}
+    \rhead{Ángeles-Hurtado}
     \rfoot{\begin{tikzpicture}[remember picture, overlay]
     \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
     \end{tikzpicture}}
@@ -14,22 +14,22 @@
     %----------------------------------------------------------------------------------------
     
     \setlength{\droptitle}{-5\baselineskip} % Move the title up
-    \title{\textbf{Título del Artículo}} % Article title
+    \title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
     
      \author{ 
-     \textsc{Apellidos, Nombre/s}\\ 
-    %  Afiliación:
-     \texttt{ Nombre del Departamento } \\ 
-     \texttt{Nombre de la Universidad } \\ 
-     \texttt{Ciudad y País}\\ 
-     \texttt{Correo (Corresponding author)} 
-     \and 
      \textsc{Apellidos, Nombre/s}\\ 
     %  Afiliación:
      \texttt{ Nombre Instituto } \\ 
      \texttt{Nombre de la Organización } \\ 
      \texttt{Ciudad y País}\\ 
-     \texttt{Correo electrónico} 
+     \texttt{Correo} 
+     \and 
+     \textsc{Corona Cruz, Alan Gael}\\ 
+    %  Afiliación:
+     \texttt{ Instituto Tecnológico de Querétaro } \\ 
+     \texttt{ Tecnológico Nacional de México } \\ 
+     \texttt{Querétaro, México}\\ 
+     \texttt{} 
     }
     
     
@@ -61,20 +61,173 @@
     
     \section{Introducción}
     
-    Esta plantilla proporciona a los autores las especificaciones de formato necesarias para preparar sus trabajos. 
-    Todos los componentes estándar del documento se han especificado para facilitar el uso del documento individual y ayudarles con cumplimiento de los requisitos del evento que por consecuente facilitan la producción simultánea o posterior de productos en archivo electrónico. 
-    Los márgenes, los anchos de columna, el interlineado y los estilos de tipo están integrados en el documento, además se proporcionan ejemplos, se identifican en cursiva, y entre paréntesis. 
-    Algunos componentes, como ecuaciones de varios niveles, gráficos y tablas, no se prescriben, aunque se proporcionan los distintos estilos de texto de tabla. 
-    \textbf{La extensión máxima del artículo es de 8 páginas incluyendo figuras y referencias}. Los trabajos deberán ser de autoría propia y en caso de incluir material de terceros deberá señalarse apropiadamente en el área de “Referencias”.
+    % Define estudio de tiempos y movimientos
+    % define que es ensamble
+    % define que es circuito electronico
+    % define el metodo de tiempos predeterminados
+    % define optimización
+    \begin{itemize}
+        \item Estudio de tiempos: Es una técnica de medición del trabajo que se utiliza para poder establecer y definir el ritmo al que puede trabajar cualquier persona en una tarea específica, tomando en cuenta las condiciones de esta misma tarea y el espacio en el que la llevara a cabo.
+        \item Estudio de movimientos: Es eliminar o mejorar elementos innecesarios que podrían afectar la productividad, seguridad, y calidad de la producción. 
+        \item Ensamble: Implica la colocación de dos o más piezas individuales para la conformación de un producto final. Suele dividirse en niveles dependiendo de la cantidad de componentes a unir, ya sean mecánicos, de software, electrónicos, farmacéuticos, o de cualquier otro tipo.
+        \item Circuito electrónico: Es el conjunto de elementos eléctricos conectados entre sí que permiten generar, transportar y utilizar la energía eléctrica con la finalidad de transformarla en otro tipo de energía como, por ejemplo, energía calorífica (estufa), energía lumínica (bombilla) o energía mecánica (motor).
+        \item Método de tiempos predeterminados: Los tiempos predeterminados, son una reunión de tiempos estándares válidos asignados a movimientos fundamentales y grupos de movimientos que no pueden ser evaluados de forma precisa con los procedimientos ordinarios para estudio de tiempos con cronómetro.
+        \item Optimización: Hace referencia a la acción y efecto de optimizar. En términos generales, se refiere a la capacidad de hacer o resolver alguna cosa de la manera más eficiente posible y, en el mejor de los casos, utilizando la menor cantidad de recursos. 
+         \item Exacto: Igual o que se asemeja en un grado muy alto a algo o alguien que es tomado como modelo. 
+        \item Preciso: Dicho de una cosa: Perceptible de manera clara y nítida.
+    \end{itemize}
+    \begin{itemize}
+        \item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
+        \item Se deben de mencionar las metodologías más usadas muy brevemente. 
+        \item Se debe de señalar el avance en los últimos años.
+        \item Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+        \item Debe de tener Referencias científicas, URL, tesis, etc.
+    \end{itemize}
+    % 
+    % 
+    \section{Justificación}
     
+    \begin{itemize}
+        \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+        \item Debe de tener Referencias científicas, URL, tesis, etc.
+    \end{itemize}
+    % 
+    % 
+    \section{Descripción del problema}
+    \begin{itemize}
+        \item Se debe describir la desviación o diferencia del ``es'' con respecto al ``debe ser''.
+        \item Se debe hacer alusión a la incógnita científica*.
+        \item Debe de tener Referencias científicas, URL, tesis, etc.
+    \end{itemize}
+    
+    \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+    % 
+    % 
+    \section{Fundamentación teórica}
+    
+    Es la parte medular y de mayor discusión, deberá ser la fundamentación de la hipótesis, por tanto se deberá señalar claramente la razón de la suposición y fundamentación de la misma. Únicamente referencias científicas.
+    \begin{itemize}
+        \item Se debe de retomar el tema que se planteo en la introducción, pero ahora profundizando para clarificar la incógnita científica y se pueda plantear la hipótesis.
+        \item Se debe de retomar la descripción del problema, pero ahora a profundidad del (los) objeto(s) de estudio. 
+        \item Se debe de profundizar en las metodologías que se ha usado para el estudio del tema.
+        \item Referencias solo de artículos y libros científicos.
+    \end{itemize}
+    % 
+    % 
+    \section{Hipótesis}
+    
+    Es la suposición con fundamento científico relativa a la solución del problema, necesidad o de cómo se aprovecha la oportunidad con la incógnita científica y se fundamenta con: 1. Una suposición (en afirmativo o negativo) y ésta deberá vincularse con:
+    2. La fundamentación científica que deberá ser precisa 3. Una entidad de comparación para probar la suposición y
+    4. La variable con que se califica o cuantifica la comparación o se prueba la hipótesis.
+    
+    \begin{itemize}
+        \item Se debe de identificar claramente la suposición científica
+        \item Se debe de identificar claramente el fundamento científico
+        \item Se debe identificar claramente la variable de respuesta
+        \item Se debe identifican claramente las realidades o modelos contrastantes
+        \item Se debe de establecer las variables asociadas, explicativas o que tienen relación funcional con la variable de respuesta
+    \end{itemize}
+    % 
+    % 
+    \section{Objetivo}
+    
+    \begin{itemize}
+        \item Determinación del porcentaje de tiempo productivo, determinación de tolerancias y calculo del tiempo estándar.
+    \end{itemize}
+    
+    \subsection{Objetivos específicos }
+    
+    \begin{itemize}
+        \item Determinar mediante los registros históricos el tiempo productivo y compararlo con otros métodos.
+        \item Familiarizarnos con programas que se usan en la industria.
+        \item Aprender mediante la practica la tarea que tiene un operador.
+    \end{itemize}
+    
+    Son actividades orientadas al cumplimiento del objetivo general. Se establecen con verbos activos en infinitivo. Son parte de la acción encaminada a probar la hipótesis. Éstos deben ser precisos, y en lo posible evitar aspectos metodológicos.
+    % 
+    % 
     \section{Cuerpo (Metodología, modelo matemático, etc.)}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{8/Img/Img/Cables dupont.pdf}
+        \caption{Cables dupont}
+        \label{fig:enter-label}
+    \end{figure}
     
-    En este apartado se describe a detalle el desarrollo del trabajo y puede contener tantas secciones sean necesarias, especificando adecuadamente títulos y numerados de forma consecutiva respecto al contenido.
-    La plantilla se utiliza para dar formato al artículo y aplicar estilo al texto. 
-    Se prescriben todos los márgenes, anchos de columna, espacios de línea y fuentes de texto; no los deben de alterar. 
-    El margen de cabeza en esta platilla mide proporcionalmente más de los que es habitual. 
-    Esta medición y otras son deliberadas, utilizando especificaciones que anticipan su documento como una parte de todo el procedimiento, y no como un documento independiente.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {80mm 1mm 60mm 1mm},clip,scale=0.2]{8/Img/Img/Display.pdf}
+        \caption{Display}
+        \label{fig:enter-label}
+    \end{figure}
     
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {70mm 1mm 70mm 1mm},clip,scale=0.2]{8/Img/Img/Potenciometro.pdf}
+        \caption{Potenciómetro}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {30mm 1mm 30mm 1mm},clip,scale=0.2]{8/Img/Img/Resistencias.pdf}
+        \caption{Resistencias}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {30mm 30mm 30mm 10mm},clip,scale=0.2]{8/Img/Img/Cable usb.pdf}
+        \caption{Cable usb}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {30mm 30mm 30mm 10mm},clip,scale=0.2]{8/Img/Img/Multicontacto.pdf}
+        \caption{Multicontacto}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {60mm 20mm 60mm 60mm},clip,scale=0.2]{8/Img/Img/Modulo adaptador.pdf}
+        \caption{Modulo adaptador}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 10mm},clip,scale=0.2]{8/Img/Img/Arduino.pdf}
+        \caption{Arduino}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {40mm 20mm 20mm 20mm},clip,scale=0.2]{8/Img/Img/Protoboard.pdf}
+        \caption{Protoboard}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{8/Img/Img/Silicon.pdf}
+        \caption{Silicon}
+        \label{fig:enter-label}
+    \end{figure}
+    \begin{itemize}
+        \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
+        \item Se debe desglosar de acuerdo a los objetivos específicos. 
+        \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
+        \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
+        \item Se deben tener referencias Figura \ref{fig:lcd-16x2}.
+    \end{itemize}
+    % 
+    % 
+    
+    % 
+    % 
     \subsection{Prepara tu documento}
     
     Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
@@ -136,8 +289,8 @@
     Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
     Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-    
     Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    Véase el archivo adjunto \ref{anexo:pines}.
     
     % Ejemplo
     %  @Article{article,
@@ -208,3 +361,20 @@
     
     \bibliographystyle{ieeetr}
     \bibliography{8/referencias}
+    % 
+    % 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \appendix
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % 
+    % 
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \includepdf[pages=-]{8/Img/Ensamble.pdf}
+    \label{anexo:pines}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % 
+    % 
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \includepdf[pages=-]{8/Img/Material.pdf}
+    \label{anexo:pines}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
