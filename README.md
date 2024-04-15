@@ -1,4 +1,4 @@
-# ¡Advertencia! Si cambias el branch principal se te bajarán 10 puntos
+# EstudioDelTrabajoII-2024-1
 ## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
 ### LuisAlbertoAngeles
@@ -36,5 +36,3 @@
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
-#### KarlaErikaRoblesVargas l22140281@queretaro.tecm.mx
-#### DiegoSantosCástulo  diego.s0009ssc@gmail.com
