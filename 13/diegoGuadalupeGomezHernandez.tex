@@ -63,17 +63,18 @@
     
     
     \begin{itemize}
+    
+        \item Define estudio de tiempos y movimientos: Se refiere a examinar los métodos, materiales, herramientas e instalaciones empleadas o por emplear en la realización de una tarea específica.\cite{neira2006tecnicas}
+        \item Define que es ensamble: Se trata de unir, ensamblar o ajustar una pieza con otra\cite{Ensamble}
+        \item Define que es circuito electrónico: Este se compone de placas que contienen materiales semiconductores, así como componentes activos y pasivos. Su objetivo es establecer un camino continuo por el cual pueda circular la corriente eléctrica. Se basa en el movimiento de electrones para generar, transmitir, recibir y almacenar información.
+        \item Define el método de tiempos predeterminados: Es el conjunto de reglas o métodos que determinan los movimientos. \cite{freivalds2014ingenieria}
+        \item Define optimización: Encontrar la manera mas rápida y efectiva de hacer una tarea. \cite{optimización}
+        
         \item Incrementar la eficiencia del ensamble del circuito reduciendo el tiempo necesario, logrando así una mejora en su proceso para hacerlo más efectivo y productivo.
-        \item Algunas metodologías más comunes para analizar la eficiencia laboral se encuentran la metodología Ágil, el modelo de cascada y diversos sistemas de medición de tiempos como MTM, GPD, BMT y MODADPTS. Estos enfoques facilitan la evaluación y medición de las técnicas empleadas para calcular el tiempo que un empleado dedica a realizar una tarea específica.
+        \item Algunas metodologías más comunes para analizar la eficiencia laboral se encuentran la metodología Ágil, el modelo de cascada y diversos sistemas de medición de tiempos como MTM, GPD, BMT y MODADPTS. Estos enfoques facilitan la evaluación y medición de las técnicas empleadas para calcular el tiempo que un empleado dedica a realizar una tarea específica.\cite{freivalds2014ingenieria}
         \item El principal propósito del estudio de trabajo es elevar la eficiencia sin necesidad de grandes inversiones y siempre buscando la forma mas económica de hacerlo. Se pretende mejorar el rendimiento mediante la optimización del trabajo, que por lo general implica costos mínimos.
         \item Definamos estudio del trabajo a ciertas técnicas, y en particular estudio de métodos y medida del trabajo, que se utilizan para examinar el trabajo humano en todos sus contextos y que llevan sistemáticamente a investigar todos los factores que influyen en la eficacia y en la economía de la que estudiada, con el fin de mejorarla. 
         \cite{neira2006tecnicas}
-    
-        \item Define estudio de tiempos y movimientos: Se refiere a examinar los métodos, materiales, herramientas e instalaciones empleadas o por emplear en la realización de una tarea específica.
-        \item Define que es ensamble: Se trata de unir, ensamblar o ajustar una pieza con otra
-        \item Define que es circuito electrónico: Este se compone de placas que contienen materiales semiconductores, así como componentes activos y pasivos. Su objetivo es establecer un camino continuo por el cual pueda circular la corriente eléctrica. Se basa en el movimiento de electrones para generar, transmitir, recibir y almacenar información.
-        \item Define el método de tiempos predeterminados: Es el conjunto de reglas o métodos que determinan los movimientos. 
-        \item Define optimización: Encontrar la manera mas rápida y efectiva de hacer una tarea. 
         
     \end{itemize}
     % 
@@ -100,7 +101,7 @@
     
     \begin{itemize}
         \item Incrementar la eficiencia del ensamblaje de circuitos electrónicos es crucial en la industria moderna para mantener la competitividad y la calidad del producto. Este objetivo se logra reduciendo el tiempo necesario para el ensamblaje, lo que a su vez mejora la efectividad y la productividad del proceso.
-        \item El estudio del trabajo es fundamental para elevar la eficiencia en el ensamblaje de circuitos electrónicos. Este consiste en un conjunto de técnicas, incluido el estudio de métodos y la medición del trabajo, que se utilizan para examinar el trabajo humano en todos sus contextos. El objetivo es investigar todos los factores que influyen en la eficacia y la economía del proceso de ensamblaje, con el fin de mejorarlos de manera continua.
+        \item El estudio del trabajo es fundamental para elevar la eficiencia en el ensamblaje de circuitos electrónicos. Este consiste en un conjunto de técnicas, incluido el estudio de métodos y la medición del trabajo, que se utilizan para examinar el trabajo humano en todos sus contextos. El objetivo es investigar todos los factores que influyen en la eficacia y la economía del proceso de ensamblaje, con el fin de mejorarlos de manera continua.\cite{estudio_del_trabajo}
         \item  La optimización del ensamblaje requiere un enfoque integral que incluya la aplicación de metodologías de eficiencia laboral, el estudio del trabajo y la identificación de áreas de mejora en el proceso de ensamblaje. Este enfoque permite reducir el tiempo necesario para el ensamblaje, mejorar la efectividad y la productividad del proceso, y garantizar la calidad del producto final.
         \cite{freivalds2014ingenieria}
     \end{itemize}
@@ -168,10 +169,20 @@
         \label{tab:my_label}
     \end{table}
     
+         Visualización de los planos:
     \begin{itemize}
-        \item Para lograr el ensamble y poder tomar tiempos debemos de seguir el siguiente manual.
-        \ref{anexo:ensambleCircuitoElectrónicoESP32-C6.pdf}
+        \item CABLE MH \ref{anexo:PlanoCableMh}
+        \item CABLE MM \ref{anexo:PlanoCableMm}
+        \item ESP32-C6 \ref{anexo:PlanoEsp}
+        \item LCD 16x2 \ref{anexo:PlanoLcd}
+        \item Potenciometro 1K ohm \ref{anexo:PlanoPotenciometro}
+        \item RESISTENCIAS \ref{anexo:PlanoResistencia}
     \end{itemize}
+    
+        Una vez teniendo los materiales necesarios accederemos al manual que se encuentra en la siguiente referencia.
+        \ref{anexo:ensambleCircuitoElectrónicoESP32-C6.pdf}
+    
+        Después de leer el manual podremos iniciar el ensamble del circuito electrónico el cual nos servirá para tomar tiempos y poder seguir con nuestro proyecto. 
     
     % 
     %
@@ -316,31 +327,27 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \newpage
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:PlanoCableMh}
     \includepdf[pages=-]{13/img/planoCableMh.pdf}
-    \label{anexo:PlanoCableMh}
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}} \label{anexo:PlanoCableMm}
     \includepdf[pages=-]{13/img/planoCableMm.pdf}
-    \label{anexo:PlanoCableMm}
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:PlanoEsp}
     \includepdf[pages=-]{13/img/planoEsp.pdf}
-    \label{anexo:PlanoEsp}
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:PlanoLcd}
     \includepdf[pages=-]{13/img/planoLcd.pdf}
-    \label{anexo:PlanoLcd}
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:PlanoPotenciometro}
     \includepdf[pages=-]{13/img/planoPotenciometro.pdf}
-    \label{anexo:PlanoPotenciometro}
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:PlanoResistencia}
     \includepdf[pages=-]{13/img/planoResistencia.pdf}
-    \label{anexo:PlanoResistencia}
+    
     %
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
+    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:ensambleCircuitoElectrónicoESP32-C6.pdf}
     \includepdf[pages=-]{13/img/ensambleCircuitoElectrónicoESP32-C6.pdf}
-    \label{anexo:ensambleCircuitoElectrónicoESP32-C6.pdf}
+    
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
