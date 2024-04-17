@@ -135,11 +135,11 @@
     
     El diseño del circuito es Crear ayudas visuales para el operador que sean claras para su comprensión.
     Preparación de materiales es Verificar que todos los componentes necesarios estén disponibles y en buenas condiciones para su uso.
-    \ref{fig:enter-label}
+    \ref{fig:enter-label1}
     
-    Preparación del Espacio de Trabajo debes de asegurar un espacio limpio y bien iluminado con herramientas específicas como la almohadilla para soldar, multicontacto, etc.\ref{fig:enter-label} 
+    Preparación del Espacio de Trabajo debes de asegurar un espacio limpio y bien iluminado con herramientas específicas como la almohadilla para soldar, multicontacto, etc.\ref{fig:enter-label2} 
     
-    Ensamble de Componentes debes seguir el Manual de ensamblaje del ESP32-C6 para instalar correctamente los componentes.\ref{fig:enter-label}
+    Ensamble de Componentes debes seguir el Manual de ensamblaje del ESP32-C6 para instalar correctamente los componentes.\ref{fig:enter-label3}
     
     Debes de hacer pruebas de manera exhaustiva para así garantizar el funcionamiento correcto, corrigiendo errores si es necesario.
     Documentar y analizar el tiempo dedicado a cada etapa para identificar áreas de mejora.
@@ -147,29 +147,22 @@
     Una metodología adecuada es crucial para el ensamblaje del circuito ESP32-C6, garantizando eficiencia y precisión. Desde el diseño hasta la documentación y análisis, cada paso es esencial para resultados óptimos. El uso del Método del Tiempo Medido (MTM) permite una evaluación precisa y mejora continua. Esto facilita la obtención de datos históricos y proporciona una base sólida para optimizar procesos futuros.
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/LISTA DE MATERIALES.png}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/listaMateriales.png}
         \caption{Lista de materiales}
-        \label{fig:enter-label}
+        \label{fig:enter-label1}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/BOSQUEJO.png}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/bosquejo.png}
         \caption{Bosquejo}
-        \label{fig:enter-label}
+        \label{fig:enter-label2}
     \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/PASOS ENSAMBLE.png}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{34/img/pasosEnsamble.png}
         \caption{Pasos ensamble}
-        \label{fig:enter-label}
+        \label{fig:enter-label3}
     \end{figure}
-    
-    \newpage
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-    \includepdf[pages=-]{34/img/MANUAL.pdf}
-    \label{anexo:MANUAL}
-    
-    
     % 
     % 
     % \begin{figure}[H]
@@ -180,7 +173,6 @@
     % \end{figure}
     % 
     % 
-    
     \subsection{Acrónimos y Abreviaciones}
     
     Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
@@ -230,13 +222,13 @@
     
     \section*{Referencias}
     
-    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    %Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    %La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    %Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
     Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-    Véase el archivo adjunto \ref{anexo:pines}.
+    %Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    %Véase el archivo adjunto \ref{anexo:pines}.
     
     % Ejemplo
     %  @Article{article,
@@ -309,7 +301,11 @@
     \bibliography{34/referencias}
     % 
     % 
-    
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    
+    \appendix
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % 
+    % 
+    \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:manual}
+    \includepdf[pages=-]{34/img/manual.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
