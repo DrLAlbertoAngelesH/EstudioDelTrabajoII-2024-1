@@ -1,0 +1,464 @@
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+\end{tikzpicture}}
+\rhead{Ángeles-Hurtado}
+\rfoot{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+\end{tikzpicture}}
+%----------------------------------------------------------------------------------------
+\lfoot{ \thepage}
+% \renewcommand{\labelenumi}{\alph{enumi}.)} 
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\setlength{\droptitle}{-5\baselineskip} % Move the title up
+\title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
+
+ \author{ 
+ \textsc{Bonilla Z. Leonardo}\\ 
+%  Afiliación:
+ \texttt{ Instituto Tecnológico de Querétaro } \\ 
+ \texttt{Nombre de la Organización } \\ 
+ \texttt{Querétaro, México}\\ 
+ \texttt{l22140960@queretaro.tecnm.mx} 
+ \and 
+ \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+%  Afiliación:
+ \texttt{ Instituto Tecnológico de Querétaro } \\ 
+ \texttt{ Tecnológico Nacional de México } \\ 
+ \texttt{Querétaro, México}\\ 
+ \texttt{alb3rt0.ah@gmail.com} 
+}
+
+
+%----------------------------------------------------------------------------------------
+
+% \begin{document}
+
+% Print the title
+\maketitle
+\thispagestyle{fancy}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+% \section*{Resumen}
+% \textit{Palabras clave:}
+% El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+
+\begin{abstract}
+\noindent 
+El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+
+\end{abstract}
+% 
+% 
+\textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+% \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+
+\section{Introducción}
+El estudio de trabajo es una evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento. Este examen sistemático del trabajo humano en todos sus contextos investiga todos los factores que influyen en la eficiencia y economía de la situación estudiada.
+
+Las metodologías más utilizadas en el estudio de trabajo incluyen la metodología Ágil, el modelo de cascada, y sistemas de tiempos predeterminados como MTM (Medición de Tiempos de Método), GPD (General Purpose Data – Basado en MTM), BMT (Basic Motion Time Study) y MODADPTS. Estas metodologías permiten analizar y cuantificar las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida.
+
+El objetivo principal del estudio de trabajo es incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. Se busca mejorar la productividad de una fábrica o instalación mediante la reorganización del trabajo, método que generalmente requiere poco o ningún desembolso de capital para instalación o equipo.
+
+En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleo sal 2025.
+
+% Define estudio de tiempos y movimientos
+% define que es ensamble
+% define que es circuito electronico
+% define el metodo de tiempos predeterminados
+% define optimización
+
+% 
+% 
+\section{Justificación}
+
+A nivel global, el estudio del trabajo es cada vez más relevante debido a las rápidas transformaciones en el mundo laboral. Las tendencias económicas, sanitarias y geopolíticas han creado resultados divergentes para los mercados laborales de todo el mundo. La adopción de tecnología sigue siendo un motor clave de la transformación empresarial. Además, la especialización del conocimiento se ha convertido en una necesidad, intensificándose la demanda en torno a ciertos especialistas altamente cualificados.
+
+En este contexto, el estudio del trabajo asume como objetivo central entender las características de esta nueva configuración social en movimiento. Se busca mejorar la productividad de una fábrica o instalación mediante la reorganización del trabajo. Este análisis permite identificar los factores que influyen de forma individual, como a nivel organizacional, además de proporcionar un incremento de la eficiencia y eficacia de las operaciones efectuadas durante el proceso productivo.
+
+A nivel local o nacional, en países como América Latina, se han identificado problemas y temas emergentes en el estudio del trabajo. En las  últimas décadas, ha cobrado gran importancia a nivel global las tendencias a la flexibilización y precarización laboral, así como la diversificación y multiplicación de las formas de trabajo.
+
+Estas tendencias comienzan a moldear un complejo, heterogéneo y nuevo panorama para las pretensiones de estabilidad y bienestar social que han sido generadas por
+las sociedades capitalistas en todo el mundo.
+
+Por lo tanto, es esencial continuar con el estudio del trabajo para entender y adaptarse a estas transformaciones, tanto a nivel global como local, para mejorar la eficiencia y la productividad en diversas industrias.
+% 
+% 
+\section{Descripción del problema}
+El estudio del trabajo, una disciplina que busca optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento, enfrenta varios desafíos en el mundo actual. Uno de los problemas más notables es la creciente tendencia hacia la flexibilización y precarización laboral, así como la diversificación y multiplicación de las formas de trabajo. 
+
+Estas tendencias están moldeando un panorama complejo y heterogéneo para las expectativas de estabilidad y bienestar social generadas por las sociedades capitalistas. La transformación en el trabajo supone un importante problema para la salud de las sociedades contemporáneas, ya que genera serias contradicciones y desigualdades sociales. Además, la aceleración de las innovaciones tecnológicas y la pandemia de
+
+COVID-19 están transformando radicalmente el mercado laboral. La automatización y la pandemia de COVID-19 están revolucionando el mundo del trabajo, un fenómeno
+conocido como la”doble alteración”de los empleos. A nivel local, en países como México, se han identificado problemas como la falta de oportunidades laborales para los jóvenes, la escasa preparación de los empleados y la informalidad. Los jóvenes presentan mayores tasas de desempleo que otros grupos etarios, generalmente por falta de experiencia laboral. 
+
+En contraste, el estudio del trabajo idealmente debería permitir a las organizaciones
+adaptarse a estas transformaciones, mejorar la eficiencia y la productividad, y proporcionar condiciones de trabajo seguras y justas para todos los trabajadores. Sin embargo, la brecha entre la realidad actual y este ideal es un  desafío significativo que requiere un análisis riguroso y soluciones innovadoras. Desde una perspectiva científica, el estudio del trabajo se basa en el concepto de que se puede utilizar el método científico para estudiar el trabajo. Sin embargo, la aplicación de este enfoque en el mundo real a menudo se ve obstaculizada por factores prácticos y contextuales. A pesar de estos desafíos, el estudio del trabajo sigue siendo una herramienta valiosa para abordar los problemas laborales contemporáneos y
+buscar soluciones efectivas.
+% 
+% 
+\section{Fundamentación teórica}
+
+El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
+
+Los fundamentos teóricos del estudio del trabajo están formados por los antecedentes investigativos, las bases teóricas y conceptuales, y las bases legales. Los antecedentes investigativos son los trabajos de investigación que se han hecho previamente sobre el tema. Las bases teóricas y conceptuales son los trabajos de reflexión, interpretación y teorización en torno al tema que constituyen la literatura especializada. Las bases legales son el conjunto de disposiciones y consideraciones de tipo legal y moral que son de relevancia para el proyecto o la investigación.
+
+En términos más específicos, el estudio del trabajo consiste en la aplicación de métodos y experiencias para la investigación y configuración de sistemas de trabajo, con el fin de aumentar la rentabilidad de la empresa, teniendo en cuenta el rendimiento y las necesidades del ser humano. Este estudio del trabajo es esencial en la formación de los ingenieros industriales, ya que les proporciona las herramientas necesarias para analizar y mejorar procesos productivos en las empresas, además de garantizar condiciones de trabajo seguras y confortables para los
+empleados.
+
+En resumen, el estudio del trabajo es una disciplina basada en la suposición de que se puede aplicar el método científico para estudiar el trabajo. Su fundamentación teórica se basa en la documentación y reflexión previa respecto al tema a investigar, y sirve como sostén conceptual de su trabajo o proyecto final.
+
+% 
+% 
+\section{Hipótesis}
+
+Es la suposición con fundamento científico relativa a la solución del problema, necesidad o de cómo se aprovecha la oportunidad con la incógnita científica y se fundamenta con: 1. Una suposición (en afirmativo o negativo) y ésta deberá vincularse con:
+2. La fundamentación científica que deberá ser precisa 3. Una entidad de comparación para probar la suposición y
+4. La variable con que se califica o cuantifica la comparación o se prueba la hipótesis.
+
+\begin{itemize}
+    \item Se debe de identificar claramente la suposición científica
+    \item Se debe de identificar claramente el fundamento científico
+    \item Se debe identificar claramente la variable de respuesta
+    \item Se debe identifican claramente las realidades o modelos contrastantes
+    \item Se debe de establecer las variables asociadas, explicativas o que tienen relación funcional con la variable de respuesta
+\end{itemize}
+% 
+% 
+\section{Objetivo}
+
+El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la eficiencia y la productividad. Aquí te presento algunos de los principales objetivos del estudio del trabajo:
+
+1. Mejorar la productividad: Uno de los principales objetivos del estudio del trabajo es aumentar la productividad, es decir, obtener más de los recursos disponibles.
+
+2. Reducir costos: Al mejorar la eficiencia de los procesos de trabajo, se pueden reducir los costos operativos.
+
+3. Mejorar la calidad: El estudio del trabajo también puede ayudar a mejorar la calidad del producto o servicio al identificar y eliminar las ineficiencias en el proceso de producción.
+
+4. Mejorar las condiciones de trabajo: Al analizar los métodos de trabajo, se pueden identificar y eliminar los riesgos para la salud y la seguridad, mejorando así las condiciones de trabajo para los empleados.
+
+5. Establecer estándares de tiempo: El estudio del trabajo permite establecer estándares de tiempo para las diferentes tareas, lo que facilita la planificación y el control de la producción.
+
+6. Formar una base para la remuneración: Los estándares de tiempo establecidos a través del estudio del trabajo pueden formar la base para sistemas de remuneración, como los sistemas de pago por pieza.
+
+7. Facilitar la mejora continua: El estudio del trabajo proporciona una base para la mejora continua al identificar oportunidades para mejorar los procesos de trabajo.
+
+En resumen, el estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones
+
+\subsection{Objetivos específicos }
+
+Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
+
+A partir de esté análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”.
+
+% 
+% 
+\section{Cuerpo (Metodología, modelo matemático, etc.)}
+
+\includepdf[pages=1-]{5/img/manual.Bonilla.Z.Leonardo.pdf}
+\label{anexo:manual.Bonilla.Z.Leonardo}
+
+\includepdf[pages=1-]{5/img/Lista de costos_BonillaZ.Leonaro.pdf}
+\label{anexo:Lista de costos_BonillaZ.Leonaro}
+
+Materiales:
+Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un componente pasivo que se utiliza en electrónica para limitar la cantidad de corriente que fluye a través de un circuito.
+
+Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
+
+Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente.
+
+Protoboard: Un protoboard, también conocido como placa de pruebas, es un instrumento muy útil en el campo de la electrónica.
+
+Composición y fabricación: Un protoboard está compuesto principalmente por dos materiales: un aislante, que en la mayoría de los casos es plástico, y un material conductor que se encuentra en el interior y conecta los distintos orificios entre ellos 2. Este material conductor suele ser una aleación de estaño, fósforo y cobre.
+
+Estructura: Las protoboards tienen tres partes fáciles de identificar: el canal central, las pistas, y los buses. El canal central está ubicado en la parte central de la lámina y está fabricado con un material aislante. Su función es separar las zonas de conexión superior e inferior de la placa. Los buses se encuentran a los costados de la placa Protoboard, y generalmente se emplean para conectar la tierra del circuito y sus voltajes de suministro. Las pistas están separadas por filas de orificios conectados eléctricamente entre sí.
+
+Función: La principal función de un protoboard es permitir a los ingenieros y aficionados a la electrónica insertar todo tipo de componentes electrónicos y cables, consiguiendo de esta forma armar un circuito electrónico o un sistema para diferentes usos. Gracias a esta pequeña placa, se pueden crear y comprobar todo tipo de prototipos de circuitos electrónicos. Si la prueba es satisfactoria,
+
+el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de que se desconecte cualquier componente. Si la prueba no es satisfactoria, es fácil cambiar las conexiones y reemplazar los componentes.
+
+En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes.
+
+LCD: Una LCD de 16x2 es una pantalla de cristal líquido que puede mostrar hasta 32 caracteres alfanuméricos en dos filas de 16 caracteres cada una.
+
+Composición y fabricación: Estas pantallas están compuestas principalmente por un material de cristal líquido que se encuentra entre dos capas de vidrio. Los píxeles de cada símbolo o carácter varían en función de cada modelo, pero en general, cada carácter está formado por una matriz de 5x8 píxeles.
+
+Funciones: La principal función de una LCD de 16x2 es mostrar información de manera clara y legible. Puede utilizarse para mostrar texto, números, símbolos y pequeños dibujos. Algunos modelos de LCD de 16x2 permiten la interacción con el usuario a través de botones o teclas. Además, estas pantallas son muy populares en la electrónica debido a su bajo coste, su fácil interfaz y la amplia disponibilidad de bibliotecas de software para múltiples plataformas.
+
+Uso: Las LCD de 16x2 se utilizan en una amplia gama de aplicaciones, como diversos circuitos y dispositivos, incluyendo teléfonos móviles, calculadoras, ordenadores, televisores, entre otros. También son comúnmente utilizadas en proyectos de bricolaje y aplicaciones integradas debido a su facilidad de programación.
+
+En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos.
+
+Módulo SPI 12C: Un módulo SPI I2C es un dispositivo de comunicación en serie que se utiliza en sistemas integrados para intercambiar datos de alta velocidad entre múltiples dispositivos en el bus.
+
+Composición y fabricación: Los módulos SPI I2C están compuestos principalmente por un microcontrolador y varios componentes electrónicos, incluyendo resistencias, condensadores y a veces un cristal oscilador. Estos componentes están montados en una placa de circuito impreso (PCB). El microcontrolador es el cerebro del módulo y se encarga de gestionar la comunicación entre los dispositivos conectados al bus. 
+
+Funciones: Los módulos SPI I2C se utilizan para la comunicación entre un microcontrolador y diferentes periféricos, como sensores, actuadores, y otros microcontroladores. Estos módulos permiten la transmisión de datos en serie a alta velocidad entre los dispositivos conectados al bus.
+
+El protocolo SPI (Interfaz Periférica Serie) tiene una arquitectura maestro-esclavo con múltiples dispositivos esclavos conectados a un único dispositivo maestro. Además, la comunicación SPI admite comunicación fullduplex, lo que significa que tanto el maestro como el esclavo pueden transmitir y recibir datos simultáneamente.
+
+Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una arquitectura maestro-esclavo, pero en lugar de utilizar múltiples líneas para la transmisión de datos como SPI, I2C utiliza solo dos líneas: la línea de datos serie (SDA) y la línea de reloj serié (SCL). Esto hace que I2C sea ideal para aplicaciones que requieren menos cables y menos pines del microcontrolador.
+
+En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus.
+
+
+Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar dos dispositivos electrónicos. Composición y fabricación: Los cables macho-hembra están compuestos por dos conectores, uno macho y otro hembra, que están unidos por un cable. El conector macho tiene una serie de pines o clavijas que se insertan en el conector hembra, que a su vez tiene receptáculos o ranuras para recibir los pines. Estos conectores suelen ser metálicos y están protegidos por una carcasa de plástico.
+
+Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
+
+En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes.
+
+Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
+
+Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
+
+En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica.
+
+
+ESP32: La ESP32 es un microcontrolador de alto rendimiento y bajo consumo de energía, diseñado por Espressif Systems, que ha ganado popularidad en el mundo de la electrónica y la programación.
+
+Composición y fabricación: La ESP32 está compuesta por un microprocesador Xtensa® Dual-Core LX6 de 32 bits. Tiene una memoria ROM de 448 KBytes, una memoria RAM de 520 Kbytes, y una memoria flash de 4 MB. Además, tiene una ranura para tarjeta microSD que puede admitir hasta 4 GB de almacenamiento adicional 1. Los componentes están montados en una placa de circuito impreso (PCB).
+
+Funciones: La ESP32 tiene conectividad Wi-Fi y Bluetooth ya integrada en la placa. Esto facilita mucho los proyectos de IoT, ya que intercambiarán información constantemente con la red. La ESP32 es compatible con una amplia variedad de lenguajes de programación, como C++, Python y JavaScript. Esto significa que los desarrolladores pueden usar el lenguaje de programación que mejor se adapte a sus necesidades. La ESP32 tiene una amplia gama de interfaces de entrada/salida (E/S), como UART, SPI, I2C, CAN y PWM. Esto la convierte en una excelente opción para proyectos que requieren una gran cantidad de periféricos.
+
+Detalles importantes para su manejo: La ESP32 tiene modos de bajo consumo de energía que permiten que los dispositivos funcionen durante un período prolongado sin necesidad de recargar la batería. Los puertos GPIO de la tarjeta son capaces de entregar hasta 12 mA. De esta forma, se utilizan como entradas y salidas digitales.
+
+La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al tacto y envían información a la tarjeta. El ADC incorporado sirve para convertir cantidades analógicas en cantidades digitales, con 16 pines con esta funcionalidad. La placa tiene puertos de 5V y 3.3V, pines de comunicación serié GND, TX y RX, y otros. Por lo tanto, en algunos casos, se puede usar un solo pin en el tablero para diversas funcionalidades. El ESP32 también tiene un sensor de temperatura incorporado para controlar la temperatura de funcionamiento de la tarjeta.
+
+En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. 
+
+Potenciómetro: Un potenciómetro es un componente electrónico que se utiliza para controlar y ajustar la resistencia eléctrica de un circuito. 
+
+Composición y fabricación: Los potenciómetros están compuestos por una banda de material resistivo y un cursor. El material resistivo puede ser de carbón o cermet, y está montado sobre un soporte duro como papel baquelizado, fibra de vidrio o baquelita. El cursor, que puede deslizarse o girar sobre la banda resistiva, permite modificar el valor de la resistencia. 
+
+Funciones: La principal función de un potenciómetro es permitir el ajuste manual de la resistencia en un circuito, lo que a su vez permite controlar la cantidad de corriente eléctrica que fluye a través del circuito. Esto puede ser útil para ajustar la intensidad de corriente, el brillo de una luz, el volumen de un sonido, entre otras aplicaciones. Además, los potenciómetros pueden ayudarte a medir un voltaje desconocido comparándolo con un voltaje conocido.
+
+En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito.
+
+Multicontacto: Un multicontacto de 5 tomacorrientes es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
+
+Funciones: La principal función de un multicontacto es proporcionar múltiples tomas de corriente a partir de una sola toma de pared. Esto es especialmente  útil en áreas donde las tomas de corriente son limitadas. Los puertos USB permiten cargar dispositivos como teléfonos móviles, tabletas y otros dispositivos compatibles con USB. Algunos modelos de multicontactos también incluyen protección contra sobrecargas, lo que ayuda a proteger los dispositivos conectados de posibles daños causados por picos de voltaje. Características importantes: Este tipo de multicontacto puede soportar una potencia nominal de hasta 2500W.
+
+Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
+
+En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. 
+
+Cable de tipo C a C: Un cable tipo C a C es un tipo de cable que se utiliza para conectar dos dispositivos que tienen puertos USB tipo C.
+
+Composición y fabricación: Los cables tipo C a C están compuestos por dos conectores tipo C en cada extremo del cable. Los conectores son de metal y están protegidos por una carcasa de plástico. El cable que une los dos conectores es generalmente de cobre, debido a su alta conductividad eléctrica. El material exterior del cable está compuesto por PVC con relieve, lo que le proporciona una flexibilidad y resistencia que lo protegen contra el desgaste de un uso intensivo.
+
+Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
+
+En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica.
+
+\includepdf[pages=1-]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
+\label{anexoCable tipo c a c_ Bonilla.Z.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.pdf}
+\label{anexo:cableMH_Bonilla.Z.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/cableMM_BonillaZ.Leonardo Dibujo.pdf}
+\label{anexo:cableMM_BonillaZ.Leonardo Dibujo}
+
+
+\includepdf[pages=1-]{5/img/ESP32_BonillaZ.Leonardo Dibujo.pdf}
+\label{anexo:ESP32_BonillaZ.Leonardo Dibujo}
+
+
+\includepdf[pages=1-]{5/img/LCD_ BonillaZ.Leonardo Dibujo.pdf}
+\label{anexo:LCD_ BonillaZ.Leonardo Dibujo}
+
+
+\includepdf[pages=1-]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
+\label{anexo:módulo SPI 12C_BonillaZ.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
+\label{anexo:multicontacto_Bonilla.Z.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.pdf}
+\label{anexo:potenciometro.BonillaZ.Leonardo._Dibujo}
+
+
+\includepdf[pages=1-]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
+\label{anexo:protoboard_Bonilla.Z.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.pdf}
+\label{anexo:resistencias.Bonilla.Z.Leonardo_Dibujo}
+
+
+\includepdf[pages=1-]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.pdf}
+\label{anexo:Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo}
+% 
+% 
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim = {30mm 65mm 90mm 250mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
+    \caption{Esquema LCD de 16x2}
+    \label{fig:lcd-16x2}
+\end{figure}
+% 
+% 
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim = {30mm 250mm 90mm 20mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
+    \caption{Esquema LCD de 16x2}
+    \label{fig:lcd-16x2}
+\end{figure}
+% 
+% 
+\subsection{Prepara tu documento}
+
+Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+
+\subsection{Acrónimos y Abreviaciones}
+
+Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+
+\subsection{Ecuaciones}
+
+Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+
+\begin{equation}
+    \label{eq1}
+    x + y = z 
+\end{equation}
+
+Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+
+\section{Resultados y discusión}
+
+Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+
+\subsection{Autores y Afiliaciones}
+
+Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+
+\subsection{Identificar los encabezados}
+
+Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+
+\subsection{Tablas y Figuras}
+
+\begin{enumerate}
+    \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+\end{enumerate}
+
+\section{Conclusiones}
+
+Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+
+\section{Agradecimientos}
+
+Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+
+\section*{Referencias}
+
+Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+Véase el link \cite{prueba}.
+
+% Ejemplo
+%  @Article{article,
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Article Title",
+% 	volume = "30",
+% 	number = "30",
+% 	pages = "10127-10134",
+% 	year = "2013",
+% 	doi = "10.3389/fnins.2013.12345",
+% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+% 	journal = "Frontiers in Neuroscience"
+% }
+
+% @book{book,
+%   author    = {Author Name}, 
+%   title     = {The title of the work},
+%   publisher = {The name of the publisher},
+%   address   = {The city},
+%   year      = 1993,
+% }
+
+% @incollection{chapter,
+%   author       = {Bauthor Surname}, 
+%   title        = {The title of the work},
+%   editor       = {Editor Name},
+%   booktitle    = {The title of the book},
+%   publisher    = {The name of the publisher},
+%   address      = {The city},
+%   year         = 2002,
+%   pages        = {201-213},
+% }
+
+% @InProceedings{conference,
+%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+%   title = {The title of the work},
+%   booktitle = {The title of the conference proceedings},
+%   year = 1996,
+%   publisher = {The name of the publisher},
+%   editor = {Editor Name1 and Editor Name2},
+%   pages = {41-50},
+% }
+
+% @book{cho,
+%   author       = {Gauthor Name1}, 
+%   title        = {The title of the work},
+%   publisher = {Country code and patent number},
+%   address      = {Patent Country},
+%   year = 2013
+% }
+
+% @book{patent,
+%   author    = {Hauthor Surname1}, 
+%   title     = {The title of the work},
+%   publisher = {Patent number},
+%   address   = {Patent country},
+%   year      = 2010,
+% }
+
+% % please use misc for datasets
+% @misc{dataset, 
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Data Title",
+% 	year = "2011",
+% 	doi = "10.000/55555",
+% 	URL = "http://www.frontiersin.org/",
+% }
+
+\bibliographystyle{ieeetr}
+\bibliography{6/referencias}
+% 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+\centering{\section[\appendixautorefname{}]{APÉNDICE}}
+\includepdf[pages=-]{5/Img/pines.pdf}
+\label{anexo:pines}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
