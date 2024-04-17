@@ -1,4 +1,4 @@
-# EstudioDelTrabajoII-2024-1
+# ¡Advertencia! Si cambias el branch principal se te bajarán 10 puntos
 ## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
 ### LuisAlbertoAngeles
@@ -11,17 +11,11 @@
 #### JosephIkerCollmanGranados l22140906@queretaro.tecnm.mx
 #### DiegoAvilaHernández l22140920@queretaro.tecnm.mx
 #### EdwinErnestoSanchezNava l22140867@queretaro.tecnm.mx
-<<<<<<< HEAD
-#### MitziDanielaVazquezMontes mitzi.vamo25@gmail.com
-#### AlejandraAbigailAllendeGarcia l22140918@queretaro.tecnm.mx
-
-
-
-=======
 #### MitziVazquez mitzi.vamo25@gmail.com
 #### DavidBautistaA l22140921@queretaro.tecnm.mx
 #### DavidFlores daroan13@gmail.com
 #### FentanesHernandezAna fentaneshernandezanakarn@gmail.com
+#### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### PilarMartinezOscarJesus pilaroscar2@gmail.com
 #### AnaValeriaLlamasNuñez llamasnunezanavaleria@gmail.com
 #### KeniaPaolaSaenzSaavedra l22140911@queretaro.tecnm.mx
@@ -42,4 +36,5 @@
 #### JoseNatividadMirelesNavarro mirelesnavarro.natividad.1ptm@gmail.com
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
->>>>>>> 26629e10c208aba803544af5b44825b6d6f438ec
+#### KarlaErikaRoblesVargas l22140281@queretaro.tecm.mx
+#### DiegoSantosCástulo  diego.s0009ssc@gmail.com
