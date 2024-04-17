@@ -37,8 +37,13 @@
 #### RicardoMissaelFloresMartinez l22140280@queretaro.tecnm.mx
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 #### KarlaErikaRoblesVargas l22140281@queretaro.tecm.mx
 #### DiegoSantosCástulo  diego.s0009ssc@gmail.com
 >>>>>>> main
+=======
+#### KarlaErikaRoblesVargas l22140281@queretaro.tecm.mx
+#### DiegoSantosCástulo  diego.s0009ssc@gmail.com
+>>>>>>> e92d206f2a1bf4670ad043411efe2cca63b18fba
