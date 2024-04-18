@@ -56,7 +56,13 @@
     \end{abstract}
     % 
     % 
-    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    \textbf{\textit{Palabras clave}}:
+    
+    % \begin{itemize}
+        Estudio, Tiempos, Movimientos, Métodos, Optimización, Circuito. 
+    % \end{itemize}
+    % 
+    % {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     
     \section{Introducción}
@@ -166,7 +172,9 @@
         % \item Se debe desglosar de acuerdo a los objetivos específicos.
         % \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
         % \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
-        \item Referencias de los materiales que se presentan a continuación:Figura\ref{fig:multicontactoFigura}.\ref{fig:cableUSB-CFigura}.\ref{fig:potenciómetroFigura}.\ref{fig:lcdFigura}.\ref{fig:móduloAdaptadorLcdFigura}.\ref{fig:esp32Figura}.\ref{fig:protoboardFigura}.\ref{fig:resistenciaFigura}.\ref{fig:cableMHFigura}.\ref{fig:cableMMFigura}.\ref{fig:tapeteProfesionalOrganizadorDeTrabajoFigura}
+        \item Véase los materiales que se presentan a continuación:Figura\ref{fig:multicontactoFigura}.\ref{fig:cableUSB-CFigura}.\ref{fig:potenciómetroFigura}.\ref{fig:lcdFigura}.\ref{fig:móduloAdaptadorLcdFigura}.\ref{fig:esp32Figura}.\ref{fig:protoboardFigura}.\ref{fig:resistenciaFigura}.\ref{fig:cableMHFigura}.\ref{fig:cableMMFigura}.\ref{fig:tapeteProfesionalOrganizadorDeTrabajoFigura}
+        \item Véase hoja de registro \ref{anexo:hojaDeRegistro }.
+        \item Véase ensamble de circuito electrónico \ref{anexo:ensambleDeCircuitoElectrónico}
     \end{itemize}
     % 
     % 
@@ -315,13 +323,13 @@
     
     \section*{Referencias}
     
-    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    % Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    % La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    % Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
     Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-    Véase el archivo adjunto \ref{anexo:pines}.
+    % Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    % Véase el archivo adjunto \ref{anexo:pines}.
     
     % Ejemplo
     %  @Article{article,
@@ -400,11 +408,8 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    % \section[\appendixname~\thesection]{Apéndice}
-    \centering{\section[\appendixautorefname{ mesa}]{HOJA DE REGISTRO}}
-    
+    \centering{\section[\appendixautorefname{}]{HOJA DE REGISTRO}}\label{anexo:hojaDeRegistro }
     \includepdf[pages=-]{3/Img/hojaDeRegistro .pdf}
-    \label{anexo:mesa}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
@@ -413,9 +418,6 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    % \section[\appendixname~\thesection]{Apéndice}
-    \centering{\section[\appendixautorefname{ mesa}]{}}
-    
+    \centering{\section[\appendixautorefname{}]{}}\label{anexo:ensambleDeCircuitoElectrónico}
     \includepdf[pages=-]{3/Img/ensambleDeCircuitoElectrónico.pdf}
-    \label{anexo:mesa}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
