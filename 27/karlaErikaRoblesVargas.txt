@@ -71,7 +71,7 @@
 
 \begin{abstract}
 \noindent 
-Los estudios de tiempos y movimientos son de gran importancia en las industrias por que permiten conocer con mayor exactitud los tiempos de entrega de la producción y establecer el tipo de empleado estándar para determinada operación. El análisis descrito en este proyecto tiene por objetivo identificar inconvenientes en la productividad de los operadores al estar siguiendo las instrucciones de un manual o viendo imágenes especificas de nuestro ensamble. Aplicaremos un estudio de movimientos y tiempos, describiendo las actividades que realizamos en la recolecta de nuestros datos. Nuestro fin de todo esto, es poder hallar una solución a posibles inconvenientes y dar otros métodos de mejoras.
+Los estudios de tiempos y movimientos son de gran importancia en las industrias por que permiten conocer con mayor exactitud los tiempos de entrega de la producción y establecer el tipo de empleado estándar para determinada operación. El análisis descrito en este proyecto tiene por objetivo identificar inconvenientes en la productividad de los operadores al estar siguiendo las instrucciones de un manual o viendo imágenes especificas de nuestro ensamble. Aplicaremos un estudio de movimientos y tiempos, describiendo las actividades que realizamos en la recolecta de nuestros datos. Nuestro fin de todo esto, es poder hallar una solución a posibles inconvenientes y dar otros métodos de mejoras.\cite{book}
 
 \end{abstract}
 % 
@@ -133,7 +133,7 @@ Los estudios de tiempos y movimientos son de gran importancia en las industrias 
 % 
 \section{Fundamentación teórica}
 
- Los estudios de tiempos y movimientos en el ensamble de circuitos electrónicos se fundamentan en diversas teorías y conceptos de la ingeniería industrial, la gestión de operaciones y la psicología del trabajo, que proporcionan las bases teóricas y metodológicas para analizar, optimizar y mejorar el proceso de ensamblaje.
+ Los estudios de tiempos y movimientos en el ensamble de circuitos electrónicos se fundamentan en diversas teorías y conceptos de la ingeniería industrial, la gestión de operaciones y la psicología del trabajo, que proporcionan las bases teóricas y metodológicas para analizar, optimizar y mejorar el proceso de ensamblaje.\cite{book}
 \begin{itemize}
     \item Teoría del tiempo y movimiento de Taylor: Desarrollada por Frederick Taylor a finales del siglo XIX, esta teoría se centra en el análisis de los movimientos necesarios para realizar una tarea y la determinación de los tiempos estándar requeridos para completarla. Su enfoque en la eficiencia y la eliminación de movimientos innecesarios sienta las bases para los estudios de tiempos y movimientos en el ensamble de circuitos electrónicos.
     \item Métodos de estudio de tiempos: Estos métodos, como el método de la mejor práctica y el método de tiempos predeterminados, proporcionan herramientas y técnicas para medir y analizar los tiempos requeridos para realizar diferentes actividades en el ensamble de circuitos electrónicos. Permiten establecer tiempos estándar y identificar oportunidades de mejora en el proceso de ensamblaje.
@@ -188,15 +188,12 @@ Las especificaciones de los estudios de tiempos y movimientos en el ensamble de 
 % 
 \section{Cuerpo (Metodología, modelo matemático, etc.)}
 
-Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto deberá ser desglosada precisada y ordenada claramente. En consecuencia cada objetivo que se presentó en forma de verbo en infinitivo deberá determinar una estrategia en forma de adverbio. Ej. Desarrollar…Desarrollo. Son las actividades ordenadas que tienen como finalidad la prueba de la hipótesis. 
+Definición de objetivos: Establecer claramente los objetivos del estudio, como mejorar la eficiencia del proceso de ensamblaje, reducir los tiempos de producción, aumentar la productividad o mejorar la calidad del producto final.
+Selección de métodos de ensamblaje: Identificar y seleccionar los diferentes métodos de ensamblaje que se van a evaluar y comparar en el estudio. Esto puede incluir métodos como ensamblaje manual, ensamblaje automatizado, ensamblaje en línea, ensamblaje en células de trabajo, entre otros.
+Diseño del experimento: Diseñar un experimento que permita comparar los diferentes métodos de ensamblaje de manera objetiva y rigurosa. Esto puede implicar la creación de prototipos, el desarrollo de un plan de ensayo y la definición de las métricas de evaluación, como tiempos de ciclo, productividad, calidad del producto, entre otros.
+Recopilación de datos: Recolectar datos relevantes durante el ensamblaje de los circuitos electrónicos utilizando los diferentes métodos seleccionados. Esto puede incluir el registro de tiempos de ciclo, observaciones cualitativas sobre el proceso de ensamblaje y cualquier otra información pertinente para la evaluación de los métodos.
+Seguimiento y ajuste: Monitorear continuamente el proceso de ensamblaje después de implementar las mejoras y realizar ajustes adicionales según sea necesario para garantizar la sostenibilidad de los resultados y la mejora continua del proceso.
 
-\begin{itemize}
-    \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
-    \item Se debe desglosar de acuerdo a los objetivos específicos. 
-    \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
-    \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
-    \item Se deben tener referencias Figura \ref{fig:lcd-16x2}.
-\end{itemize}
 % 
 % 
 \begin{figure}[H]
@@ -215,30 +212,7 @@ Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto d
 \end{figure}
 % 
 % 
-\subsection{Prepara tu documento}
 
-Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
-
-\subsection{Acrónimos y Abreviaciones}
-
-Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
-
-\subsection{Ecuaciones}
-
-Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
-
-\begin{equation}
-    \label{eq1}
-    x + y = z 
-\end{equation}
-
-Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
 
 \section{Resultados y discusión}
 
@@ -246,14 +220,6 @@ Antes de comenzar a preparar tu artículo, es importante que lea primero la guí
 Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
 
-\subsection{Autores y Afiliaciones}
-
-Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
-
-\subsection{Identificar los encabezados}
-
-Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
 
 \subsection{Tablas y Figuras}
 
@@ -265,9 +231,6 @@ Los encabezados organizan los temas sobre una base relacional y jerárquica. Por
 
 Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
 
-\section{Agradecimientos}
-
-Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
 
 \section*{Referencias}
 
@@ -356,6 +319,8 @@ Véase el link \cite{prueba}.
 % 
 % 
 \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-\includepdf[pages=-]{27/Img/pines.pdf}
+\includepdf[pages=-]{27/img/camelCase.pdf}
+\includepdf[pages=-]{27/img/camelCase2.pdf}
+\includepdf[pages=-]{27/img/camelCase3.pdf}
 \label{anexo:pines}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
