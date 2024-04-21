@@ -229,7 +229,7 @@ En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas
 
 \section{Conclusiones}
 
-Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+proporcionan información valiosa para tomar decisiones estratégicas y mejorar de manera continua el proceso de ensamblaje, con el objetivo de aumentar la eficiencia, reducir los costos y mejorar la calidad del producto final.
 
 
 \section*{Referencias}
