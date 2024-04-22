@@ -38,3 +38,4 @@
 #### AbrahamRuizLopez l2240290@queretaro.tecnm.mx
 #### KarlaErikaRoblesVargas l22140281@queretaro.tecm.mx
 #### DiegoSantosCástulo  diego.s0009ssc@gmail.com
+

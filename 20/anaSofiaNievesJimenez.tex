@@ -1,30 +1,340 @@
-\section{Ana Sofia Nieves Jimenez}
-\subsection{Definiciones}
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+\end{tikzpicture}}
+\rhead{Ángeles-Hurtado}
+\rfoot{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+\end{tikzpicture}}
+%----------------------------------------------------------------------------------------
+\lfoot{ \thepage}
+% \renewcommand{\labelenumi}{\alph{enumi}.)} 
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\setlength{\droptitle}{-5\baselineskip} % Move the title up
+\title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
+
+ \author{ 
+ \textsc{Nieves Jimenez Ana Sofia/s}\\ 
+%  Afiliación:
+ \texttt{ Instituto Tecnológico de Quéretaro } \\ 
+ \texttt{Tecnológico Nacional de México } \\ 
+ \texttt{Quéretaro,México}\\ 
+ \texttt{} 
+ \and 
+ \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+%  Afiliación:
+ \texttt{ Instituto Tecnológico de Querétaro } \\ 
+ \texttt{ Tecnológico Nacional de México } \\ 
+ \texttt{Querétaro, México}\\ 
+ \texttt{alb3rt0.ah@gmail.com} 
+}
+
+
+%----------------------------------------------------------------------------------------
+
+% \begin{document}
+
+% Print the title
+\maketitle
+\thispagestyle{fancy}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+% \section*{Resumen}
+% \textit{Palabras clave:}
+% El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+
+\begin{abstract}
+\noindent 
+El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+
+\end{abstract}
+% 
+% 
+\textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+% \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+
+\section{Introducción}
+
+Estudio de Movimientos y Tiempos: Consiste  en el análisis de métodos, materiales y herramientas que se utilizan en la ejecución de un trabajo. Esta área de estudio abarca una amplia gama de campos, incluyendo la ingeniería industrial, la psicología organizacional, la ergonomía, la gestión de operaciones y la sociología laboral\cite{carlos2016ingenieria}
+Ensamble:Es un proceso de fabricación industrial en el que una o varias piezas se unen para formar un producto final. El objetivo principal de este proceso es reducir el tiempo de producción y ahorrar dinero.
+Normalmente, el ensamble se lleva a cabo en líneas de producción, en las que el trabajo se realiza a una velocidad constante. Los operarios se encargan de unir las piezas de forma manual o mecánica, y de realizar los ajustes necesarios para que el producto quede completo.
+Existen varios métodos de ensamble, el método elegido depende de las características de las piezas a ensamblar, así como de los requerimientos del producto.
+Circuito Eléctrico:Son placas que se componen de materiales semiconductores, activos y pasivos cuya operatividad va a depender del flujo de electrones (corriente o energía) para que se  genere, transmita, reciba y almacena una información determinada. Siendo  la unión de dos o más elementos que permitirán la circulación de la corriente eléctrica. Este hecho facilita el flujo de electricidad a la par de permitir el control de la misma
+Método de Tiempos Predeterminados: Es un procedimiento utilizado para analizar cualquier operación o método manual. Consiste en descomponer la tarea en movimientos básicos necesarios para su ejecución, asignando a cada movimiento un tiempo predeterminado basado en su naturaleza y las condiciones bajo las cuales se realiza.
+Optimización:Es el proceso de encontrar la mejor solución posible para un problema específico, dadas ciertas restricciones o condiciones. Implica maximizar o minimizar una función objetivo, que representa algún tipo de medida de desempeño, beneficio o costo, sujeto a una serie de restricciones o limitaciones. En esta introducción seguiremos viendo las metodologías más usadas, como ha evolucionado, objetivos empleados en el  proyecto de ensamble de un circuito eléctrico, etc.
+\begin{itemize}
+    \item El estudio del trabajo es una disciplina multidisciplinaria que se enfoca en comprender y mejorar la eficiencia y efectividad de las actividades laborales dentro de una organización. Esta área de estudio abarca una amplia gama de campos, incluyendo la ingeniería industrial, la psicología organizacional, la ergonomía, la gestión de operaciones y la sociología laboral.
+El objetivo principal del estudio del trabajo es analizar y optimizar los procesos laborales para aumentar la productividad, mejorar la calidad del producto o servicio, y garantizar la seguridad y el bienestar de los trabajadores. Esto implica examinar cada aspecto del trabajo, desde la distribución del espacio y el diseño de herramientas hasta la asignación de tareas y la motivación de los empleados.
+Entre las principales áreas de estudio del trabajo se encuentran:
+Diseño de trabajo: Se centra en la organización de las tareas, la secuencia de actividades y la asignación de responsabilidades para maximizar la eficiencia y la satisfacción laboral.
+Medición del trabajo: Se refiere a la evaluación cuantitativa de las actividades laborales para determinar los estándares de tiempo y rendimiento, lo que facilita la programación y la asignación de recursos.
+Ergonomía: Considera la adaptación del entorno laboral y de las herramientas de trabajo a las capacidades y necesidades físicas y mentales de los trabajadores, con el fin de prevenir lesiones y mejorar el confort y la productividad.
+Motivación y satisfacción laboral: Explora los factores psicológicos y sociales que influyen en el compromiso, la motivación y la satisfacción de los trabajadores, con el objetivo de fomentar un ambiente laboral positivo y productivo.
+Gestión del rendimiento: Se ocupa de establecer objetivos claros, proporcionar retroalimentación efectiva y reconocer el desempeño excepcional para mejorar continuamente el rendimiento individual y organizacional.
+Por otro lado tenemos el análisis de operaciones que se identifica por ser un proceso sistemático utilizado para comprender en detalle cómo funcionan los procesos dentro de una organización y cómo pueden mejorarse para aumentar la eficiencia, la calidad y la rentabilidad. Esta metodología implica desglosar los procesos empresariales en sus componentes más básicos, examinando cada paso, recurso y actividad para identificar áreas de mejora.
+En resumen, el estudio del trabajo y el análisis de operaciones son herramientas esenciales para cualquier organización que busque mejorar su eficiencia, calidad y competitividad en un mercado globalizado y dinámico. Al adoptar estas disciplinas de manera proactiva, las empresas pueden lograr una operación más eficiente y efectiva, lo que les permite alcanzar sus objetivos estratégicos y mantenerse relevantes en el largo plazo.
+Al haber comentado una base de estos temas, en esta introducción seguiremos viendo las metodologías más usadas, como ha evolucionado, objetivos empleados en nuestro proyecto de ensamble de un circuito eléctrico, etc.
+Las metodologías principales en el estudio del trabajo y el análisis de operaciones incluyen una variedad de enfoques y técnicas que se utilizan para comprender y mejorar los procesos laborales y operativos dentro de una organización.
+Una de ellas son los therbligs, la cual nos enfocaremos un poco más en ella por la cuestión que se encarga de analizar y comprender las actividades laborales en un nivel detallado, descomponiendo las acciones en elementos más básicos y observables. Al desglosar las tareas en therbligs, los analistas pueden identificar y analizar cada movimiento realizado por el trabajador, lo que facilita la identificación de oportunidades de mejora en la eficiencia y la ergonomía del trabajo.
+Y bueno el  estudio de micromovimientos se ha venido desarrollando desde el siglo XVIII, sin embargo fue el matrimonio constituido por Frank Bunker Gilbreth y Lillian Moller Gilbreth quienes ampliaron este trabajo y desarrollaron lo que hoy se conoce como Estudio de los micromovimientos, dividiendo el trabajo en 17 movimientos fundamentales a los cuales denominaron therbligs.
+Las diecisiete divisiones básicas pueden clasificarse en therbligs eficientes y en ineficientes. Los primeros son aquellos que contribuyen directamente al avance o desarrollo del trabajo,es decir que agregan valor a la operación; estos therbligs con frecuencia pueden reducirse, pero es difícil eliminarlos por completo.
+Los therbligs de la segunda categoría no agregan valor al trabajo y deben ser eliminados aplicando los principios del análisis de la operación y del estudio de movimientos.
+A partir de estos se redujo y hubo una modificación acortando en movimientos básicos elementales, los cuales son:
+Precolocar en posición. Poner el objeto en posición para ser usado (Eficiente).
+Inspeccionar. Cerciorarse de cómo trabaja la operación (Ineficiente).
+Ensamblar. Unir uno o más objetos (Eficiente).
+Desensamblar. Separar uno más o más objetos (eficiente).
+Usar. Trabajar con algún objeto (Eficiente).
+Demora inevitable. Interrupción que el operario no puede evitar (Ineficiente).
+Demora evitable. Es la demora de la que es responsable el operario (Ineficiente).
+Planear. Es el problema mental cuando el operario se detiene para determinar los pasos a seguir (Ineficiente).
+Descanso. Hacer alto en el trabajo (Ineficiente).
+Ahora al saber un poco más acerca de estos movimientos; a continuación daré un proceso general de cómo poder emplearlos de la mejor manera.
+Identificación de la tarea o proceso a analizar
+Observación y registro de la tarea 
+Desglose en therbligs
+Análisis de los therbligs
+Establecimiento de estándares de tiempo 
+Implementación de mejoras
+Seguimiento y revisión
+Este proceso proporciona un marco estructurado para emplear los therbligs en el estudio de tiempos y movimientos, lo que permite identificar y eliminar ineficiencias, mejorar la productividad y la calidad del trabajo, y promover un ambiente laboral más seguro y saludable.
+Ya al poder tener una visión sobre los temas que estaré tocando a lo largo de este proyecto, buscó reflejar el estudio de tiempos y movimientos para optimizar el ensamble de circuitos electrónicos, y he adoptado una metodología que se basa en la descomposición de cada tarea en sus elementos más básicos y observables, conocidos como therbligs. Al aplicar esta técnica, podría identificar de manera precisa los movimientos y acciones realizadas por los trabajadores durante el proceso de ensamble.
+Mi investigación se centrará en analizar cada therblig en el contexto del ensamble de circuitos electrónicos, desde la selección de componentes hasta la soldadura final. Utilizar diversas herramientas y técnicas, como el mapeo de procesos, la observación directa y el cronometraje continuo, para registrar y analizar cada movimiento y acción.
+El objetivo de mi proyecto es identificar áreas de ineficiencia y oportunidades de mejora en el proceso de ensamble, con el fin de aumentar la productividad, reducir los tiempos de ciclo y mejorar la calidad del producto final. Al implementar soluciones basadas en los hallazgos de mi estudio de tiempos y movimientos, espero optimizar el proceso de ensamble y aumentar la competitividad de nuestra empresa en el mercado de la electrónica.
+\end{itemize}
+% 
+% 
+\section{Justificación}
+
+\begin{itemize}
+    \item En la actualidad, la demanda por productos electrónicos de alta calidad y rendimiento está en constante crecimiento a nivel global. Los consumidores buscan dispositivos cada vez más sofisticados y eficientes, lo que impulsa a las empresas del sector a mejorar continuamente sus procesos de producción. En este contexto, el estudio de tiempos y movimientos se vuelve crucial para optimizar el ensamble de circuitos electrónicos y satisfacer las exigencias del mercado.
+Para mantenerse competitivas en un entorno globalizado, las empresas necesitan adoptar prácticas de manufactura eficientes y efectivas. El análisis detallado de los tiempos y movimientos en el ensamble de circuitos electrónicos permite identificar áreas de ineficiencia y desperdicio de recursos, lo que se traduce en una reducción de costos y un aumento de la productividad.
+Además, en un mundo donde la tecnología avanza rápidamente, la capacidad de adaptarse y mejorar constantemente es esencial para mantenerse relevante. Mediante el uso de metodologías como los therbligs, las empresas pueden realizar ajustes precisos en sus procesos de ensamble para integrar nuevas tecnologías y responder rápidamente a las demandas cambiantes del mercado.\cite{niebel1980ingenieria}
+A nivel local o nacional, la implementación de técnicas de estudio de tiempos y movimientos en el ensamble de circuitos electrónicos puede tener un impacto significativo en la economía y la competitividad de las empresas del sector. Al mejorar la eficiencia y la calidad en la producción, se fomenta el crecimiento económico y se generan oportunidades de empleo en la industria manufacturera. Además, al adoptar prácticas de manufactura sostenibles y eficientes, las empresas contribuyen al desarrollo social y ambiental de la comunidad.
+En resumen, el estudio de tiempos y movimientos en el ensamble de circuitos electrónicos es fundamental para satisfacer las demandas del mercado global, mejorar la competitividad de las empresas y promover el desarrollo económico y social a nivel local y nacional.
+\end{itemize}
+% 
+% 
+\section{Descripción del problema}
+\begin{itemize}
+    \item Un problema común en el estudio de tiempos y movimientos en el ensamble de un circuito electrónico es la identificación de movimientos innecesarios o ineficientes que afectan la productividad y la calidad del producto final. Por ejemplo, uno de los problemas que puede surgir es la falta de estandarización en el proceso de ensamble, lo que lleva a variaciones en los tiempos de ciclo y en la calidad de los productos ensamblados.
+En un entorno de producción de circuitos electrónicos, donde se ensamblan múltiples componentes en un espacio reducido, los trabajadores pueden enfrentar dificultades para acceder a los materiales y herramientas necesarios, lo que resulta en movimientos adicionales y tiempos de espera. Esto puede llevar a una disminución en la eficiencia y a un aumento en los tiempos de ciclo, lo que afecta la capacidad de la empresa para cumplir con los plazos de entrega y satisfacer las demandas del mercado.
+Además, la falta de ergonomía en el diseño de estaciones de trabajo y herramientas puede resultar en movimientos repetitivos o posturas incómodas para los trabajadores, lo que aumenta el riesgo de lesiones y fatiga laboral. Esto no solo afecta la salud y seguridad de los empleados, sino que también puede afectar la calidad del trabajo realizado y la eficiencia del proceso de ensamble en su conjunto.
+Otro problema común es la falta de capacitación adecuada para los trabajadores en cuanto a las mejores prácticas de ensamble y el uso eficiente de herramientas y equipos. Esto puede resultar en variaciones en los tiempos de ciclo y en la calidad de los productos ensamblados, así como en un aumento en los errores y retrabajos.
+En resumen, un problema importante en el estudio de tiempos y movimientos en el ensamble de circuitos electrónicos es la identificación y corrección de movimientos innecesarios, ineficientes o ergonómicamente desfavorables que afectan la productividad, la calidad y la seguridad en el lugar de trabajo. Resolver estos problemas requiere un enfoque sistemático que incluya la estandarización de procesos, el diseño ergonómico de estaciones de trabajo, la capacitación adecuada para los trabajadores y la implementación de mejoras continuas en el proceso de ensamble.
+\end{itemize}
+
+\textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+% 
+% 
+\section{Fundamentación teórica}
+
+\begin{itemize}
+    \item 
+El problema identificado anteriormente se manifiesta en diversas áreas del proceso de ensamble. Por un lado, la falta de estandarización en los métodos de trabajo puede dar lugar a variaciones en los tiempos de ciclo y en la calidad de los productos ensamblados. Esta falta de consistencia puede deberse a la falta de procedimientos claros, a la improvisación por parte de los trabajadores o a la ausencia de herramientas y equipos estandarizados.
+Además, la ergonomía juega un papel crucial en el proceso de ensamble. Las estaciones de trabajo mal diseñadas o las herramientas inadecuadas pueden resultar en movimientos repetitivos, posturas incómodas y riesgos de lesiones para los trabajadores. Estos problemas no solo afectan la salud y seguridad de los empleados, sino que también pueden afectar la eficiencia y la calidad del trabajo realizado.
+En cuanto a las metodologías utilizadas para abordar estos problemas, es importante considerar una variedad de enfoques. El mapeo de procesos es una herramienta útil para visualizar y comprender el flujo de trabajo en el proceso de ensamble, identificando áreas de redundancia o ineficiencia. La observación directa y el cronometraje continuo permiten registrar y analizar los movimientos y tiempos de trabajo de manera precisa. El análisis de micro movimientos descompone las actividades en acciones más pequeñas y observables, facilitando la identificación de movimientos innecesarios o ineficientes.\cite{book}
+
+\end{itemize}
+% 
+% 
+\section{Hipótesis}
+
+\begin{itemize}
+    \item Basándonos en la complejidad y los desafíos identificados en el proceso de ensamble de circuitos electrónicos, planteamos la hipótesis de que la aplicación de una metodología integral que integre técnicas de estudio de tiempos y movimientos, principios de ergonomía y herramientas de mejora de procesos permitirá identificar y corregir los movimientos innecesarios e ineficientes en el ensamble. Esta intervención, a su vez, conducirá a una mejora significativa en la productividad, la calidad y la seguridad en el lugar de trabajo, lo que beneficiará tanto a los trabajadores como a la empresa en su conjunto.
+Objetivo:
+Probar la hipótesis planteada mediante la implementación de una intervención integral que integre técnicas de estudio de tiempos y movimientos, principios de ergonomía y herramientas de mejora de procesos en el proceso de ensamble de circuitos electrónicos.
+Acciones:
+Estandarizar los procedimientos de trabajo en el proceso de ensamble, definiendo pasos claros y específicos para cada tarea.
+Diseñar y configurar estaciones de trabajo ergonómicas, asegurando que los trabajadores cuenten con herramientas y equipos adecuados para realizar sus tareas de manera segura y eficiente.
+Realizar capacitaciones y entrenamientos para los trabajadores, proporcionándoles las habilidades y conocimientos necesarios para ejecutar las tareas de ensamble de manera efectiva.
+Implementar técnicas de estudio de tiempos y movimientos, como el mapeo de procesos, la observación directa y el cronometraje continuo, para analizar y medir los movimientos y tiempos de trabajo en el proceso de ensamble.
+Identificar y analizar los movimientos innecesarios o ineficientes en el proceso de ensamble, utilizando herramientas como el análisis de micro movimientos y la identificación de therbligs.
+Desarrollar e implementar mejoras en el proceso de ensamble, enfocadas en la eliminación de movimientos redundantes, la optimización de la secuencia de tareas y la mejora de la ergonomía en las estaciones de trabajo.\cite{book}
+Monitorear y evaluar continuamente los resultados de la intervención, midiendo los indicadores de productividad, calidad y seguridad para determinar el impacto de las mejoras implementadas.
+Al llevar a cabo estas acciones, se pretende probar la hipótesis de que la intervención integral en el proceso de ensamble de circuitos electrónicos conducirá a una mejora significativa en la productividad, la calidad y la seguridad en el lugar de trabajo, respaldando así la validez de la hipótesis planteada.
+\end{itemize}
+% 
+% 
+\section{Objetivo}
+\begin{itemize}
+    \item Probar la hipótesis planteada mediante la implementación de una intervención integral que integre técnicas de estudio de tiempos y movimientos, principios de ergonomía y herramientas de mejora de procesos en el proceso de ensamble de circuitos electrónicos.
+Acciones:
+Estandarizar los procedimientos de trabajo en el proceso de ensamble, definiendo pasos claros y específicos para cada tarea.
+Diseñar y configurar estaciones de trabajo ergonómicas, asegurando que los trabajadores cuenten con herramientas y equipos adecuados para realizar sus tareas de manera segura y eficiente.
+Realizar capacitaciones y entrenamientos para los trabajadores, proporcionándoles las habilidades y conocimientos necesarios para ejecutar las tareas de ensamble de manera efectiva.
+Implementar técnicas de estudio de tiempos y movimientos, como el mapeo de procesos, la observación directa y el cronometraje continuo, para analizar y medir los movimientos y tiempos de trabajo en el proceso de ensamble.
+Identificar y analizar los movimientos innecesarios o ineficientes en el proceso de ensamble, utilizando herramientas como el análisis de micro movimientos y la identificación de therbligs.
+Desarrollar e implementar mejoras en el proceso de ensamble, enfocadas en la eliminación de movimientos redundantes, la optimización de la secuencia de tareas y la mejora de la ergonomía en las estaciones de trabajo.
+Monitorear y evaluar continuamente los resultados de la intervención, midiendo los indicadores de productividad, calidad y seguridad para determinar el impacto de las mejoras implementadas.
+Al llevar a cabo estas acciones, se pretende probar la hipótesis de que la intervención integral en el proceso de ensamble de circuitos electrónicos conducirá a una mejora significativa en la productividad, la calidad y la seguridad en el lugar de trabajo, respaldando así la validez de la hipótesis planteada.
+
+\end{itemize}
+
+Son actividades orientadas al cumplimiento del objetivo general. Se establecen con verbos activos en infinitivo. Son parte de la acción encaminada a probar la hipótesis. Éstos deben ser precisos, y en lo posible evitar aspectos metodológicos.
+% 
+% 
+\section{Cuerpo (Metodología, modelo matemático, etc.)}
+
+Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto deberá ser desglosada precisada y ordenada claramente. En consecuencia cada objetivo que se presentó en forma de verbo en infinitivo deberá determinar una estrategia en forma de adverbio. Ej. Desarrollar…Desarrollo. Son las actividades ordenadas que tienen como finalidad la prueba de la hipótesis. 
+
+\begin{itemize}
+    \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
+    \item Se debe desglosar de acuerdo a los objetivos específicos. 
+    \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
+    \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
+    \item Se deben tener referencias Figura \ref{fig:lcd-16x2}.
+\end{itemize}
+%
+% 
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.5]{20/img/MetodologÍa.pdf}
+    \caption{Esquema LCD de 16x2}
+    \label{fig:lcd-16x2}
+\end{figure}
+% 
+% 
+\subsection{Prepara tu documento}
+
+Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+
+\subsection{Acrónimos y Abreviaciones}
+
+Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+
+\subsection{Ecuaciones}
+
+Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+
+\begin{equation}
+    \label{eq1}
+    x + y = z 
+\end{equation}
+
+Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+
+\section{Resultados y discusión}
+
+Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+
+\subsection{Autores y Afiliaciones}
+
+Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+
+\subsection{Identificar los encabezados}
+
+Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+
+\subsection{Tablas y Figuras}
 
 \begin{enumerate}
-    \item Exacto: Se define con respecto a su cercania (sesgo), mayor cercania implica un buen grado de exatitud.
-    \item Preciso:Es la variacion o dispercion para variacion, significa un buen grado de precision.
-    \item Estudio de movimientos y tiempos: Analisis de metodos, materiales, herramientas e instalación utilizada o que se ha de utilizar en la ejecución de un trabajo.
-    \item Estudio: Trabajo empleado en aprender y cultivar una ciencia o arte.
-    \item Trabajo: Cosa que es resultado de la actividad humana.
-    \item Analisis: Distinción y separación de las partes de algo para conocer su composición. 
-    \item Sistema: Conjunto de cosas que relacionadas entre sí ordenadamente contribuyen a determinado objeto.
-    \item Tiempo: Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.
-    \item Determinar: Determinar o resolver con anticipación algo.
-    \item Sistemas de Tiempo Predeterminados: Conjunto de reglas o metodos para determinar con anticipacion la secuencia de 
-    sucesos.
-    \item Therbligs:  Son los diecisiete movimientos en los que se puede subdividir cualquier tarea laboral para estudiar la productividad motriz de un operador en su estación de trabajo.
-    \item Muestreo:  Acción de escoger muestras que describan de manera exactas las características de un conjunto de datos que permitirán deducir y sacar conclusiones del fenómeno a estudiar.
-    \item Inferir: Deducir algo o sacarlo como conclusión de otra cosa.
-    \item STP: Conjunto de reglas o metoddos para determinar con anticipacion a la secuencia de sucesos.
-    \item Alcanzar: Se entiende el movimiento realizado con la mano vacia.
-    \item Mover: Se refiere al movimiento con un objeto en la mano.
-    \item Muestreo de Trabajo: Es una tecnica de medicion que permite obtener una estimacion del tiempo que un trabajador dedica para realizar una actividad predeterminado.
-    \item Sistemas detallados: Son aquellos que proporcionan subdivisiones precisas de los movimientos del los miembros del cuerpo.
-    \item Sistemas de tablas condensadas: Contienen tablas de tiempos de duracion de movimientos combinados, lo que requiere un analisis menos detallado de los metodos de trabajo.
-     \item Motion Time Analiysis(MTA).
-    \item WORK FACTOR(WF)(FACTOR D ETRABAJO).
-    \item Methods Time Measurement (MTM) (Medicion de Tiempos de Metodo)
-    \item Micro Motion Analysis (MICRO)=(Analisis De Micromovimiento)
-    \item Basic Motion Time Study(BMT)=(Estudio Basico Del Tiempo De Movimiento)
+    \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
 \end{enumerate}
+
+\section{Conclusiones}
+
+Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+
+\section{Agradecimientos}
+
+Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+
+\section*{Referencias}
+
+
+% Ejemplo
+%  @Article{article,
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Article Title",
+% 	volume = "30",
+% 	number = "30",
+% 	pages = "10127-10134",
+% 	year = "2013",
+% 	doi = "10.3389/fnins.2013.12345",
+% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+% 	journal = "Frontiers in Neuroscience"
+% }
+
+% @book{book,
+%   author    = {Author Name}, 
+%   title     = {The title of the work},
+%   publisher = {The name of the publisher},
+%   address   = {The city},
+%   year      = 1993,
+% }
+
+% @incollection{chapter,
+%   author       = {Bauthor Surname}, 
+%   title        = {The title of the work},
+%   editor       = {Editor Name},
+%   booktitle    = {The title of the book},
+%   publisher    = {The name of the publisher},
+%   address      = {The city},
+%   year         = 2002,
+%   pages        = {201-213},
+% }
+
+% @InProceedings{conference,
+%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+%   title = {The title of the work},
+%   booktitle = {The title of the conference proceedings},
+%   year = 1996,
+%   publisher = {The name of the publisher},
+%   editor = {Editor Name1 and Editor Name2},
+%   pages = {41-50},
+% }
+
+% @book{cho,
+%   author       = {Gauthor Name1}, 
+%   title        = {The title of the work},
+%   publisher = {Country code and patent number},
+%   address      = {Patent Country},
+%   year = 2013
+% }
+
+% @book{patent,
+%   author    = {Hauthor Surname1}, 
+%   title     = {The title of the work},
+%   publisher = {Patent number},
+%   address   = {Patent country},
+%   year      = 2010,
+% }
+
+% % please use misc for datasets
+% @misc{dataset, 
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Data Title",
+% 	year = "2011",
+% 	doi = "10.000/55555",
+% 	URL = "http://www.frontiersin.org/",
+% }
+
+\bibliographystyle{ieeetr}
+\bibliography{20/referencias
+}
+% 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+\centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:pines}
+\includepdf[pages=-]{20/img/MetodologÍa.pdf}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
