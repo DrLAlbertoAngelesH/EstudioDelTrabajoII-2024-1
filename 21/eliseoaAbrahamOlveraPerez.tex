@@ -154,8 +154,8 @@
     
     Esto facilitará la identificación de áreas de oportunidad para su optimización mediante la eliminación de movimientos o la incorporación de soportes de sujeción. 
     
-     A continuación se muestra la lista de los materiales, la cantidad y el nombre de los mismos que son necesarios para el ensamble. 
-     Y a continuación de esta lista se muestra el Manual de ensamble circuito electrónico ESP32-C6.
+     A continuación se muestra la lista de los materiales, la cantidad y el nombre de los mismos que son necesarios para el ensamble.\ref{anexo:listaDeMateriales.pdf}
+     Y a continuación de esta lista se muestra el Manual de ensamble circuito electrónico ESP32-C6.\ref{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
     
     %\begin{itemize}
      %   \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
@@ -164,15 +164,6 @@
         %\item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
         %\item Se deben tener referencias Figura.
     %\end{itemize}
-    
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-    \includepdf[pages=-]{21/img/Lista de materiales.pdf}
-    \label{anexo:Lista de materiales.pdf}
-    
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-    \includepdf[pages=-]{21/img/Manual de ensable circuito electrónico ESP32-C6.pdf}
-    \label{anexo:Manual de ensable circuito electrónico ESP32-C6.pdf}
-    
     \subsection{Prepara tu documento}
     
     Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
@@ -226,8 +217,7 @@
     \section{Agradecimientos}
     
     Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
-    \bibliographystyle{ieeetr}
-    \bibliography{21/referencias}
+    
     % 
     % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -235,4 +225,14 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \centering{\section[\appendixautorefname{}]
+    {APÉNDICE}}\label{anexo:listaDeMateriales.pdf}
+    \includepdf[pages=-]{21/img/listaDeMateriales.pdf}
+    %
+    \centering{\section[\appendixautorefname{}]
+    {APÉNDICE}}\label{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    \includepdf[pages=-]{21/img/manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \newpage
+    \bibliographystyle{ieeetr}
+    \bibliography{21/referencias}
