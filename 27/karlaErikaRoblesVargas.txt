@@ -9,6 +9,318 @@
 \item Análisis: Distinción y separación de las partes de un todo hasta llegar a conocer sus principios o elementos.
 \item Tiempo: Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro.
 \item Alcanzar: Llegar a poseer lo que se busca o solicita. lograr, obtener, llegar, conseguir \cite{RAE}.
-
+\item Inferir: Sacar una consecuencia o deducir algo de otra cosa.
+\item Muestra pequeña: Ofrece un costo bajo de información; pero se corre un gran riesgo de que la muestra no sea representativa de la población.
+\item Muestra grande: Tiene un costo elevado de información; pero disminuye el riesgo de que la muestra no sea representativa de la población.
+\item Mover: Se refiere al movimiento con un objeto en la mano.
+\item Datos históricos: Son datos estáticos o casi en tiempo real.
+\item Registro: Es el espacio físico o virtual donde se deja constancia de un hecho, o el acto de hacer lo mismo.
 
 \end{enumerate}
+
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+\end{tikzpicture}}
+\rhead{Robles-Vargas}
+\rfoot{\begin{tikzpicture}[remember picture, overlay]
+\node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+\end{tikzpicture}}
+%----------------------------------------------------------------------------------------
+\lfoot{ \thepage}
+% \renewcommand{\labelenumi}{\alph{enumi}.)} 
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\setlength{\droptitle}{-5\baselineskip} % Move the title up
+\title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
+
+ \author{ 
+ \textsc{Robles- Vargas, Nombre/s}\\ 
+%  Afiliación:
+ \texttt{Instituto Tecnológico del Estado de Querétaro } \\ 
+ \texttt{Nombre de la Organización } \\ 
+ \texttt{Querétaro, Qro.}\\ 
+ \texttt{l22140281@queretaro.tecnm.mx} 
+ \and 
+ \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+%  Afiliación:
+ \texttt{ Instituto Tecnológico de Querétaro } \\ 
+ \texttt{ Tecnológico Nacional de México } \\ 
+ \texttt{Querétaro, México}\\ 
+ \texttt{alb3rt0.ah@gmail.com} 
+}
+
+
+%----------------------------------------------------------------------------------------
+
+% \begin{document}
+
+% Print the title
+\maketitle
+\thispagestyle{fancy}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+% \section*{Resumen}
+% \textit{Palabras clave:}
+% El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+
+\begin{abstract}
+\noindent 
+Los estudios de tiempos y movimientos son de gran importancia en las industrias por que permiten conocer con mayor exactitud los tiempos de entrega de la producción y establecer el tipo de empleado estándar para determinada operación. El análisis descrito en este proyecto tiene por objetivo identificar inconvenientes en la productividad de los operadores al estar siguiendo las instrucciones de un manual o viendo imágenes especificas de nuestro ensamble. Aplicaremos un estudio de movimientos y tiempos, describiendo las actividades que realizamos en la recolecta de nuestros datos. Nuestro fin de todo esto, es poder hallar una solución a posibles inconvenientes y dar otros métodos de mejoras.\cite{book}
+
+\end{abstract}
+% 
+% 
+\textbf{\textit{Palabras clave}}: {Tiempos-movimientos; Productividad; Eficiencia; Estandarizar.}
+% \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+
+\section{Introducción}
+
+% Define estudio de tiempos y movimientos
+% define que es ensamble
+% define que es circuito electronico
+% define el metodo de tiempos predeterminados
+% define optimización
+\begin{itemize}
+    \item Estudio de tiempos y movimientos: Es una técnica de ingeniería industrial que se utiliza para analizar y mejorar los procesos de trabajo. Este estudio involucra el análisis detallado de cada paso del proceso para identificar ineficiencias, desperdicios de tiempo y movimientos innecesarios. El objetivo principal es aumentar la eficiencia y la productividad al eliminar actividades que no agregan valor y optimizar los movimientos de los trabajadores. 
+    \item Ensamble: Se refiere al proceso de unir o ensamblar componentes individuales para formar un producto completo. En el contexto de la fabricación, el ensamblaje implica la unión de partes o componentes para construir un producto final.
+    \item Circuito electrónico: Es un conjunto de componentes electrónicos, como resistencias, capacitores, transistores, y circuitos integrados, interconectados de manera específica para realizar funciones eléctricas específicas. Los circuitos electrónicos se utilizan en una amplia variedad de dispositivos electrónicos, desde teléfonos móviles hasta computadoras y sistemas de control industrial.
+    \item Método de tiempos predeterminados: Es una técnica de estudio de tiempos que utiliza una serie de tiempos estándar predeterminados para calcular la duración de una tarea o actividad. Estos tiempos predeterminados se basan en observaciones históricas o en datos recopilados previamente y se utilizan para estimar el tiempo requerido para realizar una tarea específica sin necesidad de cronometrar cada instancia individualmente.
+    \item Optimización: Es el proceso de hacer que algo sea lo mejor posible o más efectivo, ya sea maximizando el rendimiento, minimizando los costos, reduciendo los tiempos de espera, mejorando la calidad, o alcanzando cualquier otro objetivo deseado. En el contexto de la ingeniería y la gestión de operaciones, la optimización implica identificar y aplicar mejoras en los procesos y sistemas para alcanzar los objetivos deseados de manera eficiente y efectiva.
+\end{itemize}
+% 
+% 
+\section{Justificación}
+ Describiremos cada una de nuestras piezas utilizadas en este proyecto:
+\begin{itemize}
+
+
+    \item LCD (Liquid Crystal Display - Pantalla de Cristal Líquido): Es un dispositivo de visualización que utiliza cristales líquidos para producir imágenes o texto. Las pantallas LCD son comunes en dispositivos electrónicos como teléfonos móviles, computadoras, relojes y paneles de instrumentos. Proporcionan una visualización clara y nítida con bajo consumo de energía.
+    \item Potenciómetro: También conocido como resistencia variable, es un componente electrónico que permite controlar la resistencia eléctrica ajustando un valor manualmente mediante un dial o perilla. Se utiliza para variar el voltaje en un circuito o ajustar el brillo, el volumen u otros parámetros en dispositivos electrónicos.
+    \item ESP32: Es un microcontrolador de bajo costo y bajo consumo de energía fabricado por Espressif Systems. Cuenta con conectividad Wi-Fi y Bluetooth integrada, lo que lo hace ideal para aplicaciones de Internet de las Cosas (IoT), proyectos de automatización del hogar, dispositivos portátiles y muchas otras aplicaciones.
+    \item Cable Macho-Macho: Es un cable que tiene conectores macho en ambos extremos. Se utiliza para conectar dispositivos electrónicos entre sí, como por ejemplo para conectar una computadora a una impresora, o para establecer conexiones entre dispositivos en un circuito electrónico.
+    \item Cable Macho-Hembra: Es un cable que tiene un conector macho en un extremo y un conector hembra en el otro extremo. Se utiliza para conectar dispositivos electrónicos con diferentes tipos de conectores, por ejemplo para conectar una tarjeta de expansión a una placa base.
+    \item Resistencias: Son componentes electrónicos diseñados para limitar el flujo de corriente en un circuito eléctrico. Se utilizan para controlar la intensidad de la corriente, reducir la tensión, dividir la tensión, polarizar componentes activos y muchas otras aplicaciones en electrónica.
+    \item Interfaz de conexión I2C para la LCD: I2C (Inter-Integrated Circuit) es un protocolo de comunicación serial que permite la comunicación entre microcontroladores y dispositivos periféricos utilizando solo dos líneas de señal: SDA (línea de datos serial) y SCL (línea de reloj serial). La interfaz de conexión I2C para la LCD permite conectar la pantalla LCD a un microcontrolador utilizando el protocolo I2C para la transferencia de datos y control.
+    \item Cable USB: Es un cable que se utiliza para conectar dispositivos electrónicos a una computadora u otros dispositivos host para la transferencia de datos, la carga de energía y la comunicación. 
+    \item Protoboard: También conocida como placa de pruebas o placa de circuito experimental, es una herramienta utilizada por los ingenieros y los estudiantes para construir y probar circuitos electrónicos sin necesidad de soldadura. Consiste en una placa con agujeros en los que se pueden insertar componentes electrónicos y conectarlos entre sí mediante cables o jumpers.
+    \item Conector base de luz: Se refiere a un conector utilizado para conectar una base de luz, como una lámpara o un dispositivo de iluminación, a una fuente de alimentación eléctrica. Estos conectores pueden variar en diseño y tipo dependiendo del tipo de base de luz y la fuente de alimentación utilizada.
+    
+\end{itemize}
+% 
+% 
+\section{Descripción del problema}
+ Uno de los problemas principales en los estudios de tiempos y movimientos en el ensamble de un circuito electrónico es la complejidad inherente de los procesos de manufactura electrónica y la interacción de múltiples variables que pueden afectar la eficiencia y la productividad. Como por ejemplo:
+  
+    \textbf{Variedad de componentes:} Los circuitos electrónicos pueden estar compuestos por una amplia variedad de componentes, como resistencias, capacitores, transistores, circuitos integrados, entre otros. Cada uno de estos componentes puede tener diferentes requerimientos de ensamble, lo que complica la estandarización de los procesos.
+    %
+    \textbf{Tolerancias y precisión:} Muchos de los componentes electrónicos requieren de ensamblaje con alta precisión y tolerancias estrechas. Esto puede aumentar la complejidad del proceso y requerir técnicas de ensamblaje más delicadas y precisas.
+    %
+    \textbf{Diversidad de métodos del ensamblaje:} Existen diferentes métodos de ensamblaje para circuitos electrónicos, como el ensamblaje en superficie (SMT), el ensamblaje a través de orificios (THT), y el ensamblaje manual. Cada uno de estos métodos tiene sus propias ventajas y desafíos, lo que dificulta la elección del método óptimo para un caso específico.
+    %
+    \textbf{Riesgos de daño:} Los componentes electrónicos son sensibles y susceptibles al daño durante el proceso de ensamblaje. La manipulación inadecuada, la soldadura incorrecta o la aplicación de calor excesivo pueden resultar en componentes dañados, lo que puede aumentar los costos de producción y disminuir la calidad del producto final.
+    %
+    \textbf{Tiempos de ciclos:} En muchos casos, los tiempos de ciclo son críticos en la manufactura electrónica, especialmente en entornos de producción en masa. Cualquier retraso o ineficiencia en el proceso de ensamblaje puede afectar negativamente la productividad y la rentabilidad del proceso.
+
+
+\textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+% 
+% 
+\section{Fundamentación teórica}
+
+ Los estudios de tiempos y movimientos en el ensamble de circuitos electrónicos se fundamentan en diversas teorías y conceptos de la ingeniería industrial, la gestión de operaciones y la psicología del trabajo, que proporcionan las bases teóricas y metodológicas para analizar, optimizar y mejorar el proceso de ensamblaje.\cite{book}
+\begin{itemize}
+    \item Teoría del tiempo y movimiento de Taylor: Desarrollada por Frederick Taylor a finales del siglo XIX, esta teoría se centra en el análisis de los movimientos necesarios para realizar una tarea y la determinación de los tiempos estándar requeridos para completarla. Su enfoque en la eficiencia y la eliminación de movimientos innecesarios sienta las bases para los estudios de tiempos y movimientos en el ensamble de circuitos electrónicos.
+    \item Métodos de estudio de tiempos: Estos métodos, como el método de la mejor práctica y el método de tiempos predeterminados, proporcionan herramientas y técnicas para medir y analizar los tiempos requeridos para realizar diferentes actividades en el ensamble de circuitos electrónicos. Permiten establecer tiempos estándar y identificar oportunidades de mejora en el proceso de ensamblaje.
+    \item Teoría de la optimización: La optimización se refiere al proceso de hacer que algo sea lo mejor posible o más efectivo. En el contexto de los estudios de tiempos y movimientos, la optimización se aplica para mejorar la eficiencia, la productividad y la calidad del proceso de ensamblaje de circuitos electrónicos. Se utilizan técnicas de optimización para identificar y aplicar mejoras en el proceso con el objetivo de maximizar el rendimiento y minimizar los costos.
+    \item Teoría de la ergonomía: La ergonomía se centra en el diseño de los lugares de trabajo y los equipos para adaptarlos a las capacidades y necesidades de los trabajadores. En el ensamble de circuitos electrónicos, la ergonomía juega un papel importante en el diseño de estaciones de trabajo, la disposición de herramientas y equipos, y la prevención de lesiones y fatiga laboral.
+    \item Teoría de la calidad: La teoría de la calidad se refiere a los principios y prácticas utilizados para garantizar la calidad de los productos y procesos. En el ensamble de circuitos electrónicos, se aplican técnicas de control de calidad y mejora continua para garantizar que los productos cumplan con los estándares de calidad establecidos y para identificar y corregir cualquier defecto o problema de manera oportuna.
+\end{itemize}
+% 
+% 
+\section{Hipótesis}
+
+Utilizando diferentes métodos para su optimización pueden variar según los objetivos específicos del estudio y las variables que se estén evaluando. Aquí hay algunas hipótesis que podrían plantearse:
+
+
+\begin{itemize}
+    \item Hipótesis nula (H0): No existe diferencia significativa en los tiempos de ensamblaje entre los diferentes métodos utilizados para optimizar el proceso.
+    \item Hipótesis alternativa (H1): Existe una diferencia significativa en los tiempos de ensamblaje entre al menos dos de los métodos utilizados para optimizar el proceso.
+    \item Hipótesis nula (H0): No hay una correlación significativa entre la disposición de las estaciones de trabajo y la eficiencia del proceso de ensamblaje.
+    \item Hipótesis alternativa (H1): Existe una correlación significativa entre la disposición de las estaciones de trabajo y la eficiencia del proceso de ensamblaje, de modo que una disposición optimizada resultará en tiempos de ensamblaje más cortos.
+    \item Hipótesis nula (H0): La aplicación de técnicas de ingeniería de métodos no tendrá un impacto significativo en la eficiencia del proceso de ensamblaje.
+    \item Hipótesis alternativa (H1): La aplicación de técnicas de ingeniería de métodos resultará en una mejora significativa en la eficiencia del proceso de ensamblaje, reduciendo los tiempos de ensamblaje y/o aumentando la productividad.
+\end{itemize}
+% 
+% 
+\section{Objetivo}
+
+El objeto de un estudio de movimientos es eliminar o mejorar elementos innecesarios que podrían afectar la productividad, seguridad, y calidad de la producción. Un estudio de tiempos consiste en la
+determinación del tiempo que requiere completar un proceso, actividad, tarea o paso específico. La productividad se mide por el grado de eficiencia con que se emplean los recursos humanos y otros para alcanzar los objetivos empresariales. Esto quiere decir que se debe aplicar técnicas que permitan
+medir este grado de eficiencia. Para equilibrar la línea de trabajo, eliminar o reducir los movimientos no efectivos y acelerar los efectivos, se debe emplear un método. El estudio de tiempo y movimiento es una herramienta la cual sirve para determinar los tiempos estándar de cada una de las operaciones que componen cualquier proceso, así como para analizar los movimientos que son realizados por parte de un operario para llevar a cabo dicha operación.\cite{touraine2006movimientos}
+\begin{itemize}
+\item
+\end{itemize}
+
+\subsection{Objetivos específicos }
+
+\begin{itemize}
+    \item Los objetivos específicos de un estudio de tiempos y movimientos en el ensamblaje de un circuito electrónico utilizando diferentes métodos para su optimización podrían incluir:
+    \item Identificar actividades que consumen tiempo: Analizar detalladamente cada paso del proceso de ensamblaje para identificar las actividades que consumen más tiempo y recursos.
+    \item Evaluar la eficiencia de los movimientos: Estudiar los movimientos realizados por los trabajadores durante el ensamblaje para identificar movimientos innecesarios, repetitivos o que generan fatiga.
+    \item Determinar tiempos estándar: Establecer tiempos estándar para cada tarea del proceso de ensamblaje utilizando métodos como el MTM (Método de Tiempos Predeterminados) u otras técnicas de estudio de tiempos.
+    \item Comparar métodos de ensamblaje: Evaluar diferentes métodos de ensamblaje, como el ensamblaje en línea, el ensamblaje en células de trabajo o el ensamblaje por lotes, para determinar cuál es el más eficiente en términos de tiempo y recursos.
+    \item Optimizar la disposición de las estaciones de trabajo: Diseñar y optimizar la disposición de las estaciones de trabajo para minimizar los desplazamientos de los trabajadores y reducir el tiempo de espera entre tareas.
+    \item Aplicar técnicas de ingeniería de métodos: Utilizar técnicas de ingeniería de métodos, como el análisis de micromovimientos y el análisis de procesos, para identificar y eliminar actividades que no agregan valor al proceso de ensamblaje.
+    \item Implementar mejoras: Implementar mejoras en el proceso de ensamblaje basadas en los resultados del estudio de tiempos y movimientos, con el objetivo de aumentar la eficiencia, reducir los costos y mejorar la calidad del producto final.
+    \item Evaluar el impacto de las mejoras: Evaluar el impacto de las mejoras implementadas en términos de reducción de tiempos de producción, aumento de la productividad y mejora en la calidad del producto final.
+    \item Capacitar al personal: Capacitar al personal en los nuevos métodos y procedimientos de trabajo para garantizar la correcta implementación de las mejoras y mantener los estándares de eficiencia a largo plazo.
+    \item Monitorear y ajustar: Monitorear continuamente el proceso de ensamblaje para identificar posibles áreas de mejora y realizar ajustes según sea necesario para mantener y mejorar la eficiencia del proceso a lo largo del tiempo.
+\end{itemize}
+
+Las especificaciones de los estudios de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización pueden variar según los objetivos específicos del estudio y las características del proceso de ensamblaje.
+% 
+% 
+\section{Cuerpo (Metodología, modelo matemático, etc.)}
+
+Definición de objetivos: Establecer claramente los objetivos del estudio, como mejorar la eficiencia del proceso de ensamblaje, reducir los tiempos de producción, aumentar la productividad o mejorar la calidad del producto final.
+Selección de métodos de ensamblaje: Identificar y seleccionar los diferentes métodos de ensamblaje que se van a evaluar y comparar en el estudio. Esto puede incluir métodos como ensamblaje manual, ensamblaje automatizado, ensamblaje en línea, ensamblaje en células de trabajo, entre otros.
+Diseño del experimento: Diseñar un experimento que permita comparar los diferentes métodos de ensamblaje de manera objetiva y rigurosa. Esto puede implicar la creación de prototipos, el desarrollo de un plan de ensayo y la definición de las métricas de evaluación, como tiempos de ciclo, productividad, calidad del producto, entre otros.
+Recopilación de datos: Recolectar datos relevantes durante el ensamblaje de los circuitos electrónicos utilizando los diferentes métodos seleccionados. Esto puede incluir el registro de tiempos de ciclo, observaciones cualitativas sobre el proceso de ensamblaje y cualquier otra información pertinente para la evaluación de los métodos.
+Seguimiento y ajuste: Monitorear continuamente el proceso de ensamblaje después de implementar las mejoras y realizar ajustes adicionales según sea necesario para garantizar la sostenibilidad de los resultados y la mejora continua del proceso.
+
+% 
+% 
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim = {30mm 65mm 90mm 250mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
+    \caption{Esquema LCD de 16x2}
+    \label{fig:lcd-16x2}
+\end{figure}
+% 
+% 
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim = {30mm 250mm 90mm 20mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
+    \caption{Esquema LCD de 16x2}
+    \label{fig:lcd-16x2}
+\end{figure}
+% 
+% 
+
+
+\section{Resultados y discusión}
+
+Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+
+
+\subsection{Tablas y Figuras}
+
+\begin{enumerate}
+    \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+\end{enumerate}
+
+\section{Conclusiones}
+
+proporcionan información valiosa para tomar decisiones estratégicas y mejorar de manera continua el proceso de ensamblaje, con el objetivo de aumentar la eficiencia, reducir los costos y mejorar la calidad del producto final.
+
+
+\section*{Referencias}
+
+Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+Véase el link \cite{prueba}.
+
+% Ejemplo
+%  @Article{article,
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Article Title",
+% 	volume = "30",
+% 	number = "30",
+% 	pages = "10127-10134",
+% 	year = "2013",
+% 	doi = "10.3389/fnins.2013.12345",
+% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+% 	journal = "Frontiers in Neuroscience"
+% }
+
+% @book{book,
+%   author    = {Author Name}, 
+%   title     = {The title of the work},
+%   publisher = {The name of the publisher},
+%   address   = {The city},
+%   year      = 1993,
+% }
+
+% @incollection{chapter,
+%   author       = {Bauthor Surname}, 
+%   title        = {The title of the work},
+%   editor       = {Editor Name},
+%   booktitle    = {The title of the book},
+%   publisher    = {The name of the publisher},
+%   address      = {The city},
+%   year         = 2002,
+%   pages        = {201-213},
+% }
+
+% @InProceedings{conference,
+%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+%   title = {The title of the work},
+%   booktitle = {The title of the conference proceedings},
+%   year = 1996,
+%   publisher = {The name of the publisher},
+%   editor = {Editor Name1 and Editor Name2},
+%   pages = {41-50},
+% }
+
+% @book{cho,
+%   author       = {Gauthor Name1}, 
+%   title        = {The title of the work},
+%   publisher = {Country code and patent number},
+%   address      = {Patent Country},
+%   year = 2013
+% }
+
+% @book{patent,
+%   author    = {Hauthor Surname1}, 
+%   title     = {The title of the work},
+%   publisher = {Patent number},
+%   address   = {Patent country},
+%   year      = 2010,
+% }
+
+% % please use misc for datasets
+% @misc{dataset, 
+% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+% 	title = "Data Title",
+% 	year = "2011",
+% 	doi = "10.000/55555",
+% 	URL = "http://www.frontiersin.org/",
+% }
+
+\bibliographystyle{ieeetr}
+\bibliography{27/referencias}
+% 
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+\centering{\section[\appendixautorefname{}]{APÉNDICE}}
+\includepdf[pages=-]{27/img/camelCase.pdf}
+\includepdf[pages=-]{27/img/camelCase2.pdf}
+\includepdf[pages=-]{27/img/camelCase3.pdf}
+\label{anexo:pines}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
