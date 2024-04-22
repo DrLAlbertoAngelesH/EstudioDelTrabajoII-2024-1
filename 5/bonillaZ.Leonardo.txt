@@ -1,7 +1,7 @@
 \lhead{\begin{tikzpicture}[remember picture, overlay]
 \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
 \end{tikzpicture}}
-\rhead{Ángeles-Hurtado}
+\rhead{Bonilla Z.}
 \rfoot{\begin{tikzpicture}[remember picture, overlay]
 \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
 \end{tikzpicture}}
@@ -56,7 +56,7 @@ El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Ado
 \end{abstract}
 % 
 % 
-\textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+\textbf{\textit{Palabras clave}}: {Estudio, análisis, tiempo, movimiento, estandarización, empresa, optimización, operación, muestra}
 % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
 
 \section{Introducción}
@@ -66,7 +66,18 @@ Las metodologías más utilizadas en el estudio de trabajo incluyen la metodolog
 
 El objetivo principal del estudio de trabajo es incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. Se busca mejorar la productividad de una fábrica o instalación mediante la reorganización del trabajo, método que generalmente requiere poco o ningún desembolso de capital para instalación o equipo.
 
-En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleo sal 2025.
+En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
+
+\subsection{Definiciones}
+   \begin{enumerate}
+       \item Git: Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
+       \item GitHub: GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
+       \item Visual Studio Code: Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Incluye soporte para la depuración, control integrado de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código
+       \item Estudio del trabajo: El estudio del trabajo es una evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Este análisis permite optimizar procesos, incrementar la productividad y reducir costos. Se basa en técnicas como el estudio de métodos y la medición del trabajo.
+       \item Optimización: Optimización hace referencia a la acción y efecto de optimizar. En términos generales, se refiere a la capacidad de hacer o resolver alguna cosa de la manera más eficiente posible y, en el mejor de los casos, utilizando la menor cantidad de recursos.
+       \item Teorema del límite central: El teorema central del límite o teorema del límite central indica que, en condiciones muy generales, si es la suma de variables aleatorias independientes, con media y varianza finitas, entonces la función de distribución de «se aproxima bien» a una distribución normal. 
+       \item Un Estudio de tiempos y movimientos es una técnica de eficiencia en el negocio que combina el trabajo de Estudio de Tiempos realizado por Frederick Winslow Taylor junto con el trabajo de Estudio de Movimientos de Frank y Lillian Gilbreth. Es un trabajo mayoritariamente de la Administración científica.
+   \end{enumerate}
 
 % Define estudio de tiempos y movimientos
 % define que es ensamble
@@ -244,9 +255,9 @@ En resumen, un potenciómetro es una herramienta esencial en el campo de la elec
 
 Multicontacto: Un multicontacto de 5 tomacorrientes es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
 
-Funciones: La principal función de un multicontacto es proporcionar múltiples tomas de corriente a partir de una sola toma de pared. Esto es especialmente  útil en áreas donde las tomas de corriente son limitadas. Los puertos USB permiten cargar dispositivos como teléfonos móviles, tabletas y otros dispositivos compatibles con USB. Algunos modelos de multicontactos también incluyen protección contra sobrecargas, lo que ayuda a proteger los dispositivos conectados de posibles daños causados por picos de voltaje. Características importantes: Este tipo de multicontacto puede soportar una potencia nominal de hasta 2500W.
+Funciones: La principal función de un multicontacto es proporcionar múltiples tomas de corriente a partir de una sola toma de pared. Esto es especialmente  útil en áreas donde las tomas de corriente son limitadas. Los puertos USB permiten cargar dispositivos como teléfonos móviles, tabletas y otros dispositivos compatibles con USB. Algunos modelos de multicontactos también incluyen protección contra sobrecargas, lo que ayuda a proteger los dispositivos conectados de posibles daños causados por picos de voltaje. Características importantes: Este tipo de multicontacto puede soportar una potencia nominal de hasta 2500 W.
 
-Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
+Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
 En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. 
 
@@ -257,6 +268,13 @@ Composición y fabricación: Los cables tipo C a C están compuestos por dos con
 Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
 
 En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica.
+
+
+
+%
+%
+%
+%
 
 \includepdf[pages=1-]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
 \label{anexoCable tipo c a c_ Bonilla.Z.Leonardo_Dibujo}
@@ -300,22 +318,7 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 
 \includepdf[pages=1-]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.pdf}
 \label{anexo:Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo}
-% 
-% 
-\begin{figure}[H]
-    \centering
-    \includegraphics[trim = {30mm 65mm 90mm 250mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
-    \caption{Esquema LCD de 16x2}
-    \label{fig:lcd-16x2}
-\end{figure}
-% 
-% 
-\begin{figure}[H]
-    \centering
-    \includegraphics[trim = {30mm 250mm 90mm 20mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
-    \caption{Esquema LCD de 16x2}
-    \label{fig:lcd-16x2}
-\end{figure}
+
 % 
 % 
 \subsection{Prepara tu documento}
@@ -458,7 +461,5 @@ Véase el link \cite{prueba}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
 % 
-\centering{\section[\appendixautorefname{}]{APÉNDICE}}
-\includepdf[pages=-]{5/Img/pines.pdf}
-\label{anexo:pines}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
