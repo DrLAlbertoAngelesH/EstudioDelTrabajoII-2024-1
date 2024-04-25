@@ -1,17 +1,333 @@
-\section{José Natividad Mireles Navarro}
-\subsection{Definiciones}
-
-
-
-\begin{enumerate}
-    \item Muestreo : Acción de escoger muestras representativas de la calidad o condiciones medias de un todo.
-    \item Muestra : Porción de un producto o mercancía que sirve para conocer la calidad del género.
-    \item Tiempo ;  Magnitud física que permite ordenar la secuencia de los sucesos, estableciendo un pasado, un presente y un futuro, y cuya unidad en el sistema internacional es el segundo.
-    \item Eficiencia: Capacidad de lograr los resultados deseados con el mínimo posible de recursos.
-    \item Optimizar: Buscar la mejor manera de realizar una actividad.
-    \item Movimiento: Estado de los cuerpos mientras cambian de lugar o de posición.
-    \item Estudio de movimiento:Eliminar o mejorar elementos innecesarios que podrían afectar la productividad, seguridad, y calidad de la producción
-    \item Fatiga: Molestia ocasionada por un esfuerzo más o menos prolongado o por otras causas, y que en ocasiones produce alteraciones físicas.
-    \item Método:Modo de obrar o proceder, hábito o costumbre que cada uno tiene y observa.
-    \item Modo: Procedimiento o conjunto de procedimientos para realizar una acción \cite{RAE}.
-\end{enumerate}
+\lhead{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+    \end{tikzpicture}}
+    \rhead{Ángeles-Hurtado}
+    \rfoot{\begin{tikzpicture}[remember picture, overlay]
+    \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+    \end{tikzpicture}}
+    %----------------------------------------------------------------------------------------
+    \lfoot{ \thepage}
+    % \renewcommand{\labelenumi}{\alph{enumi}.)} 
+    %----------------------------------------------------------------------------------------
+    %----------------------------------------------------------------------------------------
+    %	TITLE SECTION
+    %----------------------------------------------------------------------------------------
+    
+    \setlength{\droptitle}{-5\baselineskip} % Move the title up
+    \title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
+    
+     \author{ 
+     \textsc{Mireles Navarro, José Natividad}\\ 
+    %  Afiliación:
+     \texttt{ TecNM campus Qro. } \\ 
+     \texttt{TecNM } \\ 
+     \texttt{Querétaro, México}\\ 
+     \texttt{l22141207@queretaro.tecnm.mx} 
+     \and 
+     \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+    %  Afiliación:
+     \texttt{ Instituto Tecnológico de Querétaro } \\ 
+     \texttt{ Tecnológico Nacional de México } \\ 
+     \texttt{Querétaro, México}\\ 
+     \texttt{alb3rt0.ah@gmail.com} 
+    }
+    
+    
+    %----------------------------------------------------------------------------------------
+    
+    % \begin{document}
+    
+    % Print the title
+    \maketitle
+    \thispagestyle{fancy}
+    
+    %----------------------------------------------------------------------------------------
+    %	ARTICLE CONTENTS
+    %----------------------------------------------------------------------------------------
+    
+    % \section*{Resumen}
+    % \textit{Palabras clave:}
+    % El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \begin{abstract}
+    \noindent 
+    El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    
+    \end{abstract}
+    % 
+    % 
+    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    
+    \section{Introducción}
+    
+    % Define estudio de tiempos y movimientos: 
+    % define que es ensamble:
+    % define que es circuito electronico:
+    % define el metodo de tiempos predeterminados: 
+    % define optimización: Buscar la mejor manera de realizar una actividad.
+    En este proyecto, exploraremos cómo ensamblar un circuito utilizando un controlador ESP32 como el cerebro central, un potenciómetro para controlar un parámetro específico y una pantalla LCD para mostrar información relevante. Este circuito será alimentado mediante un cable USB desde un multicontacto, lo que lo hace adecuado para una variedad de aplicaciones donde se requiere control y monitoreo en tiempo real.
+    
+    Además, examinaremos cómo la aplicación del estudio de tiempos puede conducir a beneficios tangibles, como la reducción de los tiempos de producción, la optimización del uso de recursos y la mejora de la calidad del producto final. También discutiremos cómo la implementación de cambios basados en los resultados del estudio de tiempos puede conducir a mejoras continuas en la eficiencia y la competitividad en el mercado.
+    \begin{itemize}
+        \item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
+        \item Se deben de mencionar las metodologías más usadas muy brevemente. 
+        \item Se debe de señalar el avance en los últimos años.
+        \item Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+        \item Debe de tener Referencias científicas, URL, tesis, etc.
+    \end{itemize}
+    % 
+    % 
+    \section{Justificación}
+    
+    El estudio de tiempos es una herramienta fundamental en la industria manufacturera para mejorar la eficiencia y la productividad en los procesos de ensamblaje. En el caso específico del ensamblaje de circuitos eléctricos, un estudio de tiempos puede ofrecer una serie de beneficios significativos que justifican su implementación.
+    
+    Primero, el ensamblaje de circuitos eléctricos puede ser un proceso altamente repetitivo y detallado, en el que cada paso requiere precisión y rapidez. Un estudio de tiempos permite identificar y eliminar los cuellos de botella, los tiempos muertos y los movimientos innecesarios, lo que resulta en una reducción del tiempo total de ensamblaje.
+    
+    Además, el análisis detallado de los tiempos de cada operación puede ayudar a optimizar la distribución de tareas entre los trabajadores, asignando las actividades de manera más eficiente y equitativa. Esto puede conducir a una mayor motivación y satisfacción laboral, así como a una reducción de la fatiga y el estrés asociados con un trabajo mal distribuido.
+    
+    Otro beneficio importante del estudio de tiempos en el ensamblaje de circuitos eléctricos es la identificación de oportunidades de mejora en los procesos y procedimientos. Al analizar los tiempos de cada operación, es posible identificar áreas donde se pueden implementar cambios para aumentar la eficiencia y la calidad del producto final. Esto puede incluir la introducción de nuevas herramientas o tecnologías, la optimización de la disposición del espacio de trabajo, o la revisión de los métodos de trabajo existentes.
+    
+    %La optimización de procesos de ensamble es fundamental para mejorar la eficiencia y la productividad en entornos industriales. Mediante un estudio de tiempos detallado, podemos identificar áreas de oportunidad para reducir los tiempos de producción, minimizar los tiempos muertos y mejorar la calidad del producto final. Este proyecto tiene como objetivo principal aplicar técnicas de ingeniería industrial para analizar y mejorar el proceso de ensamble, lo que resultará en una reducción de costos, un aumento en la producción y una mayor satisfacción del cliente. Al entender mejor cómo se lleva a cabo el ensamble y dónde se pueden realizar mejoras, podemos optimizar el flujo de trabajo, eliminar cuellos de botella y aumentar la eficiencia operativa. En última instancia, este proyecto contribuirá significativamente a la competitividad y rentabilidad de nuestra empresa en un mercado cada vez más exigente y competitivo.
+    
+    % \begin{itemize}
+       % \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+       % \item Debe de tener Referencias científicas, URL, tesis, etc.
+    % \end{itemize}
+    % 
+    % 
+    \section{Descripción del problema}
+    \begin{itemize}
+        \item El ensamble de circuitos electrónicos presenta desafíos específicos en términos de eficiencia, calidad y costo. En muchos casos, los procesos de ensamble pueden ser propensos a errores humanos, lo que resulta en defectos en los productos finales y un aumento en los costos de volver a realizar el trabajo. Además, la complejidad de los circuitos y la rápida evolución de la tecnología pueden dificultar la estandarización de los procesos de ensamble, lo que lleva a variaciones en la calidad y la consistencia de los productos.
+    
+    %    \item Se debe describir la desviación o diferencia del ``es'' con respecto al ``debe ser''.
+    %    \item Se debe hacer alusión a la incógnita científica*.
+    %  \item Debe de tener Referencias científicas, URL, tesis, etc.
+    \end{itemize}
+    
+    \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento
+    científico.}
+    % 
+    % 
+    \section{Fundamentación teórica}
+    
+    Es la parte medular y de mayor discusión, deberá ser la fundamentación de la hipótesis, por tanto se deberá señalar claramente la razón de la suposición y fundamentación de la misma. Únicamente referencias científicas.
+    \begin{itemize}
+        \item Se debe de retomar el tema que se planteo en la introducción, pero ahora profundizando para clarificar la incógnita científica y se pueda plantear la hipótesis.
+        \item Se debe de retomar la descripción del problema, pero ahora a profundidad del (los) objeto(s) de estudio. 
+        \item Se debe de profundizar en las metodologías que se ha usado para el estudio del tema.
+        \item Referencias solo de artículos y libros científicos.
+    \end{itemize}
+    % 
+    % 
+    \section{Hipótesis}
+    
+    Es la suposición con fundamento científico relativa a la solución del problema, necesidad o de cómo se aprovecha la oportunidad con la incógnita científica y se fundamenta con: 1. Una suposición (en afirmativo o negativo) y ésta deberá vincularse con:
+    2. La fundamentación científica que deberá ser precisa 3. Una entidad de comparación para probar la suposición y
+    4. La variable con que se califica o cuantifica la comparación o se prueba la hipótesis.
+    
+    \begin{itemize}
+        \item Se debe de identificar claramente la suposición científica
+        \item Se debe de identificar claramente el fundamento científico
+        \item Se debe identificar claramente la variable de respuesta
+        \item Se debe identifican claramente las realidades o modelos contrastantes
+        \item Se debe de establecer las variables asociadas, explicativas o que tienen relación funcional con la variable de respuesta
+    \end{itemize}
+    % 
+    % 
+    \section{Objetivo}
+        Diseña, integra y mejora sistemas productivos de bienes y servicios aplicando tecnologías para elevar la producción. 
+        
+        Diseña, implementa y mejora sistemas de trabajo para elevar la productividad .
+    
+    \subsection{Objetivos específicos }
+    
+    \begin{itemize}
+        \item Determina los datos estándar en operaciones de maquinado para establecer tasas de producción en empresas de manufactura
+        \item Desarrollar la capacidad de análisis y síntesis
+        \item Capacidad de organizar y planificar
+        \item Comunicación oral y escrita 
+        \item Solución de problemas 
+        \item Habilidades básicas en lenguaje en lenguaje de computadora
+        \item Toma de decisiones 
+        \item Capacidad critica y autocrítica 
+        \item Trabajo en equipo 
+        \item Habilidad de investigación 
+        
+        
+    \end{itemize}
+    
+    %Son actividades orientadas al cumplimiento del objetivo general. Se establecen con verbos activos en infinitivo. Son parte de la acción encaminada a probar la hipótesis. Éstos deben ser precisos, y en lo posible evitar aspectos metodológicos.
+    % 
+    % 
+    \section{Cuerpo (Metodología, modelo matemático, etc.)}
+    
+    %Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto deberá ser desglosada precisada y ordenada claramente. En consecuencia cada objetivo que se presentó en forma de verbo en infinitivo deberá determinar una estrategia en forma de adverbio. Ej. Desarrollar…Desarrollo. Son las actividades ordenadas que tienen como finalidad la prueba de la hipótesis. 
+    
+    
+       
+     Componentes necesarios: 
+    \begin{itemize}
+    
+    \item ESP32 (controlador)
+    \item Potenciómetro (para ajustar el valor a mostrar)
+    \item Pantalla LCD 16x2 (para mostrar el valor)
+    \item Cable USB tipo c (para alimentar el ESP32 desde un multicontacto)
+    \item Protoboard o placa de circuito impreso
+    \item Cables de conexión (jumpers)
+    \item Resistencias (si es necesario para la pantalla LCD)
+    \item Capacitores (si es necesario para el ESP32)
+    
+    \end{itemize}
+    
+    Procedimiento de ensamblaje:
+    \begin{itemize}
+    
+    \item Conecta el ESP32 a la protoboard o placa de circuito impreso. Asegúrate de conectar los pines de alimentación (VCC y GND) y los pines de comunicación.
+    \item Conecta el potenciómetro a la protoboard. Conecta los extremos del potenciómetro a VCC y GND, y el terminal central a un pin analógico del ESP32.
+    \item Conecta la pantalla LCD a la protoboard. Si es necesario, conecta las resistencias y capacitores según las especificaciones del fabricante. Luego, conecta los pines de datos (por ejemplo, los pines de datos seriales o los pines de bus I2C) y los pines de control (como el pin de habilitación y el pin de selección de línea) al ESP32.
+    \item Conecta el cable USB desde el multicontacto a una fuente de alimentación adecuada para proporcionar energía al ESP32.
+    \item Carga el código necesario en el ESP32 para leer el valor del potenciómetro y mostrarlo en la pantalla LCD. Puedes usar el IDE de Arduino u otro entorno de desarrollo compatible con el ESP32 para escribir y cargar el código.
+    \item Verifica la conexión y el funcionamiento del circuito. Asegúrate de que el ESP32 pueda leer correctamente el valor del potenciómetro y mostrarlo en la pantalla LCD.
+     
+     %\item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
+    %  \item Se debe desglosar de acuerdo a los objetivos específicos. 
+    % \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
+    %\item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
+    %\item Se deben tener referencias.
+    \end{itemize}
+    % 
+    % 
+    \subsection{Prepara tu documento}
+    
+    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+    
+    \subsection{Acrónimos y Abreviaciones}
+    
+    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+    
+    \subsection{Ecuaciones}
+    
+    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    
+    \begin{equation}
+        \label{eq1}
+        x + y = z 
+    \end{equation}
+    
+    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+    
+    \section{Resultados y discusión}
+    
+    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+    
+    \subsection{Autores y Afiliaciones}
+    
+    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+    
+    \subsection{Identificar los encabezados}
+    
+    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+    
+    \subsection{Tablas y Figuras}
+    
+    \begin{enumerate}
+        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    \end{enumerate}
+    
+    \section{Conclusiones}
+    
+    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+    
+    \section{Agradecimientos}
+    
+    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+    
+    \section*{Referencias}
+    
+    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+    A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+    
+    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    
+    % Ejemplo
+    %  @Article{article,
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Article Title",
+    % 	volume = "30",
+    % 	number = "30",
+    % 	pages = "10127-10134",
+    % 	year = "2013",
+    % 	doi = "10.3389/fnins.2013.12345",
+    % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+    % 	journal = "Frontiers in Neuroscience"
+    % }
+    
+    % @book{book,
+    %   author    = {Author Name}, 
+    %   title     = {The title of the work},
+    %   publisher = {The name of the publisher},
+    %   address   = {The city},
+    %   year      = 1993,
+    % }
+    
+    % @incollection{chapter,
+    %   author       = {Bauthor Surname}, 
+    %   title        = {The title of the work},
+    %   editor       = {Editor Name},
+    %   booktitle    = {The title of the book},
+    %   publisher    = {The name of the publisher},
+    %   address      = {The city},
+    %   year         = 2002,
+    %   pages        = {201-213},
+    % }
+    
+    % @InProceedings{conference,
+    %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+    %   title = {The title of the work},
+    %   booktitle = {The title of the conference proceedings},
+    %   year = 1996,
+    %   publisher = {The name of the publisher},
+    %   editor = {Editor Name1 and Editor Name2},
+    %   pages = {41-50},
+    % }
+    
+    % @book{cho,
+    %   author       = {Gauthor Name1}, 
+    %   title        = {The title of the work},
+    %   publisher = {Country code and patent number},
+    %   address      = {Patent Country},
+    %   year = 2013
+    % }
+    
+    % @book{patent,
+    %   author    = {Hauthor Surname1}, 
+    %   title     = {The title of the work},
+    %   publisher = {Patent number},
+    %   address   = {Patent country},
+    %   year      = 2010,
+    % }
+    
+    % % please use misc for datasets
+    % @misc{dataset, 
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Data Title",
+    % 	year = "2011",
+    % 	doi = "10.000/55555",
+    % 	URL = "http://www.frontiersin.org/",
+    % }
+    
+    \bibliographystyle{ieeetr}
+    \bibliography{17/referencias}
