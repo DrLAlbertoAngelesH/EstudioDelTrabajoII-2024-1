@@ -51,7 +51,7 @@
     
     \begin{abstract}
     \noindent 
-    El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+    El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devanagari 11 puntos.
     
     \end{abstract}
     % 
@@ -68,7 +68,7 @@
     % define optimización
     \begin{itemize}
     
-     \item El estudio de tiempos y movimientos es una herramienta fundamental para analizar y optimizar procesos de trabajo, especialmente en entornos de producción y ensamblaje. En este documento, se lleva a cabo un análisis de los tiempos y movimientos involucrados en el ensamblaje de un circuito electrónico compuesto por una pantalla LCD, un potenciómetro y una ESP32.
+     \item El estudio de tiempos y movimientos es una herramienta fundamental para analizar y optimizar procesos de trabajo, especialmente en entornos de producción y ensamblaje. En este documento, se lleva a cabo un análisis de los tiempos y movimientos involucrados en el ensamblaje de un circuito electrónico compuesto por una pantalla LCD, un potenciómetro y una ESP32.\cite{lópez_2020}
     
      \item El objetivo principal de este estudio es identificar oportunidades para mejorar la eficiencia del proceso de ensamblaje, reducir tiempos de operación y maximizar la productividad. Para lograrlo, se utilizarán diversas metodologías como el estudio de tiempos, análisis de movimientos y estudio de métodos.
     
@@ -83,6 +83,8 @@
     \section{Justificación}
     
     El estudio de tiempos y movimientos en el ensamblaje de circuitos electrónicos es un campo en constante evolución que responde a las demandas de eficiencia y productividad en la industria. En un contexto global, las empresas buscan optimizar sus procesos de ensamblaje para mantenerse competitivas en el mercado poniendo de ejemplo el ensamblaje de circuitos electrónicos es una parte crucial de numerosas industrias, desde la electrónica de consumo hasta la automotriz y la aeroespacial. En la actualidad, la demanda se centra en la eficiencia, la precisión y la flexibilidad en el proceso de ensamblaje.
+    \cite{marcelo_fabián_2024}
+    
     \begin{itemize}
     
     \item Reducción de costos:
@@ -91,7 +93,7 @@
     \item Capacitación y desarrollo de la fuerza laboral:
         Los trabajadores deben ser capacitados en técnicas de estudio de tiempos y movimientos para maximizar su productividad ya que igualmente la inversión en formación y desarrollo es esencial para mantener a los empleados actualizados con las últimas tecnologías y prácticas.
     
-        \item https://ciateq.repositorioinstitucional.mx/jspui/handle/1020/729
+        
         
     \end{itemize}
     % 
@@ -117,14 +119,18 @@
         \item Estudio de tiempos y movimientos:
     
     El presente proyecto tiene como objetivo optimizar el proceso de ensamblaje de circuitos electrónicos mediante la aplicación de técnicas de estudio de tiempos y movimientos, la simplificación de instructivos y la optimización de métodos de trabajo. Para sustentar este proyecto, se presenta a continuación la condimentación teórica que enmarca los conceptos clave, la hipótesis de investigación y las metodologías a emplear.
+    \cite{optimizacion}
         \item Estudio de Tiempos y Movimientos: Fundamentos y Objetivos
     
     El estudio de tiempos y movimientos (ETM) es una metodología ampliamente utilizada en el ámbito de la ingeniería industrial y de procesos, con el propósito de analizar y optimizar la eficiencia y productividad en diversas actividades, incluyendo el ensamblaje de componentes electrónicos. Esta técnica se basa en la medición y análisis rigurosos de los tiempos de ciclo de cada paso del proceso de producción, así como en la observación minuciosa de los movimientos que realizan los trabajadores durante el desempeño de sus tareas.
+    
         \item Las estrategias clave para la optimización de procesos de ensamblaje incluyen:
     
     Estandarización de métodos: Establecer un método único y óptimo para realizar cada tarea de ensamblaje, garantizando la consistencia y la calidad en el proceso.
     Ergonomía y diseño del puesto de trabajo: Adaptar el entorno de trabajo a las necesidades físicas y cognitivas de los operadores, reduciendo la fatiga y mejorando el confort, lo que se traduce en un mejor desempeño.
     Capacitación y entrenamiento: Brindar a los operadores la formación adecuada en cuanto a las técnicas de ensamblaje correctas, el uso de herramientas y equipos, y la interpretación de instructivos claros.
+    \cite{santiago_2024}
+    
         \item Metodologías de Investigación:
     
     Para llevar a cabo este estudio, se emplearán las siguientes metodologías de investigación:
@@ -169,8 +175,8 @@
     % 
     \section{Cuerpo (Metodología, modelo matemático, etc.)}
     
-    Ensamblar un dispositivo electrónico compuesto por un tomacorriente, una tarjeta ESP32, una protoboard, un potenciómetro, una pantalla LCD y diversos cables. El dispositivo mostrará el mensaje "Hola mundo" en la pantalla LCD.
-    
+    Ensamblar un dispositivo electrónico compuesto por un toma corriente, una tarjeta ESP32, una protoboard, un potenciómetro, una pantalla LCD y diversos cables. El dispositivo mostrará el mensaje "Hola mundo" en la pantalla LCD.
+    Para un correcto ensamble ver las siguientes imágenes donde se explica paso por paso como colocar las piezas, no sin antes revisar las siguientes indicaciones.\ref{anexo:manual} 
     \begin{itemize}
         \subsection{Herramientas y materiales}
         
@@ -186,62 +192,44 @@
         \item Asegúrate de tener una superficie plana y bien iluminada para trabajar
     
         \subsection{2 Conexión a toma-corriente }
-        \item Ubica los conectores del multi-contacto, encontrando la entrada del usb tipo c, el cual es el mas pequeño de todos.
-        \item No es necesario conectar a la corriente electrica en este momento.
-        \item Conecta el cable USB tipo C del multi-contacto al conector USB tipo C de la tarjeta ESP32.
-    
-        \subsection{3 Conexión de la protoboard }
-        \item Ubica los pines de la protoboard.
-        \item Coloca la tarjeta ESP32 sobre la protoboard, como se muestra en la imagen adjunta.
-        \item Asegúrate de que las conexiones de los pines coincidan con la configuración de la protoboard.
-         \item Presiona los pines de la tarjeta ESP32 sobre los pines de la protoboard para asegurar una conexión firme.
-    
-         \subsection{4 Conexión del potenciómetro }
-        \item Ubica los pines del potenciómetro: 3 pines (generalmente marcados como VCC, GND y Signal).
-        \item Conecta un cable jumper macho-macho al pin VCC del potenciómetro.
-        \item Conecta otro cable jumper macho-macho al pin GND del potenciómetro.
-        \item Conecta el cable jumper del pin VCC del potenciómetro al pin VCC en la protoboard (fila roja superior).
-        \item Conecta el cable jumper del pin GND del potenciómetro al pin GND en la protoboard (fila azul superior).
-         \item Conecta el cable jumper del pin Signal del potenciómetro al pin A0 en la protoboard (columna analógica izquierda).
-    
-          \subsection{5 Conexión del potenciómetro }
-        \item Ubica los pines del potenciómetro: 3 pines (generalmente marcados como VCC, GND y Signal).
-        \item Conecta un cable jumper macho-macho al pin VCC del potenciómetro.
-        \item Conecta otro cable jumper macho-macho al pin GND del potenciómetro.
-        \item Conecta el cable jumper del pin VCC del potenciómetro al pin VCC en la protoboard (fila roja superior).
-        \item Conecta el cable jumper del pin GND del potenciómetro al pin GND en la protoboard (fila azul superior).
-         \item Conecta el cable jumper del pin Signal del potenciómetro al pin A0 en la protoboard (columna analógica izquierda).
-    
-         \subsection{6 Conexión de la pantalla LCD}
-        \item Ubica los pines de la pantalla LCD. La cantidad de pines puede variar, pero generalmente son 16 o más.
-        \item Consulta la hoja de datos o documentación de la pantalla LCD para identificar los pines específicos.
-        \item En la imagen adjunta, se muestra la conexión de una pantalla LCD común de 16 pines.
-        \item Conecta los cables jumper a los pines correspondientes de la pantalla LCD, siguiendo el diagrama de pines proporcionado por el fabricante.
-        \item Conecta el cable de alimentación VCC (generalmente marcado como VCC o +5V) de la pantalla LCD al pin VCC en la protoboard (fila roja superior).
-         \item Conecta el cable de alimentación GND (generalmente marcado como GND) de la pantalla LCD al pin GND en la protoboard (fila azul superior).
-          \item Conecta los cables de datos D0-D7 de la pantalla LCD a los pines digitales D2-D9 en la protoboard (fila azul central).
-         \item Conecta el cable de control RS/EN (generalmente marcado como RS, EN o RW) de la pantalla LCD al pin D10 en la protoboard (fila azul central).
-    
-         \subsection{7 Prueba final }
+        \item Ubica los conectores del multicontactos, encontrando la entrada del usb tipo c, el cual es el mas pequeño de todos.
+        \item No es necesario conectar a la corriente eléctrica en este momento.
+        \item Conecta el cable USB tipo C del multicontactos al conector USB tipo C de la tarjeta ESP32.
+         
+         \subsection{3 Prueba final }
         \item Enchufa el toma-corriente a una toma de corriente.
         \item Observa si la pantalla LCD muestra el mensaje "Hola mundo".
         \item Por ultimo mueve el potenciómetro verificando que todo esta en orden y esta completo el ensamble.
     
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/ensambleFinal.pdf}
+        \caption{Ensamble final}
+        \label{fig:ensamble final}
+    \end{figure}
+    % 
+    % 
+    
         \subsection{Errores}
         \item En caso que la pantalla LCD no arroje el mensaje "Hola mundo" hay que verificar que las conexiones están fijas.
         \item Revisar que los cables estén en su conexión correspondiente.
-         \item Después de realizar las indicaciones anteriores ubicamos dos botones color negro en la ESP32 la cual presionamos el botón izquierdo el ya que es el botón de reste, posteriormente debería de funcionar correctamente.
+         \item Después de realizar las indicaciones anteriores ubicamos dos botones color negro en la ESP32 la cual presionamos el botón izquierdo el ya que es el botón de 
+         "reset", posteriormente debería de funcionar correctamente.
     
         
-        \item Se deben tener referencias Figura \ref{fig:lcd-16x2}.
+        \item Si nuestra lcd muestra los mismos signos en la pantalla que la imagen anterior del ensamble final tendremos que hacer la corrección de errores correspondientes.
+        \ref{fig:ensamble final}.
     \end{itemize}
     % 
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.5]{25/img/Croquis cable macho.pdf}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2
+        ]{25/img/croquisCablemacho.pdf}
         \caption{Croquis cable macho}
-        \label{fig:lcd-16x2}
+        \label{croquis:cable macho}
     \end{figure}
     %
     %
@@ -249,9 +237,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Cable macho.pdf}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/cableMacho.pdf}
         \caption{Esquema cable macho}
-        \label{fig:lcd-16x2}
+        \label{fig:cable macho}
     \end{figure}
     % 
     % 
@@ -259,9 +247,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Croquis cable hembra.pdf}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{25/img/croquisCablehembra.pdf}
         \caption{Croquis cable hembra}
-        \label{fig:lcd-16x2}
+        \label{croquis: cable hembra}
     \end{figure}
     % 
     % 
@@ -269,9 +257,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Cable Hembra.pdf}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/cableHembra.pdf}
         \caption{Esquema cable hembra}
-        \label{fig:lcd-16x2}
+        \label{fig: cable hembra}
     \end{figure}
     % 
     % 
@@ -279,9 +267,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Croquis resistencia.pdf}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{25/img/croquisResistencia.pdf}
         \caption{Croquis Resistencia}
-        \label{fig:lcd-16x2}
+        \label{croquis:resistencia}
     \end{figure}
     % 
     % 
@@ -289,9 +277,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Resistencia.pdf}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/resistencia.pdf}
         \caption{Esquema Resistencia}
-        \label{fig:lcd-16x2}
+        \label{fig: resistencia}
     \end{figure}
     % 
     % 
@@ -299,19 +287,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/SP32.pdf}
-        \caption{Esquema SP32}
-        \label{fig:lcd-16x2}
-    \end{figure}
-    % 
-    % 
-    % 
-    % 
-    \begin{figure}[H]
-        \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Croquis ESP32.pdf}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{25/img/croquisEsp32.PDF}
         \caption{Croquis SP32}
-        \label{fig:lcd-16x2}
+        \label{Croquis:ESP32}
     \end{figure}
     % 
     % 
@@ -319,9 +297,19 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/croquis LCD.pdf}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/sp32.pdf}
+        \caption{Esquema SP32}
+        \label{fig:Esp32}
+    \end{figure}
+    % 
+    % 
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{25/img/croquisLcd.PDF}
         \caption{Croquis LCD}
-        \label{fig:lcd-16x2}
+        \label{Croquis:lcd-16x2}
     \end{figure}
     % 
     % 
@@ -329,7 +317,7 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Lcd.pdf}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/lcd.pdf}
         \caption{Esquema LCD}
         \label{fig:lcd-16x2}
     \end{figure}
@@ -339,9 +327,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.05]{25/img/Croquis potenciometro.pdf}
-        \caption{Croquis Potenciometro}
-        \label{fig:lcd-16x2}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.2]{25/img/croquisPotenciometro.PDF}
+        \caption{Croquis Potenciómetro}
+        \label{Croquis:Potenciometro}
     \end{figure}
     % 
     % 
@@ -349,9 +337,9 @@
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/Potenciometro.pdf}
-        \caption{Esquema Potenciometro}
-        \label{fig:lcd-16x2}
+        \includegraphics[trim = {10mm 10mm 10mm 10mm},clip,scale=0.2]{25/img/potenciometro.pdf}
+        \caption{Esquema Potenciómetro}
+        \label{fig:Potenciometro}
     \end{figure}
     % 
     % 
@@ -411,13 +399,15 @@
     
     \section*{Referencias}
     
-    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    
+    
+    %Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    La puntuación de la oración que sigues sería %\cite{Mesaelides2011}. 
+    Refiérase simplemente al número de referencia, como en %\cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
     Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-    Véase el link \cite{prueba}.
+    %Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    %Véase el link \cite{prueba}.
     
     % Ejemplo
     %  @Article{article,
@@ -494,6 +484,9 @@
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
+    \newpage
+    \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:manual}
+    \includepdf[pages=-]{25/img/manual.pdf}
     % 
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
