@@ -1,6 +1,5 @@
 # ¡Advertencia! Si cambias el branch principal se te bajarán 10 puntos
-## Repositorio pa
-ra subir diapositivas información y revisar el proyecto integrador
+## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
 ### LuisAlbertoAngeles
 #### LuisAngelPiedraMoreno luigui123piedra@gmail.com
