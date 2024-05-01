@@ -313,7 +313,42 @@
     \subsection{Tablas y Figuras}
     
     \begin{enumerate}
-        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    % 
+    % 
+    \item Véase las evidencias donde se comprueba que funcionó el armado del circuito electrónico:Figura\ref{fig:evidencia1}.\ref{fig:evidencia2}.\ref{fig:evidencia3}.\ref{fig:evidencia4}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia1.png}
+        \caption{En esta imagen se observa cómo el operador conecta los cables al módulo adaptador LCD 1602} 
+        \label{fig:evidencia1}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia2.png}
+        \caption{En esta imagen se observa cómo el operador termina de conectar los cables en el módulo adaptador LCD 1602} 
+        \label{fig:evidencia2}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia3.png}
+        \caption{En esta imagen se observa cómo enciende el LCD 16x2 correctamente. Se alcanza a apreciar "Potenciómetro 1824"} 
+        \label{fig:evidencia3}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia4.png}
+        \caption{En esta imagen se observa cómo el operador mueve el potenciómetro para que se refleje el cambio en el LCD 16x2. Se alcanza a apreciar "Potenciómetro 1952"} 
+        \label{fig:evidencia4}
+    \end{figure}
+    % 
+    % 
+        % \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
     \end{enumerate}
     
     \section{Conclusiones}
@@ -406,6 +441,7 @@
     \bibliography{3/referencias}
     %
     %
+    \newpage
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
