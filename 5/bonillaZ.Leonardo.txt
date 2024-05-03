@@ -60,6 +60,15 @@ El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Ado
 % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
 
 \section{Introducción}
+
+El estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización se refiere a la aplicación de técnicas de ingeniería industrial para mejorar la eficiencia y productividad en el proceso de ensamble de circuitos electrónicos.
+
+Este estudio implica la observación y análisis detallado de cada paso en el proceso de ensamble, desde la colocación de los componentes hasta la soldadura y pruebas finales. Se registran los tiempos y movimientos necesarios para cada operación, y se identifican las áreas de ineficiencia o desperdicio.
+
+A partir de este análisis, se pueden aplicar diferentes métodos para optimizar el proceso. Estos pueden incluir la reorganización del flujo de trabajo, la implementación de nuevas herramientas o tecnologías, la capacitación de los trabajadores, entre otros.
+
+El objetivo final es reducir los tiempos de ensamble, aumentar la calidad del producto final, y en última instancia, mejorar la rentabilidad de la operación.
+
 El estudio de trabajo es una evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento. Este examen sistemático del trabajo humano en todos sus contextos investiga todos los factores que influyen en la eficiencia y economía de la situación estudiada.
 
 Las metodologías más utilizadas en el estudio de trabajo incluyen la metodología Ágil, el modelo de cascada, y sistemas de tiempos predeterminados como MTM (Medición de Tiempos de Método), GPD (General Purpose Data – Basado en MTM), BMT (Basic Motion Time Study) y MODADPTS. Estas metodologías permiten analizar y cuantificar las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida.
@@ -76,7 +85,8 @@ En los últimos años, el estudio de trabajo ha experimentado cambios significat
        \item Estudio del trabajo: El estudio del trabajo es una evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Este análisis permite optimizar procesos, incrementar la productividad y reducir costos. Se basa en técnicas como el estudio de métodos y la medición del trabajo.
        \item Optimización: Optimización hace referencia a la acción y efecto de optimizar. En términos generales, se refiere a la capacidad de hacer o resolver alguna cosa de la manera más eficiente posible y, en el mejor de los casos, utilizando la menor cantidad de recursos.
        \item Teorema del límite central: El teorema central del límite o teorema del límite central indica que, en condiciones muy generales, si es la suma de variables aleatorias independientes, con media y varianza finitas, entonces la función de distribución de «se aproxima bien» a una distribución normal. 
-       \item Un Estudio de tiempos y movimientos es una técnica de eficiencia en el negocio que combina el trabajo de Estudio de Tiempos realizado por Frederick Winslow Taylor junto con el trabajo de Estudio de Movimientos de Frank y Lillian Gilbreth. Es un trabajo mayoritariamente de la Administración científica.
+       \item Estudio de tiempos y movimientos: Un Estudio de tiempos y movimientos es una técnica de eficiencia en el negocio que combina el trabajo de Estudio de Tiempos realizado por Frederick Winslow Taylor junto con el trabajo de Estudio de Movimientos de Frank y Lillian Gilbreth. Es un trabajo mayoritariamente de la Administración científica.
+       \item Balanceo de líneas: El balanceo de líneas se define como una técnica de organización en la producción que busca distribuir equitativamente las tareas y tiempos de ciclo en una línea de ensamblaje, con el fin de mejorar la eficiencia y la productividad. Esta técnica busca evitar cuellos de botella y desequilibrios en la carga de trabajo entre estas estaciones, asegurando un flujo constante y óptimo de producción.
    \end{enumerate}
 
 % Define estudio de tiempos y movimientos
@@ -106,7 +116,8 @@ El estudio del trabajo, una disciplina que busca optimizar la utilización efica
 
 Estas tendencias están moldeando un panorama complejo y heterogéneo para las expectativas de estabilidad y bienestar social generadas por las sociedades capitalistas. La transformación en el trabajo supone un importante problema para la salud de las sociedades contemporáneas, ya que genera serias contradicciones y desigualdades sociales. Además, la aceleración de las innovaciones tecnológicas y la pandemia de
 
-COVID-19 están transformando radicalmente el mercado laboral. La automatización y la pandemia de COVID-19 están revolucionando el mundo del trabajo, un fenómeno
+COVID 19 están transformando radicalmente el mercado laboral. La automatización y la pandemia de COVID 19 están revolucionando el mundo del trabajo, un fenómeno
+
 conocido como la”doble alteración”de los empleos. A nivel local, en países como México, se han identificado problemas como la falta de oportunidades laborales para los jóvenes, la escasa preparación de los empleados y la informalidad. Los jóvenes presentan mayores tasas de desempleo que otros grupos etarios, generalmente por falta de experiencia laboral. 
 
 En contraste, el estudio del trabajo idealmente debería permitir a las organizaciones
@@ -128,21 +139,6 @@ En resumen, el estudio del trabajo es una disciplina basada en la suposición de
 % 
 % 
 \section{Hipótesis}
-
-Es la suposición con fundamento científico relativa a la solución del problema, necesidad o de cómo se aprovecha la oportunidad con la incógnita científica y se fundamenta con: 1. Una suposición (en afirmativo o negativo) y ésta deberá vincularse con:
-2. La fundamentación científica que deberá ser precisa 3. Una entidad de comparación para probar la suposición y
-4. La variable con que se califica o cuantifica la comparación o se prueba la hipótesis.
-
-\begin{itemize}
-    \item Se debe de identificar claramente la suposición científica
-    \item Se debe de identificar claramente el fundamento científico
-    \item Se debe identificar claramente la variable de respuesta
-    \item Se debe identifican claramente las realidades o modelos contrastantes
-    \item Se debe de establecer las variables asociadas, explicativas o que tienen relación funcional con la variable de respuesta
-\end{itemize}
-% 
-% 
-\section{Objetivo}
 
 El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la eficiencia y la productividad. Aquí te presento algunos de los principales objetivos del estudio del trabajo:
 
@@ -166,7 +162,7 @@ En resumen, el estudio del trabajo tiene como objetivo mejorar la eficiencia y l
 
 Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
 
-A partir de esté análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”.
+A partir de este análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”.
 
 % 
 % 
@@ -183,7 +179,7 @@ Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un co
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
 
-Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente.
+Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009electronica}
 
 Protoboard: Un protoboard, también conocido como placa de pruebas, es un instrumento muy útil en el campo de la electrónica.
 
@@ -195,7 +191,7 @@ Función: La principal función de un protoboard es permitir a los ingenieros y 
 
 el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de que se desconecte cualquier componente. Si la prueba no es satisfactoria, es fácil cambiar las conexiones y reemplazar los componentes.
 
-En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes.
+En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017arduino}
 
 LCD: Una LCD de 16x2 es una pantalla de cristal líquido que puede mostrar hasta 32 caracteres alfanuméricos en dos filas de 16 caracteres cada una.
 
@@ -205,7 +201,7 @@ Funciones: La principal función de una LCD de 16x2 es mostrar información de m
 
 Uso: Las LCD de 16x2 se utilizan en una amplia gama de aplicaciones, como diversos circuitos y dispositivos, incluyendo teléfonos móviles, calculadoras, ordenadores, televisores, entre otros. También son comúnmente utilizadas en proyectos de bricolaje y aplicaciones integradas debido a su facilidad de programación.
 
-En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos.
+En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos. \cite{carlet2018linear}
 
 Módulo SPI 12C: Un módulo SPI I2C es un dispositivo de comunicación en serie que se utiliza en sistemas integrados para intercambiar datos de alta velocidad entre múltiples dispositivos en el bus.
 
@@ -217,33 +213,34 @@ El protocolo SPI (Interfaz Periférica Serie) tiene una arquitectura maestro-esc
 
 Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una arquitectura maestro-esclavo, pero en lugar de utilizar múltiples líneas para la transmisión de datos como SPI, I2C utiliza solo dos líneas: la línea de datos serie (SDA) y la línea de reloj serié (SCL). Esto hace que I2C sea ideal para aplicaciones que requieren menos cables y menos pines del microcontrolador.
 
-En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus.
+En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014implementación}
 
 
 Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar dos dispositivos electrónicos. Composición y fabricación: Los cables macho-hembra están compuestos por dos conectores, uno macho y otro hembra, que están unidos por un cable. El conector macho tiene una serie de pines o clavijas que se insertan en el conector hembra, que a su vez tiene receptáculos o ranuras para recibir los pines. Estos conectores suelen ser metálicos y están protegidos por una carcasa de plástico.
 
 Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
 
-En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes.
+En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003fabricacion}
 
+cable Macho-Macho:
 Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
 
 Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
 
-En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica.
+En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023solar}
 
 
 ESP32: La ESP32 es un microcontrolador de alto rendimiento y bajo consumo de energía, diseñado por Espressif Systems, que ha ganado popularidad en el mundo de la electrónica y la programación.
 
 Composición y fabricación: La ESP32 está compuesta por un microprocesador Xtensa® Dual-Core LX6 de 32 bits. Tiene una memoria ROM de 448 KBytes, una memoria RAM de 520 Kbytes, y una memoria flash de 4 MB. Además, tiene una ranura para tarjeta microSD que puede admitir hasta 4 GB de almacenamiento adicional 1. Los componentes están montados en una placa de circuito impreso (PCB).
 
-Funciones: La ESP32 tiene conectividad Wi-Fi y Bluetooth ya integrada en la placa. Esto facilita mucho los proyectos de IoT, ya que intercambiarán información constantemente con la red. La ESP32 es compatible con una amplia variedad de lenguajes de programación, como C++, Python y JavaScript. Esto significa que los desarrolladores pueden usar el lenguaje de programación que mejor se adapte a sus necesidades. La ESP32 tiene una amplia gama de interfaces de entrada/salida (E/S), como UART, SPI, I2C, CAN y PWM. Esto la convierte en una excelente opción para proyectos que requieren una gran cantidad de periféricos.
+Funciones: La ESP32 tiene conectividad wifi y Bluetooth ya integrada en la placa. Esto facilita mucho los proyectos de IoT, ya que intercambiarán información constantemente con la red. La ESP32 es compatible con una amplia variedad de lenguajes de programación, como C++, Python y JavaScript. Esto significa que los desarrolladores pueden usar el lenguaje de programación que mejor se adapte a sus necesidades. La ESP32 tiene una amplia gama de interfaces de entrada/salida (E/S), como UART, SPI, I2C, CAN y PWM. Esto la convierte en una excelente opción para proyectos que requieren una gran cantidad de periféricos.
 
 Detalles importantes para su manejo: La ESP32 tiene modos de bajo consumo de energía que permiten que los dispositivos funcionen durante un período prolongado sin necesidad de recargar la batería. Los puertos GPIO de la tarjeta son capaces de entregar hasta 12 mA. De esta forma, se utilizan como entradas y salidas digitales.
 
 La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al tacto y envían información a la tarjeta. El ADC incorporado sirve para convertir cantidades analógicas en cantidades digitales, con 16 pines con esta funcionalidad. La placa tiene puertos de 5V y 3.3V, pines de comunicación serié GND, TX y RX, y otros. Por lo tanto, en algunos casos, se puede usar un solo pin en el tablero para diversas funcionalidades. El ESP32 también tiene un sensor de temperatura incorporado para controlar la temperatura de funcionamiento de la tarjeta.
 
-En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. 
+En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018demostrador}
 
 Potenciómetro: Un potenciómetro es un componente electrónico que se utiliza para controlar y ajustar la resistencia eléctrica de un circuito. 
 
@@ -251,7 +248,7 @@ Composición y fabricación: Los potenciómetros están compuestos por una banda
 
 Funciones: La principal función de un potenciómetro es permitir el ajuste manual de la resistencia en un circuito, lo que a su vez permite controlar la cantidad de corriente eléctrica que fluye a través del circuito. Esto puede ser útil para ajustar la intensidad de corriente, el brillo de una luz, el volumen de un sonido, entre otras aplicaciones. Además, los potenciómetros pueden ayudarte a medir un voltaje desconocido comparándolo con un voltaje conocido.
 
-En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito.
+En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{de2012medidas}
 
 Multicontacto: Un multicontacto de 5 tomacorrientes es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
 
@@ -259,7 +256,7 @@ Funciones: La principal función de un multicontacto es proporcionar múltiples 
 
 Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
-En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. 
+En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011autoria}
 
 Cable de tipo C a C: Un cable tipo C a C es un tipo de cable que se utiliza para conectar dos dispositivos que tienen puertos USB tipo C.
 
@@ -267,7 +264,7 @@ Composición y fabricación: Los cables tipo C a C están compuestos por dos con
 
 Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
 
-En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica.
+En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011autoria}
 
 
 
@@ -275,7 +272,13 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 %
 %
 %
-
+\begin{figure}
+    \centering
+    \includegraphics[trim={7mm 1mm 1mm 1mm},clip,scale=0.4]{5/img/evidencia01.pdf}
+    \caption{Caption}
+    \label{fig:enter-label}
+    
+\end{figure}
 \includepdf[pages=1-]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
 \label{anexoCable tipo c a c_ Bonilla.Z.Leonardo_Dibujo}
 
@@ -337,7 +340,7 @@ Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez
 Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
 Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
 Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuaciones, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
 
 \begin{equation}
     \label{eq1}
@@ -348,13 +351,51 @@ Es importante asegurarse de que los símbolos de la ecuación sean definidos ant
 
 \section{Resultados y discusión}
 
+\includegraphics{5/img/evidencia01.pdf}
+\label{Anexo:evidencia_01}
+
+\includegraphics{5/img/evidencia02.pdf}
+\label{Anexo:evidencia_02}
+
+\includegraphics{5/img/evidencia03.pdf}
+\label{Anexo:evidencia_03}
+
+\includegraphics{5/img/evidencia04.pdf}
+\label{Anexo:evidencia_04}
+
+\includegraphics{5/img/evidencia05.pdf}
+\label{Anexo:evidencia_05}
+
+\includegraphics{5/img/evidencia06.pdf}
+\label{Anexo:evidencia_06}
+
+\includegraphics{5/img/evidencia07.pdf}
+\label{Anexo:evidencia_07}
+
+\includegraphics{5/img/evidencia08.pdf}
+\label{Anexo:evidencia_08}
+
+
+La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
+
+\begin{equation}
+\mu = \sum x \cdot P(x)
+\end{equation}
+
+Donde:
+\begin{itemize}
+\item $x$ son los posibles valores que puede tomar la variable aleatoria.
+\item $P(x)$ es la probabilidad de cada valor $x$.
+\end{itemize}
+
+
 Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
-Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora está listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
 
 \subsection{Autores y Afiliaciones}
 
-Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar solo el superíndice 1. 
 
 \subsection{Identificar los encabezados}
 
@@ -373,17 +414,16 @@ Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para e
 
 \section{Agradecimientos}
 
-Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros, que han sido partícipes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros, que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
 
 \section*{Referencias}
 
-Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes 
+La puntuación de la oración que sigues sería  
+Refiérase simplemente al número de referencia, como en, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
 Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
-A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-Véase el link \cite{prueba}.
+A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula solo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+
 
 % Ejemplo
 %  @Article{article,
@@ -453,7 +493,7 @@ Véase el link \cite{prueba}.
 % }
 
 \bibliographystyle{ieeetr}
-\bibliography{6/referencias}
+\bibliography{5/referencias}
 % 
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
