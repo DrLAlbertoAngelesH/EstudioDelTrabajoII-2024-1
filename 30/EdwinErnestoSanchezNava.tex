@@ -86,7 +86,7 @@
         %La optimización de procesos de ensamble es fundamental para mejorar la eficiencia y la productividad en entornos industriales. Mediante un estudio de tiempos detallado, podemos identificar áreas de oportunidad para reducir los tiempos de producción, minimizar los tiempos muertos y mejorar la calidad del producto final. Este proyecto tiene como objetivo principal aplicar técnicas de ingeniería industrial para analizar y mejorar el proceso de ensamble, lo que resultará en una reducción de costos, un aumento en la producción y una mayor satisfacción del cliente. Al entender mejor cómo se lleva a cabo el ensamble y dónde se pueden realizar mejoras, podemos optimizar el flujo de trabajo, eliminar cuellos de botella y aumentar la eficiencia operativa. En última instancia, este proyecto contribuirá significativamente a la competitividad y rentabilidad de nuestra empresa en un mercado cada vez más exigente y competitivo.
     
         \begin{itemize}
-           % \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+           \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
            % \item Debe de tener Referencias científicas, URL, tesis, etc.
         \end{itemize}
         % 
@@ -195,13 +195,12 @@
             x + y = z 
         \end{equation}
     
-        Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+        Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice , en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
     
+        \newpage
         \section{Resultados y discusión}
     
-        Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
-        Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
-        En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+        \includepdf{30/img/Evidencias ensamblaje 1.pdf}
     
         \subsection{Autores y Afiliaciones}
     
@@ -226,13 +225,16 @@
     
         \section*{Referencias}
     
-        Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-        La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-        Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    
+    \cite{andrade2019estudio}.
+    \cite{RAE}
+    \cite{meyers2000estudios}
+    \cite{arteaga2020importancia}
+        Refiérase simplemente al número de referencia, como en %\cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
         Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
         A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
     
-        Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+        Otros ejemplos %\cite{LAAngeles2021}, \cite{LAAngelesConni}. 
     
     \subsection{Tabla de Materiales}
     \begin{table}[H]
@@ -245,7 +247,7 @@
         \hline
         Resistencia & \includegraphics[width=.135\textwidth]{30/img/resistencia.PNG} & \includegraphics[width=.135\textwidth]{30/img/resistencia hoja.PNG} \\
         \hline
-        Cable MM & \includegraphics[width=.135\textwidth]{30/img/Cable MM.PNG} & \includegraphics[width=.135\textwidth]{30/img/Cable MM hoja.PNG} \\
+        Cable MM & \includegraphics[width=.0650\textwidth]{30/img/Cable MM.PNG} & \includegraphics[width=.135\textwidth]{30/img/Cable MM hoja.PNG} \\
         \hline
         LCD & \includegraphics[width=.135\textwidth]{30/img/Lcd.PNG} & \includegraphics[width=.135\textwidth]{30/img/LCD hoja.PNG} \\
         \hline
@@ -255,6 +257,10 @@
         \caption{Material}
         \label{tab:my_label}
     \end{table}
+    
+    \subsection{Manual}
+    \includepdf[pages=-]{30/img/Manual de ensamblaje.pdf}
+    
         % Ejemplo
         %  @Article{article,
         % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
