@@ -256,7 +256,7 @@
     Por ello mismo en la figura \ref{fig:Distribucion inicial}se muestra la distribución propuesta para la primera parte del análisis donde aún es con el método actual, lo cual es indispensable para notar los cambias y por ello mismo el operario debe asegurar que esta distribución se cumpla a la hora de realizar la operación.
         \begin{figure}[H] 
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{22/Img/Ensamblaje.PDF}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{22/Img/ensamblaje.pdf}
         \caption{Distribución inicial}
         \label{fig:Distribucion inicial}
     \end{figure}
@@ -415,13 +415,13 @@
         \label{fig:esp}
     \end{figure}
     
-    Aquí hay algunas características clave del ESP32-C6-WROOM-1:
+    Aquí hay algunas características clave del ESP32 WROOM 32:
     
     1. Conectividad WiFi: El módulo ofrece conectividad WiFi de doble banda (2.4 GHz y 5 GHz), lo que permite la comunicación inalámbrica con redes locales y acceso a Internet.
     
-    2. Conectividad Bluetooth: Además del Wifi, el ESP32-C6-WROOM-1 también admite Bluetooth Classic y Bluetooth de baja energía (BLE), lo que lo hace adecuado para aplicaciones que requieren interacción inalámbrica con dispositivos cercanos, como teléfonos inteligentes, sensores, etc.
+    2. Conectividad Bluetooth: Además del Wifi, el ESP32 WROOM 32 también admite Bluetooth Classic y Bluetooth de baja energía (BLE), lo que lo hace adecuado para aplicaciones que requieren interacción inalámbrica con dispositivos cercanos, como teléfonos inteligentes, sensores, entre otros.
     
-    3. Procesador potente: El ESP32-C6-WROOM-1 está equipado con un potente procesador de aplicación Tensilica Xtensa de 32 bits, que proporciona el poder de procesamiento necesario para ejecutar aplicaciones complejas y manejar múltiples tareas simultáneamente.
+    3. Procesador potente: El ESP32 WROOM 32 está equipado con un potente procesador de aplicación Tensilica Xtensa de 32 bits, que proporciona el poder de procesamiento necesario para ejecutar aplicaciones complejas y manejar múltiples tareas simultáneamente.
     
     4. Memoria integrada: El módulo cuenta con una cantidad suficiente de memoria flash y RAM integrada para almacenar el firmware del sistema, datos de la aplicación y variables temporales durante la ejecución del programa.
     
@@ -429,7 +429,7 @@
     
     6. Seguridad: El ESP32-C6-WROOM-1 incluye características de seguridad como Secure Boot, Flash Encryption y cifrado de datos para garantizar la integridad y confidencialidad de los datos transmitidos y almacenados.
     
-    En resumen, el ESP32-C6-WROOM-1 es un módulo altamente integrado y versátil que proporciona conectividad WiFi y Bluetooth junto con un potente procesador y una variedad de interfaces de periféricos, lo que lo hace ideal para una amplia gama de aplicaciones IoT y proyectos de electrónica.Para que el operario se familiarice, como en las demás piezas, en la figura \ref{fig:esp} se muestra el dibujo técnico de nuestra pieza.
+    En resumen, el ESP32-C6-WROOM-1 es un módulo altamente integrado y versátil que proporciona conectividad WiFi y Bluetooth junto con un potente procesador y una variedad de interfaces de periféricos, lo que lo hace ideal para una amplia gama de aplicaciones IoT y proyectos de electrónica. Para que el operario se familiarice, como en las demás piezas, en la figura \ref{fig:esp} se muestra el dibujo técnico de nuestra pieza.
     
     
     
@@ -448,7 +448,7 @@
     
     
     \subsubsection{PC-07: Resistencia de 330 ohms 1/4 W }
-    La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico.La resistencia se mide en ohmios, que se simbolizan con la letra griega omega ($\Omega$). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió la relación entre voltaje, corriente y resistencia. Se le atribuye la formulación de la ley de Ohm.
+    La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico. La resistencia se mide en ohmios, que se simbolizan con la letra griega omega ($\Omega$). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió la relación entre voltaje, corriente y resistencia. Se le atribuye la formulación de la ley de Ohm.
     
     
     
@@ -541,18 +541,85 @@
     
     %https://www.acerstore.cl/news/usb-tipo-c-que-es-y-para-que-sirve/%
     
-    \subsection{Desarrollo}
-    
-    
-    \subsection{Prepara tu documento}
-    
-    
-    \subsection{Acrónimos y Abreviaciones}
-    
-    
-    \subsection{Ecuaciones}
     
     \section{Resultados y discusión}
+    
+    En el desarrollo del proyecto se planteó el problema de la fata de datos como lo son la media y la varianza de nuestra población, los cuales en nuestro análisis forman una parte fundamental para llegar a nuestros resultados. Para ello se implementó varios métodos, uno de ellos es con el uso de las probabilidades, en donde para obtener la media poblacional se usó la ecuación \ref{equ:media} y para  la desviación estándar utilizamos la ecuación \ref{equ:des}
+        \begin{equation}
+            \label{equ:media}
+           \mu = \dfrac{b+a}{2}
+        \end{equation}
+    
+      \begin{equation}
+            \label{equ:des}
+            \sigma = \sqrt{\dfrac{(b-a+1)^2-1}{12}}
+        \end{equation}
+    
+    
+    
+    En las siguientes figuras se muestran la evidencias del primer muestreo, el cual se realizó el día 3 de mayo del 2024, el salón C08, en el Instituto Tecnológico campus Querétaro.
+    
+       
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e2.pdf}
+        \caption{Inicio de la operación}
+        \label{fig:evi1}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e5.pdf}
+        \caption{Operación a mitad de la secuencia}
+        \label{fig:evi2}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e8.pdf}
+        \caption{Colocación de la LCD}
+        \label{fig:evi3}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e10.pdf}
+        \caption{Conexión al cable C}
+        \label{fig:evi4}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e12.pdf}
+        \caption{Proceso de encendido de la LCD}
+        \label{fig:evi5}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e15.pdf}
+        \caption{Interacción con el potenciometro}
+        \label{fig:evi6}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e17.pdf}
+        \caption{Encuadre de la LCD}
+        \label{fig:evi7}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {7mm 1mm 1mm 1mm},clip,scale=0.25]{22/Img/e20.pdf}
+        \caption{Cambio de valor}
+        \label{fig:evi8}
+    \end{figure}
     
     
     \subsection{Autores y Afiliaciones}
@@ -585,7 +652,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     \centering{\section[\appendixautorefname{}]{Apéndice Materiales}}\label{Figura:Materiales}
-    \includepdf[pages=6-8,]{22/Img/instructivoMateriales.pdf}
+    \includepdf[pages=6-7,]{22/Img/instructivoMateriales.pdf}
     % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \centering{\section[\appendixautorefname{}]{Apéndice de Formato}}\label{Figura:Hoja de datos}
