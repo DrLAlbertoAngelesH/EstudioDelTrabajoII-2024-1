@@ -12,7 +12,6 @@
     %----------------------------------------------------------------------------------------
     %	TITLE SECTION
     %----------------------------------------------------------------------------------------
-    
     \setlength{\droptitle}{-5\baselineskip} % Move the title up
     \title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
     
@@ -125,9 +124,6 @@
     % 
     % 
     \section{Hipótesis}
-    
-    
-    
     % 
     % 
     \section{Objetivo}
@@ -154,8 +150,8 @@
     
     Esto facilitará la identificación de áreas de oportunidad para su optimización mediante la eliminación de movimientos o la incorporación de soportes de sujeción. 
     
-     A continuación se muestra la lista de los materiales, la cantidad y el nombre de los mismos que son necesarios para el ensamble. 
-     Y a continuación de esta lista se muestra el Manual de ensamble circuito electrónico ESP32-C6.
+     A continuación se muestra la lista de los materiales, la cantidad y el nombre de los mismos que son necesarios para el ensamble.\ref{anexo:listaDeMateriales.pdf}
+     Y a continuación de esta lista se muestra el Manual de ensamble circuito electrónico ESP32-C6.\ref{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
     
     %\begin{itemize}
      %   \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
@@ -164,15 +160,6 @@
         %\item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
         %\item Se deben tener referencias Figura.
     %\end{itemize}
-    
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-    \includepdf[pages=-]{21/img/Lista de materiales.pdf}
-    \label{anexo:Lista de materiales.pdf}
-    
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}
-    \includepdf[pages=-]{21/img/Manual de ensable circuito electrónico ESP32-C6.pdf}
-    \label{anexo:Manual de ensable circuito electrónico ESP32-C6.pdf}
-    
     \subsection{Prepara tu documento}
     
     Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
@@ -213,8 +200,15 @@
     Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
     Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
     
-    \subsection{Tablas y Figuras}
+    \subsection{Evidencia de ensamble}
     
+    %
+    \newpage
+    \centering{\section[\appendixautorefname{}]
+    {APÉNDICE}}\label{anexo:evidencia1ManualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    \includepdf[pages=-]{21/img/evidencia1ManualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    
+    %
     \begin{enumerate}
         \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
     \end{enumerate}
@@ -226,13 +220,30 @@
     \section{Agradecimientos}
     
     Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
-    \bibliographystyle{ieeetr}
-    \bibliography{21/referencias}
+    
     % 
     % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
-    % 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \newpage
+    %
+    \centering{\section[\appendixautorefname{}]
+    {APÉNDICE}}\label{anexo:listaDeMateriales.pdf}
+    \includepdf[pages=-]{21/img/listaDeMateriales.pdf}
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \newpage
+    %
+    \centering{\section[\appendixautorefname{}]
+    {APÉNDICE}}\label{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    \includepdf[pages=-]{21/img/manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \newpage
+    \bibliographystyle{ieeetr}
+    \bibliography{21/referencias}

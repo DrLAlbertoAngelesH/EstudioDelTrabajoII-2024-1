@@ -56,18 +56,27 @@
     \end{abstract}
     % 
     % 
-    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    \textbf{\textit{Palabras clave}}:
+    
+    % \begin{itemize}
+        Estudio, Tiempos, Movimientos, Métodos, Optimización, Circuito. 
+    % \end{itemize}
+    % 
+    % {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     
     \section{Introducción}
     
     \begin{itemize}
-    \item El estudio de tiempos y movimientos es el análisis de métodos, materiales, herramientas e instalaciones.\cite{RAE}
-    Por ensamble se entiende que es la colocación de dos o más piezas para la conformación de un producto final.\cite{RAE}
-    Un circuito electrónico es el conjunto de elementos eléctricos conectados entre sí que permiten generar, transportar y utilizar la energía eléctrica.\cite{RAE}
-    El método de tiempos predeterminados es la manera de determinar con anticipación de forma organizada la secuencia de sucesos.\cite{RAE} 
-    La optimización se refiere a la capacidad de hacer o resolver alguna cosa de la manera más eficiente posible.\cite{RAE}
-    Los therbligs, la Medición de Tiempos de Métodos (MTM) que es el Sistema de Tiempo Predeterminado (STP) que más se usa en el mundo y el muestreo de trabajo son las metodologías más usadas. Con el tiempo se han desarrollado diferentes variantes y mejoras en los STP que han permitido medir y mejorar la eficiencia de los procesos de producción y la productividad de los trabajadores. Finalmente el objetivo de este proyecto de investigación es diseñar, mejorar e integrar sistemas productivos de bienes y servicios aplicando tecnologías para su optimización.
+    % \item Estudio: Esfuerzo que pone el entendimiento aplicándose a conocer algo.
+    % \item Tiempos: Magnitud física que permite ordenar la secuencia de los sucesos.
+    % \item Movimientos: Acción y efecto de mover.
+    % \item Ensamble: Unir, juntar, ajustar, especialmente piezas.
+    % \item Circuito: Terreno comprendido dentro de un perímetro cualquiera.
+    % \item Electrónico: Perteneciente o relativo a la electrónica.
+    % \item Métodos: Modo de decir o hacer con orden.
+    % \item Optimización: Buscar la mejor manera de realizar una actividad.
+    \item Esfuerzo aplicado para ordenar la secuencia de los movimientos al unir, juntar y ajustar los materiales en un circuito electrónico llevando a cabo un conjunto de reglas o principios para encontrar la mejor manera de realizar la actividad.\cite{RAE}
     \end{itemize}
     
     % \begin{itemize}
@@ -166,7 +175,9 @@
         % \item Se debe desglosar de acuerdo a los objetivos específicos.
         % \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
         % \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
-        \item Referencias de los materiales que se presentan a continuación:Figura\ref{fig:multicontactoFigura}.\ref{fig:cableUSB-CFigura}.\ref{fig:potenciómetroFigura}.\ref{fig:lcdFigura}.\ref{fig:móduloAdaptadorLcdFigura}.\ref{fig:esp32Figura}.\ref{fig:protoboardFigura}.\ref{fig:resistenciaFigura}.\ref{fig:cableMHFigura}.\ref{fig:cableMMFigura}.\ref{fig:tapeteProfesionalOrganizadorDeTrabajoFigura}
+        \item Véase los materiales que se presentan a continuación:Figura\ref{fig:multicontactoFigura}.\ref{fig:cableUSB-CFigura}.\ref{fig:potenciómetroFigura}.\ref{fig:lcdFigura}.\ref{fig:móduloAdaptadorLcdFigura}.\ref{fig:esp32Figura}.\ref{fig:protoboardFigura}.\ref{fig:resistenciaFigura}.\ref{fig:cableMHFigura}.\ref{fig:cableMMFigura}.\ref{fig:tapeteProfesionalOrganizadorDeTrabajoFigura}
+        \item Véase hoja de registro \ref{anexo:hojaDeRegistro}.
+        \item Véase ensamble de circuito electrónico \ref{anexo:ensambleDeCircuitoElectrónico}
     \end{itemize}
     % 
     % 
@@ -302,7 +313,42 @@
     \subsection{Tablas y Figuras}
     
     \begin{enumerate}
-        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    % 
+    % 
+    \item Véase las evidencias donde se comprueba que funcionó el armado del circuito electrónico:Figura\ref{fig:evidencia1}.\ref{fig:evidencia2}.\ref{fig:evidencia3}.\ref{fig:evidencia4}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia1.png}
+        \caption{En esta imagen se observa cómo el operador conecta los cables al módulo adaptador LCD 1602} 
+        \label{fig:evidencia1}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia2.png}
+        \caption{En esta imagen se observa cómo el operador termina de conectar los cables en el módulo adaptador LCD 1602} 
+        \label{fig:evidencia2}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia3.png}
+        \caption{En esta imagen se observa cómo enciende el LCD 16x2 correctamente. Se alcanza a apreciar "Potenciómetro 1824"} 
+        \label{fig:evidencia3}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{3/Img/evidencia4.png}
+        \caption{En esta imagen se observa cómo el operador mueve el potenciómetro para que se refleje el cambio en el LCD 16x2. Se alcanza a apreciar "Potenciómetro 1952"} 
+        \label{fig:evidencia4}
+    \end{figure}
+    % 
+    % 
+        % \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
     \end{enumerate}
     
     \section{Conclusiones}
@@ -315,13 +361,13 @@
     
     \section*{Referencias}
     
-    Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-    La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-    Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    % Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    % La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    % Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
     Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-    Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-    Véase el archivo adjunto \ref{anexo:pines}.
+    % Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    % Véase el archivo adjunto \ref{anexo:pines}.
     
     % Ejemplo
     %  @Article{article,
@@ -395,16 +441,14 @@
     \bibliography{3/referencias}
     %
     %
+    \newpage
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    % \section[\appendixname~\thesection]{Apéndice}
-    \centering{\section[\appendixautorefname{ mesa}]{HOJA DE REGISTRO}}
-    
-    \includepdf[pages=-]{3/Img/hojaDeRegistro .pdf}
-    \label{anexo:mesa}
+    \centering{\section[\appendixautorefname{}]{HOJA DE REGISTRO}}\label{anexo:hojaDeRegistro}
+    \includepdf[pages=-]{3/Img/hojaDeRegistro.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
@@ -413,9 +457,6 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    % \section[\appendixname~\thesection]{Apéndice}
-    \centering{\section[\appendixautorefname{ mesa}]{}}
-    
+    \centering{\section[\appendixautorefname{}]{}}\label{anexo:ensambleDeCircuitoElectrónico}
     \includepdf[pages=-]{3/Img/ensambleDeCircuitoElectrónico.pdf}
-    \label{anexo:mesa}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
