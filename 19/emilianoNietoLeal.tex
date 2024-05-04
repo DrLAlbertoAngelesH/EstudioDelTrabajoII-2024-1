@@ -56,7 +56,7 @@
     \end{abstract}
     % 
     % 
-    \textbf{\textit{Palabras clave}}: {Tiempo, Movimiento, Medición, Muestreo, Registro y Opti.}
+    \textbf{\textit{Palabras clave}}: {Tiempo, Movimiento, Medición, Muestreo, Registro y Optimización.}
     % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     
     \section{Introducción}
@@ -146,8 +146,9 @@
     
     %Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto deberá ser desglosada precisada y ordenada claramente. En consecuencia cada objetivo que se presentó en forma de verbo en infinitivo deberá determinar una estrategia en forma de adverbio. Ej. Desarrollar…Desarrollo. Son las actividades ordenadas que tienen como finalidad la prueba de la hipótesis. 
     
-    \begin{itemize}
-        \item  Al empezar la metodología establecida para la obtención de los valores de cada ciclo referente a la fabricación del circuito presento los materiales que se utilizaran en el proceso de ensamblaje del circuito, mostrando todos los materiales en un formato simple de entender y con una imagen de referencia para la comodidad del operador y de los que deseen el replicar el proceso, para posteriormente presentar un manual en que sea presentado también un modelo 3D de la pieza, su costo unitario en el mercado y también la cantidad aproximada de cuantas piezas de cada tipo se requerirán, en conjunto con su manejo.
+        Debido a que el objetivo principal de este estudio es la comparación de los valores obtenidos por diversos métodos de optimización, estos en base tanto a su procedimiento como a los valores generados en cada registro histórico, para así obtener el que beneficie más al proceso a realizar es necesario conocer el funcionamiento de todos las metodologías que se buscan utilizar, siendo el primero de estos la medición del tiempo productivo a través del uso de una cámara para generar observaciones (una película) del proceso necesario para ensamblar el circuito y así cada miembro del grupo realice su propia medición en base a la película propia. Para posteriormente agregarlos al registro histórico y poder de esta manera obtener el valor esperado para cada ciclo a analizar. 
+        \\Para poder desarrollar este método se requiere generar diversas parejas dentro de las cuales se asignaran roles entre el operador y el analista para de esta manera realizar dos observaciones cada uno de como se debe de llevar acabo el ensamble del circuito, generando una película que nos muestre ese proceso para que al finalizar de esta el miembro que tome el rol del operario deberá pasar lo prueba de calidad del producto, el cual es mover los valores de resistencia del potenciómetro para que se muestre una fluctuación en las lecturas de parte del LCD, realizando el mismo proceso pero ahora con la persona que tomo el rol del analista convirtiéndose en el operario y viceversa.
+        \\Al empezar la metodología establecida para la obtención de los valores de cada ciclo presento los materiales que se utilizaran en el proceso de ensamblaje del circuito, mostrando todo lo necesario en un formato simple de entender y con una imagen de referencia para la comodidad del operador y de los que deseen el replicar el proceso, para posteriormente presentar un manual en que sea presentado también un modelo 3D de la pieza, su costo unitario en el mercado y también la cantidad aproximada de cuantas piezas de cada tipo se requerirán, en conjunto con su manejo.
     
     
         \begin{itemize}
@@ -196,7 +197,7 @@
         \label{fig:Potenciómetro}
     \end{figure}
         
-    \item LCD: Pequeño dispositivo que posee una pantalla, este es usado principalmente en los circuitos eléctricos para comprobar el funcionamiento de todas las piezas, mostrando mensajes de error o no mostrando nada.\ref{fig:LCD}.
+    \item LCD: Pequeño dispositivo que posee una pantalla de cristal líquido, el cual es usado principalmente en los circuitos eléctricos para comprobar el funcionamiento de todas las piezas, mostrando mensajes que se programan con anterioridad dentro del circuito.\ref{fig:LCD}.
     
             \begin{figure}[H]
         \centering
@@ -223,7 +224,7 @@
         \label{fig:CableUSB}
     \end{figure}
     
-    \item ESP-32: Este es un microcontrolador soldado directamente al Protoboard, el cual permite poseer tanto un receptor como un emisor de sñal saliente del Protoboard.\ref{fig:ESP-32}.
+    \item ESP-32: Este chip es un microcontrolador soldado directamente al Protoboard, el cual permite poseer tanto un receptor como un emisor de señal saliente del Protoboard.\ref{fig:ESP-32}.
     
             \begin{figure}[H]
         \centering
@@ -320,7 +321,6 @@
         \caption{Dibujo Módulo I2C Interfaz}
         \label{fig:modulodibujo}
     \end{figure}
-        \end{itemize}
            
     \clearpage
     \newpage
@@ -343,10 +343,9 @@
     \end{figure}
     
     
-        Después de entender los pasos y el proceso que se llevará acaba para realizar el ensamble se pedirá al operario que lea con atención todos los pasos presentes en el manual para que que lleve acabo el ensamble del circuito, observando tanto la cantidad de piezas a ocupar de cada material como la forma en la que se realizarán las uniones de estas.
-         \newpage
-        Posterior a ello se pedirá que coloque todas las piezas y materiales necesarios para el proceso del ensamblaje en una posición adecuada alrededor del Tapete organizador como se presenta a continuación.\ref{fig:ensamblaje1}.
-                \begin{figure}[H]
+        Después del operario entender los pasos y el proceso que se llevará acaba para realizar el ensamble se pedirá al operario que recuerde la cantidad de piezas a ocupar de cada material y cual es la función d esta en el circuito a ensamblar.
+        \\Posterior a ello se pedirá que coloque todas las piezas y materiales necesarios para el proceso del ensamblaje en una posición adecuada alrededor del Tapete organizador como se presenta a continuación.\ref{fig:ensamblaje1}.
+    \begin{figure}[H]
         \centering
         \includegraphics[trim = {55mm 15mm 48mm 20mm},clip,scale=0.5]{19/Img/ensamblaje1.pdf}
         \caption{Dibujo del Tapete Organizador con todas las piezas en orden}
@@ -354,15 +353,15 @@
     \end{figure}
 
         
-         Después el operador dará inicio al proceso, con el inicio del operario el analista esta preparado con una tabla para anotar los tiempos de cada paso y un cronometro para medir el tiempo que tardará.
-        Este proceso seguirá hasta que el operario termine con el ensamblaje del circuito, concluyendo un ciclo de los que se analizarán, posteriormente se compararan los valores de cada ciclo presentado y con ellos podrán utilizar la fórmula para el valor esperado, el cual consiste en:
+         Después el operador dará inicio al proceso, con el inicio del operario el analista esta preparado con una cámara de vídeo con la cual se grabará la película en la cual podamos ver el proceso a realizar y la confirmación de haber realizado la prueba de calidad del producto.
+        Al concluir este proceso con la confirmación de la prueba se terminará la primera observación, posteriormente el mismo analista deberá de llevar acabo una segunda observación para luego tomar el rol de operador, el cual igualmente ensamblara dos veces el circuito para obtener los valores  de cada observación usando la  fórmula para el valor esperado, el cual consiste en:
     
         \begin{equation}
         \label{eq1}
         (x1+x2+x3+........+xn)/n 
     \end{equation}
     
-        para así poder obtener la media de todos los tiempos y concluir que este este es el tiempo esperado que se obtendrá al llevar acabo la metodología de tiempos continuos y de esta manera pasar a la siguiente metodología
+        para así poder obtener la media de todos los tiempos y concluir que este este es el tiempo esperado que se obtendrá al llevar acabo la metodología de tiempos continuos y de esta manera compararla con la siguiente metodología.
      
     
     %\subsection{Prepara tu documento}
@@ -373,14 +372,15 @@
     %Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
     
     %\subsection{Acrónimos y Abreviaciones}
+
     
     %Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
     
     
     \section{Resultados y discusión}
     
-    Posterior a la  lectura, análisis y memorización del manual de fabricación por parte del operador se iniciara de manera manual el ensamblaje del circuito a manos del operador, buscando que el analista observe y realice un vídeo (muestra continua) sobre como el operario llevo acabo todo el proceso de ensamblaje utilizando únicamente como base las instrucciones dadas con anterioridad, sin ningún tipo de apoyo externo, para de esta manera concluir si el circuito fue armado correctamente.
-    \\Posterior a todo el proceso de armado para confirmar que este se realizo adecuadamente se necesitará que el operador realice una modificación al rango del potenciómetro, al moverlo y modificar su resistencia para observar su cambio en la pantalla, de esta manera el analista deberá de tomar evidencia de como no solo la pantalla LCD funciona adecuadamente al prender y enviar una señal, sino también el hecho de que si se genera algún cambio en la lectura ofrecida por el potenciómetro a la hora de variar la resistencia de este último como se observa en la siguiente imagen\ref{fig:evidenciaCambio1}.
+    Posterior a la  lectura, análisis y memorización del manual de fabricación por parte del operador se iniciara de manera manual el ensamblaje del circuito a manos del operador, buscando que el analista observe y realice la película (muestra continua) sobre como el operario llevo acabo todo el proceso de ensamblaje utilizando únicamente como base las instrucciones dadas con anterioridad, sin ningún tipo de apoyo externo, para de esta manera concluir si el circuito fue armado correctamente.
+    \\Al terminar todo el proceso de armado para confirmar que este se realizo adecuadamente se necesitará que el operador realice una modificación al rango del potenciómetro, al moverlo y modificar su resistencia para observar su cambio en la pantalla, de esta manera el analista deberá de tomar evidencia de como no solo la pantalla LCD funciona adecuadamente al prender y enviar una señal, sino también el hecho de que si se genera algún cambio en la lectura ofrecida por el potenciómetro a la hora de variar la resistencia de este último como se observa en la siguiente imagen\ref{fig:evidenciaCambio1}.
                 \begin{figure}[H]
         \centering
         \includegraphics[trim = {45mm 15mm 80mm 20mm},clip,scale=0.5]{19/Img/evidenciaCambio1.pdf}
