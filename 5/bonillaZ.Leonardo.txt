@@ -272,49 +272,97 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 %
 %
 %
-
-\includepdf[pages=1-]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexoCable tipo c a c_ Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:cableMH_Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/cableMM_BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:cableMM_BonillaZ.Leonardo Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Cable de tipo c a c}
+    \label{fig:Cable de tipo c a c}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/ESP32_BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:ESP32_BonillaZ.Leonardo Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.PDF}
+    \caption{Cable MH}
+    \label{fig:Cable MH}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/LCD_ BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:LCD_ BonillaZ.Leonardo Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMM_BonillaZ.Leonardo Dibujo.PDF}
+    \caption{Cable MM}
+    \label{fig:Cable MM}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
-\label{anexo:módulo SPI 12C_BonillaZ.Leonardo_Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/ESP32_BonillaZ.Leonardo Dibujo.PDF}
+    \caption{ESP 32}
+    \label{fig:ESP 32}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:multicontacto_Bonilla.Z.Leonardo_Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/LCD_ BonillaZ.Leonardo Dibujo.PDF}
+    \caption{LCD}
+    \label{fig:LCD}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.pdf}
-\label{anexo:potenciometro.BonillaZ.Leonardo._Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
+    \caption{Módulo SPI 12C}
+    \label{fig:Módulo SPI 12C}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:protoboard_Bonilla.Z.Leonardo_Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Multicontacto}
+    \label{fig:Multicontacto}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:resistencias.Bonilla.Z.Leonardo_Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.PDF}
+    \caption{Potenciometro}
+    \label{fig:Potenciometro}
+\end{figure}
 
 
-\includepdf[pages=1-]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.pdf}
-\label{anexo:Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Protoboard}
+    \label{fig:Protoboard}
+\end{figure}
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.PDF}
+    \caption{Resistencias}
+    \label{fig:Resistencias}
+\end{figure}
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.PDF}
+    \caption{Tapete profesional organizador de trabajo}
+    \label{fig:Tapete Profesional organizador de trabajo}
+\end{figure}
+
+
+
 
 % 
 % 
