@@ -440,6 +440,20 @@ Donde:
     \caption{Evidencia 08}
     \label{fig:Evidencia 08}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/registro1.pdf}
+    \caption{Registro 1}
+    \label{fig:Registro 1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/registro2.pdf}
+    \caption{Registro 2}
+    \label{fig:Registro 2}
+\end{figure}
 Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
 Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora está listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
