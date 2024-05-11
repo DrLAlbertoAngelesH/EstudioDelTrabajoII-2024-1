@@ -1,7 +1,7 @@
 # ¡Advertencia! Si cambias el branch principal se te bajarán 10 puntos
 ## Repositorio para subir diapositivas información y revisar el proyecto integrador
 
-### LuisAlbertoAngeles
+### LuisAlbertoAngeles 
 #### LuisAngelPiedraMoreno luigui123piedra@gmail.com
 #### ManuelGomezHernandez l22140897@queretaro.tecnm.mx
 #### EmilianoNietoLeal l22140880@queretaro.tecnm.mx 
