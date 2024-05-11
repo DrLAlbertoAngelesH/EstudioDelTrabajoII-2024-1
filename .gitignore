@@ -1,7 +1,7 @@
 /README.md
 prueba.txt
 !6/
-!6/Img/
+!6/Img/*.pdf
 # Se ignoran las siguientes carpetas
 *.tex
 *.txt
