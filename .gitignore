@@ -1,5 +1,5 @@
-/README.md
-prueba.txt
+# /README.md
+# prueba.txt
 # !6/
 # # Se ignoran las siguientes carpetas
 # *.tex
@@ -9,7 +9,7 @@ prueba.txt
 # Diapositivas/
 # Evaluaciones/
 # InstrumentaciónDidactica/
-# exclude everything except directory foo/bar
+# exclude everything except directory 6/Img
 /*
 !/6
 /6/*
