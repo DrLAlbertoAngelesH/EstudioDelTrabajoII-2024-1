@@ -1,11 +1,16 @@
 /README.md
 prueba.txt
-!6/
-# Se ignoran las siguientes carpetas
-*.tex
-*.txt
-*.bib
-*.pdf
-Diapositivas/
-Evaluaciones/
-InstrumentaciónDidactica/
+# !6/
+# # Se ignoran las siguientes carpetas
+# *.tex
+# *.txt
+# *.bib
+# *.pdf
+# Diapositivas/
+# Evaluaciones/
+# InstrumentaciónDidactica/
+# exclude everything except directory foo/bar
+/*
+!/6
+/6/*
+!/6/Img
