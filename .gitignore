@@ -1,8 +1,10 @@
 /README.md
 prueba.txt
 !6/
+!6/Img
 # Se ignoran las siguientes carpetas
 *.tex
+*.txt
 *.bib
 Diapositivas/
 Evaluaciones/
