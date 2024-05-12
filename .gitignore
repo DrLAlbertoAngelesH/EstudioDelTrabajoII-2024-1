@@ -1,5 +1,5 @@
 # ingora todos los nuevos archivos que se van a crear
-# /*
+/*
 # ingora la carpeta 6 y registra todos los cambios en los actuales archivos
 !/6
 # si alguien crea un nuevo archivo ignoralo
