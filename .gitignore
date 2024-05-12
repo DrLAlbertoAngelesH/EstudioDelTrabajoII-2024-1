@@ -1,0 +1,9 @@
+# ingora todos los nuevos archivos que se van a crear
+# /*
+# ingora la carpeta 6 y registra todos los cambios en los actuales archivos
+!/6
+# si alguien crea un nuevo archivo ignoralo
+/6/*
+# exclude everything except directory 6/Img
+!/6/Img
+# exclude el archivo
