@@ -450,6 +450,56 @@ Donde:
 
 \begin{figure}
     \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev.2.1.pdf}
+    \caption{Evidencia 2.1}
+    \label{fig:Evidencia 2.1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev.2.2.pdf}
+    \caption{Evidencia 2.2}
+    \label{fig:evidencia 2/2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.3.pdf}
+    \caption{Evidencia 2.3}
+    \label{fig:Evidencia 2.3}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.4.pdf}
+    \caption{Evidencia 2.4}
+    \label{fig:Evidencia 2.4}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.5.pdf}
+    \caption{Evidencia 2.5}
+    \label{fig:Evidencia 2.5}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.6.pdf}
+    \caption{Evidencia 2.6}
+    \label{fig:Evidencia 2.6}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.7.pdf}
+    \caption{Evidencia 2.7}
+    \label{fig:Evidencia 2.7}
+\end{figure}
+
+\begin{figure}
+    \centering
     \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/registro2.pdf}
     \caption{Registro 2}
     \label{fig:Registro 2}
