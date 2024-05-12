@@ -7,7 +7,7 @@
 # exclude everything except directory 6/Img
 !/6/Img
 # exclude el archivo
-3/diegoAvilaHernández.tex
-3/referencias.bib
-3/template.tex
-5/referencias.bib
+# 3/diegoAvilaHernández.tex
+# 3/referencias.bib
+# 3/template.tex
+# 5/referencias.bib
