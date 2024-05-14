@@ -175,6 +175,7 @@ A partir de este análisis, buscaremos los métodos más económicos, y a su vez
 \label{anexo:Lista de costos_BonillaZ.Leonaro}
 
 Materiales:
+
 Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un componente pasivo que se utiliza en electrónica para limitar la cantidad de corriente que fluye a través de un circuito.
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
@@ -361,6 +362,7 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
     \label{fig:Tapete Profesional organizador de trabajo}
 \end{figure}
 
+\subsection{Plan de emergencia}
 
 
 
@@ -405,6 +407,7 @@ Donde:
 \item $P(x)$ es la probabilidad de cada valor $x$.
 \end{itemize}
 
+Tras haber realizado el estudio no.1 se obtuvo los siguientes resultados:
 
 \begin{figure}
     \centering
@@ -447,6 +450,15 @@ Donde:
     \caption{Registro 1}
     \label{fig:Registro 1}
 \end{figure}
+
+Como podemos ver en el registro anterior, el estudio se obtuvo un buen margen de tiempo, e inclusive el operador, trabajo a una velocidad normal, pesé a esto, logró ensamblar el circuito en menos de 5 minutos, obteniendo un tiempo de 4:17 min.
+Esto, a pesar de encontrarse en un área de trabajo con algunos inconvenientes, lo cual podrían entorpecer el proceso, aun así logró el objetivo.
+
+
+
+
+
+Tras haber analizado esta primera muestra, realizamos una segunda muestra para así poder calcular la media y tener un parámetro de los tiempos y procesos para el armado del circuito y poder planear una optimización del ensamble:
 
 \begin{figure}
     \centering
@@ -504,6 +516,9 @@ Donde:
     \caption{Registro 2}
     \label{fig:Registro 2}
 \end{figure}
+
+Después de haber realizado el análisis pudimos ver que hubo una diferencia muy grande, pues esta vez el análisis se realizó en otro departamento, (Laboratorio de Electricidad), en el cual la iluminación es deficiente, y también el área de trabajo, (silla, mesa), no es ergonómico 
+
 Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
 Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora está listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
