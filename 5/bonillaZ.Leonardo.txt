@@ -61,6 +61,13 @@ El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Ado
 
 \section{Introducción}
 
+%     \item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
+%     \item Se deben de mencionar las metodologías más usadas muy brevemente. 
+%     \item Se debe de señalar el avance en los últimos años.
+%     \item Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% Define estudio de tiempos y movimientos
 El estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización se refiere a la aplicación de técnicas de ingeniería industrial para mejorar la eficiencia y productividad en el proceso de ensamble de circuitos electrónicos.
 
 Este estudio implica la observación y análisis detallado de cada paso en el proceso de ensamble, desde la colocación de los componentes hasta la soldadura y pruebas finales. Se registran los tiempos y movimientos necesarios para cada operación, y se identifican las áreas de ineficiencia o desperdicio.
@@ -77,6 +84,22 @@ El objetivo principal del estudio de trabajo es incrementar la productividad sin
 
 En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
 
+% define que es ensamble
+El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020integracion}
+
+% define que es circuito electronico
+Un circuito electrónico es un conjunto de componentes eléctricos conectados que realizan una función específica. Los componentes pueden ser resistencias, condensadores, transistores, entre otros. Los circuitos electrónicos son fundamentales en la tecnología actual y se utilizan en dispositivos como televisores, computadoras y teléfonos celulares. Los circuitos pueden ser en serie, paralelo, mixto, abierto o cerrado, dependiendo de cómo estén conectados los componentes. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.
+
+% define optimización
+La optimización es el proceso de encontrar la mejor solución o configuración dentro de un conjunto de opciones posibles. El objetivo es maximizar algún criterio deseado o minimizar ciertos factores no deseados, teniendo en cuenta las restricciones y condiciones específicas del problema. Se aplica en diversos campos, como la ingeniería, la economía, la logística y la gestión empresarial. En esencia, la optimización implica una búsqueda constante de mejoras y eficiencias.
+En otras palabras, la optimización tiene como objetivo, procurando la reducción, (ya sea de costos, mantenimiento, de producción, entre otros), e inclusive de movimientos, procurando un mayor rendimiento en la producción, siempre buscando la mejor manera de hacer el proceso, en este caso, buscamos la optimización de recursos y movimientos.
+
+% define el metodo de tiempos predeterminados
+El método de tiempos predeterminados es un procedimiento en el estudio del trabajo que asigna tiempos a movimientos y grupos de movimientos básicos. Estos tiempos se obtienen del estudio de numerosas muestras de operaciones diversificadas. Este método permite calcular tiempos teóricos de ejecución de actividades influenciables por el hombre y ayuda a optimizar el diseño de puestos y métodos de trabajo. Existen alrededor de 50 sistemas de valores sintéticos establecidos, incluyendo el MTM (Medición de Tiempos de Método).
+
+% Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+Siendo nuestro objetivo general, tratar de buscar el modo más barato y mejor para lograr el ensamble, mediante la experimentación, llevando a cabo el ensamble, y buscando las mejores opciones, tratando de lograr una mejor eficiencia, y optimizando recursos y costos.
+
 \subsection{Definiciones}
    \begin{enumerate}
        \item Git: Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
@@ -89,11 +112,6 @@ En los últimos años, el estudio de trabajo ha experimentado cambios significat
        \item Balanceo de líneas: El balanceo de líneas se define como una técnica de organización en la producción que busca distribuir equitativamente las tareas y tiempos de ciclo en una línea de ensamblaje, con el fin de mejorar la eficiencia y la productividad. Esta técnica busca evitar cuellos de botella y desequilibrios en la carga de trabajo entre estas estaciones, asegurando un flujo constante y óptimo de producción.
    \end{enumerate}
 
-% Define estudio de tiempos y movimientos
-% define que es ensamble
-% define que es circuito electronico
-% define el metodo de tiempos predeterminados
-% define optimización
 
 % 
 % 
@@ -364,6 +382,24 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 
 \subsection{Plan de emergencia}
 
+En este documento se describirá el plan de emergencia que se debe llevar a cabo de algún incidente, el cual podamos aplicar para evitar mayores riesgos.
+Un plan de emergencia se implementa en la industria para identificar riesgos, establecer medidas preventivas y procedimientos de evacuación, y definir roles y responsabilidades. 
+
+\subsection{Objetivo}
+El objetivo principal de tener el plan de emergencia en la industria es garantizar la seguridad y protección de todos los empleados, visitantes y contratistas en caso de una emergencia. Este plan ayuda a minimizar los riesgos y a manejar eficientemente cualquier situación de crisis, reduciendo así el impacto potencial en las personas, las operaciones y la reputación de la empresa. Además, permite a la organización cumplir con las normativas de seguridad y salud en el trabajo. 
+
+\subsection{Datos generales}
+
+\begin{enumerate}
+    \item Nombre comercial:
+    \item Domicilio
+    \item Horario de servicio:
+    \item Teléfonos:
+    \item Actividad principal:
+    \item Representante legal:
+    \item Cantidad de trabajadores:
+    \item Superficie del establecimiento en m2
+\end{enumerate}
 
 
 % 
@@ -446,7 +482,7 @@ Tras haber realizado el estudio no.1 se obtuvo los siguientes resultados:
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/registro1.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/registro1.pdf}
     \caption{Registro 1}
     \label{fig:Registro 1}
 \end{figure}
@@ -512,7 +548,7 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/registro2.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/registro2.pdf}
     \caption{Registro 2}
     \label{fig:Registro 2}
 \end{figure}
