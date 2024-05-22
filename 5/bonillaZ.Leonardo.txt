@@ -244,7 +244,9 @@ El estudio del trabajo es una disciplina que se centra en la evaluación sistem�
 
 7. Facilitar la mejora continua: El estudio del trabajo proporciona una base para la mejora continua al identificar oportunidades para mejorar los procesos de trabajo.
 
-En resumen, el estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones
+El estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones.
+
+Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más "económica" de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
 
 \subsection{Objetivos específicos }
 % \begin{itemize}
