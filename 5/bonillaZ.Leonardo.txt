@@ -183,6 +183,10 @@ Por lo tanto, es esencial continuar con el estudio del trabajo para entender y a
 % \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
 % 
 % 
+% ``es''
+La educación y el desarrollo de tecnologías es algo fundamental para cada país, inclusive siendo una competencia a nivel mundial, así que para ello, se hace uso de la industrialización, la cual se desarrolla gracias a la educación e investigación, que día a día van cambiando de manera constante, entonces para que la industria pueda seguir avanzando y mejorando, debe hacer uso de técnicas para poder mejorar su producción y reduciendo costos, aplicando el Estudio o análisis en el trabajo, para obtener un mayor rendimiento como industria, e inclusive gestionando proyectos que sean redituables.
+
+% ``debe ser''
 El estudio del trabajo, una disciplina que busca optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento, enfrenta varios desafíos en el mundo actual. Uno de los problemas más notables es la creciente tendencia hacia la flexibilización y precarización laboral, así como la diversificación y multiplicación de las formas de trabajo. 
 
 Estas tendencias están moldeando un panorama complejo y heterogéneo para las expectativas de estabilidad y bienestar social generadas por las sociedades capitalistas. La transformación en el trabajo supone un importante problema para la salud de las sociedades contemporáneas, ya que genera serias contradicciones y desigualdades sociales. Además, la aceleración de las innovaciones tecnológicas y la pandemia de
@@ -206,6 +210,19 @@ En términos más específicos, el estudio del trabajo consiste en la aplicació
 empleados.
 
 En resumen, el estudio del trabajo es una disciplina basada en la suposición de que se puede aplicar el método científico para estudiar el trabajo. Su fundamentación teórica se basa en la documentación y reflexión previa respecto al tema a investigar, y sirve como sostén conceptual de su trabajo o proyecto final.
+
+La Industria 4.0, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia. Aquí te dejo algunos puntos clave sobre la Industria 4.0:
+
+- Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+- Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+- Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+- Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+
+Además, la Industria 4.0 se entiende como la aplicación de tecnologías disruptivas, como las tecnologías de la información o TICs, con el aumento de la capacidad de computación, y manteniendo la promesa de fábricas inteligentes que son altamente eficientes y cada vez más integradas.
+
+El desarrollo de fábricas inteligentes brinda una oportunidad increíble para que la industria manufacturera ingrese a la cuarta revolución industrial. El análisis de las grandes cantidades de datos recopilados de los sensores en la planta de producción garantiza la visibilidad en tiempo real de los activos de manufactura y puede proporcionar herramientas para realizar el mantenimiento predictivo a fin de minimizar el tiempo de inactividad del equipo.
+
+El uso de dispositivos del IoT de alta tecnología en fábricas inteligentes conduce a mayor productividad y mejor calidad. Reemplazar los modelos comerciales de inspección manual con insights visuales basados en IA, reduce los errores de manufactura y ahorra tiempo y dinero, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
 
 % 
 % 
