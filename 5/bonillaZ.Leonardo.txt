@@ -116,6 +116,51 @@ Siendo nuestro objetivo general, tratar de buscar el modo más barato y mejor pa
 % 
 % 
 \section{Justificación}
+% \begin{itemize}
+%     \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% 
+% Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+% 
+La Industria 4.0, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia.
+
+Algunos puntos clave sobre la Industria 4.0:
+
+- Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+- Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+- Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+- Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+
+En resumen, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
+
+% Cuantos tipos de manufactura existen?
+1. Según el bien resultante:
+    - De productos elaborados: Cuando la mercancía fabricada está destinada al consumidor final. Algunos ejemplos son la industria alimentaria, sector automovilístico, industria tecnológica, industria textil y sector farmacéutico.
+    - De productos semielaborados: Cuando se fabrican productos que servirán como insumos en otros procesos industriales. Por ejemplo, la industria siderúrgica y la industria minera.
+
+2. Según el proceso de producción:
+    - Por lote: La producción se hace por cantidades o volúmenes determinados, cuyas unidades son homogéneas.
+    - En serie: Se fabrican productos homogéneos en grandes cantidades.
+    - Por pedido: La empresa comienza el proceso de manufactura cada vez que recibe el pedido de un cliente, brindándole una mercancía personalizada de acuerdo con sus requerimientos.
+
+3. Según cómo se puede medir:
+    - De proceso continuo: Cuando el producto se mide en variables continuas como el peso o el volumen.
+
+% Cuantas empresas de manufactura existen en Mundo?
+Debido a la globalización, actualmente no se sabe a ciencia cierta cuantas empresas de manufactura existen con certeza; sin embargo, Según los datos más recientes, existen aproximadamente 21.7 millones de empresas de fabricación en todo el mundo. Es importante destacar que una de cada tres empresas de fabricación tiene su sede en China, con un total de 7.2 millones de compañías dedicadas a la manufactura. Sin embargo, estos números pueden variar debido a la constante creación y cierre de empresas. 
+
+% Cuantas empresas de manufactura existen en México?
+En diciembre de 2023, México contaba con 611,331 establecimientos relacionados con el sector manufacturero. El Estado de México era la entidad federativa con la mayor cantidad de locales de este tipo, albergando cerca del 11\% del total. Le siguieron Oaxaca y Jalisco, ambos estados con más de 53,000 establecimientos en esta industria. Es importante mencionar que estos datos pueden variar con el tiempo.
+
+
+% Cuantas empresas de manufactura existen en Querétaro?
+Querétaro es un importante centro de manufactura en México. La principal industria en Querétaro es la manufacturera, que genera el 30\% del Producto Interno Bruto (PIB) estatal.
+- En el sector automotriz, Querétaro posee 317 empresas en el sector de autopartes.
+- En el sector aeroespacial, Querétaro se encuentra entre las cinco entidades del país con mayor número de empresas aeroespaciales (50).
+
+Estos datos indican que Querétaro tiene una presencia significativa en la industria manufacturera, especialmente en los sectores automotriz y aeroespacial. 
+
 
 A nivel global, el estudio del trabajo es cada vez más relevante debido a las rápidas transformaciones en el mundo laboral. Las tendencias económicas, sanitarias y geopolíticas han creado resultados divergentes para los mercados laborales de todo el mundo. La adopción de tecnología sigue siendo un motor clave de la transformación empresarial. Además, la especialización del conocimiento se ha convertido en una necesidad, intensificándose la demanda en torno a ciertos especialistas altamente cualificados.
 
@@ -130,6 +175,14 @@ Por lo tanto, es esencial continuar con el estudio del trabajo para entender y a
 % 
 % 
 \section{Descripción del problema}
+% \begin{itemize}
+%     \item Se debe describir la desviación o diferencia del ``es'' con respecto al ``debe ser''.
+%     \item Se debe hacer alusión a la incógnita científica*.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+% 
+% 
 El estudio del trabajo, una disciplina que busca optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento, enfrenta varios desafíos en el mundo actual. Uno de los problemas más notables es la creciente tendencia hacia la flexibilización y precarización laboral, así como la diversificación y multiplicación de las formas de trabajo. 
 
 Estas tendencias están moldeando un panorama complejo y heterogéneo para las expectativas de estabilidad y bienestar social generadas por las sociedades capitalistas. La transformación en el trabajo supone un importante problema para la salud de las sociedades contemporáneas, ya que genera serias contradicciones y desigualdades sociales. Además, la aceleración de las innovaciones tecnológicas y la pandemia de
@@ -177,6 +230,14 @@ El estudio del trabajo es una disciplina que se centra en la evaluación sistem�
 En resumen, el estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones
 
 \subsection{Objetivos específicos }
+% \begin{itemize}
+%     \item Se debe establecer como un conjunto de acciones comunes para lograr el objetivo general
+%     \item Se debe establecer como etapas para lograr el objetivo general
+% \end{itemize}
+
+% Son actividades orientadas al cumplimiento del objetivo general. Se establecen con verbos activos en infinitivo. Son parte de la acción encaminada a probar la hipótesis. Éstos deben ser precisos, y en lo posible evitar aspectos metodológicos.
+% 
+% 
 
 Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
 
