@@ -467,15 +467,17 @@ El objetivo principal de tener el plan de emergencia en la industria es garantiz
 \subsection{Datos generales}
 
 \begin{enumerate}
-    \item Nombre comercial:
-    \item Domicilio
-    \item Horario de servicio:
-    \item Teléfonos:
-    \item Actividad principal:
+    \item Nombre comercial: Instituto Tecnológico de Querétaro
+    \item Domicilio:Av. Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.
+    \item Horario de servicio: 6:30 - 22:30 hrs.
+    \item Teléfonos: (+52) 442 2274 400
+    \item Actividad principal: Centro de estudios de educación superior tecnológica, ofreciendo carreras de ingenierías, maestras y doctorados.
     \item Representante legal:
-    \item Cantidad de trabajadores:
-    \item Superficie del establecimiento en m2
+    \item Cantidad de trabajadores: 343
+    \item Superficie del establecimiento en m2:78,091
 \end{enumerate}
+
+\subsection{Plano de localización}
 
 
 % 
