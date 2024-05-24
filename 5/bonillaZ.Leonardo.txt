@@ -246,7 +246,11 @@ El estudio del trabajo es una disciplina que se centra en la evaluación sistem�
 
 El estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones.
 
+La eficiencia en el ensamble del circuito puede ser significativamente mejorada mediante la aplicación de principios de estudio del trabajo. La implementación de técnicas de optimización de procesos, como el análisis de tiempos y movimientos, la estandarización de procedimientos y la formación adecuada del personal, puede reducir el tiempo de ensamble, minimizar los errores y mejorar la calidad general del circuito ensamblado. Esta mejora en la eficiencia no solo podría reducir los costos de producción, sino también aumentar la fiabilidad y durabilidad del circuito, lo que a su vez podría llevar a una mayor satisfacción del cliente.
+
 Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más "económica" de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
+\subsection{Objetivos}
+El objetivo de esta investigación es llevar a cabo un ensamble de un circuito, previamente a esto, realizar un análisis del método propuesto, y buscar una mejor forma en la que se puede llevar a cabo proponiendo uno nuevo el cual trate de mejorar el procedimiento, tratando de reducir o eliminar movimientos innecesarios, gestionar los materiales y reducir los costos, tratando de buscar la forma más económica de hacer el ensamble del circuito, analizando a nuestros operadores.
 
 \subsection{Objetivos específicos }
 % \begin{itemize}
@@ -260,11 +264,14 @@ Con el análisis de este ensamble podremos aplicar las herramientas que nos prop
 
 Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
 
-A partir de este análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”.
+A partir de este análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”, mejorar el rendimiento de nuestro operador, gestionar costos e implementar nuevos materiales, para poder generar una mejor estandarización tanto del procedimiento como del material, para evitar gastos innecesarios. 
+
+Aplicar los métodos de calificación del operador, haciendo análisis detallado del ensamble, para así estandarizarlo y mejorar el proceso. 
 
 % 
 % 
 \section{Cuerpo (Metodología, modelo matemático, etc.)}
+
 
 \includepdf[pages=1-]{5/img/manual.Bonilla.Z.Leonardo.pdf}
 \label{anexo:manual.Bonilla.Z.Leonardo}
@@ -274,11 +281,25 @@ A partir de este análisis, buscaremos los métodos más económicos, y a su vez
 
 Materiales:
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.PDF}
+    \caption{Resistencias}
+    \label{fig:Resistencias}
+\end{figure}
+
 Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un componente pasivo que se utiliza en electrónica para limitar la cantidad de corriente que fluye a través de un circuito.
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
 
 Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009electronica}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Protoboard}
+    \label{fig:Protoboard}
+\end{figure}
 
 Protoboard: Un protoboard, también conocido como placa de pruebas, es un instrumento muy útil en el campo de la electrónica.
 
@@ -292,6 +313,13 @@ el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de
 
 En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017arduino}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/LCD_ BonillaZ.Leonardo Dibujo.PDF}
+    \caption{LCD}
+    \label{fig:LCD}
+\end{figure}
+
 LCD: Una LCD de 16x2 es una pantalla de cristal líquido que puede mostrar hasta 32 caracteres alfanuméricos en dos filas de 16 caracteres cada una.
 
 Composición y fabricación: Estas pantallas están compuestas principalmente por un material de cristal líquido que se encuentra entre dos capas de vidrio. Los píxeles de cada símbolo o carácter varían en función de cada modelo, pero en general, cada carácter está formado por una matriz de 5x8 píxeles.
@@ -301,6 +329,13 @@ Funciones: La principal función de una LCD de 16x2 es mostrar información de m
 Uso: Las LCD de 16x2 se utilizan en una amplia gama de aplicaciones, como diversos circuitos y dispositivos, incluyendo teléfonos móviles, calculadoras, ordenadores, televisores, entre otros. También son comúnmente utilizadas en proyectos de bricolaje y aplicaciones integradas debido a su facilidad de programación.
 
 En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos. \cite{carlet2018linear}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
+    \caption{Módulo SPI 12C}
+    \label{fig:Módulo SPI 12C}
+\end{figure}
 
 Módulo SPI 12C: Un módulo SPI I2C es un dispositivo de comunicación en serie que se utiliza en sistemas integrados para intercambiar datos de alta velocidad entre múltiples dispositivos en el bus.
 
@@ -314,12 +349,25 @@ Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una 
 
 En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014implementación}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.PDF}
+    \caption{Cable MH}
+    \label{fig:Cable MH}
+\end{figure}
 
 Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar dos dispositivos electrónicos. Composición y fabricación: Los cables macho-hembra están compuestos por dos conectores, uno macho y otro hembra, que están unidos por un cable. El conector macho tiene una serie de pines o clavijas que se insertan en el conector hembra, que a su vez tiene receptáculos o ranuras para recibir los pines. Estos conectores suelen ser metálicos y están protegidos por una carcasa de plástico.
 
 Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
 
 En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003fabricacion}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMM_BonillaZ.Leonardo Dibujo.PDF}
+    \caption{Cable MM}
+    \label{fig:Cable MM}
+\end{figure}
 
 cable Macho-Macho:
 Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
@@ -328,6 +376,12 @@ Funciones: La principal función de un cable Macho-Macho es permitir la conexió
 
 En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023solar}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/ESP32_BonillaZ.Leonardo Dibujo.PDF}
+    \caption{ESP 32}
+    \label{fig:ESP 32}
+\end{figure}
 
 ESP32: La ESP32 es un microcontrolador de alto rendimiento y bajo consumo de energía, diseñado por Espressif Systems, que ha ganado popularidad en el mundo de la electrónica y la programación.
 
@@ -341,6 +395,13 @@ La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al t
 
 En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018demostrador}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.PDF}
+    \caption{Potenciometro}
+    \label{fig:Potenciometro}
+\end{figure}
+
 Potenciómetro: Un potenciómetro es un componente electrónico que se utiliza para controlar y ajustar la resistencia eléctrica de un circuito. 
 
 Composición y fabricación: Los potenciómetros están compuestos por una banda de material resistivo y un cursor. El material resistivo puede ser de carbón o cermet, y está montado sobre un soporte duro como papel baquelizado, fibra de vidrio o baquelita. El cursor, que puede deslizarse o girar sobre la banda resistiva, permite modificar el valor de la resistencia. 
@@ -349,13 +410,27 @@ Funciones: La principal función de un potenciómetro es permitir el ajuste manu
 
 En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{de2012medidas}
 
-Multicontacto: Un multicontacto de 5 tomacorrientes es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Multicontacto}
+    \label{fig:Multicontacto}
+\end{figure}
+
+Multicontacto: Un multicontacto es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
 
 Funciones: La principal función de un multicontacto es proporcionar múltiples tomas de corriente a partir de una sola toma de pared. Esto es especialmente  útil en áreas donde las tomas de corriente son limitadas. Los puertos USB permiten cargar dispositivos como teléfonos móviles, tabletas y otros dispositivos compatibles con USB. Algunos modelos de multicontactos también incluyen protección contra sobrecargas, lo que ayuda a proteger los dispositivos conectados de posibles daños causados por picos de voltaje. Características importantes: Este tipo de multicontacto puede soportar una potencia nominal de hasta 2500 W.
 
 Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
 En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011autoria}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
+    \caption{Cable de tipo c a c}
+    \label{fig:Cable de tipo c a c}
+\end{figure}
 
 Cable de tipo C a C: Un cable tipo C a C es un tipo de cable que se utiliza para conectar dos dispositivos que tienen puertos USB tipo C.
 
@@ -365,100 +440,21 @@ Funciones: La principal función de un cable tipo C a C es permitir la conexión
 
 En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011autoria}
 
-
-
-%
-%
-%
-%
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
-    \caption{Cable de tipo c a c}
-    \label{fig:Cable de tipo c a c}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.PDF}
-    \caption{Cable MH}
-    \label{fig:Cable MH}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMM_BonillaZ.Leonardo Dibujo.PDF}
-    \caption{Cable MM}
-    \label{fig:Cable MM}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/ESP32_BonillaZ.Leonardo Dibujo.PDF}
-    \caption{ESP 32}
-    \label{fig:ESP 32}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/LCD_ BonillaZ.Leonardo Dibujo.PDF}
-    \caption{LCD}
-    \label{fig:LCD}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
-    \caption{Módulo SPI 12C}
-    \label{fig:Módulo SPI 12C}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
-    \caption{Multicontacto}
-    \label{fig:Multicontacto}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.PDF}
-    \caption{Potenciometro}
-    \label{fig:Potenciometro}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
-    \caption{Protoboard}
-    \label{fig:Protoboard}
-\end{figure}
-
-
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.PDF}
-    \caption{Resistencias}
-    \label{fig:Resistencias}
-\end{figure}
-
-
-
 \begin{figure}
     \centering
     \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.PDF}
     \caption{Tapete profesional organizador de trabajo}
     \label{fig:Tapete Profesional organizador de trabajo}
 \end{figure}
+
+Tapete Profesional organizador de trabajo:
+
+
+%
+%
+%
+%
+
 
 \subsection{Plan de emergencia}
 
