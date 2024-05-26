@@ -315,7 +315,7 @@ En resumen, un protoboard es una herramienta esencial en el campo de la electró
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/LCD_ BonillaZ.Leonardo Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/lcdBonillaZLeonardoDibujo.PDF}
     \caption{LCD}
     \label{fig:LCD}
 \end{figure}
@@ -378,7 +378,7 @@ En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la e
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/ESP32_BonillaZ.Leonardo Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/esp32BonillaZLeonardoDibujo.PDF}
     \caption{ESP 32}
     \label{fig:ESP 32}
 \end{figure}
@@ -427,7 +427,7 @@ En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cabletipocacBonillaZLeonardoDibujo.pdf}
     \caption{Cable de tipo c a c}
     \label{fig:Cable de tipo c a c}
 \end{figure}
@@ -442,7 +442,7 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/tapeteprofesionalorganizadordetrabajo.BonillaZ.LeonardoDibujo.PDF}
     \caption{Tapete profesional organizador de trabajo}
     \label{fig:Tapete Profesional organizador de trabajo}
 \end{figure}
@@ -467,7 +467,7 @@ El objetivo principal de tener el plan de emergencia en la industria es garantiz
 \subsection{Datos generales}
 
 \begin{enumerate}
-    \item Nombre comercial: Instituto Tecnológico de Querétaro
+    \item Nombre comercial: Instituto Tecnológico de Qro
     \item Domicilio:Av. Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.
     \item Horario de servicio: 6:30 - 22:30 hrs.
     \item Teléfonos: (+52) 442 2274 400
@@ -478,6 +478,20 @@ El objetivo principal de tener el plan de emergencia en la industria es garantiz
 \end{enumerate}
 
 \subsection{Plano de localización}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/ubicacionitqGoogleMaps.pdf} % Reducir a la mitad del tamaño original
+    \caption{Localización del Instituto Tecnológico de Qro en Google Maps}
+    \label{fig:Localización del Instituto Tecnológico de Querétaro en Google Maps}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.06]{5/img/croquisITQ.pdf}
+    \caption{Croquis del Instituto Tecnológico de Querétaro}
+    \label{fig:Croquis del Instituto Tecnológico de Querétaro}
+\end{figure}
 
 
 % 
