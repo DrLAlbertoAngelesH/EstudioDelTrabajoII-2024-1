@@ -253,14 +253,6 @@ Con el análisis de este ensamble podremos aplicar las herramientas que nos prop
 El objetivo de esta investigación es llevar a cabo un ensamble de un circuito, previamente a esto, realizar un análisis del método propuesto, y buscar una mejor forma en la que se puede llevar a cabo proponiendo uno nuevo el cual trate de mejorar el procedimiento, tratando de reducir o eliminar movimientos innecesarios, gestionar los materiales y reducir los costos, tratando de buscar la forma más económica de hacer el ensamble del circuito, analizando a nuestros operadores.
 
 \subsection{Objetivos específicos }
-% \begin{itemize}
-%     \item Se debe establecer como un conjunto de acciones comunes para lograr el objetivo general
-%     \item Se debe establecer como etapas para lograr el objetivo general
-% \end{itemize}
-
-% Son actividades orientadas al cumplimiento del objetivo general. Se establecen con verbos activos en infinitivo. Son parte de la acción encaminada a probar la hipótesis. Éstos deben ser precisos, y en lo posible evitar aspectos metodológicos.
-% 
-% 
 
 Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
 
@@ -272,12 +264,24 @@ Aplicar los métodos de calificación del operador, haciendo análisis detallado
 % 
 \section{Cuerpo (Metodología, modelo matemático, etc.)}
 
+\subsection{Desarrollo de la guía de plan de Emergencia}
 
-\includepdf[pages=1-]{5/img/manual.Bonilla.Z.Leonardo.pdf}
-\label{anexo:manual.Bonilla.Z.Leonardo}
+El Plan de Emergencia: Documento que describe los lineamientos a seguir, la organización y los mecanismos, que indican la manera de enfrentar una situación de emergencia o desastre tanto en lo general como en lo particular, así como la utilización viable de los recursos humanos y materiales con los que se cuenta.
 
-\includepdf[pages=1-]{5/img/Lista de costos_BonillaZ.Leonaro.pdf}
-\label{anexo:Lista de costos_BonillaZ.Leonaro}
+\subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manual.Bonilla.Z.Leonardo.pdf}
+    \caption{Manual}
+    \label{fig:Manual}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.40]{5/img/listadecostosBonillaZLeonaro.pdf}
+    \caption{Lista de costos}
+    \label{fig:Lista de costos}
+\end{figure}
 
 Materiales:
 
@@ -448,21 +452,82 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 \end{figure}
 
 Tapete Profesional organizador de trabajo:
+Composición y Características
+- El tapete está fabricado con silicón.
+- Tiene una superficie antiderrapante y una textura suave al tacto que proporciona comodidad de uso.
+- Protege los equipos contra rayones y golpes.
+- Soporta hasta 400 °C, por lo que puede ser usado para trabajos de soldadura.
+- Sus dimensiones son de 45 cm x 30 cm.
+
+Funciones
+- Ayuda a organizar el entorno de trabajo para realizar proyectos o reparaciones de equipos electrónicos, como celulares, tablets, laptops y más.
+- Protege los componentes y piezas durante el trabajo.
+- Tiene propiedad antiestática, lo que es útil para colocar procesadores, microchips, memorias, tarjetas de desarrollo o cualquier otro elemento de electrónica que pueda ser afectado por la estática.
+- Incorpora imanes distribuidos en lugares diferentes, perfectos para retener piezas metálicas, como tornillería, herramientas, puntas de desarmador, tarrajas y pinzas, entre otras.
+- Cuenta con espacios ideales para el trabajo, incluyendo minirranuras, minicajones, orificios, cajones multifunción, cajones con tapa, cajones para herramientas y una regleta.
+- El espacio central es el área de trabajo perfecta donde puedes armar o desarmar los equipos.
+
+\subsubsection{Planeación}
+
+Asegúrate de conocer siempre tu objetivo.
+Asegúrate de contar con los documentos (formatos, procedimientos, etc).
+% 
+% 
+\subsubsection{5's}
+La metodología de las 5S es una técnica de gestión japonesa basada en cinco principios simples. Los cuales nos ayudan para mejorar la productividad, reducción de tiempos, entre otras cosas, se basa en:
+
+1. Seiri (Clasificación): Este principio se refiere a la eliminación de elementos innecesarios en el lugar de trabajo. Todo lo que no se necesita para realizar el trabajo debe ser retirado. Esto ayuda a reducir el desorden y a mejorar la eficiencia.
+
+2. Seiton (Orden): Una vez que se han eliminado los elementos innecesarios, el siguiente paso es organizar lo que queda. Cada herramienta o material debe tener un lugar designado y debe ser devuelto a ese lugar después de su uso. Esto facilita encontrar lo que se necesita y evita la pérdida de tiempo buscando.
+
+3. Seiso (Limpieza): Este principio se refiere a mantener el lugar de trabajo limpio y ordenado. No sólo se trata de limpiar al final del día, sino de mantener la limpieza durante todo el día. Esto puede ayudar a prevenir accidentes y problemas de calidad.
+
+4. Seiketsu (Normalización): Este principio se refiere a la creación de reglas y estándares para mantener los tres primeros principios. Esto puede incluir horarios de limpieza, lugares designados para herramientas y materiales, y procedimientos para realizar el trabajo.
+
+5. Shitsuke (Disciplina): El último principio se refiere a mantener los estándares y mejorar constantemente. Esto requiere disciplina y compromiso por parte de todos en el lugar de trabajo.
+
+La metodología de las 5S es una parte fundamental de la producción ajustada (Lean Production) y se considera una base para implementar herramientas y procesos de producción más avanzados. Al seguir estos principios, se puede crear un ambiente de trabajo más eficiente, seguro y productivo.
+
+La metodología de las 5S, originaria de Japón, puede ser aplicada en el Instituto Tecnológico de Querétaro (ITQ) para mejorar la eficiencia y seguridad en diversas áreas. En los laboratorios y talleres, ayuda a mantener un ambiente limpio y organizado, facilitando el trabajo y minimizando accidentes. En los proyectos de equipo, promueve la productividad y reduce el estrés al mantener el área de trabajo ordenada. Los estudiantes pueden aplicar las 5S en sus espacios de estudio para mejorar su eficiencia de aprendizaje. Además, la administración de la escuela puede utilizar las 5S para mejorar la eficiencia de sus operaciones. En resumen, las 5S pueden beneficiar a todos en el ITQ, creando un ambiente más eficiente, seguro y agradable para aprender y trabajar.
+
+% 
+% 
+\subsubsection{Desarrollo del sistema de tiempos predeterminado}
+
+% 
+% 
+\subsubsection{Desarrollo del muestreo del trabajo}
+% 
+% 
+\subsubsection{Corrección por balanceo de procesos}
+% 
+% 
+\subsubsection{Datos estándar continuos y discretos}
+
+% 
+% 
+\subsection{Diseño de la forma más económica de realizar el trabajo}
+
+% 
+% 
+\subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+
+% 
+% 
+\subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+% 
+% 
 
 
-%
-%
-%
-%
+\section{Resultados y discusión}
 
-
-\subsection{Plan de emergencia}
+\subsection{Desarrollo de la guía de plan de Emergencia}
 
 En este documento se describirá el plan de emergencia que se debe llevar a cabo de algún incidente, el cual podamos aplicar para evitar mayores riesgos.
 Un plan de emergencia se implementa en la industria para identificar riesgos, establecer medidas preventivas y procedimientos de evacuación, y definir roles y responsabilidades. 
 
 \subsection{Objetivo}
-El objetivo principal de tener el plan de emergencia en la industria es garantizar la seguridad y protección de todos los empleados, visitantes y contratistas en caso de una emergencia. Este plan ayuda a minimizar los riesgos y a manejar eficientemente cualquier situación de crisis, reduciendo así el impacto potencial en las personas, las operaciones y la reputación de la empresa. Además, permite a la organización cumplir con las normativas de seguridad y salud en el trabajo. 
+Implementación de planes o estrategias de seguridad, en caso de emergencias, fenómenos o accidentes, tanto para los clientes como para los trabajadores que estén en la Institución, y así salvaguardar la integridad de estos mismos. 
 
 \subsection{Datos generales}
 
@@ -493,35 +558,46 @@ El objetivo principal de tener el plan de emergencia en la industria es garantiz
     \label{fig:Croquis del Instituto Tecnológico de Querétaro}
 \end{figure}
 
+\subsection{Objetivo}
+Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
 
-% 
-% 
-\subsection{Prepara tu documento}
+\subsection{Objetivos específicos}
 
-Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+1. \textbf{Identificar y evaluar riesgos:} Realizar una evaluación exhaustiva de los posibles riesgos y amenazas que podrían afectar al Instituto Tecnológico de Querétaro, incluyendo desastres naturales, incendios, amenazas de seguridad y emergencias médicas.
 
-\subsection{Acrónimos y Abreviaciones}
+2.\textbf{ Desarrollar procedimientos de respuesta:} Crear procedimientos detallados para responder a cada tipo de emergencia identificada. Estos procedimientos deben incluir roles y responsabilidades, pasos de acción y protocolos de comunicación.
 
-Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+3. \textbf{Capacitación y educación:} Implementar un programa de capacitación y educación para estudiantes, profesores y personal sobre cómo responder en caso de emergencia. Esto podría incluir simulacros de emergencia, talleres y materiales educativos.
 
-\subsection{Ecuaciones}
+4. \textbf{Equipamiento y suministros:} Asegurar que el Instituto Tecnológico de Querétaro esté equipado con los suministros y equipos necesarios para responder a emergencias, como extintores de incendios, kits de primeros auxilios y señalización de emergencia.
 
-Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuaciones, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+5. \textbf{Revisión y mejora continua:} Establecer un proceso para revisar y actualizar regularmente el plan de emergencia para asegurar su efectividad continua. Esto podría incluir la recopilación y análisis de feedback después de los simulacros de emergencia o incidentes reales.
 
-\begin{equation}
-    \label{eq1}
-    x + y = z 
-\end{equation}
+Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
 
-Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+\subsection{Identificación de riesgos internos}
 
-\section{Resultados y discusión}
+\subsection{Identificación de riesgos externos}
+
+\subsection{Plan de acción}
+
+\subsection{Identificación de riesgos}
+
+\subsection{Plano de localización de recursos}
+
+\subsection{Identificación de puntos de reunión}
+
+\subsection{Desarrollar un plan de evacuación y repliegue}
+
+\subsubsection{Procedimiento de repliegue}
+
+\subsubsection{Procedimiento de evacuación}
+
+\subsubsection{Brigada de evacuación}
+
+\subsection{Directorio de telefónicos de emergencia}
+
+
 
 La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
 
