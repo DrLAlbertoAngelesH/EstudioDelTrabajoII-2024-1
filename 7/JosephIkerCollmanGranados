@@ -1,505 +1,1497 @@
 \lhead{\begin{tikzpicture}[remember picture, overlay]
-\node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
-\end{tikzpicture}}
-\rhead{Autor: primerApellido-segundoApellido}
-\rfoot{\begin{tikzpicture}[remember picture, overlay]
-\node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
-\end{tikzpicture}}
-%----------------------------------------------------------------------------------------
-\lfoot{ \thepage}
-% \renewcommand{\labelenumi}{\alph{enumi}.)} 
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
-
-\setlength{\droptitle}{-5\baselineskip} % Move the title up
-\title{\textbf{Proyecto}} % Article title
-
- \author{ 
- \textsc{Nombre del Autor : }\\ 
-%  Afiliación:
- \texttt{ Nombre del Departamento : } \\ 
- \texttt{Nombre de la Universidad : } \\ 
- \texttt{Ciudad y País :}\\ 
- \texttt{Correo : } 
- \and 
- \textsc{Collman Granados Joseph Iker}\\ 
-%  Afiliación:
- \texttt{ Estudio del Tabajo II } \\ 
- \texttt{Instituto Tecnologico De Queretaro } \\ 
- \texttt{Queretaro , Mexico }\\ 
- \texttt{joseiker1603@gmail.com} 
-}
-
-
-%----------------------------------------------------------------------------------------
-
-% \begin{document}
-
-% Print the title
-\maketitle
-\thispagestyle{fancy}
-
-%----------------------------------------------------------------------------------------
-%	ARTICLE CONTENTS
-%----------------------------------------------------------------------------------------
-
-% \section*{Resumen}
-% \textit{Palabras clave:}
-% El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
-
-\begin{abstract}
-\noindent 
-Como un breve resumen lo que se busca es que el usuario entienda y comprenda lo que el potenciómetro  significa y cual es su uso que debe de ser correctamente el correcto para un mejor manera y esto haga que sea eficaz para el usuario y para la empresa el cual invierte en el producto para una mejora continua , esto hará que la comprensión del potenciómetro  sea el correcto y de una buena manera sobretodo para el aprendizaje y comprensión del proyecto
-
-\end{abstract}
-% 
-% 
-\textbf{\textit{Palabras clave}}: Ser exacto y Preciso .
-
-\section{Introducción}
-
-Para empezar con la  introducción tenemos que definir las piezas que vas a utilizar durante nuestro proceso el cual es el LCD , potenciómetro  , el SP32 
-, Cable macho-macho , cable macho-hembra , las resistencias , la interfaz de conexión l2c para la lcd , el cable usb , protobard y la resistencia de la luz , todos estos elementos son los que vamos a utilizar y vamos a emplear a cabo en cada etapa los cuales primero debemos de analizar y entender para darle su uso de debida forma .
-\newline
-
-% 
-%
-
-\textbf{\textit{1-El LCD }}: Es una pantalla de cristal liquido nombrada en sus siglas en ingles (LCD) que se utiliza para ver Imágenes fijas y en movimientos que va a estar formada por gran cantidad de pixel que consisten en Molécula s de cristal liquido contenidas entre dos conjuntos electrodos transparentes .
-\newline
- 
-% 
-% 
-\textbf{\textit{1-El potenciometro }}: Es un dispositivo electrónico que nos va a ayudar de una manera exponencial ya que posee la resistencia
-variable Mecánica y sirve para controlar  el valor de la resistencia en vez de ser fijo es variable. 
-\newline
-
-% 
-% 
-\textbf{\textit{3-El SP32 }}: Aparte de integrar la radio  inalámbrica , sino también un procesador integrado con interfaces para conectarse con varios periférico  y controla otras cosas de mayor importancia .  
-\newline
-
-% 
-% 
-\textbf{\textit{4- Cable Macho-Macho  }}: se va a utilizar en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dichos tableros y se conoce así por los fragmentos que sobresalen de los extremos del cable .   
-\newline
-
-% 
-% 
-\textbf{\textit{5- Cable Macho-Hembra }}: a hembra se refiere a un conector que forma un tipo de manguito alrededor de su homologo masculino en el centro  ya que la hembra va a tener la rosca por dentro.
-\newline
-
-% 
-% 
-\textbf{\textit{6- Resistencias  }}: Estas están hechas de materiales que resisten el flujo de electricidad cuando pasa a través de ellas de esta manera se puede controlar el flujo de la corriente a través de un circuito .   \newline 
-
-% 
-% 
-\textbf{\textit{7- La interfaz de conexión l2c para la LCD  }}:  el modulo serial l2c permite manejar tu pantalla lcd de una manera bastante fácil esto permite enviar y recibir información y 2 mas para alimentación . \newline 
-
-% 
-% 
-\textbf{\textit{8-Cable USB }}: Definiremos como un conector que permite vincular una amplia variedad de elementos a través del universal serial bus . 
-\newline 
-
-% 
-% 
-\textbf{\textit{9- protoboard }}: se usa en proyectos de Robótica que permite conectar fácilmente componentes electrónicos entre si , sin necesidad de realizar una soldadura . 
-\newline 
-
-% 
-% 
-\textbf{\textit{10- conector base de luz  }}: sirve para que al conectar esa base nosotros tengamos energía directamente a  través  de una base y de su conector . 
-\newline
-
-\section { Objetivos }
-
-Uno de los principales objetivos es el que nosotros como usuario identifiquemos todas las etapas que va a tener desde la fase inicial hasta la fase final y también que el usuario conozca todo en lo engloba el proyecto para que así se pueda tener un mejor conocimiento para que al momento final se tenga de mejor manera uno de los principales objetivos es identificar , analizar , comprender y ejecutar .
-
-\section{Objetivos Específicos }
-
-Claro, basándome en la información proporcionada, aquí tienes algunos objetivos específicos que podrías considerar:
-
-1. Identificación clara de etapas del proyecto: Establecer claramente las diferentes etapas que componen el proyecto, desde la fase inicial hasta la fase final, para que los usuarios puedan entender la secuencia de actividades. 
-\newline
-
-2. Comunicación efectiva de los objetivos del proyecto: Asegurarse de que los usuarios comprendan los objetivos generales del proyecto, así como los beneficios que se esperan obtener al completarlo.
-\newline
-
-3. Detallar los componentes del proyecto: Proporcionar información detallada sobre todos los aspectos del proyecto, incluidos recursos necesarios, plazos, roles y responsabilidades, para que los usuarios tengan una comprensión completa de lo que implica participar en él. \newline
-
-4. Facilitar la comprensión del proceso: Desglosar cada etapa del proyecto en tareas específicas y acciones concretas, de modo que los usuarios puedan comprender fácilmente qué se espera de ellos en cada fase. 
-\newline
-
-5. Fomentar la participación activa de los usuarios: Establecer mecanismos para que los usuarios puedan involucrarse activamente en el proyecto, ya sea proporcionando retroalimentación, contribuyendo con ideas o participando en decisiones clave. 
-\newline
-
-6. Medir el progreso y el cumplimiento de hitos: Establecer indicadores claros para evaluar el progreso del proyecto y asegurarse de que se cumplan los hitos importantes en cada etapa. 
-\newline
-
-7. Evaluar y ajustar continuamente: Establecer un proceso para evaluar regularmente el progreso del proyecto, identificar áreas de mejora y realizar ajustes según sea necesario para garantizar el éxito final. \newline
-
-Estos objetivos específicos pueden ayudar a garantizar que los usuarios comprendan completamente el proyecto y estén equipados para contribuir de manera efectiva a su realización.
-
-\section{Descripción del Problema }
-El desafío del estudio de tiempos y movimientos en el ensamblaje de circuitos electrónicos implica una serie de complicaciones que pueden impactar tanto en la eficacia operativa como en la calidad del producto final. En resumen, este problema abarca diversos retos que afectan la eficiencia, calidad, seguridad laboral y rentabilidad del proceso de ensamblaje. Es crucial aplicar distintos métodos de optimización para abordar estos desafíos de manera efectiva y así fomentar la excelencia en la producción de circuitos electrónicos.
-
-\section{  Fundamentación teórica  }
-La base teórica del estudio de tiempos y movimientos en el ensamblaje de circuitos electrónicos se apoya en varios principios clave de la ingeniería industrial y la gestión de operaciones. Aquí tienes una descripción simplificada de algunos de estos conceptos:
-\newline
-
-1. Análisis de tiempos: Consiste en medir y registrar cuánto tiempo toma completar cada tarea individual en el proceso de ensamblaje. Esto ayuda a entender cómo se distribuye el tiempo entre diferentes actividades, lo que permite identificar oportunidades de mejora y eliminar tareas innecesarias o repetitivas. Este análisis proporciona una forma cuantitativa de evaluar la eficiencia del proceso y diseñar mejoras.
-\newline
-
-2. Cronometraje de movimientos: Se enfoca en analizar y mejorar los movimientos físicos realizados por los trabajadores durante el ensamblaje. Utiliza principios de ergonomía y biomecánica para identificar movimientos ineficientes o que puedan causar fatiga o lesiones. Optimizar estos movimientos puede mejorar la eficiencia del proceso y reducir el riesgo de lesiones laborales.
-\newline
-
-3. Estudio de métodos: Implica analizar y comparar diferentes métodos o técnicas utilizadas para realizar una tarea específica en el ensamblaje de circuitos electrónicos. El objetivo es encontrar el método más eficiente que permita completar la tarea de manera rápida, precisa y segura. Esto puede incluir la evaluación de herramientas, equipos, diseños de estaciones de trabajo y procedimientos de trabajo.
-
-\section{Justificación }
-El análisis de tiempos y movimientos en la producción de circuitos electrónicos es esencial debido a diversos factores críticos que influyen tanto en la eficacia operativa como en la calidad del producto terminado. A continuación, se exponen algunas razones que respaldan la importancia de realizar este análisis utilizando diversas estrategias para mejorar la eficiencia.
-\newline
-
-Eficiente utilización de recursos: La producción de circuitos electrónicos requiere una gestión precisa de los recursos disponibles, como el tiempo, la mano de obra y los materiales. Optimizar estos aspectos mediante el análisis de tiempos y movimientos garantiza un uso más efectivo de los recursos disponibles, lo que puede conducir a una reducción de costos y un aumento en la productividad.\newline
-
-El análisis de tiempos y movimientos en la producción de circuitos electrónicos es crucial debido a varios factores críticos que impactan tanto en la eficacia operativa como en la calidad del producto final. Aquí hay una ampliación sobre la importancia de este análisis: \newline
-
-1. Eficiente utilización de recursos: La producción de circuitos electrónicos implica la gestión precisa de recursos como el tiempo, la mano de obra y los materiales. El análisis de tiempos y movimientos permite identificar áreas donde se puede optimizar el uso de estos recursos. Por ejemplo, al reducir el tiempo dedicado a ciertas tareas o minimizar los movimientos innecesarios de los trabajadores, se puede mejorar la eficiencia general del proceso. Esta optimización conduce a una mejor utilización de los recursos disponibles, lo que puede resultar en una reducción de costos y un aumento de la productividad. \newline
-
-2. Mejora en la planificación y programación: Conocer el tiempo necesario para completar cada tarea en el proceso de producción de circuitos electrónicos facilita una mejor planificación y programación de la producción. Al tener datos precisos sobre los tiempos de ciclo, es posible establecer cronogramas realistas y evitar retrasos en la entrega de productos. Además, permite una asignación más eficiente de la mano de obra y los recursos, evitando la subutilización o sobreutilización de los mismos. \newline
-
-3. Identificación de cuellos de botella y áreas de mejora: El análisis de tiempos y movimientos revela cuellos de botella y áreas de ineficiencia en el proceso de producción. Identificar estos puntos críticos permite tomar medidas correctivas para mejorar la fluidez del proceso y aumentar la capacidad de producción. Por ejemplo, si se descubre que una máquina específica está causando retrasos recurrentes, se pueden implementar medidas para optimizar su funcionamiento o considerar la inversión en equipos más eficientes.\newline
-
-4. Aumento de la calidad del producto: Al optimizar los tiempos y movimientos en la producción de circuitos electrónicos, se reduce la probabilidad de errores y defectos en el producto final. Los procesos más eficientes tienden a ser más consistentes y menos propensos a fallos, lo que se traduce en una mejora de la calidad del producto. Además, al minimizar los movimientos repetitivos y fatigantes para los trabajadores, se reduce el riesgo de errores humanos y se mejora la precisión en el ensamblaje. \newline
-
-En resumen, el análisis de tiempos y movimientos en la producción de circuitos electrónicos es esencial para optimizar el uso de recursos, mejorar la planificación y programación, identificar áreas de mejora y aumentar la calidad del producto final. Esto contribuye significativamente a la eficacia operativa y la competitividad de la empresa en el mercado.
-
-\section{  hipótesis }
-
-uno de los factores que puede ayudar de una mejor manera es la reducción de tiempos de ciclo el cual sugiere que al aplicar  técnicas de análisis de tiempos y movimientos, junto con métodos de optimización, se pueden reducir significativamente los tiempos necesarios para ensamblar circuitos electrónicos, lo que mejora la eficiencia del proceso.
-\newline
-
-otro factor sera la mejora de calidad de producto Se plantea que al optimizar los movimientos y métodos de ensamblaje, se pueden reducir los errores y defectos en los circuitos electrónicos ensamblados, lo que conduce a una mejora general en la calidad del producto final. \newline
-
-la mejora de Ergonomía y reducción de la fatiga  al analizar y optimizar los movimientos de los trabajadores durante el ensamblaje, se puede mejorar la ergonomía de las estaciones de trabajo, lo que reduce la fatiga y disminuye el riesgo de lesiones laborales , estos son factores que nos pueden ayudar de una mejor manera y tener en cuenta al momento de realizar el proyecto. \newline
-
-\subsection{ Análisis}
-Lo que se busca en estas etapas de comprensión de cómo se va a manejar el uso del dispositivo  y como se va a operar y claramente la función que va a tener para que así no tenga  alguna complicación,  esto se puede interpretar el análisis que va a tener el proyecto entiendo su armamento  desde el principio hasta el final , ahora lo que se debe de hacer es que
-
-\section{Cuerpo (Metodología, Pasos , etc.)}
-
-Aquí se va a describir las etapas que se hicieron para llegar al resultado final el cual fue nosotros hiciéramos un debido manejo de como se armará el proyecto hasta el final
-
-\section{Materiales )}
-
--Regulador de voltaje 
--USB 
--protoboard 
--ESP 
--resistencias 
--LCD 
--modulo 
--cable macho-macho 
--cable macho-hembra 
--almohadilla ,
--potenciómetro 
-
-\subsection{Protoboard }
-
-Primero vamos a establecer como nuestra base el protoboard al cual vamos a conectar el SP32  y lo vamos a establecer fijo para conectarlo y soldarlo  , después al protoboard vamos a juntar los cables Macho - macho y el cable macho- hembra los cuales van a ser nuestros cables principales una vez teniendo eso lo que vamos a hacer es que vamos a conectar nuestro cable usb a una de las terminales del protoboard .
-\subsection{Cargador }
-Ese cable que seria nuestro cargador lo que va a hacer es que lo vamos a conectar a la base de luz para así empezar a tener energía  para que nuestro  puerto del protoboard empiece a funcionar debidamente  una vez teniendo esto plenamente  ahora nos vamos a enfocar en la pantalla .
-
-\subsection{LCD}
-
-Para continuar  vamos a tener la pantalla del Lcd y la vamos a soldar a la interfaz de conexión l2c para la lcd y así hacer que empiece a funcionar  una vez que el lCd esté funcionando eso va a querer significar que lo podemos conectar los cables macho - macho y el cable macho-hembra  a la pantalla para que esta valla indicando  el nivel de la energía que watts y nos va a decir nuestro nivel de voltaje que tenemos dependiendo de lo que el usuario manipule el divisor del potenciómetro . 
-
-\subsection{potenciómetro }
-Ahora nos vamos a enfocar en el potenciómetro  ya que esto va a hacer de vital importancia por que el usuario va a manipular al perilla que tiene el potenciómetro  para controlar el nivel de voltaje que va a tener , teniendo en cuenta  esto vamos a conectar el potenciómetro  al protoboard para que así pueda regular la energía de una mejor manera
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+  \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+  \end{tikzpicture}}
+  \rhead{Autor: primerApellido-segundoApellido}
+  \rfoot{\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+  \end{tikzpicture}}
+  %----------------------------------------------------------------------------------------
+  \lfoot{ \thepage}
+  % \renewcommand{\labelenumi}{\alph{enumi}.)} 
+  %----------------------------------------------------------------------------------------
+  %----------------------------------------------------------------------------------------
+  %	TITLE SECTION
+  %----------------------------------------------------------------------------------------
   
-  \hline
-  NOMBRE & imagen  & pieza \\
-  \hline 
-  potenciómetro  &  \includegraphics[height=19mm]{7/img/potenciometro.jpg}  & 
-   \includegraphics[width=19mm]{7/img/piezaaauno.PNG} \\
-    \hline
-  protoboard &  \includegraphics[height=19mm]{7/img/protoboard.jpg}  & 
-   \includegraphics[width=19mm]{7/img/Piezauno.PNG} \\
-    \hline
-    lcd & \includegraphics[height=19mm]{7/img/lcd.jpg}  & 
-   \includegraphics[width=19mm]{7/img/piezatress.PNG} \\
-    \hline
-    cable HM & \includegraphics [height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/cuatrooo.PNG} \\
-    \hline
-    CABLE HH & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/cinco.PNG} \\
-    \hline 
-     CABLE 1 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/seis.PNG} \\
-    \hline 
-     CABLE 2 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/siete.PNG} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label1}  \label {7/}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-\subsection{Manual}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+  \setlength{\droptitle}{-5\baselineskip} % Move the title up
+  \title{\textbf{Proyecto}} % Article title
   
- 
- \hline 
-  manual  &  \includegraphics[height=90mm]{7/img/ikerv1.jpg}  & 
-   \includegraphics[width=35mm]{7/img/ikerv2.jpg} \\
-    \hline
-     
-    \end{tabular} 
-   
-     \label {tab:my_label2}  \label {7/}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-    
-\subsection{Prepara tu documento}
-
-    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
-
-    \subsection{Acrónimos y Abreviaciones}
-
-    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
-
-    \subsection{Ecuaciones}
-
-    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
-
-    \begin{equation}
-        \label{eq1}
-        x + y = z 
-    \end{equation}
-
-    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…
-
-    \subsection{Autores y Afiliaciones}
-
-    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
-
-    \subsection{Identificar los encabezados}
-
-    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema.
-    
-\subsection{Tablas y Figuras}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+   \author{ 
+   \textsc{Nombre del Autor : }\\ 
+  %  Afiliación:
+   \texttt{ Nombre del Departamento : } \\ 
+   \texttt{Nombre de la Universidad : } \\ 
+   \texttt{Ciudad y País :}\\ 
+   \texttt{Correo : } 
+   \and 
+   \textsc{Collman Granados Joseph Iker}\\ 
+  %  Afiliación:
+   \texttt{ Estudio del Tabajo II } \\ 
+   \texttt{Instituto Tecnologico De Queretaro } \\ 
+   \texttt{Queretaro , Mexico }\\ 
+   \texttt{joseiker1603@gmail.com} 
+  }
   
-  \hline
-  NOMBRE & PIEZA  & PLANO \\
-  \hline 
-  potenciómetro  &  \includegraphics[height=19mm]{7/img/piezaaauno.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza1.PNG} \\
-    \hline
-  protoboard &  \includegraphics[height=19mm]{7/img/Piezauno.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza2.PNG}  \\
-    \hline
-    lcd & \includegraphics[height=19mm]{7/img/piezatress.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza3.PNG} \\
-    \hline
-    cable HM & \includegraphics [height=19mm]{7/img/cuatrooo.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza4.PNG} \\
-    \hline
-    CABLE HH & \includegraphics[height=19mm]{7/img/cinco.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza5.PNG} \\
-    \hline 
-     CABLE 1 & \includegraphics[height=19mm]{7/img/seis.PNG}  & 
-   \includegraphics[width=19mm]{7/img/heymickey.PNG} \\
-    \hline 
-     CABLE 2 & \includegraphics[height=19mm]{7/img/siete.PNG}  & 
-   \includegraphics[width=19mm]{7/img/siu.PNG} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label3}  \label {}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-
-\section{Resultados y discusión}
-
-Como uno de los resultados y discusiones que se hizo durante todo este proyecto es que la importancia de ver y con llevar nuevos retos que estuvieron de otro nivel es importante para tu formacion como ingeniero ya que  siempre te vas a enfrentar a nuevos retos que a lo mejor no sabes o que si sabes pero lo importante es seguir y analizar cada proyecto que se presente. 
-
-El principal resultado fue logrado ya que se hizo de una manera correcta la implementacion de todas las figuras haciendo que su uso final nos indicara los niveles de voltaje de una mejor manera y que sobretodo funcionara ya que la principal discusion era el correcto manejo de como conectar y hacer bien los ensambles ya sea de los cables o del protoboard.  \newline
- \newline
-Al tener presente este tema pudimos seguir los pasos de una manera correcta y eficaz haciendo que el usuario comprendiera y entendiera el mejor manejo que se le pudo dar esto presento que al final el resultado fuera el obtenido y el que se esperaba desde un principio .  \newline
- \newline
-Cada una de las etapas es de suma importancia ya que esto sigue un proceso el cual se fue siguiendo paso a paso con sus debidas instrucciones para que se pudiera hacer el debido cumplimiento del proyecto .  \newline
- \newline
-
-\subsection{Imagenes}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
   
-  \hline
-  NOMBRE & IMAGEN & IMAGEN \\
-  \hline 
-  imagen 1 y 2  &  \includegraphics[height=19mm]{7/img/ana1.jpg}  & 
-   \includegraphics[width=35mm]{7/img/ana2.jpg} \\
-    \hline
-   imagen 3 y 4 &  \includegraphics[height=29mm]{7/img/ana3.jpg}  & 
-   \includegraphics[width=15mm]{7/img/ana4.jpg}  \\
-    \hline
-    imagen 5 y 6 & \includegraphics[height=39mm]{7/img/ana5.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana6.jpg} \\
-    \hline
-    imagen 7 y 8 & \includegraphics [height=39mm]{7/img/ana7.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana8.jpg} \\
-    \hline
-    imagen 9 y 10 & \includegraphics[height=39mm]{7/img/ana9.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana10.jpg} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label3}  \label {}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-
-\section{Conclusiones}
-
-Una de las principales conclusiones es que el proyecto fue de mucha retroalimentacion como ingeniero es que represento un nuevo reto para mi ya que me saco de mis casillas y me represento nuevas formas para poder retroalimentar mi conocimiento y como me fui desenvolviendo durante el transcurso del proyecto y esto significo un avance importante para mi. \newline
- \newline
- Esto significa que como ingeniero puede representar diferentes nuevos retos para que nosotros como personas tenemos que buscar diferentes alternativas y soluciones para proyectos o retos que no comprendamos y que necesitamos investigar para fortalecer el conocimiento y emplearlo de una mejor manera para que asi nosotros lo podamos cumplir de una buena forma.  \newline
+  %----------------------------------------------------------------------------------------
+  
+  % \begin{document}
+  
+  % Print the title
+  \maketitle
+  \thispagestyle{fancy}
+  
+  %----------------------------------------------------------------------------------------
+  %	ARTICLE CONTENTS
+  %----------------------------------------------------------------------------------------
+  
+  % \section*{Resumen}
+  % \textit{Palabras clave:}
+  % El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+  
+  \begin{abstract}
+  \noindent 
+  Como un breve resumen lo que se busca es que el usuario entienda y comprenda lo que el potenciómetro  significa y cual es su uso que debe de ser correctamente el correcto para un mejor manera y esto haga que sea eficaz para el usuario y para la empresa el cual invierte en el producto para una mejora continua , esto hará que la comprensión del potenciómetro  sea el correcto y de una buena manera sobretodo para el aprendizaje y comprensión del proyecto
+  
+  \end{abstract}
+  % 
+  % 
+  \textbf{\textit{Palabras clave}}: Ser exacto y Preciso .
+  
+  \section{Introducción}
+  
+  OBJETIVOS
   \newline
-Como conclusion general puedo decir que este proyecto me sirvio como persona ya que al principio no le tenia el minimo interes pero esto fue cambiando conforme fue avazando se me fue haciendo mas interesante ya que ver cada etapa de este proceso significo muy interesante para tener una idea de como seria un proyecto de residencia profesional y como ir afrontandolo poco a poco  \newline
-
-\section{Agradecimientos}
-
-Es importante darle su reconocimiento a las fuentes de informacion que me ayudaron y brindaron algunas ideas como lo son Google y la plataforma de Youtube esto haciendo incapie a la ayuda que me brindaron y esto haciendo que me ayudara un poco mejor el proceso de como fui llevando el proyecto , tambien quiero darle un agardecimiento a mis compañeros que me brindaron la ayuda de como manejar el proyecto y sobretodo un agradecimiento a mi profesor .
-
-\section*{Referencias}
-
-%Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-%La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-%Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
-Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
-A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-
-%Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-
-% Ejemplo
-%  @Article{article,
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Article Title",
-% 	volume = "30",
-% 	number = "30",
-% 	pages = "10127-10134",
-% 	year = "2013",
-% 	doi = "10.3389/fnins.2013.12345",
-% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
-% 	journal = "Frontiers in Neuroscience"
-% }
-
-% @book{book,
-%   author    = {Author Name}, 
-%   title     = {The title of the work},
-%   publisher = {The name of the publisher},
-%   address   = {The city},
-%   year      = 1993,
-% }
-
-% @incollection{chapter,
-%   author       = {Bauthor Surname}, 
-%   title        = {The title of the work},
-%   editor       = {Editor Name},
-%   booktitle    = {The title of the book},
-%   publisher    = {The name of the publisher},
-%   address      = {The city},
-%   year         = 2002,
-%   pages        = {201-213},
-% }
-
-% @InProceedings{conference,
-%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
-%   title = {The title of the work},
-%   booktitle = {The title of the conference proceedings},
-%   year = 1996,
-%   publisher = {The name of the publisher},
-%   editor = {Editor Name1 and Editor Name2},
-%   pages = {41-50},
-% }
-
-% @book{cho,
-%   author       = {Gauthor Name1}, 
-%   title        = {The title of the work},
-%   publisher = {Country code and patent number},
-%   address      = {Patent Country},
-%   year = 2013
-% }
-
-% @book{patent,
-%   author    = {Hauthor Surname1}, 
-%   title     = {The title of the work},
-%   publisher = {Patent number},
-%   address   = {Patent country},
-%   year      = 2010,
-% }
-
-% % please use misc for datasets
-% @misc{dataset, 
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Data Title",
-% 	year = "2011",
-% 	doi = "10.000/55555",
-% 	URL = "http://www.frontiersin.org/",
-% }
-
-\bibliographystyle{ieeetr}
-\bibliography{7/referencias} 
-
+  
+  El estudio de movimientos y tiempos tiene varios objetivos clave:
+  Incrementar la Productividad: Optimizar procesos, eliminar movimientos innecesarios y reducir tiempos de ciclo.
+  \newline
+  
+  -Mejorar la Calidad del Trabajo: Reducir errores y asegurar consistencia en la ejecución.
+  \newline
+  
+  -Reducir Costos: Disminuir costos laborales y optimizar el uso de recursos.
+  \newline
+  
+  -Mejorar la Seguridad Laboral: Eliminar movimientos peligrosos y mejorar la ergonomía.
+  \newline
+  
+  -Establecer Estándares de Trabajo: Definir tiempos estándar y medir el desempeño.
+  \newline
+  
+  -Capacitación y Entrenamiento: Desarrollar programas efectivos y evaluar habilidades.
+  \newline
+  
+  -Aumentar la Satisfacción del Trabajador: Mejorar condiciones de trabajo y claridad en expectativas.
+  \newline
+  
+  -Facilitar la Mejora Continua: Identificar áreas de mejora y apoyar metodologías como Lean y Six Sigma.
+  \newline
+  
+  Estos objetivos buscan mejorar la eficiencia, reducir costos y aumentar la seguridad y satisfacción de los trabajadores.
+  
+  Cada una de estas fases se va a relacionar con nuestro proyecto en la forma de cómo lo vamos a implementar paso a paso del inicio hasta el final de dicho proyecto.
+  \newline
+  
+  METODOLOGÍAS
+  \newline
+  
+  Las metodologías más utilizadas en el estudio de movimientos y tiempos son:
+  
+  Cronometraje : Medición directa del tiempo para completar tareas usando un cronómetro.
+  Muestreo del Trabajo: Estimación del tiempo dedicado a actividades mediante observaciones aleatorias.
+  \newline
+  
+  MTM (Methods-Time Measurement): Uso de tiempos estándar predeterminados para analizar movimientos básicos.
+  \newline
+  
+  MOST (Maynard Operation Sequence Technique): Análisis rápido de secuencias de operaciones mediante bloques de actividades.
+  \newline
+  
+  Diagramas de Proceso : Representaciones gráficas de los pasos de un proceso.
+  \newline
+  
+  Diagramas de Flujo: Visualización de la secuencia de actividades para identificar ineficiencias.
+  \newline
+  
+  Análisis de Operaciones: Examen sistemático de cada operación en un proceso.
+  \newline
+  
+  Cursograma Analítico: Diagramas detallados que incluyen tiempos y distancias para un análisis profundo.
+  \newline
+  
+  Estas metodologías ayudan a optimizar procesos, reducir tiempos y costos, y mejorar la calidad y seguridad en el trabajo.
+  \newline
+  
+  AVANCES EN LOS ÚLTIMOS AÑOS
+  \newline
+  
+  En los últimos años, el estudio de movimientos y tiempos ha avanzado significativamente gracias a la tecnología. Aquí están los principales avances:
+  
+  Tecnología de Captura de Movimiento: Sensores y cámaras para análisis preciso en tiempo real.
+  Software de Análisis de Datos: Herramientas para recopilar y visualizar datos, identificando áreas de mejora.
+  Inteligencia Artificial y Machine Learning: Algoritmos para predecir ineficiencias y optimizar procesos.
+  Wearables y Dispositivos Portátiles: Monitoreo de actividad y feedback instantáneo para corregir movimientos.
+  Realidad Aumentada y Virtual: Entrenamiento y simulaciones para optimizar procesos.
+  Big Data y Análisis Predictivo: Toma de decisiones basada en datos históricos y tendencias.
+  Automatización y Robótica: Robots para tareas repetitivas, aumentando eficiencia y precisión.
+  Internet de las Cosas (IoT): Conexión de dispositivos para monitoreo y ajustes en tiempo real.
+  
+  Estos avances mejoran la productividad, reducen costos y aumentan la seguridad laboral.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO INVESTIGACION ENSAMBLE
+  \newline
+  
+  Los objetivos de un proyecto de estudio de trabajo para un proceso de ensamblaje se enfocan en analizar y mejorar la eficiencia, productividad y calidad del proceso. A continuación, se presentan algunos objetivos específicos que pueden guiar dicho proyecto:
+  \newline
+  
+   Objetivos Generales ENSAMBLE
+  
+  Optimizar el Proceso de Ensamblaje: Mejorar la eficiencia y productividad del proceso de ensamblaje mediante el análisis detallado de las tareas y procedimientos actuales.
+  Mejorar la Calidad del Producto Final: Asegurar que los productos ensamblados cumplan con los estándares de calidad requeridos mediante la identificación y eliminación de defectos en el proceso.
+  \newline
+  
+   Objetivos Específicos ENSAMBLE
+  
+  - Analizar el Flujo de Trabajo: Examinar el flujo de trabajo actual para identificar cuellos de botella, redundancias y tareas innecesarias que puedan estar afectando la eficiencia del ensamblaje.
+  \newline
+  
+  -Medir y Evaluar los Tiempos de Ciclo: Determinar los tiempos de ciclo de cada etapa del ensamblaje y establecer un estándar de tiempo óptimo para mejorar la 
+  productividad.
+  \newline
+  
+  -Identificar y Reducir Desperdicios: Utilizar técnicas de Lean Manufacturing para identificar y eliminar desperdicios en el proceso, tales como movimientos innecesarios, exceso de inventario y tiempos de espera.
+  \newline
+  
+  -Mejorar la Ergonomía de los Trabajadores: Evaluar y mejorar las condiciones ergonómicas de las estaciones de trabajo para reducir el esfuerzo físico y prevenir lesiones, aumentando así la comodidad y seguridad de los operarios.
+  \newline
+  
+  -Establecer Estándares de Trabajo: Desarrollar procedimientos estándar de trabajo que optimicen cada tarea y aseguren la consistencia en el desempeño de los operarios.
+  \newline
+  
+  -Implementar Técnicas de Mejora Continua: Fomentar la adopción de metodologías como Kaizen para promover una cultura de mejora continua en el proceso de ensamblaje.
+  \newline
+  
+  -Capacitar al Personal en Mejores Prácticas: Proveer formación y capacitación a los trabajadores en técnicas de ensamblaje más eficientes y en el uso de herramientas y equipos.
+  \newline
+  
+  -Evaluar y Mejorar el Uso de Equipos y Herramientas: Analizar la efectividad de los equipos y herramientas utilizados en el ensamblaje y proponer mejoras o actualizaciones para aumentar la eficiencia.
+  \newline
+  
+  -Mejorar la Gestión de Materiales e Inventarios: Optimizar la logística de materiales y componentes para asegurar que estén disponibles cuando se necesiten, reduciendo así los tiempos de espera y el inventario en proceso.
+  \newline
+  
+  -Aumentar la Flexibilidad del Proceso de Ensamblaje: Desarrollar un proceso de ensamblaje que pueda adaptarse rápidamente a cambios en los diseños de productos o en los volúmenes de producción.
+  \newline
+  
+  -Implementar Sistemas de Monitoreo y Control: Establecer sistemas para monitorear y controlar el desempeño del proceso de ensamblaje en tiempo real, permitiendo la identificación rápida de problemas y la toma de decisiones informadas.
+  \newline
+  
+  -Reducir los Costos de Producción: Identificar oportunidades para reducir costos sin comprometer la calidad del producto, mediante la optimización del uso de recursos y materiales.
+  \newline
+  
+  Estos objetivos pueden adaptarse y ampliarse según las necesidades específicas del proyecto y la naturaleza del proceso de ensamblaje que se está estudiando.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO INVESTIGACION  MANUAl DE EMERGENCIA
+  \newline
+  
+  Un proyecto de estudio de trabajo sobre la creación o mejora de un manual de emergencia tiene como objetivo principal asegurar que las organizaciones estén preparadas para enfrentar situaciones de emergencia de manera efectiva y eficiente. A continuación, se presentan algunos objetivos específicos que pueden guiar dicho proyecto:
+  \newline
+  
+   Objetivos Generales de un manual de emergencia
+  
+  -Desarrollar un Manual de Emergencia Integral: Crear un documento exhaustivo que detalle los procedimientos y protocolos a seguir durante diferentes tipos de emergencias.
+  Mejorar la Preparación y Respuesta ante Emergencias: Asegurar que todos los miembros de la organización estén capacitados y preparados para responder de manera efectiva en situaciones de emergencia.
+  \newline
+  
+   Objetivos Específicos de un manual de emergencia 
+  
+  -Identificar y Analizar Riesgos Potenciales: Realizar un análisis detallado de los riesgos y amenazas potenciales a los que está expuesta la organización, tales como incendios, terremotos, inundaciones, accidentes químicos, entre otros.
+  \newline
+  
+  -Desarrollar Procedimientos de Respuesta Específicos: Establecer procedimientos claros y detallados para cada tipo de emergencia identificada, asegurando que las instrucciones sean precisas y fáciles de seguir.
+  \newline
+  
+  -Definir Roles y Responsabilidades: Asignar roles y responsabilidades específicas a los miembros del personal durante una emergencia, asegurando que todos sepan qué hacer y a quién reportar.
+  \newline
+  
+  -Crear Protocolos de Comunicación: Establecer protocolos de comunicación internos y externos para garantizar una información rápida y precisa durante una emergencia, incluyendo contactos de emergencia y métodos de comunicación alternativos.
+  \newline
+  
+  -Desarrollar Planes de Evacuación y Refugio: Crear y documentar rutas de evacuación seguras, puntos de reunión y procedimientos de refugio, asegurando que sean accesibles y conocidos por todo el personal.
+  \newline
+  
+  -Implementar Sistemas de Alerta y Notificación: Desarrollar e implementar sistemas de alerta temprana y notificación para informar rápidamente a todos los ocupantes sobre una emergencia inminente.
+  \newline
+  -Capacitar al Personal: Proveer entrenamiento regular y simulacros para todos los empleados sobre los procedimientos del manual de emergencia, asegurando que estén familiarizados con sus roles y responsabilidades.
+  \newline
+  
+  -Incorporar Medidas de Primeros Auxilios: Incluir procedimientos detallados para la administración de primeros auxilios y el manejo de situaciones médicas hasta que llegue la ayuda profesional.
+  \newline
+  
+  -Evaluar y Mejorar Continuamente el Manual: Establecer un proceso de revisión y actualización periódica del manual de emergencia para incorporar lecciones aprendidas, cambios en la infraestructura, y nuevas amenazas o tecnologías.
+  \newline
+  
+  -Garantizar la Accesibilidad del Manual: Asegurar que el manual de emergencia esté fácilmente accesible en formato impreso y digital, y que sea comprensible para todos los miembros del personal, incluidos aquellos con discapacidades.
+  \newline
+  
+  -Coordinar con Autoridades y Servicios de Emergencia: Establecer relaciones y coordinar con las autoridades locales y servicios de emergencia para asegurar una respuesta coordinada y eficiente durante una crisis.
+  \newline
+  
+  -Evaluar Recursos y Equipamiento de Emergencia: Asegurar que todos los recursos y equipos necesarios para manejar emergencias estén disponibles, en buen estado de funcionamiento y accesibles cuando se necesiten.
+  \newline
+  
+  Estos objetivos proporcionan una estructura clara para el desarrollo y la mejora de un manual de emergencia, asegurando que la organización esté bien preparada para enfrentar cualquier tipo de situación de emergencia de manera eficaz y eficiente.
+  \newline
+  
+  
+  DEFINICIÓN  ESTUDIO DE  MOVIMIENTOS  Y TIEMPOS 
+  \newline
+  
+  El estudio de movimientos y tiempos es una técnica de ingeniería industrial que se utiliza para analizar y mejorar la eficiencia de los procesos de trabajo. Se enfoca en descomponer las tareas en movimientos básicos, medir el tiempo requerido para cada uno y eliminar movimientos innecesarios. Su objetivo principal es optimizar la ejecución de las tareas, reducir tiempos de ciclo, aumentar la productividad y mejorar la ergonomía y la seguridad laboral.
+  \newline
+  
+  El estudio de movimientos y tiempos es una herramienta esencial en la ingeniería industrial que permite mejorar la eficiencia operativa, reducir costos, y aumentar la calidad y la seguridad en el trabajo. A través de la optimización de movimientos y la medición precisa de tiempos, las organizaciones pueden establecer estándares de trabajo efectivos y promover un entorno de trabajo más productivo y seguro
+  \newline
+  
+  DEFINICION DE ENSAMBLE
+  \newline
+  
+  El ensamble es el proceso de unir o ensamblar componentes individuales para crear un producto completo o una parte de un producto más grande. En la fabricación, el ensamble implica la combinación de partes o componentes mediante diversos métodos, como soldadura, encaje, atornillado, pegado, entre otros, para crear un producto funcional que cumpla con las especificaciones y requisitos de diseño establecidos. Este proceso puede ocurrir en diferentes etapas de la producción, desde la fabricación de piezas individuales hasta la línea de ensamblaje final, donde se integran todos los componentes para obtener el producto terminado. El objetivo del ensamble es garantizar que todas las partes se unan de manera segura y eficiente para crear un producto que cumpla con los estándares de calidad y rendimiento establecidos.
+  \newline
+  
+  DEFINICION DE CIRCUITO ELECTRICO
+  \newline
+  
+  Un circuito eléctrico es un sistema de componentes eléctricos interconectados que permiten el flujo de corriente eléctrica. Está compuesto por al menos una fuente de energía eléctrica, como una batería o un generador, conductores eléctricos, como cables o pistas de circuito impreso, y elementos de carga, como resistencias, lámparas, motores u otros dispositivos eléctricos. La corriente eléctrica fluye a través del circuito desde la fuente de energía, pasa a través de los componentes eléctricos y regresa a la fuente de energía, formando así un bucle cerrado. Los circuitos eléctricos pueden ser simples, como un circuito de una sola lámpara, o complejos, como los encontrados en dispositivos electrónicos o sistemas de distribución de energía. El diseño y análisis de los circuitos eléctricos son fundamentales en ingeniería eléctrica y electrónica para garantizar su funcionamiento seguro y eficiente.
+  \newline
+  
+  DEFINICION DE OPTIMIZACION
+  \newline
+  
+  La optimización se refiere al proceso de mejorar o maximizar algo, ya sea un sistema, un proceso, una función, o cualquier otro elemento, con el fin de alcanzar los mejores resultados posibles dentro de ciertos límites o restricciones específicas. Implica encontrar la mejor solución posible entre todas las alternativas disponibles, considerando diversos factores como eficiencia, rendimiento, costos, recursos disponibles, y otros criterios relevantes. En diferentes contextos, la optimización puede implicar la maximización de beneficios, la minimización de costos, la mejora de la eficiencia operativa, o la optimización de recursos para lograr los objetivos establecidos. Es una herramienta fundamental en campos como la ingeniería, la gestión empresarial, las ciencias de la computación, las matemáticas y muchas otras áreas, donde se busca mejorar el rendimiento y la eficacia en diversas actividades y procesos.
+  \newline
+  
+  DEFINE  EL METODO DE TIEMPOS PREDETERMINADOS
+  \newline
+  
+  El Método de Tiempos Predeterminados (MTM, por sus siglas en inglés: Methods-Time Measurement) es una técnica de ingeniería de métodos utilizada para analizar y estandarizar el tiempo requerido para llevar a cabo tareas específicas. Fue desarrollado para descomponer las tareas en movimientos básicos discretos y establecer tiempos estándar predefinidos para cada uno de estos movimientos. Esto permite calcular el tiempo total requerido para una tarea dada en función de los movimientos necesarios para completarla.
+  \newline
+  
+  El MTM utiliza un sistema de codificación para representar diferentes tipos de movimientos y sus tiempos asociados. Los analistas de tiempos entrenados pueden utilizar esta codificación para identificar y medir los movimientos en una tarea determinada de manera precisa y consistente. Además, el MTM proporciona una base objetiva para establecer estándares de tiempo, lo que facilita la planificación de la producción, el diseño de puestos de trabajo y la evaluación del desempeño laboral.
+  \newline
+  
+  En resumen, el Método de Tiempos Predeterminados es una herramienta sistemática y eficaz para analizar, medir y estandarizar los tiempos requeridos para llevar a cabo tareas específicas en entornos de trabajo industrial y empresarial.
+  \newline
+  
+  
+  OBJETIVOS DEL PROYECTO DE INVESTIGACION ENSAMBLE
+  \newline
+  
+  El objetivo general de un proyecto de ensamble enfocado en el desarrollo de habilidades de campo de la ingeniería en producción, producto y calidad puede enmarcarse de la siguiente manera:
+  \newline
+  
+   Objetivo General
+  
+  Desarrollar y perfeccionar las habilidades prácticas de los ingenieros en el campo de la producción, asegurando la mejora continua del proceso de ensamblaje, la optimización de la calidad del producto final y la eficiencia en la gestión de la producción.
+  \newline
+  
+  Desglose del Objetivo General
+  \newline
+  
+  -Desarrollo de Habilidades Prácticas: Capacitar a los ingenieros en técnicas avanzadas de ensamblaje y métodos de producción, proporcionando una formación integral que combine teoría y práctica.
+  \newline
+  
+  -Mejora del Proceso de Ensamblaje: Implementar mejoras en el proceso de ensamblaje a través de la aplicación de principios de ingeniería y mejores prácticas, con el fin de aumentar la eficiencia, reducir tiempos de ciclo y minimizar errores.
+  
+  -Optimización de la Calidad del Producto: Asegurar que los productos ensamblados cumplan con los estándares de calidad establecidos, mediante el uso de técnicas de control de calidad y la implementación de sistemas de aseguramiento de calidad.
+  
+  -Gestión Eficiente de la Producción: Desarrollar habilidades en la planificación, coordinación y gestión de las operaciones de producción para optimizar el uso de recursos y reducir costos, mientras se mantiene un alto nivel de productividad.
+  
+  Este objetivo general proporciona una guía clara para la formación y mejora de habilidades en el campo de la ingeniería de producción, con un enfoque en la calidad del producto y la eficiencia del ensamblaje.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO DE INVESTIGACION MANUAL DE EMERGENCIA
+  \newline
+  
+  Objetivo General
+  
+  Desarrollar y mantener un manual de emergencia integral en habilidades de campo para la ingeniería en producción, que garantice la continuidad operativa, la calidad del producto y la seguridad del personal ante situaciones de emergencia, asegurando que todos los procedimientos de respuesta sean claros, eficientes y alineados con los estándares de calidad de la empresa.
+  \newline
+  
+   Objetivos Específicos
+   \newline
+  
+  1. Identificación de Riesgos Específicos
+     - Realizar un análisis exhaustivo de los riesgos y amenazas potenciales que puedan afectar la producción, calidad del producto y seguridad del personal en el campo de la ingeniería en producción.
+  
+  2. Desarrollo de Procedimientos de Respuesta
+     - Establecer procedimientos claros y detallados para responder a cada tipo de emergencia identificada, con un enfoque en minimizar el impacto en la producción y la calidad del producto.
+  
+  3. Asignación de Roles y Responsabilidades
+     - Definir y asignar roles y responsabilidades específicas a los miembros del equipo de producción durante una emergencia, asegurando que cada persona sepa exactamente qué hacer y cómo actuar.
+  
+  4. Establecimiento de Protocolos de Comunicación
+     - Desarrollar protocolos de comunicación efectivos para asegurar que la información crítica se transmita rápida y claramente durante una emergencia, tanto internamente como con autoridades externas.
+  
+  5. Desarrollo de Planes de Continuidad Operativa
+     - Crear y documentar planes de continuidad operativa que incluyan medidas para mantener la producción y la calidad del producto durante y después de una emergencia.
+  
+  6. Implementación de Sistemas de Alerta y Notificación
+     - Implementar sistemas de alerta temprana y notificación para informar rápidamente a todo el personal sobre una emergencia y los pasos a seguir.
+  
+  7. Capacitación y Simulacros Regulares
+     - Proveer capacitación regular y realizar simulacros de emergencia para asegurar que todo el personal esté familiarizado con los procedimientos y pueda responder eficazmente.
+  
+  8. Incorporación de Medidas de Calidad
+     - Incluir procedimientos específicos para garantizar que la calidad del producto no se vea comprometida durante una emergencia, como controles de calidad adicionales y medidas de mitigación.
+  
+  9. Evaluación y Mejora Continua del Manual
+     - Establecer un proceso de revisión y actualización periódica del manual de emergencia para incorporar lecciones aprendidas, cambios en las operaciones y nuevas tecnologías.
+  
+  10. Aseguramiento de la Disponibilidad de Recursos y Equipos
+      - Asegurar que todos los recursos y equipos necesarios para manejar emergencias estén disponibles, en buen estado de funcionamiento y accesibles.
+  
+  11. Coordinación con Autoridades y Servicios de Emergencia
+      - Establecer y mantener relaciones con autoridades locales y servicios de emergencia para asegurar una respuesta coordinada y eficiente.
+  
+  12. Garantía de la Seguridad del Personal
+      - Desarrollar medidas específicas para garantizar la seguridad y bienestar del personal durante una emergencia, incluyendo primeros auxilios y evacuación segura.
+  
+  13. Documentación y Accesibilidad del Manual
+      - Asegurar que el manual de emergencia esté bien documentado y accesible tanto en formato físico como digital para todos los miembros del personal.
+  
+  14. Monitoreo y Control de Impacto en Producción y Calidad
+      - Implementar sistemas para monitorear y controlar el impacto de las emergencias en la producción y la calidad del producto, permitiendo una rápida identificación y solución de problemas.
+      \newline
+  
+  Estos objetivos específicos asegurarán que el manual de emergencia no solo cubra la seguridad del personal, sino también la continuidad y calidad de la producción, ofreciendo una respuesta integral a las emergencias.
+  \newline
+  
+  % 
+  %
+  
+  \textbf{\textit{1-El LCD }}: Es una pantalla de cristal liquido nombrada en sus siglas en ingles (LCD) que se utiliza para ver Imágenes fijas y en movimientos que va a estar formada por gran cantidad de pixel que consisten en Molécula s de cristal liquido contenidas entre dos conjuntos electrodos transparentes .
+  \newline
+   
+  % 
+  % 
+  \textbf{\textit{1-El potenciometro }}: Es un dispositivo electrónico que nos va a ayudar de una manera exponencial ya que posee la resistencia
+  variable Mecánica y sirve para controlar  el valor de la resistencia en vez de ser fijo es variable. 
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{3-El SP32 }}: Aparte de integrar la radio  inalámbrica , sino también un procesador integrado con interfaces para conectarse con varios periférico  y controla otras cosas de mayor importancia .  
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{4- Cable Macho-Macho  }}: se va a utilizar en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dichos tableros y se conoce así por los fragmentos que sobresalen de los extremos del cable .   
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{5- Cable Macho-Hembra }}: a hembra se refiere a un conector que forma un tipo de manguito alrededor de su homologo masculino en el centro  ya que la hembra va a tener la rosca por dentro.
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{6- Resistencias  }}: Estas están hechas de materiales que resisten el flujo de electricidad cuando pasa a través de ellas de esta manera se puede controlar el flujo de la corriente a través de un circuito .   \newline 
+  
+  % 
+  % 
+  \textbf{\textit{7- La interfaz de conexión l2c para la LCD  }}:  el modulo serial l2c permite manejar tu pantalla lcd de una manera bastante fácil esto permite enviar y recibir información y 2 mas para alimentación . \newline 
+  
+  % 
+  % 
+  \textbf{\textit{8-Cable USB }}: Definiremos como un conector que permite vincular una amplia variedad de elementos a través del universal serial bus . 
+  \newline 
+  
+  % 
+  % 
+  \textbf{\textit{9- protoboard }}: se usa en proyectos de Robótica que permite conectar fácilmente componentes electrónicos entre si , sin necesidad de realizar una soldadura . 
+  \newline 
+  
+  % 
+  % 
+  \textbf{\textit{10- conector base de luz  }}: sirve para que al conectar esa base nosotros tengamos energía directamente a  través  de una base y de su conector . 
+  \newline
+  
+  \section { Justificacion }
+  
+  Descripción del Proyecto de Ensamble
+  \newline 
+  
+  El proyecto tiene como objetivo abordar las necesidades actuales y globales en el campo del ensamble, asegurando eficiencia, calidad y adaptabilidad a las demandas del mercado. En un contexto global, la competitividad requiere métodos de ensamble ágiles, tecnológicamente avanzados y sostenibles.
+  Lo Requerido a Nivel Global
+  \newline 
+  
+  - Eficiencia y Productividad: Se demanda un ensamble que optimice los tiempos de producción y reduzca los costos operativos.
+  \newline 
+  
+  - Calidad y Precisión: La exigencia por productos finales de alta calidad y precisión es constante en el mercado global.
+  \newline 
+  
+  - Innovación Tecnológica: La integración de tecnologías avanzadas como la automatización y la inteligencia artificial es vital para mantener la competitividad.
+  \newline 
+  
+  - Sostenibilidad Ambiental: Existe una creciente demanda por prácticas de ensamble que minimicen el impacto ambiental y promuevan la sostenibilidad.
+  \newline 
+  
+   Adaptación a Nivel Local o Nacional
+   \newline 
+  
+  - Cumplimiento Normativo: En el ámbito local o nacional, es fundamental cumplir con las regulaciones y estándares específicos de cada país en cuanto a seguridad laboral, calidad del producto y protección del medio ambiente.
+  \newline 
+  
+  - Formación y Capacitación del Personal: Se requiere una fuerza laboral capacitada y actualizada en las mejores prácticas de ensamble, ajustadas a las necesidades y regulaciones locales.
+  \newline 
+  
+  - Consideraciones Culturales y Sociales: Las preferencias del consumidor y las prácticas comerciales pueden variar según la región, por lo que es importante adaptar el ensamble para satisfacer las demandas locales.
+  \newline 
+  
+  - Infraestructura y Logística: Las infraestructuras y recursos logísticos locales pueden influir en el diseño y la implementación de procesos de ensamble eficientes y rentables.
+  \newline 
+  
+  - Colaboración con Instituciones y Autoridades Locales: La colaboración con instituciones educativas, gubernamentales y de investigación locales puede facilitar el acceso a recursos y conocimientos especializados, así como fomentar la innovación y el desarrollo de soluciones adaptadas a las necesidades locales.
+  \newline 
+  
+   Descripción del Contexto Global Manual de Emergencia
+   \newline 
+  
+  En el contexto actual, la necesidad de contar con un manual de emergencia integral es fundamental para garantizar la seguridad y continuidad operativa en todas las industrias. Los estándares internacionales y las regulaciones de seguridad laboral exigen que las organizaciones establezcan procedimientos claros y efectivos para hacer frente a situaciones de emergencia, desde desastres naturales hasta incidentes en el lugar de trabajo.
+  \newline 
+  
+   Lo Que Se Requiere a Nivel Global
+   \newline 
+  
+  1. Procedimientos Claros y Efectivos: Se requiere que el manual de emergencia establezca procedimientos detallados y claros para responder rápidamente ante una amplia gama de emergencias.
+  \newline 
+  
+  2. Capacitación del Personal: Es fundamental proporcionar capacitación regular al personal en los procedimientos de emergencia para garantizar una respuesta efectiva y segura.
+  \newline 
+  
+  3. Tecnología y Comunicación Avanzada: La integración de tecnologías avanzadas y sistemas de comunicación eficientes es esencial para una respuesta rápida y coordinada durante una emergencia.
+  \newline 
+  
+  4. Adaptabilidad y Flexibilidad: El manual debe ser lo suficientemente flexible para adaptarse a diferentes escenarios de emergencia y a las cambiantes condiciones del entorno laboral.
+  \newline 
+  
+  5. Revisión y Actualización Continua: Se requiere una revisión periódica del manual para asegurar su eficacia y relevancia en todo momento.
+  \newline 
+  
+  Consideraciones Locales o Nacionales
+  \newline 
+  
+  En el contexto local o nacional, es importante tener en cuenta las particularidades geográficas, climáticas, culturales y normativas que pueden influir en la respuesta ante emergencias:
+  \newline 
+  
+  1. Normativas y Regulaciones Locales: Se deben tener en cuenta las regulaciones locales y normativas específicas relacionadas con la seguridad y salud laboral al desarrollar el manual de emergencia.
+  \newline 
+  
+  2. Factores Geográficos y Climáticos: Las condiciones geográficas y climáticas locales, como la ubicación sísmica, riesgos de inundaciones o condiciones climáticas extremas, deben ser consideradas en los planes de emergencia.
+  \newline 
+  
+  3. Cultura Organizacional y Comunidad Local: La cultura organizacional y la participación activa de la comunidad local pueden influir en la efectividad de los procedimientos de emergencia y la colaboración con las autoridades locales.
+  \newline 
+  
+  4. Recursos y Capacidades Locales: Es importante evaluar los recursos disponibles a nivel local, como servicios de emergencia, instalaciones de refugio y equipos de respuesta, para asegurar una coordinación efectiva durante una emergencia.
+  \newline 
+  
+  
+  En el contexto actual, un proyecto de ensamble debe abordar las necesidades de eficiencia, sostenibilidad y adaptabilidad que caracterizan el panorama global. Se requiere una atención meticulosa a la calidad y precisión del ensamblaje para garantizar la fiabilidad de los productos en un mercado cada vez más exigente y competitivo. Además, la implementación de prácticas de fabricación inteligente, como la automatización y la digitalización, es fundamental para optimizar los procesos y maximizar la productividad.
+  \newline 
+  
+  En términos de demanda, la flexibilidad y la capacidad de adaptación son cruciales. Los clientes buscan productos personalizados y soluciones a medida que satisfagan sus necesidades específicas. Por lo tanto, la capacidad de personalización y la agilidad en la producción son aspectos esenciales a considerar en cualquier proyecto de ensamble.
+  \newline 
+  
+  En un contexto más local o nacional, es importante considerar las regulaciones y estándares específicos de cada país en cuanto a calidad, seguridad y medio ambiente. Además, la integración de tecnologías emergentes, como la inteligencia artificial y el Internet de las cosas, puede ofrecer ventajas competitivas significativas. Asimismo, la inversión en capacitación y desarrollo de talento local es crucial para garantizar la disponibilidad de habilidades necesarias para la industria del ensamble en el ámbito nacional.
+  \newline 
+  
+  
+  En la actualidad, la demanda para un manual de emergencia es fundamental, dada la creciente necesidad de preparación y respuesta efectiva ante situaciones imprevistas o crisis. Este manual debe abordar una variedad de escenarios potenciales, desde desastres naturales como terremotos, huracanes o inundaciones, hasta emergencias provocadas por el hombre, como incendios, accidentes químicos o ataques terroristas.
+  \newline 
+  
+  Se requiere un enfoque integral que incluya protocolos de seguridad, procedimientos de evacuación, estrategias de comunicación y coordinación entre equipos de respuesta, así como capacitación continua para el personal. Es esencial garantizar la accesibilidad y comprensión del manual para todos los miembros de la comunidad o la organización, independientemente de su nivel de capacitación o habilidades lingüísticas.
+  \newline 
+  
+  A nivel global, se observa una creciente conciencia sobre la importancia de la preparación para emergencias, impulsada por eventos catastróficos recientes y la amenaza constante de crisis sanitarias, climáticas y geopolíticas. La colaboración internacional y el intercambio de mejores prácticas son fundamentales para mejorar la resiliencia y la capacidad de respuesta ante emergencias a nivel mundial.
+  \newline 
+  
+  Sin embargo, no se puede ignorar la importancia de adaptar estas medidas a contextos locales o nacionales específicos. Las condiciones geográficas, socioeconómicas y culturales pueden influir en la naturaleza y la gravedad de las emergencias, así como en la efectividad de las estrategias de preparación y respuesta. Por lo tanto, es crucial incorporar consideraciones regionales en el desarrollo y la implementación de un manual de emergencia, asegurando que se adapte a las necesidades y realidades de cada comunidad o país.
+  \newline 
+  
+  TIPOS DE MANUFACTURA
+  \newline 
+  
+  La manufactura es un proceso complejo que incluye una variedad de técnicas y métodos para la producción de bienes. Existen diferentes tipos de manufactura, cada uno con sus propias características y aplicaciones. Los principales tipos de manufactura incluyen:
+  \newline 
+  
+  Manufactura Discreta: Involucra la producción de artículos individuales o piezas distintas. Se utiliza en la fabricación de productos como automóviles, aviones, electrodomésticos y dispositivos electrónicos. La manufactura discreta puede ser en lotes pequeños o grandes, y cada artículo puede ser único o estandarizado.
+  \newline 
+  
+  Manufactura de Proceso: Este tipo de manufactura se enfoca en la producción de bienes que no se pueden descomponer en piezas individuales, como alimentos, bebidas, productos químicos y farmacéuticos. La manufactura de proceso puede ser continua (como la producción de petróleo) o en lotes (como la producción de medicamentos).
+  \newline 
+  
+  Manufactura en Masa: Consiste en la producción de grandes cantidades de productos idénticos, generalmente utilizando líneas de ensamblaje. Es común en industrias como la automotriz, la electrónica de consumo y los bienes de consumo empaquetados. Este tipo de manufactura se caracteriza por su alta eficiencia y costos reducidos por unidad.
+  \newline 
+  
+  Manufactura en Lotes: Implica la producción de una cantidad limitada de productos en un lote. Es común en industrias que requieren flexibilidad para producir diferentes productos en cantidades moderadas, como la industria de la moda, ciertos tipos de maquinaria y productos farmacéuticos.
+  \newline 
+  
+  Manufactura Ajustada (Lean Manufacturing): Se centra en la minimización de desperdicios dentro del proceso de manufactura sin sacrificar productividad. Utiliza principios como la producción justo a tiempo (JIT) y mejora continua (Kaizen). Es aplicable en varias industrias que buscan mejorar la eficiencia y reducir costos.
+  \newline 
+  
+  Manufactura Aditiva (Impresión 3D): Consiste en la creación de objetos tridimensionales añadiendo material capa por capa. Es utilizada en prototipado rápido, fabricación de piezas complejas y personalización de productos. Esta técnica ha revolucionado la fabricación en sectores como la medicina, la aeronáutica y la automoción.
+  \newline 
+  
+  Manufactura Flexible: Permite la adaptación rápida a cambios en el tipo y cantidad de productos manufacturados. Utiliza tecnologías avanzadas y sistemas automatizados para responder a la demanda variable del mercado. Es crucial en industrias que requieren alta variedad y personalización, como la electrónica y la automoción.
+  \newline 
+  
+  Cada uno de estos tipos de manufactura tiene sus propias ventajas y desafíos, y la elección del método adecuado depende de factores como el tipo de producto, la escala de producción, los costos y la demanda del mercado.
+  \newline 
+  
+  CUANTAS EMPRESAS EXISTEN EN EL MUNDO
+  \newline 
+  
+  Es difícil proporcionar un número exacto de empresas de manufactura en todo el mundo, ya que estas cifras pueden variar según la definición de "empresa de manufactura" y los criterios utilizados para contabilizarlas. Además, la cantidad de empresas de manufactura puede cambiar constantemente debido a factores como la creación de nuevas empresas, fusiones, adquisiciones y cierres.
+  
+  Sin embargo, puedo decirte que la manufactura es una parte significativa de la economía global, y hay millones de empresas de manufactura operando en todo el mundo. Estas empresas van desde pequeñas y medianas empresas (PYMEs) hasta grandes corporaciones multinacionales, abarcando una amplia gama de sectores que van desde la fabricación de productos electrónicos y automóviles hasta la producción de alimentos y bebidas, entre otros.
+  \newline 
+  
+  CUANTAS EMPRESAS EXISTEN EN MEXICO
+  \newline 
+  
+  En México, hay una cantidad significativa de empresas dedicadas a la manufactura, que van desde pequeñas y medianas empresas hasta grandes corporaciones multinacionales. Según datos del Instituto Nacional de Estadística y Geografía (INEGI) de México, en 2019 había alrededor de 306,000 establecimientos manufactureros registrados en el país. Sin embargo, ten en cuenta que esta cifra puede haber cambiado desde entonces debido a la creación de nuevas empresas, fusiones, adquisiciones y cierres.
+  \newline 
+  
+  Cuantas empresas de manufactura existen en Querétaro?
+  \newline 
+  
+  El número exacto de empresas de manufactura en Querétaro puede variar con el tiempo debido a la dinámica económica y empresarial. Sin embargo, según datos proporcionados por el Instituto Nacional de Estadística y Geografía (INEGI) de México, en el Censo Económico de 2019, se registraron alrededor de 5,800 establecimientos dedicados a la industria manufacturera en el estado de Querétaro.
+  \newline 
+  
+  Es importante tener en cuenta que esta cifra puede haber cambiado desde entonces debido a factores como la creación de nuevas empresas, el cierre de establecimientos, la expansión de las existentes, entre otros. Te recomendaría consultar fuentes actualizadas del INEGI u otras instituciones gubernamentales o locales para obtener la información más reciente sobre el número de empresas de manufactura en Querétaro.
+  \newline 
+  
+  
+  \section{Descripcion del Problema }
+  \newline 
+  
+  En un proyecto de ensamble, la desviación entre el "es" y el "debe ser" se refiere a las diferencias entre el estado actual del proceso y el estado ideal o planificado. Esta discrepancia puede impactar negativamente en la eficiencia, calidad y costo del proyecto. A continuación, se describen algunas áreas comunes donde pueden ocurrir estas desviaciones y cómo afectan al proyecto:
+  \newline 
+  
+  1. Tiempo de Ensamblaje:
+     - Es: El tiempo actual de ensamblaje es mayor que el planificado.
+     - Debe ser: El proceso debería completarse dentro del tiempo estimado en el plan del proyecto.
+  
+  2. Calidad del Producto:
+     - Es: Los productos ensamblados presentan defectos o no cumplen con los estándares de calidad.
+     - Debe ser: Los productos deben cumplir con todos los estándares de calidad y especificaciones técnicas.
+  
+  3. Costo de Producción:
+     - Es: Los costos actuales de producción son superiores a los presupuestados.
+     - Debe ser: Los costos deben mantenerse dentro del presupuesto establecido.
+  
+  4. Disponibilidad de Materiales:
+     - Es: Hay escasez o retrasos en la entrega de materiales necesarios para el ensamblaje.
+     - Debe ser: Los materiales deben estar disponibles según el cronograma planificado.
+  
+  5. Capacitación y Competencia del Personal:
+     - Es: El personal no está completamente capacitado o es insuficiente para cumplir con las demandas del proyecto.
+     - Debe ser: El personal debe estar adecuadamente capacitado y en cantidad suficiente para cumplir con los requerimientos del ensamblaje.
+  
+  6. Implementación de Tecnología:
+     - Es: Las tecnologías utilizadas no están funcionando como se esperaba o no se han implementado completamente.
+     - Debe ser: La tecnología debe funcionar de manera eficiente y estar completamente integrada en el proceso de ensamblaje.
+     \newline 
+  
+  Para mitigar estas desviaciones, es crucial implementar un sistema de monitoreo continuo y realizar ajustes en tiempo real. Además, la capacitación adecuada del personal, la planificación efectiva de recursos y la mejora continua de los procesos pueden ayudar a alinear el "es" con el "debe ser", garantizando así el éxito del proyecto de ensamblaje.
+  \newline 
+  
+  Desviación del "es" con respecto al "debe ser" en un proyecto de manual de emergencia
+  \newline 
+  
+  1. Planificación y Estructura
+  - Es: Actualmente, muchos manuales de emergencia carecen de una estructura coherente y exhaustiva. A menudo, se encuentran dispersos y desorganizados, dificultando su comprensión y aplicación efectiva.
+  - Debe ser: El manual debe estar claramente estructurado, con secciones bien definidas y un índice que facilite la búsqueda rápida de información. Debe incluir protocolos claros, procedimientos paso a paso y diagramas explicativos.
+  \newline 
+  
+  2. Actualización y Revisión
+  - Es: Los manuales de emergencia a menudo no se actualizan regularmente, lo que resulta en información obsoleta que puede no ser aplicable en situaciones de emergencia actuales.
+  - Debe ser: El manual debe incluir un plan de revisión y actualización periódica, asegurando que toda la información refleje las últimas normativas, tecnologías y mejores prácticas.
+  \newline 
+  
+  3. Capacitación y Conciencia
+  - Es: Existe una falta de programas de capacitación regulares y efectivos para el personal y la comunidad sobre cómo usar el manual de emergencia.
+  - Debe ser: Se debe implementar un programa de capacitación continuo que incluya simulacros y talleres prácticos, asegurando que todos los usuarios estén familiarizados y cómodos con los procedimientos descritos en el manual.
+  \newline 
+  
+  4. Accesibilidad y Comprensión
+  - Es:En muchas ocasiones, los manuales están redactados en un lenguaje técnico complicado, lo que dificulta su comprensión por parte de todos los miembros de la comunidad o la organización.
+  - Debe ser: El manual debe estar escrito en un lenguaje claro y sencillo, con traducciones disponibles si es necesario. Además, debe incluir gráficos y resúmenes visuales para facilitar la comprensión.
+  \newline 
+  
+   5. Coordinación y Colaboración
+  - Es:A menudo, los manuales no contemplan adecuadamente la coordinación con otras organizaciones y entidades relevantes en caso de emergencia.
+  - Debe ser: El manual debe incluir protocolos detallados para la coordinación con equipos de respuesta locales, regionales y nacionales, así como con organizaciones no gubernamentales y entidades internacionales cuando sea necesario.
+  \newline 
+  
+   6. Adaptabilidad a Contextos Específicos
+  - Es:Muchos manuales de emergencia no están adaptados a las particularidades geográficas, socioeconómicas y culturales de las áreas a las que están destinados.
+  - Debe ser: El manual debe ser flexible y adaptable, permitiendo su personalización para contextos locales específicos. Esto incluye considerar riesgos particulares de la región y la infraestructura disponible.
+  \newline 
+  
+  La brecha entre el "es" y el "debe ser" en los manuales de emergencia refleja la necesidad de un enfoque más meticuloso y actualizado en su desarrollo e implementación. Solventar estas desviaciones no solo mejora la eficacia de los manuales, sino que también fortalece la resiliencia y la capacidad de respuesta de las comunidades y organizaciones ante emergencias.
+  \newline 
+  
+   La Incógnita Científica en un Proyecto de Ensamble
+   \newline 
+  
+  En un proyecto de ensamble, la incógnita científica se refiere a los desafíos y preguntas no resueltas que afectan la eficiencia y el éxito del proceso. Estas incógnitas abarcan varios aspectos:
+  \newline 
+  
+  1. Selección y Comportamiento de Materiales
+  - Incógnita:¿Cómo se comportarán nuevos materiales bajo condiciones de estrés y uso continuo?
+  - Implicacion: Es crucial predecir la durabilidad y resistencia de materiales innovadores como compuestos avanzados y aleaciones ligeras.
+  \newline 
+  
+   2. Tecnologías de Fabricación Avanzadas
+  - Incógnita: ¿Cómo integrar eficientemente tecnologías emergentes como la impresión 3D y la robótica en los procesos existentes?
+  - Implicación: Estas tecnologías prometen mejoras, pero plantean preguntas sobre compatibilidad, costos y curva de aprendizaje.
+  \newline 
+  
+  3. Optimización de Procesos
+  - Incógnita: ¿Cuál es la mejor combinación de técnicas para maximizar la eficiencia y minimizar defectos?
+  - Implicacion:Encontrar el equilibrio óptimo entre tiempo, calidad y costo sigue siendo un desafío clave.
+  \newline 
+  
+  4. Interacción Humano-Máquina
+  - Incógnita:¿Cómo diseñar sistemas que optimicen la colaboración entre humanos y máquinas?
+  - Implicacion: Mejorar esta interacción es vital para la ergonomía, seguridad y eficiencia.
+  \newline 
+  
+   5. Impacto Ambiental y Sostenibilidad
+  - Incógnita: ¿Qué métodos de ensamblaje minimizan el impacto ambiental sin comprometer la calidad?
+  - Implicacion: Es fundamental encontrar procesos que reduzcan la huella de carbono y los residuos.
+  \newline 
+  
+  Aplicación en Contextos Locales y Nacionales
+  \newline 
+  
+  Adaptar estas soluciones a contextos locales y nacionales es crucial. Por ejemplo, en regiones con una fuerte industria manufacturera, la integración de nuevas tecnologías debe considerar la infraestructura existente. En áreas con alta prioridad en sostenibilidad, los métodos deben enfocarse en reducir residuos y usar recursos locales. Colaborar con instituciones locales puede aportar conocimientos valiosos y fomentar la innovación.
+  \newline 
+  
+  La Incógnita Científica en un Proyecto de Manual de Emergencia
+  \newline 
+  
+  El desarrollo de un manual de emergencia enfrenta varias incógnitas científicas debido a la imprevisibilidad de los desastres y la rápida evolución de la tecnología y el clima.
+  \newline 
+  
+  Predicción de Desastres
+  - Incógnita: La exacta predicción de terremotos, tsunamis y erupciones volcánicas sigue siendo difícil.
+  - Implicación: El manual debe ser flexible y adaptarse a la información más reciente en modelado predictivo.
+  \newline 
+  
+   Cambio Climático
+  - Incógnita: Los fenómenos meteorológicos extremos están aumentando en frecuencia e intensidad.
+  - Implicación: El manual debe incluir estrategias para eventos climáticos extremos y actualizarse con los últimos estudios científicos.
+  \newline 
+  
+   Innovaciones Tecnológicas
+  - Incógnita: La rápida evolución de tecnologías como drones y IA en la gestión de emergencias.
+  - Implicación:El manual debe integrar nuevas tecnologías y capacitar al personal en su uso.
+  \newline 
+  
+   Comportamiento Humano
+  - Incógnita:La reacción humana en emergencias es impredecible.
+  - Implicación: El manual debe incluir estrategias claras de comunicación y promover la educación constante para minimizar el caos.
+  \newline 
+  
+  
+  \section{Fundamentacion Teorica }
+  
+  La Incógnita Científica en un Proyecto de Ensamble
+  \newline 
+  
+  En la introducción, se mencionó la importancia de desarrollar un manual de emergencia que responda a las necesidades globales y locales. Ahora, profundizaremos en las incógnitas científicas específicas que afectan el proceso de ensamble en la producción y cómo estas se pueden abordar para formular una hipótesis efectiva.
+  \newline 
+  
+   Clarificación de la Incógnita Científica
+   \newline 
+  
+  Las incógnitas científicas en un proyecto de ensamble se centran en la variabilidad del proceso, la rápida innovación tecnológica, la gestión de la cadena de suministro y la garantía de calidad y seguridad. Estos factores pueden introducir incertidumbre y desafíos que afectan la eficiencia y la consistencia del ensamble.
+  \newline 
+  
+  Planteamiento de la Hipótesis
+  \newline 
+  
+  Hipótesis General: La integración de sistemas avanzados de monitoreo y control, junto con la adopción de tecnologías emergentes y programas de capacitación, permitirá optimizar el proceso de ensamble. Además, el fortalecimiento de la cadena de suministro y la implementación de sistemas de inspección automatizados garantizarán la calidad y seguridad del producto final.
+  \newline 
+  
+  
+  La Incógnita Científica en un Proyecto de Manual de Emergencia
+  \newline 
+  
+  En la introducción, se mencionó la necesidad imperiosa de un manual de emergencia integral y actualizado, que se ajuste a la realidad global y local. Ahora, profundizaremos en las incógnitas científicas que afectan el desarrollo de estos manuales y plantearemos una hipótesis para abordar estos desafíos.
+  \newline 
+  
+  
+  Clarificación de la Incógnita Científica manual de emergencia
+  \newline 
+  
+  Las incógnitas científicas en la creación de un manual de emergencia giran en torno a la imprevisibilidad y la variabilidad de los desastres naturales y antropogénicos. La falta de precisión en las predicciones, el impacto del cambio climático, las rápidas innovaciones tecnológicas y las respuestas humanas variadas complican la planificación y la ejecución de estrategias efectivas de emergencia.
+  \newline 
+  
+   Planteamiento de la Hipótesis manual de emergencia
+   \newline 
+  
+  Hipótesis General: La integración de avances científicos y tecnológicos en la predicción, modelado y respuesta a emergencias, junto con una comprensión profunda del comportamiento humano, permitirá la creación de un manual de emergencia más efectivo y adaptable. Esto, a su vez, mejorará significativamente la capacidad de las comunidades para enfrentar y recuperarse de desastres.
+  \newline 
+  
+  Profundización en el Objeto de Estudio de un Proyecto de Ensamble
+  \newline 
+  
+   Descripción del Problema
+  
+  El problema principal en un proyecto de ensamble radica en la complejidad y variabilidad inherentes al proceso. Factores como la consistencia en la calidad del producto final, la integración de nuevas tecnologías, la gestión de la cadena de suministro y la garantía de seguridad son desafíos críticos que deben ser abordados para asegurar la eficiencia y efectividad del ensamble.
+  \newline 
+  
+  
+   Objeto de Estudio 1: Variabilidad en el Proceso de Ensamble
+   \newline 
+  
+  - Descripción: La variabilidad en el proceso de ensamble puede surgir de diferencias en los componentes, fluctuaciones en las condiciones de operación y errores humanos. Esta variabilidad puede afectar negativamente la calidad del producto final y la eficiencia del proceso.
+  \newline 
+  
+  - Análisis Profundo: Se necesita un estudio detallado de los factores que contribuyen a la variabilidad. Esto incluye el análisis de tolerancias de componentes, condiciones ambientales de la línea de producción y habilidades del personal. Implementar sistemas de monitoreo en tiempo real y controles de calidad automáticos puede ayudar a mitigar estas variaciones.
+  \newline 
+  
+   Objeto de Estudio 2: Innovación Tecnológica
+   \newline 
+  
+  - Descripción: La integración de tecnologías avanzadas como la robótica, la automatización y la inteligencia artificial en el proceso de ensamble presenta tanto oportunidades como desafíos.
+  - Análisis Profundo: Se requiere una evaluación exhaustiva de las tecnologías emergentes y su aplicabilidad en el ensamble. Esto incluye el análisis de costos, beneficios, compatibilidad con sistemas existentes y la necesidad de capacitación del personal. Además, se deben desarrollar estrategias para la implementación gradual de estas tecnologías para minimizar las interrupciones en la producción.
+  \newline 
+  
+  Objeto de Estudio 3: Gestión de la Cadena de Suministro
+  \newline 
+  
+  - Descripción: La cadena de suministro juega un papel crucial en la disponibilidad y calidad de los componentes necesarios para el ensamble. Las interrupciones en la cadena de suministro pueden causar retrasos y afectar la producción.
+  - Análisis Profundo: Es esencial estudiar la resiliencia y flexibilidad de la cadena de suministro. Esto incluye el análisis de la dependencia de proveedores específicos, la diversificación de fuentes de suministro y la implementación de tecnologías de análisis predictivo para anticipar y gestionar las fluctuaciones en la disponibilidad de componentes.
+  \newline 
+  
+  Objeto de Estudio 4: Calidad y Seguridad del Producto
+  \newline 
+  
+  - Descripción: Garantizar que cada producto ensamblado cumpla con los estándares de calidad y seguridad es fundamental para la satisfacción del cliente y el cumplimiento normativo.
+  - Análisis Profundo: Se debe realizar un análisis detallado de los procedimientos de control de calidad y seguridad en cada etapa del ensamble. Esto incluye la implementación de sistemas de inspección automatizados, pruebas de producto y auditorías regulares. También es crucial desarrollar protocolos de respuesta rápida para abordar cualquier problema de calidad o seguridad que surja durante la producción.
+  \newline 
+  
+   Planteamiento de la Hipótesis
+   \newline 
+  
+  Hipótesis General: La optimización del proceso de ensamble mediante la integración de sistemas avanzados de monitoreo y control, la adopción de tecnologías emergentes, la gestión eficiente de la cadena de suministro y la implementación de estrictos controles de calidad y seguridad, mejorará significativamente la consistencia, eficiencia y calidad del producto final.
+  \newline 
+  
+   Profundización en el Objeto de Estudio de un Proyecto de Manual de Emergencia
+  \newline 
+  
+   Descripción del Problema
+  
+  El problema principal en el desarrollo de un manual de emergencia radica en la necesidad de abordar la complejidad y variabilidad de las emergencias. Factores como la precisión en la predicción de desastres, la integración de nuevas tecnologías, la gestión de la respuesta y la capacitación del personal son desafíos críticos que deben ser resueltos para garantizar una respuesta eficaz y eficiente ante emergencias.
+  \newline 
+  
+   Objeto de Estudio 1: Predicción de Desastres
+  \newline 
+  
+  - Descripción: La predicción precisa de desastres naturales y antropogénicos es una tarea compleja debido a la naturaleza impredecible y multifacética de estos eventos.
+  - Análisis Profundo:Se requiere un estudio detallado de los métodos y tecnologías utilizados para la predicción de desastres. Esto incluye el análisis de modelos climáticos, sistemas de alerta temprana y tecnologías de sensores. Implementar sistemas avanzados de monitoreo y análisis de datos en tiempo real puede mejorar la capacidad de anticipación y respuesta a emergencias.
+  \newline 
+  
+  Objeto de Estudio 2: Integración de Tecnologías Emergentes
+  \newline 
+  
+  - Descripción: La incorporación de tecnologías avanzadas como la inteligencia artificial, drones y herramientas de comunicación digital presenta tanto oportunidades como desafíos en la gestión de emergencias.
+  - Análisis Profundo: Es necesario evaluar exhaustivamente las tecnologías emergentes y su aplicabilidad en situaciones de emergencia. Esto incluye el análisis de costos, beneficios, compatibilidad con infraestructuras existentes y necesidades de capacitación del personal. Desarrollar estrategias para la implementación de estas tecnologías puede aumentar la eficacia de las respuestas y reducir el tiempo de reacción ante emergencias.
+  \newline 
+  
+   Objeto de Estudio 3: Gestión de la Respuesta a Emergencias
+   \newline 
+  
+  - Descripción: La coordinación y gestión efectiva de la respuesta a emergencias implica múltiples actores y recursos, y puede ser complicada por factores como la falta de comunicación y la distribución ineficiente de recursos.
+  - Análisis Profundo:Es crucial estudiar los protocolos de coordinación y gestión de emergencias, incluyendo la cooperación entre agencias gubernamentales, organizaciones no gubernamentales y el sector privado. Implementar sistemas de gestión de incidentes y desarrollar planes de acción detallados puede mejorar la coordinación y efectividad de la respuesta a emergencias.
+  \newline 
+  
+  Objeto de Estudio 4: Capacitación y Preparación del Personal
+  \newline 
+  
+  - Descripción: La formación y preparación del personal es fundamental para asegurar que las respuestas a emergencias sean rápidas y efectivas. Sin una capacitación adecuada, las respuestas pueden ser desorganizadas y menos efectivas.
+  - Análisis Profundo: Se debe realizar un análisis detallado de los programas de capacitación y preparación existentes. Esto incluye la evaluación de simulacros, talleres prácticos y programas educativos. Desarrollar un programa de capacitación continuo y actualizado puede mejorar significativamente la preparación del personal y la comunidad para enfrentar emergencias.
+  \newline 
+  
+   Planteamiento de la Hipótesis
+  \newline 
+  
+  Hipótesis General: La implementación de sistemas avanzados de monitoreo y predicción, la integración de tecnologías emergentes, la mejora de los protocolos de gestión y coordinación, y la capacitación continua del personal optimizarán significativamente la eficacia y eficiencia del manual de emergencia
+  \newline 
+  
+  Metodologías Utilizadas para el Estudio del Proceso de Ensamble
+  \newline 
+  
+   Descripción del Problema
+   \newline 
+  
+  El desarrollo de un proceso de ensamble eficiente y efectivo enfrenta desafíos significativos debido a la variabilidad de los componentes, la necesidad de integrar tecnologías avanzadas, la gestión de la cadena de suministro y la garantía de calidad del producto final. Abordar estos desafíos requiere una comprensión profunda de las metodologías utilizadas en el estudio del ensamble.
+  \newline 
+  
+   Metodología 1: Análisis Estadístico y Control de Calidad
+   \newline 
+  
+  - Descripción:Se emplean técnicas estadísticas para analizar la variabilidad en el proceso de ensamble y garantizar la calidad del producto final.
+  - Detalles: Esta metodología incluye el uso de herramientas como el Control Estadístico de Procesos (SPC), que monitorea y controla el proceso de producción mediante el análisis de datos de rendimiento. Las técnicas de análisis de varianza (ANOVA) se utilizan para identificar las fuentes de variabilidad y su impacto en el producto final.
+  - Aplicación: Implementar SPC permite detectar desviaciones del proceso y corregirlas a tiempo, asegurando la consistencia en la calidad del producto. Además, el análisis de datos históricos puede ayudar a identificar tendencias y áreas de mejora.
+  \newline 
+  
+   Metodología 2: Simulación y Modelado
+   \newline 
+  
+  - Descripción: La simulación y el modelado permiten predecir y optimizar el comportamiento del sistema de ensamble bajo diversas condiciones.
+  - Detalles: Se utilizan software de simulación como Arena, FlexSim o SIMUL8 para crear modelos virtuales del proceso de ensamble. Estos modelos permiten experimentar con diferentes configuraciones de línea de producción, evaluar el impacto de cambios en el diseño del proceso y optimizar el flujo de trabajo.
+  - Aplicación: La simulación ayuda a identificar cuellos de botella, mejorar la eficiencia del proceso y reducir tiempos de ciclo. También permite realizar pruebas sin interrumpir la producción real, ahorrando costos y tiempo.
+  \newline 
+  
+  Metodología 3: Lean Manufacturing y Seis Sigma
+  \newline 
+  
+  - Descripción: Estas metodologías se centran en la mejora continua del proceso de ensamble, eliminando desperdicios y reduciendo la variabilidad.
+  - Detalles: Lean Manufacturing se enfoca en eliminar todas las formas de desperdicio (muda) en el proceso, tales como exceso de inventario, tiempos de espera y movimientos innecesarios. Seis Sigma utiliza un enfoque basado en datos para reducir la variabilidad y mejorar la calidad mediante el uso del ciclo DMAIC (Definir, Medir, Analizar, Mejorar, Controlar).
+  - Aplicación: Implementar principios Lean y Seis Sigma en el ensamble ayuda a mejorar la eficiencia operativa y la calidad del producto. La capacitación del personal en estas metodologías también promueve una cultura de mejora continua en la organización.
+  \newline 
+  
+   Metodología 4: Análisis de la Cadena de Suministro
+   \newline 
+  
+  - Descripción: Esta metodología se utiliza para evaluar y mejorar la eficiencia y resiliencia de la cadena de suministro.
+  - Detalles: El análisis de la cadena de suministro incluye el mapeo de la cadena de valor, la evaluación de riesgos y la identificación de puntos críticos. También implica la utilización de tecnologías como el análisis predictivo y el Internet de las Cosas (IoT) para monitorear en tiempo real la disponibilidad y el flujo de componentes.
+  - Aplicación: Mejorar la cadena de suministro garantiza un suministro constante de componentes de calidad, minimiza las interrupciones y optimiza los costos. La colaboración con proveedores y la diversificación de fuentes también fortalecen la resiliencia de la cadena.
+  \newline 
+  
+  Metodología 5: Inspección y Pruebas Automatizadas
+  \newline 
+  
+  - Descripción: La implementación de sistemas de inspección y pruebas automatizadas asegura que cada producto ensamblado cumpla con los estándares de calidad y seguridad.
+  - Detalles: Se utilizan tecnologías como la visión artificial, sensores y pruebas no destructivas para inspeccionar y verificar la calidad de los componentes y productos ensamblados. Estos sistemas pueden integrarse en la línea de producción para realizar inspecciones en tiempo real.
+  - Aplicación: La automatización de la inspección reduce los errores humanos, aumenta la velocidad de detección de defectos y asegura la consistencia en la calidad del producto final. Además, permite recopilar datos para análisis y mejora continua.
+  \newline 
+  
+  Profundización en las Metodologías Utilizadas en el Estudio del Manual de Emergencia
+  \newline 
+  
+  Descripción del Problema
+  \newline 
+  
+  El desarrollo de un manual de emergencia enfrenta el desafío de abordar la complejidad y variabilidad de las emergencias. La precisión en la predicción de desastres, la integración de nuevas tecnologías, la gestión de la respuesta y la capacitación del personal son aspectos críticos. Para enfrentar estos desafíos, se han utilizado diversas metodologías que permiten un análisis exhaustivo y la implementación de estrategias efectivas.
+  \newline 
+  
+   Metodologías Utilizadas
+   \newline 
+  
+   1. Análisis de Riesgos y Vulnerabilidades
+  \newline 
+  
+  - Descripción: Esta metodología implica identificar y evaluar los riesgos potenciales y las vulnerabilidades específicas de una comunidad o infraestructura ante diferentes tipos de emergencias.
+  - Proceso: Se utilizan herramientas de evaluación de riesgos, como matrices de riesgo y análisis FODA (fortalezas, oportunidades, debilidades y amenazas). Además, se recopilan datos históricos de eventos pasados y se realizan simulaciones para prever posibles escenarios de emergencia.
+  - Aplicación: Los resultados de este análisis permiten priorizar las amenazas y desarrollar estrategias específicas para mitigar los riesgos más significativos.
+  \newline 
+  
+   2. Modelado y Simulación
+   \newline 
+  
+  - Descripción: El modelado y simulación de desastres naturales y antropogénicos son cruciales para entender la dinámica de estos eventos y preparar respuestas adecuadas.
+  - Proceso: Se utilizan modelos matemáticos y software especializado para simular diversos escenarios de emergencia. Estas simulaciones incluyen terremotos, tsunamis, huracanes y otros desastres.
+  - Aplicación: Los datos obtenidos ayudan a diseñar protocolos de respuesta más efectivos y a optimizar los recursos disponibles durante una emergencia.
+  \newline 
+  
+  3. Sistemas de Alerta Temprana
+  \newline 
+  
+  - Descripción: Implementar y evaluar sistemas de alerta temprana es fundamental para reducir el impacto de las emergencias mediante la rápida difusión de información crítica.
+  - Proceso: Se instalan sensores y redes de monitoreo que recopilan datos en tiempo real sobre condiciones ambientales y geofísicas. Estos datos se analizan utilizando algoritmos de inteligencia artificial para detectar patrones que indican una posible emergencia.
+  - Aplicación: La información se distribuye rápidamente a las autoridades y la población, permitiendo una respuesta más rápida y coordinada.
+  \newline 
+  
+  4. Evaluación y Mejora de la Capacidad de Respuesta
+  \newline 
+  
+  - Descripción: Esta metodología se centra en evaluar la efectividad de los planes de respuesta actuales y desarrollar estrategias para mejorar la capacidad de respuesta.
+  - Proceso: Se realizan simulacros de emergencia y ejercicios de mesa, en los que se evalúa la coordinación entre diferentes agencias y la implementación de los protocolos establecidos. También se recogen retroalimentaciones de los participantes para identificar áreas de mejora.
+  - Aplicación:Los hallazgos de estos ejercicios se utilizan para actualizar y perfeccionar los manuales de emergencia, garantizando que estén basados en las mejores prácticas y lecciones aprendidas.
+  \newline 
+  
+   5. Capacitación y Educación Continua
+   \newline 
+  
+  - Descripción: La formación del personal y la educación de la comunidad son esenciales para asegurar una respuesta efectiva durante las emergencias.
+  - Proceso: Se desarrollan programas de capacitación que incluyen talleres, cursos en línea, simulaciones prácticas y seminarios. También se crean materiales educativos y campañas de sensibilización para la población.
+  - Aplicación: La capacitación continua asegura que tanto el personal de respuesta como la comunidad estén preparados y sepan cómo actuar en caso de emergencia.
+  \newline 
+  
+  
+  \section{  Hipotesis }
+  
+   Planteamiento de la Hipótesis en un Proyecto de Ensamble
+  \newline 
+  
+   Suposición con Fundamento Científico Relativa a la Solución del Problema
+   \newline 
+  
+  Problema: La complejidad y variabilidad del proceso de ensamble afectan la consistencia, calidad y eficiencia del producto final.
+  
+  Suposición: La implementación de sistemas avanzados de monitoreo y control en tiempo real, junto con la adopción de tecnologías emergentes y una gestión eficiente de la cadena de suministro, mejorará significativamente la consistencia, eficiencia y calidad del proceso de ensamble.
+  \newline 
+  
+   Fundamentación Científica
+   \newline 
+  
+  1. Sistema de Monitoreo y Control en Tiempo Real:
+     - Fundamento: La literatura científica y estudios de casos han demostrado que los sistemas de monitoreo en tiempo real pueden reducir la variabilidad del proceso de ensamble al proporcionar datos precisos y oportunos sobre el rendimiento de los componentes y las condiciones de operación  .
+     - Evidencia: Un estudio realizado por Smith et al. (2020) mostró que las fábricas que implementaron sistemas de monitoreo en tiempo real redujeron los defectos del producto en un 25% y aumentaron la eficiencia de la producción en un 15% .
+  \newline 
+  
+  2. Adopción de Tecnologías Emergentes:
+     - Fundamento: La integración de tecnologías como la robótica y la inteligencia artificial en el proceso de ensamble permite automatizar tareas repetitivas y de alta precisión, lo que mejora la consistencia y reduce el error humano  .
+     - Evidencia: Un estudio de Zhao et al. (2019) demostró que la automatización del ensamble mediante robótica redujo el tiempo de ciclo en un 20% y aumentó la precisión en un 30% .
+     \newline 
+  
+  3. Gestión Eficiente de la Cadena de Suministro:
+     - Fundamento: La optimización de la cadena de suministro mediante el uso de análisis predictivo y tecnologías de logística avanzada puede garantizar un flujo constante y de alta calidad de componentes para el proceso de ensamble  .
+     - Evidencia: Investigaciones de Lee et al. (2018) indican que una gestión optimizada de la cadena de suministro puede reducir los tiempos de inactividad en un 18% y mejorar la calidad del producto en un 12% .
+     \newline 
+  
+  Entidad de Comparación
+  
+  Para probar la suposición, se compararán dos líneas de producción:
+  
+  1. Línea de Producción A: Implementación de sistemas avanzados de monitoreo y control en tiempo real, tecnologías emergentes y gestión eficiente de la cadena de suministro.
+  2. Línea de Producción B: Métodos tradicionales de ensamble sin las mejoras tecnológicas y de gestión mencionadas.
+  \newline 
+  
+  Variable para Cuantificar la Comparación
+  
+  1. Consistencia del Producto: Medida por la tasa de defectos en el producto final (% de productos defectuosos).
+  2. Eficiencia del Proceso: Medida por el tiempo de ciclo del ensamble (minutos por unidad).
+  3. Calidad del Producto: Medida por la conformidad con los estándares de calidad establecidos (puntuación de calidad en una escala de 1 a 10).
+  \newline 
+  
+   Hipótesis
+   \newline 
+  
+  Hipótesis General:La Línea de Producción A, que utiliza sistemas avanzados de monitoreo y control, tecnologías emergentes y una gestión eficiente de la cadena de suministro, mostrará una mejora significativa en la consistencia, eficiencia y calidad del producto en comparación con la Línea de Producción B que utiliza métodos tradicionales.
+  \newline 
+  
+  La implementación de tecnologías avanzadas y estrategias de gestión en el proceso de ensamble, fundamentada en evidencia científica y estudios de casos, tiene el potencial de resolver los problemas de consistencia, eficiencia y calidad. La comparación entre dos líneas de producción con y sin estas mejoras permitirá validar la hipótesis y cuantificar el impacto positivo de estas innovaciones en el proceso de ensamble.
+  \newline 
+  
+  
+  Referencias:
+  \newline 
+  1. Smith et al., 2020. "Real-time Monitoring in Manufacturing: Reducing Defects and Enhancing Efficiency." Journal of Manufacturing Technology.
+  2. Zhao et al., 2019. "Automation and Robotics in Assembly Lines: Enhancing Precision and Reducing Cycle Time." Robotics Journal.
+  3. Lee et al., 2018. "Supply Chain Optimization: Reducing Downtime and Improving Product Quality." Logistics Management Journal.
+  Hipótesis Científica para un Proyecto de Manual de Emergencia
+  \newline 
+  
+   Suposición
+   \newline 
+  
+  Suposición: La implementación de un manual de emergencia actualizado y basado en las últimas tecnologías de monitoreo y predicción, junto con una capacitación continua del personal, mejorará significativamente la efectividad de la respuesta a emergencias y reducirá el impacto negativo de los desastres.
+  \newline 
+  
+   Fundamentación Científica
+   \newline 
+  
+  1. Sistemas de Monitoreo y Predicción:
+     - Fundamento Científico: Estudios han demostrado que los sistemas de alerta temprana y monitoreo en tiempo real pueden reducir significativamente los daños causados por desastres naturales al proporcionar información oportuna para la evacuación y preparación  .
+     - Ejemplo: La implementación de sistemas de alerta temprana en Japón ha mejorado la preparación y respuesta ante terremotos y tsunamis, resultando en una reducción de la mortalidad y los daños materiales .
+  \newline 
+  
+  2. Capacitación Continua:
+     - Fundamento Científico: La formación regular y las simulaciones de emergencia mejoran la competencia del personal de respuesta y aumentan la conciencia de la comunidad, lo cual es crucial para una respuesta efectiva  .
+     - Ejemplo:Los programas de capacitación en manejo de emergencias en países como Estados Unidos han mostrado una mejora en la coordinación y efectividad de la respuesta a emergencias .
+     \newline 
+  
+   Entidad de Comparación
+   \newline 
+  
+  Para probar esta suposición, se compararán dos grupos:
+  \newline 
+  
+  1. Grupo Experimental: Comunidades y organizaciones que implementan el manual de emergencia actualizado, utilizan sistemas de monitoreo y alerta temprana, y participan en programas de capacitación continua.
+  2. Grupo de Control: Comunidades y organizaciones que no implementan estas mejoras y continúan con métodos tradicionales de gestión de emergencias.
+  \newline 
+  
+   Variable de Calificación o Cuantificación
+  \newline 
+  
+  Variable: El impacto de los desastres será medido y comparado utilizando las siguientes métricas:
+  \newline 
+  
+  1. Tiempo de Respuesta: El tiempo promedio desde que se emite una alerta hasta que se inicia la respuesta.
+  2. Tasa de Mortalidad y Morbilidad: Número de víctimas (muertes y lesiones) por cada 1000 habitantes.
+  3. Daños Materiales: Coste total de los daños materiales causados por el desastre, ajustado por la magnitud del evento.
+  4. Satisfacción de la Comunidad: Niveles de satisfacción y percepción de seguridad de la comunidad, evaluados mediante encuestas post-emergencia.
+  \newline 
+  
+   Proceso de Validación
+   \newline 
+  
+  1. Recopilación de Datos: Se recopilarán datos de ambas entidades de comparación durante un período determinado antes y después de la implementación del manual de emergencia.
+  2. Análisis Estadístico: Se realizarán análisis estadísticos para determinar si hay una diferencia significativa en las métricas mencionadas entre el grupo experimental y el grupo de control.
+  3. Informe de Resultados: Los resultados serán documentados y utilizados para evaluar la efectividad del manual de emergencia, con recomendaciones para futuras mejoras.
+  \newline 
+  
+  
+  La hipótesis plantea que un enfoque integral que combine tecnologías avanzadas y capacitación continua mejorará la respuesta a emergencias. La validación de esta suposición mediante un estudio comparativo ayudará a fundamentar científicamente las mejoras propuestas, ofreciendo un modelo más eficiente y eficaz para la gestión de emergencias.
+  
+  
+  
+  \section{ Objetivo }
+  
+  Acciones Comunes para Lograr el Objetivo General de un Proyecto de Ensamble
+  \newline 
+  
+  Objetivo General
+  \newline 
+  Optimizar el proceso de ensamble para mejorar la eficiencia, calidad y consistencia del producto final.
+  \newline 
+  
+  Acciones Comunes
+  \newline 
+  
+  1. Monitoreo y Control en Tiempo Real:
+     - Acción: Instalar sensores y sistemas de monitoreo.
+     -Objetivo:Detectar y corregir desviaciones inmediatamente.
+     - Resultado: Reducción de variabilidad y mejora en la calidad.
+  
+  2. Adopción de Tecnologías Avanzadas:
+     -Acción:Integrar robótica y automatización.
+     - Objetivo: Aumentar precisión y velocidad.
+     - Resultado: Mayor eficiencia y menos errores humanos.
+  
+  3.Capacitación Continua:
+     - Acción: Ejecutar programas de formación.
+     - Objetivo: Preparar al personal en nuevas tecnologías.
+     -Resultado:Mejor competencia y consistencia.
+  
+  4.Optimización de la Cadena de Suministro:
+     -Acción: Mejorar la gestión de suministro.
+     -Objetivo:Asegurar disponibilidad de componentes.
+     - Resultado:Menos interrupciones y tiempos de espera.
+  
+  5. Protocolos de Calidad y Seguridad:
+     -Acción:Implementar controles de calidad y seguridad.
+     - Objetivo:Cumplir con estándares establecidos.
+     -Resultado: Productos de alta calidad y conformes a normativas.
+  
+  6.Mejora Continua: 
+    -Acción: Realizar auditorías periódicas.
+     - Objetivo: Introducir mejoras basadas en evaluaciones.
+     - Resultado: Proceso de ensamble más eficiente.
+  
+  7. Colaboración Interdepartamental:
+     - Acción: Fomentar la comunicación entre departamentos.
+     - Objetivo: Integrar todos los aspectos del ensamble.
+     - Resultado: Mejor coordinación y resolución de problemas.
+  \newline 
+  
+  Conjunto de Acciones para Lograr el Objetivo General del Proyecto de Manual de Emergencia
+  \newline 
+  
+   Objetivo General:
+  Desarrollar un manual de emergencia integral y efectivo que mejore la preparación, respuesta y recuperación ante situaciones de emergencia, reduciendo el impacto negativo en la comunidad.
+  \newline 
+  
+   Acciones Propuestas:
+  \newline 
+  
+  1. Análisis de Riesgos y Vulnerabilidades:
+     - Realizar un análisis exhaustivo de los riesgos y vulnerabilidades específicos de la comunidad, considerando amenazas naturales y antropogénicas.
+     - Identificar áreas críticas, poblaciones vulnerables y activos importantes que requieran una atención especial durante emergencias.
+  
+  2. Desarrollo del Manual de Emergencia:
+     - Reunir un equipo multidisciplinario de expertos en gestión de emergencias, ingeniería, medicina, comunicación y seguridad para desarrollar el manual.
+     - Elaborar protocolos claros y detallados para la preparación, respuesta y recuperación ante diferentes tipos de emergencias, adaptados a las características y necesidades de la comunidad.
+  
+  3. Integración de Tecnologías Avanzadas:
+     - Incorporar tecnologías de monitoreo en tiempo real, sistemas de alerta temprana y herramientas de comunicación digital para mejorar la capacidad de detección, notificación y coordinación durante emergencias.
+     - Establecer sistemas de gestión de información para recopilar, analizar y compartir datos relevantes con todas las partes involucradas en la respuesta a emergencias.
+  
+  4. Capacitación y Ejercicios Prácticos:
+     - Organizar programas de capacitación regulares para el personal de respuesta, líderes comunitarios y voluntarios, enfocados en procedimientos de emergencia, manejo de crisis y primeros auxilios.
+     - Realizar simulacros y ejercicios prácticos de respuesta a emergencias para poner a prueba los protocolos establecidos, identificar áreas de mejora y fortalecer la capacidad de respuesta de la comunidad.
+  
+  5. Divulgación y Sensibilización Comunitaria:
+     - Desarrollar campañas de divulgación y sensibilización sobre la importancia de la preparación para emergencias, los riesgos existentes y las medidas de autoprotección.
+     - Fomentar la participación activa de la comunidad en la planificación, implementación y revisión del manual de emergencia, promoviendo una cultura de prevención y colaboración.
+  
+  6. Evaluación Continua y Actualización del Manual:
+     - Establecer mecanismos de retroalimentación para recibir comentarios y sugerencias de la comunidad, personal de respuesta y otras partes interesadas.
+     - Realizar evaluaciones periódicas del manual de emergencia y los protocolos de respuesta, incorporando lecciones aprendidas, avances tecnológicos y cambios en el entorno de riesgo.
+  \newline 
+  
+  El logro del objetivo general del proyecto de manual de emergencia requiere un enfoque holístico y colaborativo que combine el desarrollo de protocolos sólidos, la integración de tecnologías avanzadas, la capacitación continua y la participación activa de la comunidad. Al implementar este conjunto de acciones, se fortalecerá la preparación y capacidad de respuesta de la comunidad ante situaciones de emergencia, reduciendo así su impacto negativo y salvando vidas.
+  \newline 
+  
+  
+  Actividades Orientadas al Cumplimiento del Objetivo General y la Prueba de la Hipótesis
+  \newline 
+  
+  1. Implementar sistemas de monitoreo en tiempo real del proceso de ensamble.
+  2. Desarrollar protocolos de control de calidad específicos para cada etapa del ensamble.
+  3. Capacitar al personal en el uso de nuevas tecnologías de ensamble.
+  4. Realizar simulacros periódicos de emergencia para evaluar la efectividad de los protocolos de respuesta.
+  5. Establecer un sistema de retroalimentación continua para recopilar comentarios del personal sobre el proceso de ensamble.
+  6. Evaluar el desempeño del proceso de ensamble antes y después de la implementación de mejoras.
+  7. Recopilar datos de calidad y eficiencia para comparar con los resultados esperados.
+  8. Identificar y corregir desviaciones en el proceso de ensamble de manera proactiva.
+  9. Fomentar la comunicación interdepartamental para mejorar la coordinación en el ensamble.
+  10. Realizar análisis de riesgos periódicos para identificar posibles áreas de mejora en el proceso de ensamble.
+  \newline 
+  
+  Actividades Orientadas al Cumplimiento del Objetivo General y la Prueba de la Hipótesis
+  \newline 
+  
+  1. Evaluar el rendimiento actual del proceso de ensamble.
+  2. Identificar áreas de posible mejora en la eficiencia y calidad del ensamble.
+  3. Investigar tecnologías avanzadas aplicables al proceso de ensamble.
+  4. Desarrollar un plan detallado de implementación de mejoras.
+  5. Capacitar al personal en el uso de nuevas tecnologías y procedimientos.
+  6. Instalar sistemas de monitoreo en tiempo real en la línea de ensamble.
+  7. Implementar protocolos de control de calidad y seguridad.
+  8. Recopilar datos de rendimiento antes y después de la implementación de mejoras.
+  9. Analizar métricas de eficiencia, calidad y seguridad para evaluar el impacto de las mejoras.
+  10. Ajustar y mejorar continuamente el proceso de ensamble en base a los resultados obtenidos.
+  \newline 
+  
+  
+  \subsection{ Análisis}
+  Lo que se busca en estas etapas de comprensión de cómo se va a manejar el uso del dispositivo  y como se va a operar y claramente la función que va a tener para que así no tenga  alguna complicación,  esto se puede interpretar el análisis que va a tener el proyecto entiendo su armamento  desde el principio hasta el final , ahora lo que se debe de hacer es que
+  
+  \section{Cuerpo (Metodología, Pasos , etc.)}
+  
+  Aquí se va a describir las etapas que se hicieron para llegar al resultado final el cual fue nosotros hiciéramos un debido manejo de como se armará el proyecto hasta el final
+  
+  \section{Materiales )}
+  
+  -Regulador de voltaje 
+  -USB 
+  -protoboard 
+  -ESP 
+  -resistencias 
+  -LCD 
+  -modulo 
+  -cable macho-macho 
+  -cable macho-hembra 
+  -almohadilla ,
+  -potenciómetro 
+  
+  \subsection{Protoboard }
+  
+  Primero vamos a establecer como nuestra base el protoboard al cual vamos a conectar el SP32  y lo vamos a establecer fijo para conectarlo y soldarlo  , después al protoboard vamos a juntar los cables Macho - macho y el cable macho- hembra los cuales van a ser nuestros cables principales una vez teniendo eso lo que vamos a hacer es que vamos a conectar nuestro cable usb a una de las terminales del protoboard .
+  \subsection{Cargador }
+  Ese cable que seria nuestro cargador lo que va a hacer es que lo vamos a conectar a la base de luz para así empezar a tener energía  para que nuestro  puerto del protoboard empiece a funcionar debidamente  una vez teniendo esto plenamente  ahora nos vamos a enfocar en la pantalla .
+  
+  \subsection{LCD}
+  
+  Para continuar  vamos a tener la pantalla del Lcd y la vamos a soldar a la interfaz de conexión l2c para la lcd y así hacer que empiece a funcionar  una vez que el lCd esté funcionando eso va a querer significar que lo podemos conectar los cables macho - macho y el cable macho-hembra  a la pantalla para que esta valla indicando  el nivel de la energía que watts y nos va a decir nuestro nivel de voltaje que tenemos dependiendo de lo que el usuario manipule el divisor del potenciómetro . 
+  
+  \subsection{potenciómetro }
+  Ahora nos vamos a enfocar en el potenciómetro  ya que esto va a hacer de vital importancia por que el usuario va a manipular al perilla que tiene el potenciómetro  para controlar el nivel de voltaje que va a tener , teniendo en cuenta  esto vamos a conectar el potenciómetro  al protoboard para que así pueda regular la energía de una mejor manera
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & imagen  & pieza \\
+    \hline 
+    potenciómetro  &  \includegraphics[height=19mm]{7/img/potenciometro.jpg}  & 
+     \includegraphics[width=19mm]{7/img/piezaaauno.PNG} \\
+      \hline
+    protoboard &  \includegraphics[height=19mm]{7/img/protoboard.jpg}  & 
+     \includegraphics[width=19mm]{7/img/Piezauno.PNG} \\
+      \hline
+      lcd & \includegraphics[height=19mm]{7/img/lcd.jpg}  & 
+     \includegraphics[width=19mm]{7/img/piezatress.PNG} \\
+      \hline
+      cable HM & \includegraphics [height=19mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/cuatrooo.PNG} \\
+      \hline
+      CABLE HH & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/cinco.PNG} \\
+      \hline 
+       CABLE 1 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/seis.PNG} \\
+      \hline 
+       CABLE 2 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/siete.PNG} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label1}  \label {7/}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+  
+  \subsection{Manual}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+   
+   \hline 
+    manual  &  \includegraphics[height=90mm]{7/img/ikerv1.jpg}  & 
+     \includegraphics[width=35mm]{7/img/ikerv2.jpg} \\
+      \hline
+       
+      \end{tabular} 
+     
+       \label {tab:my_label2}  \label {7/}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+      
+  \subsection{Prepara tu documento}
+  
+      Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+      Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+      Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+      Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+  
+      \subsection{Acrónimos y Abreviaciones}
+  
+      Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+  
+      \subsection{Ecuaciones}
+  
+      Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+      Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+      Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+      Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+  
+      \begin{equation}
+          \label{eq1}
+          x + y = z 
+      \end{equation}
+  
+      Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…
+  
+      \subsection{Autores y Afiliaciones}
+  
+      Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+  
+      \subsection{Identificar los encabezados}
+  
+      Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
+      Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema.
+      
+  \subsection{Tablas y Figuras}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & PIEZA  & PLANO \\
+    \hline 
+    potenciómetro  &  \includegraphics[height=19mm]{7/img/piezaaauno.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza1.PNG} \\
+      \hline
+    protoboard &  \includegraphics[height=19mm]{7/img/Piezauno.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza2.PNG}  \\
+      \hline
+      lcd & \includegraphics[height=19mm]{7/img/piezatress.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza3.PNG} \\
+      \hline
+      cable HM & \includegraphics [height=19mm]{7/img/cuatrooo.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza4.PNG} \\
+      \hline
+      CABLE HH & \includegraphics[height=19mm]{7/img/cinco.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza5.PNG} \\
+      \hline 
+       CABLE 1 & \includegraphics[height=19mm]{7/img/seis.PNG}  & 
+     \includegraphics[width=19mm]{7/img/heymickey.PNG} \\
+      \hline 
+       CABLE 2 & \includegraphics[height=19mm]{7/img/siete.PNG}  & 
+     \includegraphics[width=19mm]{7/img/siu.PNG} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label3}  \label {}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+  
+  
+  \section{Resultados y discusión}
+  
+  Como uno de los resultados y discusiones que se hizo durante todo este proyecto es que la importancia de ver y con llevar nuevos retos que estuvieron de otro nivel es importante para tu formacion como ingeniero ya que  siempre te vas a enfrentar a nuevos retos que a lo mejor no sabes o que si sabes pero lo importante es seguir y analizar cada proyecto que se presente. 
+  
+  El principal resultado fue logrado ya que se hizo de una manera correcta la implementacion de todas las figuras haciendo que su uso final nos indicara los niveles de voltaje de una mejor manera y que sobretodo funcionara ya que la principal discusion era el correcto manejo de como conectar y hacer bien los ensambles ya sea de los cables o del protoboard.  \newline
+   \newline
+  Al tener presente este tema pudimos seguir los pasos de una manera correcta y eficaz haciendo que el usuario comprendiera y entendiera el mejor manejo que se le pudo dar esto presento que al final el resultado fuera el obtenido y el que se esperaba desde un principio .  \newline
+   \newline
+  Cada una de las etapas es de suma importancia ya que esto sigue un proceso el cual se fue siguiendo paso a paso con sus debidas instrucciones para que se pudiera hacer el debido cumplimiento del proyecto .  \newline
+   \newline
+  
+  \subsection{Imagenes}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & IMAGEN & IMAGEN \\
+    \hline 
+    imagen 1 y 2  &  \includegraphics[height=19mm]{7/img/ana1.jpg}  & 
+     \includegraphics[width=35mm]{7/img/ana2.jpg} \\
+      \hline
+     imagen 3 y 4 &  \includegraphics[height=29mm]{7/img/ana3.jpg}  & 
+     \includegraphics[width=15mm]{7/img/ana4.jpg}  \\
+      \hline
+      imagen 5 y 6 & \includegraphics[height=39mm]{7/img/ana5.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana6.jpg} \\
+      \hline
+      imagen 7 y 8 & \includegraphics [height=39mm]{7/img/ana7.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana8.jpg} \\
+      \hline
+      imagen 9 y 10 & \includegraphics[height=39mm]{7/img/ana9.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana10.jpg} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label3}  \label {}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+  
+  
+  \section{Conclusiones}
+  
+  Una de las principales conclusiones es que el proyecto fue de mucha retroalimentacion como ingeniero es que represento un nuevo reto para mi ya que me saco de mis casillas y me represento nuevas formas para poder retroalimentar mi conocimiento y como me fui desenvolviendo durante el transcurso del proyecto y esto significo un avance importante para mi. \newline
+   \newline
+   Esto significa que como ingeniero puede representar diferentes nuevos retos para que nosotros como personas tenemos que buscar diferentes alternativas y soluciones para proyectos o retos que no comprendamos y que necesitamos investigar para fortalecer el conocimiento y emplearlo de una mejor manera para que asi nosotros lo podamos cumplir de una buena forma.  \newline
+    \newline
+  Como conclusion general puedo decir que este proyecto me sirvio como persona ya que al principio no le tenia el minimo interes pero esto fue cambiando conforme fue avazando se me fue haciendo mas interesante ya que ver cada etapa de este proceso significo muy interesante para tener una idea de como seria un proyecto de residencia profesional y como ir afrontandolo poco a poco  \newline
+  
+  \section{Agradecimientos}
+  
+  Es importante darle su reconocimiento a las fuentes de informacion que me ayudaron y brindaron algunas ideas como lo son Google y la plataforma de Youtube esto haciendo incapie a la ayuda que me brindaron y esto haciendo que me ayudara un poco mejor el proceso de como fui llevando el proyecto , tambien quiero darle un agardecimiento a mis compañeros que me brindaron la ayuda de como manejar el proyecto y sobretodo un agradecimiento a mi profesor .
+  
+  \section*{Referencias}
+  
+  %Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+  %La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+  %Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+  Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+  A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+  
+  %Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+  
+  % Ejemplo
+  %  @Article{article,
+  % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+  % 	title = "Article Title",
+  % 	volume = "30",
+  % 	number = "30",
+  % 	pages = "10127-10134",
+  % 	year = "2013",
+  % 	doi = "10.3389/fnins.2013.12345",
+  % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+  % 	journal = "Frontiers in Neuroscience"
+  % }
+  
+  % @book{book,
+  %   author    = {Author Name}, 
+  %   title     = {The title of the work},
+  %   publisher = {The name of the publisher},
+  %   address   = {The city},
+  %   year      = 1993,
+  % }
+  
+  % @incollection{chapter,
+  %   author       = {Bauthor Surname}, 
+  %   title        = {The title of the work},
+  %   editor       = {Editor Name},
+  %   booktitle    = {The title of the book},
+  %   publisher    = {The name of the publisher},
+  %   address      = {The city},
+  %   year         = 2002,
+  %   pages        = {201-213},
+  % }
+  
+  % @InProceedings{conference,
+  %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+  %   title = {The title of the work},
+  %   booktitle = {The title of the conference proceedings},
+  %   year = 1996,
+  %   publisher = {The name of the publisher},
+  %   editor = {Editor Name1 and Editor Name2},
+  %   pages = {41-50},
+  % }
+  
+  % @book{cho,
+  %   author       = {Gauthor Name1}, 
+  %   title        = {The title of the work},
+  %   publisher = {Country code and patent number},
+  %   address      = {Patent Country},
+  %   year = 2013
+  % }
+  
+  % @book{patent,
+  %   author    = {Hauthor Surname1}, 
+  %   title     = {The title of the work},
+  %   publisher = {Patent number},
+  %   address   = {Patent country},
+  %   year      = 2010,
+  % }
+  
+  % % please use misc for datasets
+  % @misc{dataset, 
+  % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+  % 	title = "Data Title",
+  % 	year = "2011",
+  % 	doi = "10.000/55555",
+  % 	URL = "http://www.frontiersin.org/",
+  % }
+  
+  \bibliographystyle{ieeetr}
+  \bibliography{7/referencias}
