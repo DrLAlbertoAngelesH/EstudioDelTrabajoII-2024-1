@@ -202,6 +202,38 @@ buscar soluciones efectivas.
 % 
 \section{Fundamentación teórica}
 
+\textbf{El estudio del trabajo} es una evaluación sistemática de los métodos utilizados para la realización de actividades con el objetivo de optimizar la utilización eficaz de los recursos y de establecer estándares de rendimiento respecto a las actividades que se realizan. 
+
+Este examen sistemático de las operaciones y actividades de los trabajadores se realiza para mejorar en términos de eficiencia y economía a través de la aplicación de la ingeniería de métodos y la medición del trabajo. 
+
+El estudio del trabajo se compone de dos partes principales:
+- Estudio de métodos: Analiza de forma sistemática la forma de realizar las actividades con el objetivo de encontrar y ejecutar mejoras. Busca mejorar la productividad mediante la reducción del contenido del trabajo.
+- Medición del trabajo: Aplica y cuantifica las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida efectuándola según la norma de ejecución preestablecida por la empresa.
+
+El objetivo del estudio del trabajo es examinar el trabajo humano en todas sus dimensiones, investigar todos los factores que influyen en la eficiencia de su desempeño con el fin de incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. 
+
+
+Los Therbligs son un conjunto de diecisiete movimientos fundamentales que se utilizan para analizar y mejorar los procesos productivos. Fueron creados por Frank y Lillian Gilbreth, dos pioneros en el estudio de la ergonomía y la eficiencia en el trabajo. La palabra «therblig» es una amalgama de las iniciales de los apellidos de los creadores.
+
+Cada Therblig representa una forma específica en la que los trabajadores interactúan con los materiales y las herramientas en el proceso productivo. A través de la clasificación y el análisis de estos, se puede identificar y eliminar cualquier paso innecesario o duplicado. Esto ayuda a reducir el tiempo y los costos de producción, y a mejorar la calidad del producto final.
+
+Los Therbligs se clasifican en tres categorías:
+- Movimientos de transporte: Se utilizan para mover materiales o productos de un lugar a otro¹.
+- Movimientos de búsqueda: Se utilizan para buscar o identificar materiales o herramientas necesarias para la tarea en cuestión.
+- Movimientos de transformación: Se utilizan para transformar los materiales en el producto final¹.
+
+Cada uno de estos tiene su papel en el proceso productivo y puede ser analizado para encontrar formas de optimizarlo¹. En resumen, los Therbligs son una herramienta valiosa para optimizar el proceso productivo y aumentar la eficiencia.
+
+
+
+La estandarización es un proceso que busca ajustar o adaptar características en un producto, servicio o procedimiento para que se asemejen a un tipo, modelo o norma en común. Implica concertar algo para que resulte coincidente o concordante con un modelo, un patrón o una referencia. 
+
+En el contexto de una empresa, la estandarización puede referirse a la creación y aplicación de normas que se emplean a nivel general. Esto puede incluir la estandarización de procesos internos, donde todas las partes de una actividad determinada se encuentran con los mismos parámetros, elementos y reglas. Esto puede llevar a una mayor eficiencia, reducción de costos, mejora de la calidad del servicio o producto, y una mejor atención al cliente.
+
+Además, la estandarización puede facilitar la colaboración en proyectos, ya que todos los participantes trabajan de la misma forma, permitiendo que un proyecto pueda pasar de un equipo a otro con un período de adaptación casi inexistente. En resumen, la estandarización es una herramienta poderosa para mejorar la eficiencia y la calidad en diversas áreas de una organización
+
+
+
 El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
 
 Los fundamentos teóricos del estudio del trabajo están formados por los antecedentes investigativos, las bases teóricas y conceptuales, y las bases legales. Los antecedentes investigativos son los trabajos de investigación que se han hecho previamente sobre el tema. Las bases teóricas y conceptuales son los trabajos de reflexión, interpretación y teorización en torno al tema que constituyen la literatura especializada. Las bases legales son el conjunto de disposiciones y consideraciones de tipo legal y moral que son de relevancia para el proyecto o la investigación.
@@ -262,13 +294,14 @@ Aplicar los métodos de calificación del operador, haciendo análisis detallado
 
 % 
 % 
-\section{Cuerpo (Metodología, modelo matemático, etc.)}
+\section{Metodología}
 
 \subsection{Desarrollo de la guía de plan de Emergencia}
 
 El Plan de Emergencia: Documento que describe los lineamientos a seguir, la organización y los mecanismos, que indican la manera de enfrentar una situación de emergencia o desastre tanto en lo general como en lo particular, así como la utilización viable de los recursos humanos y materiales con los que se cuenta.
 
 \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
+
 \begin{figure}
     \centering
     \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manual.Bonilla.Z.Leonardo.pdf}
@@ -471,6 +504,7 @@ Funciones
 
 Asegúrate de conocer siempre tu objetivo.
 Asegúrate de contar con los documentos (formatos, procedimientos, etc).
+
 % 
 % 
 \subsubsection{5's}
