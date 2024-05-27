@@ -156,8 +156,8 @@ En diciembre de 2023, México contaba con 611,331 establecimientos relacionados 
 
 % Cuantas empresas de manufactura existen en Querétaro?
 Querétaro es un importante centro de manufactura en México. La principal industria en Querétaro es la manufacturera, que genera el 30\% del Producto Interno Bruto (PIB) estatal.
-- En el sector automotriz, Querétaro posee 317 empresas en el sector de autopartes.
-- En el sector aeroespacial, Querétaro se encuentra entre las cinco entidades del país con mayor número de empresas aeroespaciales (50).
+— En el sector automotriz, Querétaro posee 317 empresas en el sector de autopartes.
+— En el sector aeroespacial, Querétaro se encuentra entre las cinco entidades del país con mayor número de empresas aeroespaciales (50).
 
 Estos datos indican que Querétaro tiene una presencia significativa en la industria manufacturera, especialmente en los sectores automotriz y aeroespacial. 
 
@@ -208,7 +208,7 @@ Este examen sistemático de las operaciones y actividades de los trabajadores se
 
 El estudio del trabajo se compone de dos partes principales:
 - Estudio de métodos: Analiza de forma sistemática la forma de realizar las actividades con el objetivo de encontrar y ejecutar mejoras. Busca mejorar la productividad mediante la reducción del contenido del trabajo.
-- Medición del trabajo: Aplica y cuantifica las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida efectuándola según la norma de ejecución preestablecida por la empresa.
+— Medición del trabajo: Aplica y cuantifica las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida, efectuándola según la norma de ejecución preestablecida por la empresa.
 
 El objetivo del estudio del trabajo es examinar el trabajo humano en todas sus dimensiones, investigar todos los factores que influyen en la eficiencia de su desempeño con el fin de incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. 
 
@@ -219,8 +219,8 @@ Cada Therblig representa una forma específica en la que los trabajadores intera
 
 Los Therbligs se clasifican en tres categorías:
 - Movimientos de transporte: Se utilizan para mover materiales o productos de un lugar a otro¹.
-- Movimientos de búsqueda: Se utilizan para buscar o identificar materiales o herramientas necesarias para la tarea en cuestión.
-- Movimientos de transformación: Se utilizan para transformar los materiales en el producto final¹.
+— Movimientos de búsqueda: Se utilizan para buscar o identificar materiales o herramientas necesarias para la tarea en cuestión.
+— Movimientos de transformación: Se utilizan para transformar los materiales en el producto final¹.
 
 Cada uno de estos tiene su papel en el proceso productivo y puede ser analizado para encontrar formas de optimizarlo¹. En resumen, los Therbligs son una herramienta valiosa para optimizar el proceso productivo y aumentar la eficiencia.
 
@@ -228,19 +228,19 @@ Los 17 movimientos básicos del cuerpo humano para el trabajo. Gilbreth denomin�
 
 \textbf{1. Buscar}. Es elemento básico de la operación de localizar un objeto. Buscar es therblig que el analista debe tratar de eliminar siempre. Las estaciones de trabajo bien planeadas permiten que el trabajo se lleve cabo continuamente, de manera que no es preciso que el operario realice este elemento. 
 
-\textbf{2. Seleccionar}. Este es el therblig que se efectúa cuando el operario tiene que escoger una pieza dentro de dos o más semejantes. Este therblig sigue, generalmente, al de “buscar” y es difícil determinar exactamente, aún mediante el método detallado de los micro movimientos, cuando termina la búsqueda y empieza la selección. La selección puede clasificarse dentro de los Therbligs ineficientes y debe ser eliminada del ciclo de trabajo por una mejor distribución en la estación de trabajo y un mejor control de las piezas. 
+\textbf{2. Seleccionar}. Este es el therblig que se efectúa cuando el operario tiene que escoger una pieza dentro de dos o más semejantes. Este therblig sigue, generalmente, al de “buscar” y es difícil determinar exactamente, aun mediante el método detallado de los micromovimientos, cuando termina la búsqueda y empieza la selección. La selección puede clasificarse dentro de los Therbligs ineficientes y debe ser eliminada del ciclo de trabajo por una mejor distribución en la estación de trabajo y un mejor control de las piezas. 
 
 \textbf{3. Tomar}. Este es movimiento elemental que hace la mano al cerrar los dedos rodeando una pieza o parte para asirla en una operación. El tomar es un therblig eficiente y, por lo tanto, no puede ser eliminado, aunque en muchos casos se puede mejorar. El “tomar” casi siempre va precedido de “alcanzar” y seguido de “mover”. Estudios detallados han demostrado que existen varias formas de asir, algunas de las cuales requieren tres veces más tiempo que otras. Debe tratarse de reducir al mínimo el número de operaciones de asimiento durante el ciclo de trabajo, y las piezas a tomar o coger deben estar dispuestas a manera que pueda emplearse el tiempo más simple de asir. 
 
 \textbf{4. Alcanzar}. El therblig “alcanzar” principia en el instante en que la mano se mueve hacia un objeto o sitio, y finaliza en cuanto se detiene el movimiento al llegar al objeto o al sitio. Este elemento va precedido casi siempre del de “soltar” y seguido del de “tomar”. Es natural que el tiempo requerido para alcanzar dependa de la distancia recorrida por la mano. Dicho tiempo también depende, en cierto grado, del tipo de alcance. Como tomar, “alcanzar” puede clasificarse como un therblig objetivo y, generalmente, no puede ser eliminado del ciclo de trabajo. Sin embargo, sí puede ser reducido acortando las distancias requeridas para alcanzar y dando ubicación fija a los objetos. 
 
-\textbf{5. Mover}. Este therblig comienza en cuanto la mano con carga se mueve hacia un sitio o ubicación general, y termina en el instante en que el movimiento se detiene al llegar a su destino. Mover esta precedido casi siempre de asir y seguido de soltar o colocar en posición. El tiempo requerido para mover depende de la distancia, del peso que se mueve y del tipo de movimiento. Mover es un therblig objetivo y es difícil eliminarlo del ciclo de trabajo. 
+\textbf{5. Mover}. Este therblig comienza en cuanto la mano con carga se mueve hacia un sitio o ubicación general, y termina en el instante en que el movimiento se detiene al llegar a su destino. Mover está precedido casi siempre de asir y seguido de soltar o colocar en posición. El tiempo requerido para mover depende de la distancia, del peso que se mueve y del tipo de movimiento. Mover es un therblig objetivo y es difícil eliminarlo del ciclo de trabajo. 
 
 \textbf{6. Sostener}. Esta es la división básica que tiene lugar cuando una de las dos manos soporta o ejerce control sobre un objeto, mientras la otra mano ejecuta el trabajo útil. “Sostener” es un therblig ineficiente y puede eliminarse. El sostener comienza en el instante en que una mano ejerce control sobre el objeto, y termina en el momento en que la otra completa su trabajo sobre el mismo. 
 
-\textbf{7. Soltar}. Comienza en el momento en el que los dedos comienzan a separase de la pieza sostenida, y termina en el instante en que todos los dedos quedan libres de ella. Este therblig va casi siempre precedido por mover o colocar en posición y seguido por alcanzar. 
+\textbf{7. Soltar}. Comienza en el momento en el que los dedos comienzan a separarse de la pieza sostenida, y termina en el instante en que todos los dedos quedan libres de ella. Este therblig va casi siempre precedido por mover o colocar en posición y seguido por alcanzar. 
 
-\textbf{8. Colocar en posición}. Es el elemento de trabajo que consiste en situar o colocar un objeto de modo que quede orientado propiamente en un sitio específico. El therblig “colocar en posición” tiene efecto como duda o vacilación mientras la mano, o las manos, tratan de disponer la pieza de modo que el siguiente trabajo puede ejecutarse con más facilidad, de hecho, colocar en posición puede ser la combinación de varios movimientos muy rápidos. 
+\textbf{8. Colocar en posición}. Es el elemento de trabajo que consiste en situar o colocar un objeto de modo que quede orientado propiamente en un sitio específico. El therblig “colocar en posición” tiene efecto como duda o vacilación mientras la mano, o las manos, tratan de disponer la pieza, de modo que el siguiente trabajo puede ejecutarse con más facilidad, de hecho, colocar en posición puede ser la combinación de varios movimientos muy rápidos. 
 
 \textbf{9. Pre-colocar en posición}. Este es un elemento de trabajo que consiste en colocar un objeto en un sitio predeterminado, de manera que pueda llevarse y ser llevado a la posición en que ha de ser sostenido cuando esto se necesite. La pre-colocación en posición ocurre frecuentemente junto con otros therbligs, uno de los cuales suele ser mover. Es la división básica que dispone una pieza de manera que quede en posición conveniente a su llegada. Es difícil medir el tiempo necesario para este elemento, ya que es un therblig que difícilmente puede ser aislado. 
 
@@ -254,7 +254,7 @@ Los 17 movimientos básicos del cuerpo humano para el trabajo. Gilbreth denomin�
 
 \textbf{14. Demora (o retraso) inevitable}. La dilatación inevitable es una interrupción que el operario no puede evitar en la continuidad del trabajo. Corresponde al tiempo muerto en el ciclo de trabajo experimentado por una o ambas manos, según la naturaleza del proceso. 
 
-\textbf{15. Demora (o retraso) evitable}. Todo tiempo muerto que ocurre durante el ciclo de trabajo y del que sólo el operario es responsable, intencional o no intencionalmente, se clasifica bajo el nombre de demora retraso evitable. 
+\textbf{15. Demora (o retraso) evitable}. Todo tiempo muerto que ocurre durante el ciclo de trabajo y del que solo el operario es responsable, intencional o no intencionalmente, se clasifica bajo el nombre de demora, retraso evitable. 
 
 \textbf{16. Planear}. Es el therblig ”planear” es el proceso mental que ocurre cuando el operario se detiene para determinar la acción a seguir. Planear puede aparecer en cualquier etapa del ciclo y suele descubrirse fácilmente en forma de una vacilación o duda, después de haber localizado todos los componentes. Este therblig es característico de la actuación de los operarios noveles y generalmente se elimina del ciclo mediante el entrenamiento adecuado de este personal. 
 
@@ -565,7 +565,7 @@ La metodología de las 5S es una técnica de gestión japonesa basada en cinco p
 
 2. Seiton (Orden): Una vez que se han eliminado los elementos innecesarios, el siguiente paso es organizar lo que queda. Cada herramienta o material debe tener un lugar designado y debe ser devuelto a ese lugar después de su uso. Esto facilita encontrar lo que se necesita y evita la pérdida de tiempo buscando.
 
-3. Seiso (Limpieza): Este principio se refiere a mantener el lugar de trabajo limpio y ordenado. No sólo se trata de limpiar al final del día, sino de mantener la limpieza durante todo el día. Esto puede ayudar a prevenir accidentes y problemas de calidad.
+3. Seiso (Limpieza): Este principio se refiere a mantener el lugar de trabajo limpio y ordenado. No solo se trata de limpiar al final del día, sino de mantener la limpieza durante todo el día. Esto puede ayudar a prevenir accidentes y problemas de calidad.
 
 4. Seiketsu (Normalización): Este principio se refiere a la creación de reglas y estándares para mantener los tres primeros principios. Esto puede incluir horarios de limpieza, lugares designados para herramientas y materiales, y procedimientos para realizar el trabajo.
 
@@ -611,10 +611,10 @@ La metodología de las 5S, originaria de Japón, puede ser aplicada en el Instit
 En este documento se describirá el plan de emergencia que se debe llevar a cabo de algún incidente, el cual podamos aplicar para evitar mayores riesgos.
 Un plan de emergencia se implementa en la industria para identificar riesgos, establecer medidas preventivas y procedimientos de evacuación, y definir roles y responsabilidades. 
 
-\subsection{Objetivo}
+\subsubsection{Objetivo}
 Implementación de planes o estrategias de seguridad, en caso de emergencias, fenómenos o accidentes, tanto para los clientes como para los trabajadores que estén en la Institución, y así salvaguardar la integridad de estos mismos. 
 
-\subsection{Datos generales}
+\subsubsection{Datos generales}
 
 \begin{enumerate}
     \item Nombre comercial: Instituto Tecnológico de Qro
@@ -627,7 +627,7 @@ Implementación de planes o estrategias de seguridad, en caso de emergencias, fe
     \item Superficie del establecimiento en m2:78,091
 \end{enumerate}
 
-\subsection{Plano de localización}
+\subsubsection{Plano de localización}
 
 \begin{figure}
     \centering
@@ -643,10 +643,17 @@ Implementación de planes o estrategias de seguridad, en caso de emergencias, fe
     \label{fig:Croquis del Instituto Tecnológico de Querétaro}
 \end{figure}
 
-\subsection{Objetivo}
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/medidasdelITQGoogleMaps.pdf}
+    \caption{Medidas del ITQ Google Maps}
+    \label{fig:Medidas del ITQ Google Maps}
+\end{figure}
+
+\subsubsection{Objetivo}
 Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
 
-\subsection{Objetivos específicos}
+\subsubsection{Objetivos específicos}
 
 1. \textbf{Identificar y evaluar riesgos:} Realizar una evaluación exhaustiva de los posibles riesgos y amenazas que podrían afectar al Instituto Tecnológico de Querétaro, incluyendo desastres naturales, incendios, amenazas de seguridad y emergencias médicas.
 
@@ -660,27 +667,27 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 
 Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
 
-\subsection{Identificación de riesgos internos}
+\subsubsection{Identificación de riesgos internos}
 
-\subsection{Identificación de riesgos externos}
+\subsubsection{Identificación de riesgos externos}
 
-\subsection{Plan de acción}
+\subsubsection{Plan de acción}
 
-\subsection{Identificación de riesgos}
+\subsubsection{Identificación de riesgos}
 
-\subsection{Plano de localización de recursos}
+\subsubsection{Plano de localización de recursos}
 
-\subsection{Identificación de puntos de reunión}
+\subsubsection{Identificación de puntos de reunión}
 
-\subsection{Desarrollar un plan de evacuación y repliegue}
+\subsubsection{Desarrollar un plan de evacuación y repliegue}
 
-\subsubsection{Procedimiento de repliegue}
+\subsubsubsection{Procedimiento de repliegue}
 
-\subsubsection{Procedimiento de evacuación}
+\subsubsubsection{Procedimiento de evacuación}
 
-\subsubsection{Brigada de evacuación}
+\subsubsubsection{Brigada de evacuación}
 
-\subsection{Directorio de telefónicos de emergencia}
+\subsubsection{Directorio de telefónicos de emergencia}
 
 
 
