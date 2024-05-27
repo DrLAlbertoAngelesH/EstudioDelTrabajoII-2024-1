@@ -213,7 +213,7 @@ El estudio del trabajo se compone de dos partes principales:
 El objetivo del estudio del trabajo es examinar el trabajo humano en todas sus dimensiones, investigar todos los factores que influyen en la eficiencia de su desempeño con el fin de incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. 
 
 
-Los Therbligs son un conjunto de diecisiete movimientos fundamentales que se utilizan para analizar y mejorar los procesos productivos. Fueron creados por Frank y Lillian Gilbreth, dos pioneros en el estudio de la ergonomía y la eficiencia en el trabajo. La palabra «therblig» es una amalgama de las iniciales de los apellidos de los creadores.
+\textbf{Los Therbligs} son un conjunto de diecisiete movimientos fundamentales que se utilizan para analizar y mejorar los procesos productivos. Fueron creados por Frank y Lillian Gilbreth, dos pioneros en el estudio de la ergonomía y la eficiencia en el trabajo. La palabra «therblig» es una amalgama de las iniciales de los apellidos de los creadores.
 
 Cada Therblig representa una forma específica en la que los trabajadores interactúan con los materiales y las herramientas en el proceso productivo. A través de la clasificación y el análisis de estos, se puede identificar y eliminar cualquier paso innecesario o duplicado. Esto ayuda a reducir el tiempo y los costos de producción, y a mejorar la calidad del producto final.
 
@@ -224,26 +224,77 @@ Los Therbligs se clasifican en tres categorías:
 
 Cada uno de estos tiene su papel en el proceso productivo y puede ser analizado para encontrar formas de optimizarlo¹. En resumen, los Therbligs son una herramienta valiosa para optimizar el proceso productivo y aumentar la eficiencia.
 
+Los 17 movimientos básicos del cuerpo humano para el trabajo. Gilbreth denominó “Therblig” a cada uno de los movimientos fundamentales, y concluyó que toda operación se compone de una serie de 17 divisiones básicas. 
+
+\textbf{1. Buscar}. Es elemento básico de la operación de localizar un objeto. Buscar es therblig que el analista debe tratar de eliminar siempre. Las estaciones de trabajo bien planeadas permiten que el trabajo se lleve cabo continuamente, de manera que no es preciso que el operario realice este elemento. 
+
+\textbf{2. Seleccionar}. Este es el therblig que se efectúa cuando el operario tiene que escoger una pieza dentro de dos o más semejantes. Este therblig sigue, generalmente, al de “buscar” y es difícil determinar exactamente, aún mediante el método detallado de los micro movimientos, cuando termina la búsqueda y empieza la selección. La selección puede clasificarse dentro de los Therbligs ineficientes y debe ser eliminada del ciclo de trabajo por una mejor distribución en la estación de trabajo y un mejor control de las piezas. 
+
+\textbf{3. Tomar}. Este es movimiento elemental que hace la mano al cerrar los dedos rodeando una pieza o parte para asirla en una operación. El tomar es un therblig eficiente y, por lo tanto, no puede ser eliminado, aunque en muchos casos se puede mejorar. El “tomar” casi siempre va precedido de “alcanzar” y seguido de “mover”. Estudios detallados han demostrado que existen varias formas de asir, algunas de las cuales requieren tres veces más tiempo que otras. Debe tratarse de reducir al mínimo el número de operaciones de asimiento durante el ciclo de trabajo, y las piezas a tomar o coger deben estar dispuestas a manera que pueda emplearse el tiempo más simple de asir. 
+
+\textbf{4. Alcanzar}. El therblig “alcanzar” principia en el instante en que la mano se mueve hacia un objeto o sitio, y finaliza en cuanto se detiene el movimiento al llegar al objeto o al sitio. Este elemento va precedido casi siempre del de “soltar” y seguido del de “tomar”. Es natural que el tiempo requerido para alcanzar dependa de la distancia recorrida por la mano. Dicho tiempo también depende, en cierto grado, del tipo de alcance. Como tomar, “alcanzar” puede clasificarse como un therblig objetivo y, generalmente, no puede ser eliminado del ciclo de trabajo. Sin embargo, sí puede ser reducido acortando las distancias requeridas para alcanzar y dando ubicación fija a los objetos. 
+
+\textbf{5. Mover}. Este therblig comienza en cuanto la mano con carga se mueve hacia un sitio o ubicación general, y termina en el instante en que el movimiento se detiene al llegar a su destino. Mover esta precedido casi siempre de asir y seguido de soltar o colocar en posición. El tiempo requerido para mover depende de la distancia, del peso que se mueve y del tipo de movimiento. Mover es un therblig objetivo y es difícil eliminarlo del ciclo de trabajo. 
+
+\textbf{6. Sostener}. Esta es la división básica que tiene lugar cuando una de las dos manos soporta o ejerce control sobre un objeto, mientras la otra mano ejecuta el trabajo útil. “Sostener” es un therblig ineficiente y puede eliminarse. El sostener comienza en el instante en que una mano ejerce control sobre el objeto, y termina en el momento en que la otra completa su trabajo sobre el mismo. 
+
+\textbf{7. Soltar}. Comienza en el momento en el que los dedos comienzan a separase de la pieza sostenida, y termina en el instante en que todos los dedos quedan libres de ella. Este therblig va casi siempre precedido por mover o colocar en posición y seguido por alcanzar. 
+
+\textbf{8. Colocar en posición}. Es el elemento de trabajo que consiste en situar o colocar un objeto de modo que quede orientado propiamente en un sitio específico. El therblig “colocar en posición” tiene efecto como duda o vacilación mientras la mano, o las manos, tratan de disponer la pieza de modo que el siguiente trabajo puede ejecutarse con más facilidad, de hecho, colocar en posición puede ser la combinación de varios movimientos muy rápidos. 
+
+\textbf{9. Pre-colocar en posición}. Este es un elemento de trabajo que consiste en colocar un objeto en un sitio predeterminado, de manera que pueda llevarse y ser llevado a la posición en que ha de ser sostenido cuando esto se necesite. La pre-colocación en posición ocurre frecuentemente junto con otros therbligs, uno de los cuales suele ser mover. Es la división básica que dispone una pieza de manera que quede en posición conveniente a su llegada. Es difícil medir el tiempo necesario para este elemento, ya que es un therblig que difícilmente puede ser aislado. 
+
+\textbf{10. Inspeccionar}. Este therblig es un elemento incluido en la operación para asegurar una calidad aceptable mediante una verificación regular realizada por el trabajador que efectúa la operación. Se lleva a cabo una inspección cuando el fin principal es comparar un objeto dado con un patrón o estándar. El tiempo necesario para la inspección depende primariamente de la rigurosidad de la comparación con el estándar, y de lo que la pieza en cuestión se parte del mismo. 
+
+\textbf{11. Ensamblar}. El elemento “ensamblar” es la división básica que ocurre cuando se reúnen dos piezas embonantes. Es otro therblig objetivo y puede ser más fácil mejorarlo que eliminarlo. El ensamblar suele ir precedido de colocar en posición o mover, y generalmente va seguido de soltar. Comienza en el instante en el que las dos piezas a unir se ponen en contacto, y termina al completarse la unión. 
+
+\textbf{12. Desensamblar}. Este elemento es precisamente lo contrario de ensamblar. Ocurre cuando se separan piezas embonantes unidas. Esta división básica generalmente va precedida de asir y puede estar seguida por mover o soltar. Él desensamble es de naturaleza objetiva y las posibilidades de mejoramiento son más probables que la eliminación del therblig. Él desensamble comienza en el momento en el que una o ambas manos tienen el control del objeto después de cogerlo, y termina una vez que finaliza él desensamble, que generalmente lo evidencia el inicio de mover o soltar. 
+
+\textbf{13. Usar}. Este therblig es completamente objetivo y tiene lugar cuando una o las dos manos controlan un objeto, durante la parte del ciclo en que se ejecuta trabajo productivo. La duración de este therblig depende de la operación, así como de la destreza del operario. El usar se detecta fácilmente, ya que este therblig hace progresar la operación hacia su objetivo final. 
+
+\textbf{14. Demora (o retraso) inevitable}. La dilatación inevitable es una interrupción que el operario no puede evitar en la continuidad del trabajo. Corresponde al tiempo muerto en el ciclo de trabajo experimentado por una o ambas manos, según la naturaleza del proceso. 
+
+\textbf{15. Demora (o retraso) evitable}. Todo tiempo muerto que ocurre durante el ciclo de trabajo y del que sólo el operario es responsable, intencional o no intencionalmente, se clasifica bajo el nombre de demora retraso evitable. 
+
+\textbf{16. Planear}. Es el therblig ”planear” es el proceso mental que ocurre cuando el operario se detiene para determinar la acción a seguir. Planear puede aparecer en cualquier etapa del ciclo y suele descubrirse fácilmente en forma de una vacilación o duda, después de haber localizado todos los componentes. Este therblig es característico de la actuación de los operarios noveles y generalmente se elimina del ciclo mediante el entrenamiento adecuado de este personal. 
+
+\textbf{17. Descanso (o hacer alto en el trabajo)}. Esta clase de retraso aparece rara vez en un ciclo de trabajo, pero suele aparecer periódicamente como necesidad que experimenta el operario de reponerse a la fatiga. La duración del descanso para sobrellevar la fatiga variará, como es natural, según la clase de trabajo y según las características del operario que lo ejecuta.
 
 
-La estandarización es un proceso que busca ajustar o adaptar características en un producto, servicio o procedimiento para que se asemejen a un tipo, modelo o norma en común. Implica concertar algo para que resulte coincidente o concordante con un modelo, un patrón o una referencia. 
+\textbf{La estandarización }es un proceso que busca ajustar o adaptar características en un producto, servicio o procedimiento para que se asemejen a un tipo, modelo o norma en común. Implica concertar algo para que resulte coincidente o concordante con un modelo, un patrón o una referencia. 
 
 En el contexto de una empresa, la estandarización puede referirse a la creación y aplicación de normas que se emplean a nivel general. Esto puede incluir la estandarización de procesos internos, donde todas las partes de una actividad determinada se encuentran con los mismos parámetros, elementos y reglas. Esto puede llevar a una mayor eficiencia, reducción de costos, mejora de la calidad del servicio o producto, y una mejor atención al cliente.
 
 Además, la estandarización puede facilitar la colaboración en proyectos, ya que todos los participantes trabajan de la misma forma, permitiendo que un proyecto pueda pasar de un equipo a otro con un período de adaptación casi inexistente. En resumen, la estandarización es una herramienta poderosa para mejorar la eficiencia y la calidad en diversas áreas de una organización
 
 
-
-El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
+\textbf{El estudio del trabajo} es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
 
 Los fundamentos teóricos del estudio del trabajo están formados por los antecedentes investigativos, las bases teóricas y conceptuales, y las bases legales. Los antecedentes investigativos son los trabajos de investigación que se han hecho previamente sobre el tema. Las bases teóricas y conceptuales son los trabajos de reflexión, interpretación y teorización en torno al tema que constituyen la literatura especializada. Las bases legales son el conjunto de disposiciones y consideraciones de tipo legal y moral que son de relevancia para el proyecto o la investigación.
 
 En términos más específicos, el estudio del trabajo consiste en la aplicación de métodos y experiencias para la investigación y configuración de sistemas de trabajo, con el fin de aumentar la rentabilidad de la empresa, teniendo en cuenta el rendimiento y las necesidades del ser humano. Este estudio del trabajo es esencial en la formación de los ingenieros industriales, ya que les proporciona las herramientas necesarias para analizar y mejorar procesos productivos en las empresas, además de garantizar condiciones de trabajo seguras y confortables para los
 empleados.
 
-En resumen, el estudio del trabajo es una disciplina basada en la suposición de que se puede aplicar el método científico para estudiar el trabajo. Su fundamentación teórica se basa en la documentación y reflexión previa respecto al tema a investigar, y sirve como sostén conceptual de su trabajo o proyecto final.
 
-La Industria 4.0, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia. Aquí te dejo algunos puntos clave sobre la Industria 4.0:
+\textbf{Los Sistemas de Tiempos Predeterminados} (STP) son una colección de tiempos válidos asignados a movimientos y a grupos de movimientos básicos, que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Son el resultado del estudio de un gran número de muestras de operaciones diversificadas, con un dispositivo para tomar el tiempo, tal como la cámara de cine, que es capaz de medir elementos muy cortos.
+
+Estos sistemas se utilizan para sintetizar las estimaciones hechas, puesto que las diferentes operaciones manuales consisten en diferentes combinaciones y permutaciones de un número limitado de movimientos de los miembros del cuerpo, tales como mover la mano hacia un objeto, tomarlo, trasladarlo y dejarlo. Debido a que cada una de estas pequeñas subdivisiones son comunes a un gran número de operaciones manuales, es posible, técnica y económicamente, obtener un tiempo esperado de ejecución para cada una de ellas.
+
+Existen más de 50 sistemas diferentes para realizar estudios de tiempos predeterminados. Algunos de los sistemas de tiempos predeterminados más conocidos son:
+
+1. MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
+2. GPD (General Purpose Data – Basado en MTM).
+3. BMT (Basic Motion Time Study).
+4. UAS (Universal Analyzing System).
+5. MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
+6. MICRO (Micro Motion Análisis).
+7. MODAPTS (Modular Arrangement of PTS).
+8. MACRO (Macro Motion Análisis).
+
+Cada uno de estos sistemas tiene sus propias características y aplicaciones, y se utilizan en diferentes contextos dependiendo de las necesidades específicas de la organización. 
+
+
+\textbf{La Industria 4.0}, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia. Aquí te dejo algunos puntos clave sobre la Industria 4.0:
 
 - Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
 - Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
