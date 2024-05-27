@@ -667,8 +667,20 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 
 Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
 
-\subsubsection{Identificación de riesgos internos}
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.3]{5/img/tabladeriesgosBonillaZLeonardo.pdf}
+    \caption{Tabla de riesgos}
+    \label{fig:Tabla de riesgos}
+\end{figure}
 
+\subsubsection{Identificación de riesgos internos}
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.30]{5/img/riesgosinternosBonillaZLeonardo.pdf}
+    \caption{Riesgos internos}
+    \label{fig:Riesgos internos}
+\end{figure}
 \subsubsection{Identificación de riesgos externos}
 
 \subsubsection{Plan de acción}
@@ -681,14 +693,19 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 
 \subsubsection{Desarrollar un plan de evacuación y repliegue}
 
-\subsubsubsection{Procedimiento de repliegue}
+\subsubsection{Procedimiento de repliegue}
 
-\subsubsubsection{Procedimiento de evacuación}
+\subsubsection{Procedimiento de evacuación}
 
-\subsubsubsection{Brigada de evacuación}
+\subsubsection{Brigada de evacuación}
 
 \subsubsection{Directorio de telefónicos de emergencia}
-
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.4]{5/img/directoriodeEmergenciaBonillaZLeonardo.pdf}
+    \caption{Directorio De Emergencias}
+    \label{fig:Directorio De Emergencias}
+\end{figure}
 
 
 La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
