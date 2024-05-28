@@ -669,7 +669,7 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.3]{5/img/tabladeriesgosBonillaZLeonardo.pdf}
+    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaZLeonardo.pdf}
     \caption{Tabla de riesgos}
     \label{fig:Tabla de riesgos}
 \end{figure}
@@ -682,7 +682,12 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
     \label{fig:Riesgos internos}
 \end{figure}
 \subsubsection{Identificación de riesgos externos}
-
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.30]{5/img/riesgosexternosBonillaZLeonardo.pdf}
+    \caption{Caption}
+    \label{fig:enter-label}
+\end{figure}
 \subsubsection{Plan de acción}
 
 \subsubsection{Identificación de riesgos}
