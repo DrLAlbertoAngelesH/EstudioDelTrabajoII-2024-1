@@ -54,7 +54,7 @@
     \end{abstract}
     % 
     % 
-    \textbf{\textit{Palabras clave}}: {First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
+    \textbf{\textit{Palabras clave}}: {Optimización, tiempo estándar.}
     % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     \begin{itemize}
         \item Estándar, preciso, exacto, optimización, proceso.
@@ -117,6 +117,32 @@
        % \item Se debe de profundizar en las metodologías que se ha usado para el estudio del tema.
        % \item Referencias solo de artículos y libros científicos.
     %\end{itemize}
+    El estudio de tiempos y movimientos es una herramienta crucial en la ingeniería industrial, especialmente en el ámbito de la manufactura de productos electrónicos, como los circuitos electrónicos. Este método se utiliza para analizar y optimizar los procesos de producción, mejorando la eficiencia y reduciendo los costos operativos. Involucra la medición detallada del tiempo que toma completar cada tarea en el proceso de ensamble. Este análisis permite identificar y eliminar ineficiencias, estableciendo estándares de tiempo para cada operación. Se enfoca en la simplificación y optimización de los movimientos necesarios para realizar una tarea. Se busca minimizar el esfuerzo y el tiempo empleado en movimientos innecesarios, mejorando la ergonomía y la productividad del trabajador.
+    
+    Algunos métodos de optimización son el (MTM) Que es el método de medición del tiempo. El MTM es una técnica que descompone cada operación en movimientos básicos y asigna un tiempo estándar a cada uno. Este método es particularmente útil para el análisis de procesos complejos como el ensamble de circuitos electrónicos. 
+    También nos podemos encontrar con otro método como es la  Simulación y Modelado: La simulación mediante software como Simio permite modelar diferentes escenarios de producción y evaluar sus impactos en la eficiencia. Al simular el proceso de ensamble, es posible identificar cuellos de botella y probar diversas configuraciones de línea antes de implementarlas físicamente. \cite{breznik2023assembly}.
+    
+    De igual manera tenemos los Algoritmos Genéticos y Just-in-Time (JIT): La combinación de algoritmos genéticos con estrategias JIT optimiza la programación de la línea de producción y la alimentación de partes. Esto reduce tiempos muertos y exceso de inventario, mejorando la eficiencia global del proceso de ensamble. \cite{zhang2021research}.
+    
+    En la industria de ensamblaje de circuitos electrónicos, los estudios de tiempos y movimientos se aplican para:
+    
+   \begin{itemize}
+       \item Balance de Línea de Ensamble: Distribuir equitativamente las tareas entre las estaciones de trabajo para minimizar los tiempos de ciclo y los periodos de inactividad. Esto se logra mediante el uso de herramientas como MTM y simulación.
+       \item Optimización de Movimientos: Análisis detallado de los movimientos realizados por los operarios para ensamblar componentes, eliminando movimientos innecesarios y mejorando la disposición de las estaciones de trabajo para facilitar el acceso a herramientas y materiales. 
+       \item Implementación de Sistemas JIT: Asegurar que los componentes y materiales necesarios lleguen justo a tiempo para ser ensamblados, reduciendo la acumulación de inventarios y los tiempos de espera. Esto se puede optimizar mediante simulaciones y algoritmos genéticos que ajusten dinámicamente las programaciones de producción.
+       
+    La metodologia de las 5´S es un sistema d eegstión de calidad y productividad originado en Japón cuyo objetivo es mejorar el ambiente de trabajo y la eficiencia organizacional. Esta metodología sigue un proceso establecido en cinco pasos, cuyo desarrollo implica la asignación de recursos, la adaptación a la cultura de la empresa y la consideración de aspectos humanos:
+    
+    \begin{itemize}
+        \item Seiri (Clasificación): Consiste en separar lo neceario de lo innecesario y eliminar lo que no se necesita en el lugar de trabajo.
+        \item Seiton (Orden): Implica organizar los elementos esenciales de manera sistematica y eficiente para facilitar su acceso y su uso. cada cosa debe tener un lugar especifico, lo que aumenta la productividad al reducir los tiempos de busqueda y movimineto, y mejora la seguridad al minimizar los obstaculos.
+        \item Seiso ( Limpieza): Mantener un ambiente de trabajo limpio y ordenado para prevenir accidentes y mejorar la eficiencia. La limpieza debe de ser una responsabilidad compartida entre todos los empleados para asegurar un entorno laborar seguro y eficiente.
+        
+   \end{itemize}
+
+
+
+
     % 
     % 
     \section{Hipótesis}
@@ -142,8 +168,12 @@
     \subsection{Objetivos específicos }
     
     \begin{itemize}
-        \item Diseña, mejora e integra sistemas productivos de bienes y servicios aplicando tecnologías para su optimización
-        \item Diseña, implementa y mejora sistemas de trabajo para elevar la productividad.
+        \item Diseñar, mejorar e integrar sistemas productivos de bienes y servicios aplicando tecnologías para su optimización
+        \item Diseñar, implementar y mejora sistemas de trabajo para elevar la productividad.
+        \item Calcular el tiempo estándar que requiere un operador capacitado para el ensamblaje de un circuito electrónico.
+        \item Desarrollar una guía de emergencia en la cual se establezcan los posibles riesgos de la locación donde se desarrolló el ensamblaje.
+        \item Buscar la manera más económica de realizar la tarea.
+        \item Realizar un estudio de tiempos y movimientos analizando todos los factores posibles.
     \end{itemize}
     
     
@@ -151,18 +181,73 @@
     \section{Cuerpo (Metodología, modelo matemático, etc.)}
     
     
-    
     %\begin{itemize}
     
-    En la elaboración de este proyecto, es necesario establecer que se cumplirán con los objetivos descritos anteriormente. Para el diseño y la mejora en sistemas productivos. De manera sistemática, se analizarán los procesos existentes y se identificarán áreas de mejora utilizando herramientas de análisis, en este caso se realizará un estudio de tiempos y movimientos. Se llevarán a cabo las mejoras propuestas utilizando metodologías ágiles, esto apoyándonos de diferentes software y de un cronometro para la medición del tiempo en ciclos.
+    En la elaboración de este proyecto, es necesario establecer que se cumplirán con los objetivos descritos anteriormente. Para el diseño y la mejora en sistemas productivos. De manera sistemática, se analizarán los procesos existentes, así como las instalaciones, herramientas, métodos, equipo y todos los factores que intervengan en este proceso de ensamblaje. Se identificarán áreas de mejora utilizando herramientas de análisis, en este caso se realizará un estudio de tiempos y movimientos. La obtención de la información y datos necesarios ,se realizó en el Instituto Tecnológico Nacional de México Campus Querétaro específicamente en el semestre enero-junio.
     
-    
-    Para el diseño, implementación y mejora de los sistemas se realizarán análisis detallados de los flujos de trabajo actuales, identificando cuellos de botella y oportunidades de mejora.Se pondrán en práctica nuevas metodologías de trabajo, como el trabajo en equipo colaborativo y la gestión ágil de proyectos.
+   Para el diseño, implementación y mejora de los sistemas se realizarán análisis detallados de los flujos de trabajo actuales, identificando cuellos de botella y oportunidades de mejora.Se pondrán en práctica nuevas metodologías de trabajo, como el trabajo en equipo colaborativo y la gestión ágil de proyectos.
+   
+    Se realizó la obtención de dos muestras continuas a partir de una cámara de video.  Continuando con el desarrollo de este proyecto, se llevaron a cabo las mejoras de propuestas y métodos utilizando metodologías ágiles, para determinar la medición del tiempo en ciclos.
     
     
     Se establecerán sistemas de retroalimentación para recopilar comentarios de los operarios que realizarán el ensamble para conocer sus incomodidades y retrasos en el proceso, así realizar los ajustes necesarios.Se aplicará el método de estudio de tiempos y movimientos para optimizar la eficiencia de las operaciones.
+    %
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{32/img/diagramaMetodología.png}
+        \caption{Diagrama de la metodología para la sección del desarrollo del sistema de clasificación.}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{32/img/cadenaDeMedida.png}
+        \caption{Cadena De Medida}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{32/img/diagramEntradasySalidas.png}
+        \caption{Diagrama de entradas y salidas para ilustrar la relación entre los componentes des sistema y cómo interactúan entre sí.}
+        \label{fig:enter-label}
+    \end{figure}
     
-    Se elaborará un manual en dónde se describirá cada herramienta, equipo, maquina y todos los pasos que el operador debe de seguir para llegar al ensamble final. Se realizará un estudio de tiempos con ayuda del cronómetro y en base a esto se harán mejoras.Visuelice el apendice \ref{anexo:manualEnsambleEléctrico.pdf}.
+    %
+    %
+    \subsection{Desarrollo de la guía de plan de emergencia} Un Plan de Acción de Emergencia en el contexto industrial es un documento integral que detalla los procedimientos y responsabilidades necesarios para garantizar la seguridad y el bienestar de los empleados y la protección de la propiedad durante una emergencia. Este plan generalmente incluye instrucciones detalladas para evacuaciones, refugio en el lugar, protocolos de comunicación y coordinación con los servicios de emergencia.
+    En la elaboración de esta guía se hizo una recopilación de datos, se analizaron los procesos que se llevaban a cabo en la institución en caso de emergencia. A partir de esto se realizó una clasificación de riesgos internos y externos asignando una probabilidad de ocurrencia a cada uno de ellos . Posteriormente se se realizó un programa de actividades de prevención de auxilio y se desarrolló un plan de acción, así como la identificación de capacidades. De igual manera se analizó el plano de localización de recursos, es decir, donde están localizada la señaletica o extintores de emergencia.
+    Proseguimos con la identificación de riesgos externos y de puntos de reunión, tambien se desarrolló una brigada de evacuación y se estableció un directorio telefónico de emergencia.
+    %
+    \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito eléctrico.}
+
+    \subsubsection{Planeación}
+    
+    En el proceso de elaboración de este proyecto, primeramente se planteó el objeto de estudio que se utilizaría para realizar esta experimentación, que es un circuito eléctrico conformado por una tarjeta LCD y un ESP-32.Como primer paso, nos familiarizamos con los componentes de este ensamble; los medimos, tocamos, olimos y todo lo necesario para a partir de esto, plasmarlos en algún programa asistido por computadora especificando las medias de cada uno, en este caso se utilizó Solid Works en la versión 2019.
+    
+     Posteriormente, se elaboró un manual en dónde se describe cada herramienta, equipo, maquina y todos los pasos que el operador debe de seguir para llegar al ensamble final. s.Visuelice el apendice \ref{anexo:manualEnsambleEléctrico.pdf}.
+    
+    
+    \subsubsection{5´S}
+    \end{itemize}
+    
+    \subsubsection{Desarrollo de sistemas de tiempo predeterminado}
+    \subsubsection{Desarrollo de muestro de trabajo}
+    \subsubsection{Datos estándar continuos y discretos}
+    %
+    %
+    \subsection{Diseño de la forma más ecocómica de realizar el trabajo}
+    %
+    %
+    \subsection{Normalización de métodos, materiales, herramientas e instalaciones}
+    %
+    %
+    \subsection{Determinación del tiempo estándar para que un operador competente realice el trabajo con marcha normal}
+    
+    
     
     %\end{itemize}
     
@@ -170,17 +255,6 @@
 
     
 
-    
-    \subsection{Prepara tu documento}
-    
-    %Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-    %Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-    %Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-    %Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
-    
-    \subsection{Acrónimos y Abreviaciones}
-    
-    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
     
     \subsection{Ecuaciones}
     
@@ -197,11 +271,40 @@
     Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
     
     \section{Resultados y discusión}
+    \subsection{Desarrolo de la guía de emergemcia}
     
-    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
-    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
-    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
-    
+    Con la finalidad de eliminar todos los posibles riesgos de emergencia e incendio, se realizó eata guía de plan de emergencia. De igual manera se implementaron nuevas estrategias como es la capacitación constante del personal de como actuar en caso de una emergencia, esto con la finalidad de que en caso de ocurrencia sepan como actuarr, tomen las mejores decisiones y salvaguarden la integridad fisica de todas las personas en riesgo. 
+    A continuación se describe la ubicación y datos generales donde se llevó a cabo el ensamble para posteriormente analizar lo antes planteado.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{32/img/ubicaciónDelInstituto.png}
+        \caption{Av Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.2]{32/img/croquisITQ.jpg}
+        \caption{Croquis Instituto Tecnológico de Querétaro}
+        \label{fig:enter-label}
+    \end{figure}
+    \subsubsection{Identificación del Riesgo}
+    Se presenta un análisis detallado de la identificación de riesgos realizada durante el desarrollo del plan de emergencia. Este análisis incluye una evaluación sistemática de los riesgos internos y externos que pueden afectar la operatividad y seguridad de la industria. Véase el diagrama  \ref{fig:identificacion-riesgos}
+
+    %
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.25]{32/img/diagramaIdentificaciónDeRiesgos.png}
+        \caption{Diagrama para la identificación de riesgos}
+        \label{fig:identificacion-riesgos}
+    \end{figure}
+    %
+    %
+    \subsubsection{Riesgos internos}
+    %
+    %
     \subsection{Autores y Afiliaciones}
     
     Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
