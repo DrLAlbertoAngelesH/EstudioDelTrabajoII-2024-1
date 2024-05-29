@@ -195,23 +195,27 @@ Seguimiento y ajuste: Monitorear continuamente el proceso de ensamblaje después
 
 
 \section{Resultados y discusión}
-\begin{frame}{IEVIDENCIAS}
+\begin{frame}{EVIDENCIAS}
     \begin{figure}
         \centering
-        \includegraphics[width=4cm]{27/img/Analista1.jpeg}
+        \includegraphics[width=4cm]{27/img/Analista1.jpg}
         \caption{resultado}
         \label{fig:enter-label}
          \centering
-        \includegraphics[width=4cm]{27/img/Analista2.jpeg}
+        \includegraphics[width=4cm]{27/img/Analista2.jpg}
         \caption{resultado}
         \label{fig:enter-label}
          \centering
-        \includegraphics[width=4cm]{27/img/Analista3.jpeg}
+        \includegraphics[width=4cm]{27/img/Analista3.jpg}
         \caption{resultado}
         \label{fig:enter-label}
          \centering
-        \includegraphics[width=4cm]{27/img/Analista4.jpeg}
+        \includegraphics[width=4cm]{27/img/Analista4.jpg}
         \caption{resultado}
+         \includegraphics[width=4cm]{27/img/Analista5.jpg}
+        \caption{resultado}
+         \includegraphics[width=4cm]{27/img/Analista6.jpg}
+        \caption{Analista}
         \label{fig:enter-label}
     \end{figure}
 \end{frame}
@@ -317,6 +321,5 @@ Véase el link \cite{prueba}.
 \includepdf[pages=-]{27/img/camelCase.pdf}
 \includepdf[pages=-]{27/img/camelCase2.pdf}
 \includepdf[pages=-]{27/img/camelCase3.pdf}
-\includepdf[pages=-]{27/img/camelCase4.pdf}
 \label{anexo:pines}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
