@@ -63,7 +63,7 @@
     \section{Introducción}
     % \begin{itemize}
     % Define estudio de tiempos y movimientos
-    El Estudio de Tiempos y Movimientos es una práctica esencial en la ingeniería industrial que busca mejorar la eficiencia de los procesos combinando el análisis del tiempo de Frederick Winslow Taylor y el estudio de movimientos de Frank y Lillian Gilbreth. Aplicada en diversas áreas, incluyendo el ensamblaje de circuitos electrónicos, esta técnica utiliza metodologías como el método de tiempos predeterminados, que establece estándares de tiempo para cada actividad basado en una base de datos de tiempos estándar para tareas específicas. Esto facilita la planificación y la optimización continua de la producción industrial \cite{Niebel}.
+    El Estudio de Tiempos y Movimientos es una práctica esencial en la ingeniería industrial que busca mejorar la eficiencia de los procesos combinando el análisis del tiempo de Frederick Winslow Taylor y el estudio de movimientos de Frank y Lillian Gilbreth. \cite{andrade2019estudio} Aplicada en diversas áreas, incluyendo el ensamblaje de circuitos electrónicos, esta técnica utiliza metodologías como el método de tiempos predeterminados, que establece estándares de tiempo para cada actividad basado en una base de datos de tiempos estándar para tareas específicas. Esto facilita la planificación y la optimización continua de la producción industrial \cite{Niebel}.
     Esta técnica es particularmente útil para comprender y mejorar los procesos de fabricación. Por ejemplo, en el ensamblaje de un circuito eléctrico utilizando un Protoboard, permite identificar áreas de mejora y aplicar metodologías adecuadas para optimizar el proceso de ensamblaje. El estudio de tiempos y movimientos abarca el análisis de métodos, materiales, herramientas e instalaciones utilizadas o planificadas para la ejecución de un trabajo, promoviendo una mejora continua en la eficiencia de los procesos industriales.
     % define que es ensamble
     El ensamble consiste en unir, ajustar, montar y encajar piezas, es decir, en la colocación de dos o más piezas para formar un producto final en este caso Un circuito electrónico.
@@ -279,11 +279,10 @@
     \end{figure}
     
     Se elaboró un manual detallado para el ensamblaje, seguido por la grabación de dos muestras en vídeo del operador trabajando en diferentes días y condiciones. Estas muestras se utilizarán para determinar el tiempo estándar de trabajo y se implementarán mejoras, incluida la metodología de las 5 S, con el objetivo de optimizar los procesos. Se realizará también un análisis de costos para identificar la manera más económica de realizar el trabajo. La pieza clave indispensable para el ensamblaje es la programación de una ESP-32, ya que sin ella no se podría completar el proceso. Con estos materiales, estaremos listos para empezar a realizar las muestras utilizando una cámara. La primera muestra se llevará a cabo el 25 de abril del presente año y la segunda muestra se realizará al menos una semana después. Este intervalo de tiempo permitirá capturar variaciones potenciales en el proceso de ensamblaje.
-    
     % 
     \subsubsection{5's}
     El mantenimiento de un espacio limpio y ordenado no solo responde a criterios estéticos, sino que también es un reflejo directo de la calidad de nuestro trabajo. Por esta razón, en el proceso de ensamblaje, resulta crucial la implementación de las 5S. \cite{PgSantos}
-    Con estas prácticas, queremos que el operador adopte estas acciones como parte natural de su trabajo diario, no como algo que hace ocasionalmente. Queremos que se convierta en un hábito arraigado en todo el equipo, algo que hagan de forma automática y consistente. Esta mentalidad se alinea con el principio de "Shitsuke", el cual implica la disciplina y el compromiso con la mejora continua. Durante el proceso, la estación de trabajo del operador se mantuvo impecable de principio a fin, gracias a la implementación de la "Seiso" (limpieza), asegurando así condiciones óptimas para llevar a cabo las tareas de manera eficiente. Además, la siguiente imagen de referencia    muestra claramente la meticulosa organización del operador en cuanto a herramientas y materiales,  demostrando la aplicación de la "Seiton" (orden), lo que refuerza la importancia de mantener un entorno limpio y ordenado para garantizar la eficiencia y calidad en todas las operaciones. Veáse la figura \ref{fig:5s}
+    Con estas prácticas, queremos que el operador adopte estas acciones como parte natural de su trabajo diario, no como algo que hace ocasionalmente. Queremos que se convierta en un hábito arraigado en todo el equipo, algo que hagan de forma automática y consistente. Esta mentalidad se alinea con el principio de "Shitsuke", el cual implica la disciplina y el compromiso con la mejora continua. Durante el proceso, la estación de trabajo del operador se mantuvo impecable de principio a fin, gracias a la implementación de la "Seiso" (limpieza), asegurando así condiciones óptimas para llevar a cabo las tareas de manera eficiente. Además, la siguiente imagen de referencia    muestra claramente la meticulosa organización del operador en cuanto a herramientas y materiales,  demostrando la aplicación de la "Seiton" (orden), lo que refuerza la importancia de mantener un entorno limpio y ordenado para garantizar la eficiencia y calidad en todas las operaciones. \cite{manzano2016lean}Veáse la figura \ref{fig:5s}
     \begin{figure}[H]
          \centering
          \includegraphics[scale=0.4]{34/img/aplicandoLas5S.png}
@@ -293,7 +292,51 @@
     %
     % 
     \subsubsection{Desarrollo del sistema de tiempos predeterminado}
-    El sistema de tiempos predeterminado es sumamente adecuado para este proyecto, ya que es una herramienta fundamental. Nos permite dividir las tareas de manera detallada y asignar los tiempos correspondientes a cada una. Al implementar estos sistemas, no solo podremos predecir con precisión cuánto tiempo tomará completar una tarea, sino que también identificaremos formas más eficientes de trabajar. Además, el uso de tiempos predeterminados facilita la planificación y optimización de los recursos, mejorando la productividad general y garantizando que los procesos se ejecuten de manera fluida y efectiva.
+    El sistema de tiempos predeterminados (STP) es ideal para este proyecto porque permite dividir las tareas en detalle y asignar tiempos precisos a cada una. Esto facilita la planificación, optimización de recursos y mejora de la productividad, asegurando procesos eficientes. Para desarrollar los STP, seguimos pasos basados en los Therbligs, aplicados por un analista capacitado, lo que permite predecir con precisión los tiempos necesarios y realizar un análisis de métodos. Estos pasos se dividen en tres fases principales:
+    
+    1- Dividir el trabajo en elementos: Todos los movimientos del operario se dividen en 10 categorías: alcanzar, mover, girar, aplicar presión, asir, colocar, soltar, separar, movimientos del cuerpo y movimientos de los ojos. \cite{ronquillo2021analisis}
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {1mm 1mm 1mm 26mm},clip,scale=0.3]{34/img/tablaAlcanzarR.pdf}
+            \caption{Tabla 1 Alcanzar R}
+            \label{fig:tablaAlcanzarR}
+        \end{figure}
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {1mm 1mm 1mm 26mm},clip,scale=0.3]{34/img/tablaMoverM.pdf}
+            \caption{Tabla 2 Mover M}
+            \label{fig:tablaMoverM}
+        \end{figure}
+    
+        \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {1mm 1mm 1mm 26mm},clip,scale=0.3]{34/img/tablaGirar.pdf}
+            \caption{Tabla 3 Girar y aplicar presión T Y AP}
+            \label{fig:tablaGirar}
+        \end{figure}
+    
+        \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {1mm 95mm 200mm 26mm},clip,scale=0.4]{34/img/tablaSoltar.pdf}
+            \caption{Tabla 6 Soltar RL}
+            \label{fig:tablaSoltar}
+        \end{figure}
+        
+        
+    
+    2- Asignar valores de tiempo a cada elemento: Se utilizan las Unidades de Medida de Tiempo (TMU). Por ejemplo, la acción de "alcanzar" se subdivide en 5 casos, y la acción de "mover" se subdivide en 3 casos, considerando la relación con el peso del objeto o su resistencia al movimiento.
+    
+    3- Sumar los tiempos de todos los elementos: Después de clasificar todos los movimientos y asignarles un valor, se suman los tiempos de todos los movimientos para obtener el tiempo total necesario para completar la tarea.
+    
+    Este proceso permite predecir con precisión el tiempo necesario para realizar un trabajo y facilita la optimización de los recursos y la mejora de la productividad.
+    
+    
+    
+    
+    
+    
+    
     % 
     \subsubsection{Desarrollo del muestreo del trabajo}
     
