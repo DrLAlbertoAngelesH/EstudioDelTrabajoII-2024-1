@@ -356,6 +356,13 @@ El Plan de Emergencia: Documento que describe los lineamientos a seguir, la orga
 
 \begin{figure}
     \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/diagBimBonillaLeonardo.pdf}
+    \caption{Diagrama Bimanual}
+    \label{fig:Diagrama Bimanual}
+\end{figure}
+
+\begin{figure}
+    \centering
     \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manualBonillaL.pdf}
     \caption{Manual}
     \label{fig:Manual}
@@ -637,7 +644,12 @@ Un plan de emergencia se implementa en la industria para identificar riesgos, es
 
 Como Institución, debemos estar comprometidos a mantener y mejorar constantemente nuestro plan de intervención en caso de alguna emergencia o riesgo que se pueda presentar en la institución, esto con el fin de prevenirnos ante cualquier riesgo que se pueda presentar en la estadía de los estudiantes y/o visitantes, (Compañeros externos, colaboradores, clientes, entre otros).
 
-
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.3]{5/img/progInternoBonillaL.pdf}
+    \caption{Programa Interno}
+    \label{fig:Programa Interno}
+\end{figure}
 
 \subsubsection{Riesgos internos}
 
@@ -692,6 +704,18 @@ La identificación de riesgos externos es fundamental para la resiliencia y la a
 \end{figure}
 
 \subsubsection{Programa de actividades de prevención y auxilio}
+
+Para evitar los riesgos que anteriormente se han mencionado, debemos implementar un plan para evitar todos estos riesgos, para ello se planteó:
+
+\begin{enumerate}
+    \item Implementar un programa de mantenimiento
+    \item Pedir apoyo a las autoridades para implementación de elementos de seguridad
+    \item Solicitar equipo de seguridad para las calles
+    \item Solicitar auxiliares viales y señalitica vial
+    \item Mantenimiento completo de la Institución
+\end{enumerate}
+
+Con esto buscamos evitar y eliminar todos los riesgos vistos previamente con el análisis antes realizados, y con esto de igual manera se busca tratar de darle un seguimiento y así erradicar los riesgos que se han conservado a lo largo del tiempo debido a la falta de mantenimiento.
 
 \subsubsection{Plan de acción}
 
