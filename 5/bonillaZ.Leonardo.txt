@@ -561,8 +561,9 @@ Funciones
 
 \subsubsection{Planeación}
 
-Asegúrate de conocer siempre tu objetivo.
-Asegúrate de contar con los documentos (formatos, procedimientos, etc.).
+Con esta investigación, buscamos poder implementar cambios en la realización del circuito eléctrico, buscando aplicar las herramientas del estudio del trabajo, con lo que primero realizaremos un  análisis del método propuesto y con esto buscaremos la manera más económica de realizar el trabajo, optimizando el ensamble.
+
+Para lograr esto, vamos a identificar los elementos, materiales, lugar de trabajo, condiciones de trabajo, entre otras cosas, haciendo un muestro continuo y con ayuda de los STP buscaremos normalizar el trabajo y estandarizar tanto materiales, tiempos hasta movimientos y métodos, para así lograr un balanceo de línea.
 
 % 
 % 
@@ -587,12 +588,60 @@ La metodología de las 5S, originaria de Japón, puede ser aplicada en el Instit
 % 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
 
+Los sistemas de tiempos predeterminados son una colección de tiempos asignados a movimientos básicos y a grupos de movimientos que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Aquí te explico cómo funcionan:
+
+1. Identificación de movimientos básicos: Se determinan los micromovimientos básicos que deben utilizarse en la operación que se estudia.
+
+2. Asignación de tiempos: Se suman los valores de tiempo dados por las tablas de datos para cada uno de dichos movimientos.
+
+3. Suplemento por fatiga y retrasos: Se concede el suplemento por fatiga, retrasos personales y retrasos inevitables en caso de ser necesario.
+
+4. Registro de datos: Los datos se deben registrar en TMU (Time Measurement Units).  TMU = 0.00001 hora = 0.0006 minuto = 0.036 segundo.
+
+Estos sistemas se basan en la idea de que todo el trabajo se puede reducir a un conjunto básico de movimientos. Por medio de estas subdivisiones básicas, conocidas simplemente como movimientos, y sus tiempos de ejecución asociados, es posible llegar a establecer los diferentes movimientos requeridos por un método dado, consultar las tablas de los valores de tiempos, para obtener el tiempo esperado de ejecución de cada uno de estos movimientos, y sumar estos tiempos para obtener un tiempo total esperado de ejecución de ese método.
+
+Los sistemas de tiempos predeterminados, como el MTM (Medición de Tiempos de Método), son muy útiles para optimizar el diseño de puestos y métodos de trabajo. Permiten un análisis minucioso del método y son competitivos para obtener tiempos estándar. Sin embargo, para lograr el mayor porcentaje de credibilidad es necesaria la práctica continua.
+
+La interpolación es un método matemático que se utiliza para estimar valores desconocidos dentro de un rango definido por valores conocidos. Aquí te explico cómo se realiza la interpolación lineal, que es uno de los métodos más comunes:
+Identificación de los puntos conocidos: Selecciona dos puntos conocidos en el rango donde deseas estimar un valor. Estos puntos se representan como (x1,y1) y (x2,y2)
+
+Identificación del punto desconocido: Identifica el valor de x para el cual deseas estimar un valor de y. Este punto se representa como (x, y)
+
+Aplicación de la fórmula de interpolación lineal: Utiliza la siguiente fórmula para estimar el valor de y:
+
+$$
+y = y_1 + \frac{(x - x_1) \cdot (y_2 - y_1)}{x_2 - x_1}
+$$
+
+
 % 
 % 
 \subsubsection{Desarrollo del muestreo del trabajo}
+El muestreo de trabajo es una técnica que se utiliza para investigar las proporciones del tiempo total dedicada a las diversas actividades que componen una tarea, actividades o trabajo:
+
+1. Selecciona las actividades o actividad a observar y socializa: Es importante que los trabajadores involucrados estén enterados de lo que se va a hacer para el buen desarrollo del ejercicio.
+
+2. Cálcula la proporción del tiempo de la actividad o demora (p).
+
+3. Calcular el número de observaciones con la exactitud deseada y el valor de z.
+
+4. Cómo determinar la frecuencia de las observaciones.
+
+5. Observar y registrar las actividades.
+
+6. Analizar los resultados.
+
+El muestreo de trabajo se realiza para determinar:
+- Qué tanto se está utilizando el personal o la maquinaria.
+— Las holguras, entendidas como el tiempo disponible para realizar una actividad sin retrasar la producción.
+— Los estándares de producción.
+
+Cuando el tamaño de la muestra es representativo de la población y las observaciones se realizan al azar, podemos considerar bajo cierto nivel de confianza que las observaciones son un reflejo de la situación real en la fábrica. 
+
 % 
 % 
 \subsubsection{Corrección por balanceo de procesos}
+
 % 
 % 
 \subsubsection{Datos estándar continuos y discretos}
