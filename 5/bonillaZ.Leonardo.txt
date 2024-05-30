@@ -638,6 +638,18 @@ El muestreo de trabajo se realiza para determinar:
 
 Cuando el tamaño de la muestra es representativo de la población y las observaciones se realizan al azar, podemos considerar bajo cierto nivel de confianza que las observaciones son un reflejo de la situación real en la fábrica. 
 
+La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
+
+\begin{equation}
+\mu = \sum x \cdot P(x)
+\end{equation}
+
+Donde:
+\begin{itemize}
+\item $x$ son los posibles valores que puede tomar la variable aleatoria.
+\item $P(x)$ es la probabilidad de cada valor $x$.
+\end{itemize}
+
 % 
 % 
 \subsubsection{Corrección por balanceo de procesos}
@@ -777,7 +789,14 @@ Con esto buscamos evitar y eliminar todos los riesgos vistos previamente con el 
     \caption{Inventario de Recursos de Equipo de Emergencia}
     \label{fig:Inventario de Recursos de Equipo de Emergencia}
 \end{figure}
+
 \subsubsection{ Identificación de apoyos externos}
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.28]{5/img/directoriodeApoyExtBonillaL.pdf}
+    \caption{Directorio de apoyos externos}
+    \label{fig:Directorio de Apoyos Externos}
+\end{figure}
 
 \subsubsection{Objetivo}
 
@@ -811,58 +830,47 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
     \label{fig:Tabla de riesgos}
 \end{figure}
 
-La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
-
-\begin{equation}
-\mu = \sum x \cdot P(x)
-\end{equation}
-
-Donde:
-\begin{itemize}
-\item $x$ son los posibles valores que puede tomar la variable aleatoria.
-\item $P(x)$ es la probabilidad de cada valor $x$.
-\end{itemize}
 
 Tras haber realizado el estudio no.1 se obtuvo los siguientes resultados:
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg1.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg1.pdf}
     \caption{Evidencia 01}
     \label{fig:Evidencia 01}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg2.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg2.pdf}
     \caption{Evidencia 02}
     \label{fig:Evidencia_02}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg4.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg4.pdf}
     \caption{Evidencia 03}
     \label{fig:Evidencia 03}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg7.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg7.pdf}
     \caption{Evidencia 07}
     \label{fig:Evidencia 07}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg8.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg8.pdf}
     \caption{Evidencia 08}
     \label{fig:Evidencia 08}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/registro1.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/registro1.pdf}
     \caption{Registro 1}
     \label{fig:Registro 1}
 \end{figure}
@@ -878,21 +886,21 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg21.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg21.pdf}
     \caption{Evidencia 2.1}
     \label{fig:Evidencia 2.1}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg23.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg23.pdf}
     \caption{Evidencia 2.2}
     \label{fig:evidencia 2/2}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg24.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg24.pdf}
     \caption{Evidencia 2.3}
     \label{fig:Evidencia 2.3}
 \end{figure}
@@ -900,21 +908,21 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg25.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg25.pdf}
     \caption{Evidencia 2.4}
     \label{fig:Evidencia 2.4}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg26.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg26.pdf}
     \caption{Evidencia 2.5}
     \label{fig:Evidencia 2.5}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg27.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg27.pdf}
     \caption{Evidencia 2.6}
     \label{fig:Evidencia 2.6}
 \end{figure}
@@ -922,7 +930,7 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/registro2.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.28]{5/img/registro2.pdf}
     \caption{Registro 2}
     \label{fig:Registro 2}
 \end{figure}
