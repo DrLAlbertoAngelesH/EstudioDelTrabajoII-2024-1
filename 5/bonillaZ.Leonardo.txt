@@ -771,7 +771,12 @@ Con esto buscamos evitar y eliminar todos los riesgos vistos previamente con el 
 \subsubsection{Identificación de capacidades}
 
 \subsubsection{Plano de localización de recursos}
-
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.25]{5/img/invdeRecusosdeEmBonillaL - Hoja 1.pdf}
+    \caption{Inventario de Recursos de Equipo de Emergencia}
+    \label{fig:Inventario de Recursos de Equipo de Emergencia}
+\end{figure}
 \subsubsection{ Identificación de apoyos externos}
 
 \subsubsection{Objetivo}
