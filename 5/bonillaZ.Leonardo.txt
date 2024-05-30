@@ -84,7 +84,7 @@ El objetivo principal del estudio de trabajo es incrementar la productividad sin
 
 En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
 
-% define que es ensamble
+
 El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020integracion}
 
 % define que es circuito electronico
@@ -100,7 +100,7 @@ El método de tiempos predeterminados es un procedimiento en el estudio del trab
 % Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
 Siendo nuestro objetivo general, tratar de buscar el modo más barato y mejor para lograr el ensamble, mediante la experimentación, llevando a cabo el ensamble, y buscando las mejores opciones, tratando de lograr una mejor eficiencia, y optimizando recursos y costos.
 
-\subsection{Definiciones}
+Definiciones
    \begin{enumerate}
        \item Git: Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
        \item GitHub: GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
@@ -332,7 +332,8 @@ El estudio del trabajo tiene como objetivo mejorar la eficiencia y la productivi
 La eficiencia en el ensamble del circuito puede ser significativamente mejorada mediante la aplicación de principios de estudio del trabajo. La implementación de técnicas de optimización de procesos, como el análisis de tiempos y movimientos, la estandarización de procedimientos y la formación adecuada del personal, puede reducir el tiempo de ensamble, minimizar los errores y mejorar la calidad general del circuito ensamblado. Esta mejora en la eficiencia no solo podría reducir los costos de producción, sino también aumentar la fiabilidad y durabilidad del circuito, lo que a su vez podría llevar a una mayor satisfacción del cliente.
 
 Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más “económica” de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
-\subsection{Objetivos}
+
+\section{Objetivo}
 El objetivo de esta investigación es llevar a cabo un ensamble de un circuito, previamente a esto, realizar un análisis del método propuesto, y buscar una mejor forma en la que se puede llevar a cabo proponiendo uno nuevo el cual trate de mejorar el procedimiento, tratando de reducir o eliminar movimientos innecesarios, gestionar los materiales y reducir los costos, tratando de buscar la forma más económica de hacer el ensamble del circuito, analizando a nuestros operadores.
 
 \subsection{Objetivos específicos }
@@ -416,7 +417,7 @@ Funciones: La principal función de una LCD de 16x2 es mostrar información de m
 
 Uso: Las LCD de 16x2 se utilizan en una amplia gama de aplicaciones, como diversos circuitos y dispositivos, incluyendo teléfonos móviles, calculadoras, ordenadores, televisores, entre otros. También son comúnmente utilizadas en proyectos de bricolaje y aplicaciones integradas debido a su facilidad de programación.
 
-En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos. \cite{carlet2018linear}
+En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos.\cite{carlet2018}
 
 \begin{figure}
     \centering
@@ -611,24 +612,6 @@ La metodología de las 5S, originaria de Japón, puede ser aplicada en el Instit
 En este documento se describirá el plan de emergencia que se debe llevar a cabo de algún incidente, el cual podamos aplicar para evitar mayores riesgos.
 Un plan de emergencia se implementa en la industria para identificar riesgos, establecer medidas preventivas y procedimientos de evacuación, y definir roles y responsabilidades. 
 
-\subsubsection{Objetivo}
-Implementación de planes o estrategias de seguridad, en caso de emergencias, fenómenos o accidentes, tanto para los clientes como para los trabajadores que estén en la Institución, y así salvaguardar la integridad de estos mismos. 
-
-\subsubsection{Datos generales}
-
-\begin{enumerate}
-    \item Nombre comercial: Instituto Tecnológico de Qro
-    \item Domicilio:Av. Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.
-    \item Horario de servicio: 6:30 - 22:30 hrs.
-    \item Teléfonos: (+52) 442 2274 400
-    \item Actividad principal: Centro de estudios de educación superior tecnológica, ofreciendo carreras de ingenierías, maestras y doctorados.
-    \item Representante legal:
-    \item Cantidad de trabajadores: 343
-    \item Superficie del establecimiento en m2:78,091
-\end{enumerate}
-
-\subsubsection{Plano de localización}
-
 \begin{figure}
     \centering
     \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/ubicacionitqGoogleMaps.pdf} % Reducir a la mitad del tamaño original
@@ -650,31 +633,13 @@ Implementación de planes o estrategias de seguridad, en caso de emergencias, fe
     \label{fig:Medidas del ITQ Google Maps}
 \end{figure}
 
-\subsubsection{Objetivo}
-Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
+\subsubsection{Identificación del riesgo}
 
-\subsubsection{Objetivos específicos}
+Como Institución, debemos estar comprometidos a mantener y mejorar constantemente nuestro plan de intervención en caso de alguna emergencia o riesgo que se pueda presentar en la institución, esto con el fin de prevenirnos ante cualquier riesgo que se pueda presentar en la estadía de los estudiantes y/o visitantes, (Compañeros externos, colaboradores, clientes, entre otros).
 
-1. \textbf{Identificar y evaluar riesgos:} Realizar una evaluación exhaustiva de los posibles riesgos y amenazas que podrían afectar al Instituto Tecnológico de Querétaro, incluyendo desastres naturales, incendios, amenazas de seguridad y emergencias médicas.
 
-2.\textbf{ Desarrollar procedimientos de respuesta:} Crear procedimientos detallados para responder a cada tipo de emergencia identificada. Estos procedimientos deben incluir roles y responsabilidades, pasos de acción y protocolos de comunicación.
 
-3. \textbf{Capacitación y educación:} Implementar un programa de capacitación y educación para estudiantes, profesores y personal sobre cómo responder en caso de emergencia. Esto podría incluir simulacros de emergencia, talleres y materiales educativos.
-
-4. \textbf{Equipamiento y suministros:} Asegurar que el Instituto Tecnológico de Querétaro esté equipado con los suministros y equipos necesarios para responder a emergencias, como extintores de incendios, kits de primeros auxilios y señalización de emergencia.
-
-5. \textbf{Revisión y mejora continua:} Establecer un proceso para revisar y actualizar regularmente el plan de emergencia para asegurar su efectividad continua. Esto podría incluir la recopilación y análisis de feedback después de los simulacros de emergencia o incidentes reales.
-
-Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
-
-\begin{figure}
-    \centering
-    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaL.pdf}
-    \caption{Tabla de riesgos}
-    \label{fig:Tabla de riesgos}
-\end{figure}
-
-\subsubsection{Identificación de riesgos internos}
+\subsubsection{Riesgos internos}
 
 La identificación de riesgos internos es un proceso crucial en la gestión de riesgos de cualquier organización. 
 
@@ -694,9 +659,18 @@ La identificación de riesgos internos es un proceso crucial en la gestión de r
     \label{fig:Riesgos internos}
 \end{figure}
 
+\begin{enumerate}
+    \item Nombre comercial: Instituto Tecnológico de Qro
+    \item Domicilio:Av. Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.
+    \item Horario de servicio: 6:30 - 22:30 hrs.
+    \item Teléfonos: (+52) 442 2274 400
+    \item Actividad principal: Centro de estudios de educación superior tecnológica, ofreciendo carreras de ingenierías, maestras y doctorados.
+    \item Representante legal:
+    \item Cantidad de trabajadores: 343
+    \item Superficie del establecimiento en m2:78,091
+\end{enumerate}
 
-
-\subsubsection{Identificación de riesgos externos}
+\subsubsection{Riesgos externos}
 
 La identificación de riesgos externos es un componente esencial en la gestión de riesgo:
 
@@ -716,23 +690,35 @@ La identificación de riesgos externos es fundamental para la resiliencia y la a
     \caption{Identificación de riesgos Externos}
     \label{fig:enter-label}
 \end{figure}
+
+\subsubsection{Programa de actividades de prevención y auxilio}
+
 \subsubsection{Plan de acción}
 
-\subsubsection{Identificación de riesgos}
+\subsubsection{Identificación de capacidades}
 
 \subsubsection{Plano de localización de recursos}
 
+\subsubsection{ Identificación de apoyos externos}
+
+\subsubsection{Objetivo}
+
+Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
+
+\subsubsection{Objetivos específicos}
+
 \subsubsection{Identificación de puntos de reunión}
-
-\subsubsection{Desarrollar un plan de evacuación y repliegue}
-
-\subsubsection{Procedimiento de repliegue}
-
-\subsubsection{Procedimiento de evacuación}
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.06]{5/img/puntdeReuBonillaL.pdf}
+    \caption{Puntos de reunión}
+    \label{fig:Puntos de reunión}
+\end{figure}
 
 \subsubsection{Brigada de evacuación}
 
 \subsubsection{Directorio de telefónicos de emergencia}
+
 \begin{figure}
     \centering
     \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.4]{5/img/direcdeEmerBonillaL.pdf}
@@ -740,6 +726,12 @@ La identificación de riesgos externos es fundamental para la resiliencia y la a
     \label{fig:Directorio De Emergencias}
 \end{figure}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaL.pdf}
+    \caption{Tabla de riesgos}
+    \label{fig:Tabla de riesgos}
+\end{figure}
 
 La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
 
@@ -863,113 +855,45 @@ Antes de comenzar a preparar tu artículo, es importante que lea primero la guí
 Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora está listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
 
-\subsection{Autores y Afiliaciones}
+\subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
 
-Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar solo el superíndice 1. 
+\subsubsection{Verificación}
 
-\subsection{Identificar los encabezados}
+Costos de no calidad.
+% 
+% 
+\subsubsection{Desarrollo del sistema de tiempos predeterminado}
+% 
+% 
+\subsubsection{Desarrollo del muestreo del trabajo}
+% 
+% 
+\subsubsection{Corrección por balanceo de procesos}
+% 
+% 
+\subsubsection{Datos estándar continuos y discretos}
+% 
+% 
+\subsection{Diseño de la forma más económica de realizar el trabajo}
 
-Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+% 
+% 
+\subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
 
-\subsection{Tablas y Figuras}
+% 
+% 
+\subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
 
-\begin{enumerate}
-    \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
-\end{enumerate}
 
+% 
+% 
 \section{Conclusiones}
 
 Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
 
 \section{Agradecimientos}
 
-Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros, que han sido partícipes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros, que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
-
-\section*{Referencias}
-
-Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes 
-La puntuación de la oración que sigues sería  
-Refiérase simplemente al número de referencia, como en, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
-Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
-A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula solo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-
-
-% Ejemplo
-%  @Article{article,
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Article Title",
-% 	volume = "30",
-% 	number = "30",
-% 	pages = "10127-10134",
-% 	year = "2013",
-% 	doi = "10.3389/fnins.2013.12345",
-% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
-% 	journal = "Frontiers in Neuroscience"
-% }
-
-% @book{book,
-%   author    = {Author Name}, 
-%   title     = {The title of the work},
-%   publisher = {The name of the publisher},
-%   address   = {The city},
-%   year      = 1993,
-% }
-
-% @incollection{chapter,
-%   author       = {Bauthor Surname}, 
-%   title        = {The title of the work},
-%   editor       = {Editor Name},
-%   booktitle    = {The title of the book},
-%   publisher    = {The name of the publisher},
-%   address      = {The city},
-%   year         = 2002,
-%   pages        = {201-213},
-% }
-
-% @InProceedings{conference,
-%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
-%   title = {The title of the work},
-%   booktitle = {The title of the conference proceedings},
-%   year = 1996,
-%   publisher = {The name of the publisher},
-%   editor = {Editor Name1 and Editor Name2},
-%   pages = {41-50},
-% }
-
-% @book{cho,
-%   author       = {Gauthor Name1}, 
-%   title        = {The title of the work},
-%   publisher = {Country code and patent number},
-%   address      = {Patent Country},
-%   year = 2013
-% }
-
-% @book{patent,
-%   author    = {Hauthor Surname1}, 
-%   title     = {The title of the work},
-%   publisher = {Patent number},
-%   address   = {Patent country},
-%   year      = 2010,
-% }
-
-% % please use misc for datasets
-% @misc{dataset, 
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Data Title",
-% 	year = "2011",
-% 	doi = "10.000/55555",
-% 	URL = "http://www.frontiersin.org/",
-% }
+Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
 
 \bibliographystyle{ieeetr}
 \bibliography{5/referencias}
-% 
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
