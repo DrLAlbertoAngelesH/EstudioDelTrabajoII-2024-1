@@ -183,7 +183,7 @@
     
     %\begin{itemize}
     
-    En la elaboración de este proyecto, es necesario establecer que se cumplirán con los objetivos descritos anteriormente. Para el diseño y la mejora en sistemas productivos. De manera sistemática, se analizarán los procesos existentes, así como las instalaciones, herramientas, métodos, equipo y todos los factores que intervengan en este proceso de ensamblaje. Se identificarán áreas de mejora utilizando herramientas de análisis, en este caso se realizará un estudio de tiempos y movimientos. La obtención de la información y datos necesarios ,se realizó en el Instituto Tecnológico Nacional de México Campus Querétaro específicamente en el semestre enero-junio.
+    En la elaboración de este proyecto, es necesario establecer que se cumplirán con los objetivos descritos anteriormente. Para el diseño y la mejora en sistemas productivos, de manera sistemática se analizarán los procesos existentes, así como las instalaciones, herramientas, métodos, equipo y todos los factores que intervengan en este proceso de ensamblaje. Se identificarán áreas de mejora utilizando herramientas de análisis, en este caso se realizará un estudio de tiempos y movimientos. La obtención de la información y datos necesarios ,se realizó en el Instituto Tecnológico Nacional de México Campus Querétaro específicamente en el semestre enero-junio.
     
    Para el diseño, implementación y mejora de los sistemas se realizarán análisis detallados de los flujos de trabajo actuales, identificando cuellos de botella y oportunidades de mejora.Se pondrán en práctica nuevas metodologías de trabajo, como el trabajo en equipo colaborativo y la gestión ágil de proyectos.
    
@@ -219,27 +219,183 @@
     %
     %
     \subsection{Desarrollo de la guía de plan de emergencia} Un Plan de Acción de Emergencia en el contexto industrial es un documento integral que detalla los procedimientos y responsabilidades necesarios para garantizar la seguridad y el bienestar de los empleados y la protección de la propiedad durante una emergencia. Este plan generalmente incluye instrucciones detalladas para evacuaciones, refugio en el lugar, protocolos de comunicación y coordinación con los servicios de emergencia.
-    En la elaboración de esta guía se hizo una recopilación de datos, se analizaron los procesos que se llevaban a cabo en la institución en caso de emergencia. A partir de esto se realizó una clasificación de riesgos internos y externos asignando una probabilidad de ocurrencia a cada uno de ellos . Posteriormente se se realizó un programa de actividades de prevención de auxilio y se desarrolló un plan de acción, así como la identificación de capacidades. De igual manera se analizó el plano de localización de recursos, es decir, donde están localizada la señaletica o extintores de emergencia.
+    En la elaboración de esta guía se hizo una recopilación de datos,
+    se analizaron los procesos que se llevaban a cabo en la institución en caso de emergencia. A partir de esto se realizó una clasificación de riesgos internos y externos asignando una probabilidad de ocurrencia a cada uno de ellos . Posteriormente se realizó un programa de actividades de prevención de auxilio y se desarrolló un plan de acción, así como la identificación de capacidades. De igual manera se analizó el plano de localización de recursos, es decir, donde están localizada la señaletica o extintores de emergencia.
     Proseguimos con la identificación de riesgos externos y de puntos de reunión, tambien se desarrolló una brigada de evacuación y se estableció un directorio telefónico de emergencia.
     %
     \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito eléctrico.}
 
+    Cómo mencionamos anteriormente, es necesario analizar cada uno de los factores que intervienen en nuestro proceso de ensamblaje 
+
     \subsubsection{Planeación}
     
-    En el proceso de elaboración de este proyecto, primeramente se planteó el objeto de estudio que se utilizaría para realizar esta experimentación, que es un circuito eléctrico conformado por una tarjeta LCD y un ESP-32.Como primer paso, nos familiarizamos con los componentes de este ensamble; los medimos, tocamos, olimos y todo lo necesario para a partir de esto, plasmarlos en algún programa asistido por computadora especificando las medias de cada uno, en este caso se utilizó Solid Works en la versión 2019.
+    En el proceso de elaboración de este proyecto, primeramente se planteó el objeto de estudio que se utilizaría para realizar esta experimentación, que es un circuito eléctrico conformado por una tarjeta LCD y un ESP-32.Como primer paso, nos familiarizamos con los componentes de este ensamble. A continuación se muestran todos los componentes de nuestro ensamble, especificando modelo y costo por unidad. Vease la tabla \ref{fig:lista-materiales}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{32/img/listaDeMateriales.pdf}
+        \caption{Lista de materiales empleados en el ensamble}
+        \label{fig:lista-materiales}
+    \end{figure}
+%
+%
+Cada uno de los materiales se deben medir, tocar, oler y todo lo necesario para a partir de esto, plasmarlos en algún programa asistido por computadora especificando las medias de cada uno, en este caso se utilizó Solid Works en la versión 2019. Es necesario describirlos en sus totalidad.
+
+\begin{itemize}
+    \item Protoboard 300 p
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{32/img/protoboardCotas.PNG}
+        \caption{Dibujo acotado de Protoboard}
+        \label{fig:enter-label}
+    \end{figure}
+    %
     
-     Posteriormente, se elaboró un manual en dónde se describe cada herramienta, equipo, maquina y todos los pasos que el operador debe de seguir para llegar al ensamble final. s.Visuelice el apendice \ref{anexo:manualEnsambleEléctrico.pdf}.
+     El protoboard utilizado en este ensamble es una placa que se utiliza para construir prototipos de circuitos electrónicos sin necesidad de soldar. La versión de 300 puntos es más pequeña, ideal para proyectos simples o para pruebas rápidas.Tiene 300 puntos de conexión, organizados en filas y columnas con carriles de alimentación en los bordes. Está  hecha de plástico ABS con tiras de contactos de cobre o latón recubiertas de níquel.
+     %
+     %
+    \item ESP32-C6-WROOM-1
+    Usado para desarrollar aplicaciones IoT, controladores embebidos, y proyectos que requieran conectividad inalámbrica.Está hecha de placa de circuito impreso (PCB) con componentes electrónicos como el microcontrolador, antena, y otros circuitos integrados.
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.9]{32/img/esp32Cotas.PNG}
+        \caption{Dibujo acotado de ESP 32}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    \item LCD Display 16x2 
+    Es una pantalla de cristal líquido con 16 columnas y 2 filas de caracteres. Generalmente con retroiluminación LED. Su propósito es mostrar información alfanumérica en proyectos electrónicos, como datos de sensores o mensajes del sistema. Los materiales de los que stá compuesto son vidrio LCD, electrodos de indio y estaño, retroiluminación LED, y carcasa de plástico.
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{32/img/lcdCotas.PNG}
+        \caption{Caption}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \item Potenciómetro 3540S-1-501L
+     Este es un potenciómetro de precisión con un valor de resistencia de 500 ohmios y un diseño robusto. Su propósito es ajustar la resistencia en un circuito, permitiendo el control de variables como el brillo de una pantalla o el volumen de un sonido. Está hecho a partir de carcasa de plástico o metal, elemento resistivo (generalmente de carbono o cermet), y contactos metálicos.
+     %
+     \begin{figure}[H]
+         \centering
+         \includegraphics[scale=0.7]{32/img/potenciometroCotas.PNG}
+         \caption{Caption}
+         \label{fig:enter-label}
+     \end{figure}
+     %
+     %
+    \item Módulo SPI 12C
+     Es un adaptador o convertidor que permite la comunicación entre dispositivos usando los protocolos SPI (Serial Peripheral Interface) e I2C (Inter-Integrated Circuit). Su objetivo es facilitar la conexión y comunicación entre microcontroladores y periféricos como sensores, memorias, y pantallas.Los materiales que lo componen son PCB con componentes electrónicos como convertidores de nivel lógico y conectores.
+     %
+    
+
+    \item Regulador de voltaje
+     Componente que mantiene una salida de voltaje constante independientemente de las variaciones en la entrada o en la carga.Su propósito es proveer una tensión estable a los circuitos electrónicos, protegiéndolos de sobrevoltajes y fluctuaciones.En este caso, el regulador que utilizamos cuenta con 8 salidas, 3 USB y una tipo C. Los materiales que lo componen son semiconductores (transistores, diodos), encapsulado de plástico o metal, y contactos metálicos.
+     
+    \item Cable USB-C
+    Este es un cable de conexión con conector USB-C en un extremo, conocido por su reversibilidad y alta velocidad de transferencia de datos. Su propósito es transferir datos y energía entre dispositivos como teléfonos, computadoras, y periféricos. Está hecho a base de conductores de cobre, aislamiento de plástico, y conectores metálicos.
+    
+    \item Resistencias
+    Estas son componentes electrónicos que limitan el flujo de corriente en un circuito. Las que utilizaremos en este ensamble son de 330 ohms. Su propósito es controlar la corriente y dividir voltajes en circuitos electrónicos. Están hechas a base de un cuerpo cerámico o de vidrio con una película de carbono o metal, y terminales de alambre de cobre.
+
+    \item Cables Dupont-10 Macho-macho
+    Conjunto de cables con conectores macho en ambos extremos, de 10 cm de longitud. Utilizado para conectar componentes en protoboards o entre módulo. Utilizaremos 4 de estos en distintos colores.Están compuestos por conductores de cobre, aislamiento de plástico, y conectores metálicos.
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{32/img/dupontMMCotas.PNG}
+        \caption{Dibujo acotado de cables dupont MM}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    \item Cables Dupont-10 Hembra-Macho
+    Conjunto de cables con un conector hembra en un extremo y un conector macho en el otro, de 10 cm de longitud.Sirevn para conectar componentes con pines hembra a otros con pines macho, facilitando la interconexión en protoboards y módulos.
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{32/img/dupontHembraMachoCotas.PNG}
+        \caption{Dibujo acotado de Cables Dupont HM}
+        \label{fig:enter-label}
+    \end{figure}
+
+    \item Almohadilla para soldar
+    Superficie resistente al calor utilizada como base para soldar componentes electrónicos.Su función es proteger la mesa de trabajo del calor y proporcionar una superficie adecuada para el proceso de soldadura. De igual manera sirve para organizar los elementos del ensamble que se llevara a cabo, ya que está dividido en subsecciones de distintos tamaños.Está hecha a base de silicona o caucho resistente al calor.
+\end{itemize}
     
     
+     Posteriormente, se elaboró un manual en dónde se describe cada herramienta, equipo, maquina y todos los pasos detalladamente necesarios que el operador debe de seguir para llegar al ensamble final.
+     Una vez realizado nuestro manual, se planeó realizar dos muestras con cámara de video en el cual el operador realice el ensamble. La toma de estas muestras deben llevarse a acabo en diferentes días y de preferencia en diferentes contextos, es decir, diferentes horas, con distintos climas etc. En este caso el analista debe de tener el menor contacto posible con el operador.
+     Una vez obtenidas estas muestras se comienza con el desarrollo del proyecto, en el cual se planea que los analistas compartan los datos obtenidos y así determinar el tiempo estándar en el que un operador competente realice el trabajo a un ritmo normal.Para llegar a este resultado se  implementarán las mejoras y modificaciones pertinentes, como es la aplicacion de las 5 S. De igual manera se realizará un analísis de costos para determinar la manera más economica de realizar el trabajo
+     %
+     %
     \subsubsection{5´S}
-    \end{itemize}
+    La aplicación de las 5´S en este proceso de ensamblaje es de suma importancia para mantener nuestro lugar de trabajo organizado, limpio y eficiente. Esto ayudará a mejorar la eficiencia, la seguridad y la calidad de nuestro ensamble final. A continuación se explica la manera en la que se sugiere aplicar esta metodologia en nuestro contexto:
+    %
+    %
     
+    \begin{enumerate}
+     \item Clasificación: 
+        Se identificará y clasificarán todos los componentes y herramientas para el ensamble del circuito eléctrico. Se eliminará del área de trabajo cualquier cosa que no sea necesaria, así cómo componentes defectuosos y herramientas que no sean relevantes.
+        \item Orden:Se colocarán los comoponentes, herramientas en lugares designados y etiquetados para que sean fáciles de encontrar y acceder ahorrando tiempo en la busqueda.
+        \item Estandarización: Se desarrollaran procedimientos estandarizados para la clasificación, organización y limpieza. Se sugiere crear listas de verificación y hacer las correcciones pertinentes al manual de procedimientos.
+        \item Disciplina: Se capacitará y motivará al operador para que siga los procedimientos establecidos, realizando supervisiones regulares para asegurar el cumplimiento de estas.
+        
+    \end{enumerate}
+    
+    \end{itemize}
+    %
+    %
     \subsubsection{Desarrollo de sistemas de tiempo predeterminado}
-    \subsubsection{Desarrollo de muestro de trabajo}
+    %
+    
+    Para el desarrollo de los STP debemos de seguir una serie de pasos que están basados en los Therbligs. Deben ser aplicados por un analista capacitado para así predecir con precisión el tiempo necesario para hacer un trabajo. Esto se hace con la finalidad de realizar un análisis de métodos para determinar un  Estos se dividen en 3 pasos:
+    %
+    %
+    \begin{itemize}
+        \item Dividir el trabajo en elementos.
+        %
+        Todos los movimientos que realice el operario se dividen en 10 categorias que son las siguientes:Alcanzar, mover, girar, aplicar presión, asir, colocar,soltar,separar, movimientos de cuerpo y movimientos de ojos.
+    
+    \item Asignar valores de tiempo a cada elemento.
+    %
+    Para la asignación de valores utilizamos el TMU que son las Unidades de Medida de Tiempo. 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.7]{32/img/tablasTMU.png}
+        \caption{Unidades de Media de Tiempo}
+        \label{fig:enter-label}
+    \end{figure}
+    %
+    %
+    Cómo sabemos la acción de "alcanzar" se subdivide en 5 casos. 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.41]{32/img/tablaIAlcanzar.png}
+        \caption{Tabla I Alcanzar R}
+        \label{fig:enter-label}
+    \end{figure}
+
+    Por otro lado, la acción de mover se subdivide en 3 casos, aquí se debe de considerar la relación con el peso del objeto o con su resistencia al movimiento.
+    %
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.41]{32/img/tablaIIMover.png}
+        \caption{Caption}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \item Sumar los tiempos de todos los elementos
+    \end{itemize}
+    Después de haber clasificado todos los movimientos y haberle asignado un valor a cada uno de ellos, se realiza la suma de todos estos movimientos
+        
+    \subsubsection{Desarrollo de muestero de trabajo}
     \subsubsection{Datos estándar continuos y discretos}
     %
     %
-    \subsection{Diseño de la forma más ecocómica de realizar el trabajo}
+    \subsection{Diseño de la forma más económica de realizar el trabajo}
     %
     %
     \subsection{Normalización de métodos, materiales, herramientas e instalaciones}
@@ -255,23 +411,10 @@
 
     
 
-    
-    \subsection{Ecuaciones}
-    
-    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
-    
-    \begin{equation}
-        \label{eq1}
-        x + y = z 
-    \end{equation}
-    
-    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+
     
     \section{Resultados y discusión}
-    \subsection{Desarrolo de la guía de emergemcia}
+    \subsection{Desarrollo de la guía de emergemcia}
     
     Con la finalidad de eliminar todos los posibles riesgos de emergencia e incendio, se realizó eata guía de plan de emergencia. De igual manera se implementaron nuevas estrategias como es la capacitación constante del personal de como actuar en caso de una emergencia, esto con la finalidad de que en caso de ocurrencia sepan como actuarr, tomen las mejores decisiones y salvaguarden la integridad fisica de todas las personas en riesgo. 
     A continuación se describe la ubicación y datos generales donde se llevó a cabo el ensamble para posteriormente analizar lo antes planteado.
@@ -305,11 +448,7 @@
     \subsubsection{Riesgos internos}
     %
     %
-    \subsection{Autores y Afiliaciones}
-    
-    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
-    
-    \subsection{Identificar los encabezados}
+    \subsubsection{Riesgos externas}
     
     Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
     Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
@@ -417,20 +556,11 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:pines}
-    % \includepdf[pages=-]{6/Img/pines.pdf}
-    
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-     
     
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    % \section[\appendixname~\thesection]{Apéndice}
-    \centering{\section[\appendixautorefname{manualEnsambleElectrico.pdf }]{}}\label{anexo:manualEnsambleEléctrico.pdf}
     
-    \includepdf[pages=-]{32/img/manualEnsambleEléctrico.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
