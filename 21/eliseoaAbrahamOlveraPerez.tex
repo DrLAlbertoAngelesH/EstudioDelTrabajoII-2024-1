@@ -12,18 +12,19 @@
     %----------------------------------------------------------------------------------------
     %	TITLE SECTION
     %----------------------------------------------------------------------------------------
+    
     \setlength{\droptitle}{-5\baselineskip} % Move the title up
     \title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
     
      \author{ 
-     \textsc{ Olverpa-Pérez, Eliseo Abraham}\\ 
+    \textsc{ Olverpa-Pérez, Eliseo Abraham}\\ 
     %  Afiliación:
-     \texttt{ Instituto Tecnológico de Querétaro } \\ 
-     \texttt{Tecnológico Nacional de México } \\ 
-     \texttt{ Querétaro, México }\\ 
-     \texttt{ l22140900@queretaro.tecnm.mx} 
-     \and 
-     \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+    \texttt{ Instituto Tecnológico de Querétaro } \\ 
+    \texttt{Tecnológico Nacional de México } \\ 
+    \texttt{ Querétaro, México }\\ 
+    \texttt{ l22140900@queretaro.tecnm.mx} 
+    \and 
+    \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
     %  Afiliación:
      \texttt{ Instituto Tecnológico de Querétaro } \\ 
      \texttt{ Tecnológico Nacional de México } \\ 
@@ -55,155 +56,423 @@
     \end{abstract}
     % 
     % 
-    \textbf{\textit{Palabras clave}}: 
-    
-    %\begin{itemize}
-    Optimización, estudio, movimientos, tiempos, método, circuito.
-    %\end{itemize}
-    %
+    \textbf{\textit{Palabras clave}}: Optimización, estudio, movimientos, tiempos, método, circuito.
     % \keywords{First keyword should be the corresponding to the research area according with the authors guide. Maximum of 6 keywords.}
     
     \section{Introducción}
-    %Estudio de tiempos y movimientos 
-     El estudio de tiempos y movimientos analiza los métodos, materiales, herramientas e instalaciones utilizados en la ejecución de un trabajo. Este análisis tiene como objetivo describir cómo un estudiante promedio de cuarto semestre de ingeniería industrial puede adquirir las habilidades necesarias para desarrollar un proyecto desde cero mediante la implementación de este estudio.\cite{patent}
+    
+    % \begin{itemize}
+    %     \item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
+    %     \item Se deben de mencionar las metodologías más usadas muy brevemente. 
+    %     \item Se debe de señalar el avance en los últimos años.
+    %     \item Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+    %     \item Debe de tener Referencias científicas, URL, tesis, etc.
+    % \end{itemize}
+    % Define estudio de tiempos y movimientos
+    El estudio de tiempos y movimientos analiza los métodos, materiales, herramientas e instalaciones utilizados en la ejecución de un trabajo. Este análisis tiene como objetivo describir cómo un estudiante promedio de cuarto semestre de ingeniería industrial puede adquirir las habilidades necesarias para desarrollar un proyecto desde cero mediante la implementación de este estudio.\cite{patent}
     Por otro lado el estudio de movimientos tiene por objetivo eliminar o mejorar elementos que afectan a la productividad, seguridad y calidad de la producción. Dando paso a la optimización  El estudio de tiempos es la determinación del tiempo requerido para realizar un proceso, actividad, tarea u operación específica.\cite{parra2020analisis}
      %Ensamble 
      Este estudio estará fundamentado en un ensamble de diversas partes que implementa un circuito electrónico,
      % Circuito electrónico 
      teniendo en cuenta que un circuito electrónico consiste en una estructura de placas formadas por materiales semiconductores, materiales activos y pasivos, cuyo funcionamiento es crear un recorrido completo por el cual pueda viajar la corriente. Depende del flujo de electrones para la generación, transmisión, recepción y almacenamiento de información, con el fin de efectuar una tarea determinada. \cite{thomas2007principios}
     
-     optimización se define como la búsqueda de la mejor manera de realizar una actividad; en este caso, se refiere a optimizar el tiempo de ensamble. Para llevar a cabo este trabajo, se requieren herramientas como el método de tiempos predeterminados, que consiste en una colección de tiempos de movimientos básicos, los cuales se asignan a los movimientos fundamentales y a grupos de movimientos que no es posible evaluar con precisión mediante los procedimientos normales de estudio de tiempos con cronometro. Son resultado del estudio de una muestra grande de diversas operaciones con un dispositivo de tiempos como una cámara de película o de vídeo-grabación capaz de medir elementos muy cortos. \cite{niebel1980ingenieria} \cite{vidalesaplicacion}
-    
+     Optimización se define como la búsqueda de la mejor manera de realizar una actividad; en este caso, se refiere a optimizar el tiempo de ensamble. Para llevar a cabo este trabajo, se requieren herramientas como el método de tiempos predeterminados, que consiste en una colección de tiempos de movimientos básicos, los cuales se asignan a los movimientos fundamentales y a grupos de movimientos que no es posible evaluar con precisión mediante los procedimientos normales de estudio de tiempos con cronometro. Son resultado del estudio de una muestra grande de diversas operaciones con un dispositivo de tiempos como una cámara de película o de vídeo-grabación capaz de medir elementos muy cortos. \cite{niebel1980ingenieria} \cite{vidalesaplicacion}
      Como objetivo general, el alumno desarrollará habilidades en los campos de la ingeniería de producción, del producto y de la calidad.
     % 
-    %
-    %
     \section{Justificación}
     
-    %\begin{itemize}
-    
+    % \begin{itemize}
+    %     \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+    %     \item Debe de tener Referencias científicas, URL, tesis, etc.
+    % \end{itemize}
+    % 
+    % Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+    % 
+    % Cuantos tipos de manufactura existen?
     Desde los años 1800, se han presenciado tres revoluciones industriales que han impulsado significativamente el desarrollo tecnológico. \cite{peemans1992revoluciones}Estas revoluciones han transformado la manufactura, que ha experimentado avances notables y continúa evolucionando en la actualidad. Actualmente, hay diversos tipos de manufactura en constante desarrollo.
     A nivel global, la diversidad y complejidad de la industria manufacturera dificultan la cuantificación precisa del número de empresas dedicadas a esta actividad. Sin embargo, se conoce que México subió de la posición octava a la séptima entre las mayores economías exportadoras de manufacturas del mundo en 2022, desplazando a Taiwán, de acuerdo con datos de la Organización Mundial de Comercio (OMC).\cite{ELECONOMISTA}
     
     Este trabajo permitirá implementar varios métodos como el estudio de tiempos y movimientos para la optimización y mejora del ensamble de un circuito electrónico, ofreciendo un panorama a los procesos y métodos utilizados en la industria para identificar oportunidades y tener un mejor uso de los recursos. 
-    
-    %\end{itemize}
     % 
     % 
     \section{Descripción del problema}
     
-    %\begin{itemize}
-    
-    Debido a la ausencia de una media y varianza conocida, existe una falta de datos históricos que dificultan la implementación y diseño de sistemas productivos y de trabajo para la evaluación de la productividad y aplicación de tecnologías para la optimización.
-    
-    %\end{itemize}
-    %
-    %
-    
-    \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+    % \begin{itemize}
+    %     \item Se debe describir la desviación o diferencia del ``es'' con respecto al ``debe ser''.
+    %     \item Se debe hacer alusión a la incógnita científica*.
+    %     \item Debe de tener Referencias científicas, URL, tesis, etc.
+    % \end{itemize}
+    % \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
     % 
+    % 
+    % ``es''
+    Para cada país es fundamental la formación y desarrollo tecnológico ya que representa una competencia a nivel global, que por medio de las diferentes revoluciones industriales se ha permitido el desarrollo de estas competencias tecnológicas, una manera de desarrollar esta competencia es por medio del Estudio del Trabajo buscando generar un mayor rendimiento en la industria, gestionando recursos para su mejor aprovechamiento, entre otras.
+    
+    En países como México, se observan problemas como la falta de oportunidades laborales para los jóvenes, la insuficiente preparación de los empleados y la informalidad laboral. Los jóvenes enfrentan tasas de desempleo más altas que otras generaciones, generalmente debido a la falta de experiencia laboral.
+    
+    El estudio del trabajo al ser la encargada de gestionar el uso eficaz de los recursos y establecer estándares, por lo que tendría que permitir a las empresas e instituciones adaptarse a estas transformaciones, mejorando la eficiencia, productividad, lo cual requiere un análisis riguroso con soluciones innovadoras pero la falta de experiencia y conocimientos generan una limitante para la adaptación a las nuevas tecnologías y métodos.
     % 
     \section{Fundamentación teórica}
     
-    Es la parte medular y de mayor discusión, deberá ser la fundamentación de la hipótesis, por tanto se deberá señalar claramente la razón de la suposición y fundamentación de la misma. Únicamente referencias científicas.
-    \begin{itemize}
-        \item Se debe de retomar el tema que se planteo en la introducción, pero ahora profundizando para clarificar la incógnita científica y se pueda plantear la hipótesis.
-        \item Se debe de retomar la descripción del problema, pero ahora a profundidad del (los) objeto(s) de estudio. 
-        \item Se debe de profundizar en las metodologías que se ha usado para el estudio del tema.
-        \item Referencias solo de artículos y libros científicos.
-    \end{itemize}
+    Es la sección central y de mayor debate, donde debe fundamentarse la hipótesis. Por lo tanto, es esencial señalar claramente la razón y justificación de la suposición, utilizando únicamente referencias científicas. Es crucial retomar el tema presentado en la introducción, pero ahora profundizando para aclarar la incógnita científica y poder plantear la hipótesis. Es necesario abordar la descripción del problema en mayor profundidad, enfocándose en los objetos de estudio. Además, se debe profundizar en las metodologías empleadas para el estudio del tema, utilizando únicamente referencias de artículos y libros científicos.
+    
+    Plan de Respuesta a Emergencias: Documento técnico que establece la organización y metodología necesarias para la preparación y gestión ante situaciones de emergencia.
+    
+    Sistema de Tiempos Predeterminados (STP): Conjunto de tiempos para movimientos básicos. Se asignan a movimientos fundamentales y a grupos de movimientos que no pueden ser evaluados con precisión mediante procedimientos normales de estudio de tiempos con cronómetro. Estos tiempos son el resultado del estudio de una gran muestra de diversas operaciones, utilizando dispositivos de tiempo como cámaras de película o videograbación capaces de medir elementos muy cortos.
+    
+    Therbligs: Son los 17 movimientos en los que se puede descomponer cualquier tarea, mayormente en el ámbito laboral, con el objetivo de determinar la productividad de un operario en su estación de trabajo.
+    
+    MTM: Significa Medición de Tiempo de Métodos. Es un procedimiento para mejorar métodos y establecer estándares de tiempo, reconociendo, clasificando y describiendo los movimientos necesarios para realizar una operación específica y asignando normas de tiempo predeterminadas a estos movimientos. 
+    
+    El sistema MTM asigna valores de tiempo para los movimientos fundamentales como alcanzar (inicio del movimiento para tomar algo), mover (desplazamiento con la mano llena), girar (movimiento rotatorio de la mano, muñeca y antebrazo alrededor del eje del antebrazo), asir (tomar o coger con la mano), colocar en posición (ubicación en un sitio específico), desensamblar (separar piezas unidas) y soltar (liberar el control del objeto). 
+    
+    Los datos de las tablas MTM-1 provienen del análisis cuadro por cuadro de películas cinematográficas tomadas en diversas áreas de trabajo. Estos datos fueron ajustados al tiempo requerido por el operario promedio mediante la técnica Westinghouse.
+    
+    El formato para el registro de tiempos en MTM se denomina Hoja de análisis de métodos.
+    
+    El muestreo de trabajo es un método de medición indirecto que, a través de observaciones instantáneas, permite determinar la cantidad de tiempo de actividad o inactividad en un proceso productivo.
+    % 
+    % 
+    % Cuales son las revoluciones industriales que ha vivido la humanidad?
+    % A lo largo de la historia del hombre las técnicas manuales para elaborar herramientas y mejorar la caza y la calidad de vida fueron fundamentales para la supervivencia.
+    % La revolución industrial han cambiado las fuentes de energía básicas y los medios de comunicación para desplazar mercancías, personas e información.
     % 
     % 
     \section{Hipótesis}
+    
+    % Es la suposición con fundamento científico relativa a la solución del problema, necesidad o de cómo se aprovecha la oportunidad con la incógnita científica y se fundamenta con: 1. Una suposición (en afirmativo o negativo) y ésta deberá vincularse con:
+    % 2. La fundamentación científica que deberá ser precisa 3. Una entidad de comparación para probar la suposición y
+    % 4. La variable con que se califica o cuantifica la comparación o se prueba la hipótesis.
+    % 
+    % 
+    El presente proyecto se llevara a cabo con ayuda del estudio de tiempos y movimientos aplicado al ensamble de un circuito electrónico utilizando diferentes métodos del estudio de tiempos y movimientos para su optimización al igual que disminuir el costo del mismo, buscando que el estudiante desarrolle la capacidad para generar proyectos y determinar tiempos estándar. 
     % 
     % 
     \section{Objetivo}
+    % 
+    % 
+    El alumno diseñará, mejorará e integrará sistemas productivos de bienes y servicios aplicando tecnologías para su optimización.
+    Diseñará, implementará y mejorará sistemas de trabajo para elevar la productividad.
+    En un plazo menor a seis meses y se plasmara en un proyecto integrador.
+    % 
+    % 
+    \subsection{Objetivos específicos}
+    % 
     \begin{itemize}
-        \item Diseña, mejora e integra sistemas productivos de bienes y servicios aplicando tecnologías para su optimización
-        \item Diseña, implementa y mejora sistemas de trabajo para evaluar la productividad
-    \end{itemize}
-    
-    \subsection{Objetivos específicos }
-    
-    \begin{itemize}
-    
-    \item Se calculará la media desconocida y varianza desconocida para la integración de los sistemas productivos
-    \item Mediante la utilización del sistema de tiempos predeterminados se generarán datos históricos, que serán usados como referencia para la evaluación de la productividad
-    
+        \item Desarrollar una guía de emergencia para analizar la instalación en la que se llevo acabo la experimentación.
+        \item Analizar los métodos, materiales, herramientas e instalación utilizada o que se ha de utilizar en la ejecución del ensamble de un circuito electrónico.
+        \item Se establecerá la forma más económica de realizar el trabajo.
+        \item Normalizar los métodos, materiales, herramientas e instalaciones.
+        \item Determinar exactamente el tiempo necesario para que una persona competente realice el trabajo con una marcha normal.
     \end{itemize}
     % 
     % 
-    \section{Cuerpo (Metodología, modelo matemático, etc.)}
+    \section{Metodología}
     
-     Se realizará el ensamble siguiendo el Manual de ensamble circuito electrónico ESP32-C6 para poder calcular la media y varianza desconocida, buscando generar datos históricos. 
     
-     Una vez se obtengan los datos históricos se hará el análisis del ensamble por medio del MTM, que es una herramienta para la elaboración de entandares que da la posibilidad de evaluar una actividad u operación y a la vez los micro movimientos, los cuales tienen un valor en TMU (unidad de tiempo en MTM), para después ser representado en segundos, minutos y horas, por lo tanto permiten obtener un valor del tiempo de la actividad realizada por un operario.\cite{navarro2006estandarizacion}
+    Mediante la metodología de observación y análisis estadístico, se llevó a cabo esta investigación. La recopilación y estudio de datos se efectuaron en la ciudad de Querétaro, en las instalaciones del Instituto Tecnológico de Querétaro (ITQ). Específicamente en el edificio “C”, salón C07, en un horario de 2:00-3:00 pm de lunes a jueves y viernes de 2:00-4:00 pm, el presente proyecto de desarrollo de febrero a mayo del 2024. 
     
-    Esto facilitará la identificación de áreas de oportunidad para su optimización mediante la eliminación de movimientos o la incorporación de soportes de sujeción. 
+    Se utilizó como caso de estudio el ensamblaje de una tarjeta electrónica, empleando software de diseño asistido por computadora (CAD). En este proceso, se definieron las estructuras a todos los niveles, se establecieron los límites de potencia y control, y se desarrolló la arquitectura requerida para seleccionar la opción más adecuada para su implementación.
     
-     A continuación se muestra la lista de los materiales, la cantidad y el nombre de los mismos que son necesarios para el ensamble.\ref{anexo:listaDeMateriales.pdf}
-     Y a continuación de esta lista se muestra el Manual de ensamble circuito electrónico ESP32-C6.\ref{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    En la primera fase de la experimentación, se tomaron dos muestras continuas con una cámara de video. Posteriormente, se aplicaron diversas metodologías para determinar el tiempo de ciclo y el tiempo estándar.
     
-    %\begin{itemize}
-     %   \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
-      %  \item Se debe desglosar de acuerdo a los objetivos específicos. 
-       % \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
-        %\item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
-        %\item Se deben tener referencias Figura.
-    %\end{itemize}
-    \subsection{Prepara tu documento}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.181]{21/img/diagramaMetodología.pdf}
+        \caption{Diagrama de la metodología el desarrollo del sistema.}
+        \label{fig:diagramaMetodologia}
+    \end{figure}
     
-    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
     
-    \subsection{Acrónimos y Abreviaciones}
+    \subsection{Desarrollo de la guía de plan de Emergencia}
     
-    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
     
-    \subsection{Ecuaciones}
+    Con esta guía, nuestro objetivo es minimizar las posibles emergencias de incendio y los riesgos de accidentes en el Instituto Tecnológico de Querétaro. Esto se logrará mediante capacitaciones anuales para el personal, las cuales les permitirán tomar decisiones efectivas en situaciones de emergencia para proteger la seguridad de todas las personas dentro y fuera de la institución, así como la integridad de las instalaciones.
+    % 
+    % 
+    \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
     
-    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    Se realizo en las instalaciones del Instituto Tecnológico de Querétaro plantel centro, analizando cada factor que se menciona anteriormente. 
     
-    \begin{equation}
-        \label{eq1}
-        x + y = z 
-    \end{equation}
+    \subsubsection{Planeación}
     
-    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+    Para este proyecto, se propone identificar la forma más eficiente y económica de ejecutar el trabajo. El enfoque estará en detectar áreas de mejora, reducir el tiempo de ciclo y eliminar movimientos innecesarios. Para ello, se recopilarán datos mediante la grabación de un vídeo continuo, lo que permitirá determinar el tiempo con precisión.
+    
+    Para la ejecución de estas actividades, se empleará una serie de materiales que optimizarán el proceso de ensamblaje. El profesor ha proporcionado la lista de materiales necesarios.
+    
+    Durante la elaboración de este proyecto, se definió inicialmente el objeto de estudio, que es un circuito eléctrico compuesto por una tarjeta LCD y un ESP-32. En primer lugar, nos familiarizamos con los componentes de este ensamblaje. A continuación, se detallan todos los componentes de nuestro ensamblaje, especificando el modelo y el costo por unidad. Cada uno de los materiales se debe medir, manipular, oler y evaluar para luego representarlos en un programa asistido por computadora, en este caso, se utilizó SolidWorks 2019. Es crucial describirlos en su totalidad.
+    \begin{itemize}
+    \item El protoboard utilizado en este ensamblaje es una placa para construir prototipos de circuitos electrónicos sin necesidad de soldar. La versión de 300 puntos es más pequeña, ideal para proyectos simples o pruebas rápidas. Tiene 300 puntos de conexión, organizados en filas y columnas con carriles de alimentación en los bordes. Está hecho de plástico ABS con tiras de contactos de cobre o latón recubiertas de níquel.
+    \item ESP32-C6: Utilizado para desarrollar aplicaciones IoT, controladores embebidos y proyectos que requieran conectividad inalámbrica. Está fabricado con una placa de circuito impreso (PCB) que incluye un microcontrolador, antena y otros circuitos integrados.
+    \item LCD 16x2: Es una pantalla de cristal líquido con 16 columnas y 2 filas de caracteres, generalmente con retroiluminación LED. Su propósito es mostrar información alfanumérica en proyectos electrónicos, como datos de sensores o mensajes del sistema. Los materiales que la componen incluyen vidrio LCD, electrodos de indio y estaño, retroiluminación LED y una carcasa de plástico.
+    
+    \item Potenciómetro: Este es un potenciómetro de precisión con una resistencia de 500 ohmios y un diseño robusto. Su propósito es ajustar la resistencia en un circuito, permitiendo el control de variables como el brillo de una pantalla o el volumen de un sonido. Está compuesto por una carcasa de plástico o metal, un elemento resistivo (generalmente de carbono o cermet) y contactos metálicos.
+    
+    \item Módulo SPI I2C: Es un adaptador que permite la comunicación entre dispositivos usando los protocolos SPI (Serial Peripheral Interface) e I2C (Inter-Integrated Circuit). Facilita la conexión y comunicación entre microcontroladores y periféricos como sensores, memorias y pantallas. Está compuesto por una PCB con componentes electrónicos como convertidores de nivel lógico y conectores.
+    
+    \item Regulador de voltaje: Componente que mantiene una salida de voltaje constante independientemente de las variaciones en la entrada o en la carga. Su propósito es proveer una tensión estable a los circuitos electrónicos, protegiéndolos de sobrevoltajes y fluctuaciones. El regulador utilizado cuenta con 8 salidas, 3 USB y una tipo C. Está compuesto por semiconductores (transistores, diodos), un encapsulado de plástico o metal y contactos metálicos.
+    
+    \item Cable USB-C: Este es un cable de conexión con conector USB-C en un extremo, conocido por su reversibilidad y alta velocidad de transferencia de datos. Su propósito es transferir datos y energía entre dispositivos como teléfonos, computadoras y periféricos. Está hecho de conductores de cobre, aislamiento de plástico y conectores metálicos.
+    
+    \item Resistencias: Son componentes electrónicos que limitan el flujo de corriente en un circuito. Las resistencias utilizadas en este ensamblaje son de 330 ohmios. Su propósito es controlar la corriente y dividir voltajes en circuitos electrónicos. Están hechas de un cuerpo cerámico o de vidrio con una película de carbono o metal, y terminales de alambre de cobre.
+    
+    \item Cables Dupont-10 Macho-Macho: Conjunto de cables con conectores macho en ambos extremos, de 10 cm de longitud. Utilizados para conectar componentes en protoboards o entre módulos. Utilizaremos 4 de estos en distintos colores. Están compuestos por conductores de cobre, aislamiento de plástico y conectores metálicos.
+    
+    \item Cables Dupont-10 Hembra-Macho: Conjunto de cables con un conector hembra en un extremo y un conector macho en el otro, de 10 cm de longitud. Sirven para conectar componentes con pines hembra a otros con pines macho, facilitando la interconexión en protoboards y módulos.
+    
+    \item Almohadilla para soldar:** Superficie resistente al calor utilizada como base para soldar componentes electrónicos. Su función es proteger la mesa de trabajo del calor y proporcionar una superficie adecuada para el proceso de soldadura. También sirve para organizar los elementos del ensamblaje, ya que está dividida en subsecciones de distintos tamaños. Está hecha de silicona o caucho resistente al calor.
+    \end{itemize}
+    % 
+    % 
+    \subsubsection{5's}
+     
+    La implementación de la metodología de las 5S en este proceso de ensamblaje es crucial para mantener nuestro espacio de trabajo organizado, limpio y eficiente. Esto contribuirá a mejorar la eficiencia, la seguridad y la calidad de nuestro producto final. A continuación, se detalla cómo se sugiere aplicar esta metodología en nuestro contexto:
+    \begin{itemize}
+    
+    \item Clasificación (Seiri):** Se identificarán y clasificarán todos los componentes y herramientas necesarios para el ensamblaje del circuito eléctrico. Se eliminarán del área de trabajo todos los elementos innecesarios, incluidos componentes defectuosos y herramientas irrelevantes.
+    
+     \item Orden (Seiton): Los componentes y herramientas se colocarán en lugares designados y etiquetados, facilitando su rápida localización y acceso, y reduciendo el tiempo dedicado a la búsqueda.
+    
+    \item Limpieza (Seiso): Se realizará una limpieza regular del área de trabajo, asegurando que todo se mantenga en buen estado y funcionando correctamente. Esto incluye la eliminación de polvo, suciedad y residuos que puedan afectar la calidad del ensamblaje.
+    
+     \item Estandarización (Seiketsu): Se desarrollarán procedimientos estandarizados para la clasificación, organización y limpieza. Se recomienda crear listas de verificación y actualizar el manual de procedimientos con las correcciones pertinentes.
+    
+     \item Disciplina (Shitsuke): Se capacitará y motivará al personal para que sigan los procedimientos establecidos, y se realizarán supervisiones regulares para asegurar el cumplimiento de los mismos. Esto fomentará una cultura de mejora continua y mantenimiento del orden en el área de trabajo.
+    \end{itemize}
+    
+    
+    % 
+    \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+    Estos 17 movimentos se dividen en dos categorías, efectivos que al ejecutarse implican un avance en el trabajo y los innecesarios que no permiten un progreso en el trabajo, a continuación se mencionaran cuales movimeintos pertenecen a que categoría: 
+    \begin{itemize}
+        \item Efectivos: Alcanzar, mover, tomar, soltar, preposicionar, usar, ennsamblar y desensamblar.
+        \item Inefectivos: Buscar, seleccionar, posicionar, inspeccionar, planear, retraso inevitable, retraso evitable, descanso y sostener.\cite{IngenieriaIndustrial}
+    \end{itemize}
+    % 
+    
+    \subsubsection{Desarrollo del muestreo del trabajo}
+    % 
+    % 
+    \subsubsection{Corrección por balanceo de procesos}
+    La corrección por balanceo de procesos es una técnica empleada en la gestión de operaciones y la ingeniería industrial para optimizar la distribución del trabajo a lo largo de una línea de producción o ensamblaje. El objetivo principal del balanceo de procesos es minimizar los tiempos de inactividad y los desequilibrios entre estaciones de trabajo, asegurando que cada estación tenga una carga de trabajo equilibrada y que el flujo de producción sea lo más continuo y eficiente posible. En el proyecto integrador, la aplicación del balanceo de procesos es esencial para mejorar la eficiencia y la productividad.
+    % 
+    \subsubsection{Datos estándar continuos y discretos}
+    Los datos estándar continuos y discretos son dos formas de medir y representar el tiempo empleado en procesos de producción, como el ensamblaje electrónico. Cada tipo de datos estándar tiene características específicas y se utiliza en diferentes contextos .
+    \begin{itemize}
+    \item Datos Estándar Continuos:** Estos datos representan el tiempo en unidades continuas, como minutos o segundos. Se utilizan para medir tareas que fluyen de manera continua y no pueden dividirse fácilmente en partes discretas. Por ejemplo, el tiempo necesario para ensamblar un componente electrónico puede medirse en minutos o segundos.
+    
+    \item Datos Estándar Discretos:** Estos datos representan el tiempo en unidades discretas, como unidades de trabajo o movimientos individuales. Se utilizan para medir tareas que pueden descomponerse en pasos o movimientos separados. Por ejemplo, el tiempo necesario para conectar un cable en un ensamblaje.
+    \end{itemize}
+    %\begin{figure}[H]
+      %  \centering
+       % \includegraphics[trim = {30mm 65mm 90mm 250mm},clip,scale=0.5]{6/Img/lcd-16x2.pdf}
+        %\caption{Esquema LCD de 16x2}
+        %\label{fig:lcd-16x2}
+    %\end{figure}
+    % 
+    % 
+    
+    % 
+    % 
+    \subsection{Diseño de la forma más económica de realizar el trabajo}
+    
+    El diseño de la forma más económica de realizar el trabajo se centra en encontrar la manera más eficiente y rentable de llevar a cabo las tareas necesarias para completar un proyecto o proceso. Esto implica identificar y utilizar métodos, materiales y recursos que minimicen los costos sin comprometer la calidad del resultado final. Este diseño es esencial para maximizar la eficiencia y reducir los costos asociados con el ensamblaje de circuitos electrónicos. Requiere un examen minucioso de cada etapa del proceso de ensamblaje para identificar oportunidades de optimización en términos de costos de materiales y recursos empleados.
+    % 
+    % 
+    \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+    
+    % 
+    % 
+    \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+    
+    % 
+    % 
+    % \subsection{Acrónimos y Abreviaciones}
+    
+    % Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+    
+    % \subsection{Ecuaciones}
+    
+    % Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+    % Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+    % Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+    % Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha.
+    % 
+    % \begin{equation}
+    %     \label{eq1}
+    %     x + y = z 
+    % \end{equation}
+    % 
+    % Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
     
     \section{Resultados y discusión}
     
-    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
-    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
-    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+    \subsection{Desarrollo de la guía de plan de Emergencia}
     
-    \subsection{Autores y Afiliaciones}
+    Con esta guía buscamos disminuir en su totalidad las emergencias de riesgo de incendio, así como el riesgo de accidentes en el Instituto Tecnológico de Querétaro \ref{fig:mapaUbicacion} identificando al personal que cuente con capacitación de por lo menos una vez al año para que en caso de emergencia se tome la mejor decisión para salvaguardar la integridad física de clientes internos y externos, así como de las instalaciones
+    Evaluando cada riesgo interno por un rango para dar prioridad en las acciones véase Tabla %\ref{tab:nivelesRiesgos}..
     
-    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
+    %\begin{figure}[H]
+     %   \centering
+     %\includegraphics[scale=0.150]{21/img/nivelesRiesgos.pdf}
+      %  \caption{Niveles de Riesgo}
+       % \label{fig:nivelesRiesgos}
+    %\end{figure}
     
-    \subsection{Identificar los encabezados}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.150]{21/img/mapaUbicacion.pdf}
+        \caption{Tecnológico Nacional de México, Instituto Tecnológico de Querétaro, Av Tecnológico S/N, Centro Histórico, Centro, 76000, Querétaro, Qro., 4422274400 Ext. 4423}
+        \label{fig:mapaUbicacion}
+    \end{figure}
     
-    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+    % 
+    \subsubsection{Identificación del riesgo}
     
-    \subsection{Evidencia de ensamble}
+    Estamos comprometidos a mantener todos los días un programa interno de prevención de riesgos, así como una retroalimentación por parte de clientes internos y externos en los riesgos que se presentan en las actividades constantes por su parte invitamos a utilizar el equipo de trabajo \ref{fig:matriz}.
     
-    %
-    \newpage
-    \centering{\section[\appendixautorefname{}]
-    {APÉNDICE}}\label{anexo:evidencia1ManualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
-    \includepdf[pages=-]{21/img/evidencia1ManualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.28]{21/img/matriz.pdf}
+        \caption{Matriz de riesgos}
+        \label{fig:matriz}
+    \end{figure}
     
-    %
-    \begin{enumerate}
-        \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
-    \end{enumerate}
+    % 
+    \subsubsection{Riesgos internos}
     
+    El riesgo se define como la posibilidad de que algo suceda o no suceda en otras palabras es la proximidad de un daño, el siguiete diagrama definira la determinacion de dichos riesgos, vease Figura \ref{fig:diagramaIdentificacionRiesgos}. 
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.150]{21/img/diagramaIdentificaciónRiesgos.pdf}
+        \caption{Diagrama de identificación de riesgos}
+        \label{fig:diagramaIdentificacionRiesgos}
+    \end{figure}
+    
+    El riesgo operativo interno lo definimos como la posibilidad de que sufre la empresa derivado de los fallos naturales en su propio funcionamiento, mostrandose en la siguiente tabla \ref{fig:riesgosInternos} los riesgos internos que se determinaron en base a el diagrama anteriormente mostrado.
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{21/img/tablaRiesgosInternos.pdf}
+        \caption{Riesgos Internos}
+        \label{fig:riesgosInternos}
+    \end{figure}
+    
+    
+    
+    % 
+    \subsubsection{Riesgos externos}
+    
+    Descripción de los riesgos externos.
+    % 
+    % 
+    \subsubsection{Programa de actividades de prevención y auxilio}
+    
+    Declarando las diferentes acciones de lo que se piensa hacer cuando ocurra un riesgo interno o externo. 
+    Las actividades de preparación y disposición que se hace anticipadamente en el ITP para evitar riesgos sea internos o externos.
+    % 
+    % 
+    \subsubsection{Plan de acción}
+    
+    
+    Es el conjunto unitario de instrucciones que permite al ITQ realizar funciones diversas, como la resolución de problemas referentes a el manejo de riesgos internos \ref{tfig:accionesRiesgosInternos} y externos \ref{tab:accioionesRiesgosExternos}.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.150]{21/img/accionesRiesgosInternos.pdf}
+        \caption{Acciones para los riesgos Internos}
+        \label{fig:accionesRiesgosInternos}
+    \end{figure}
+    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.150]{21/img/accionesRiesgosExternos.pdf}
+        \caption{Acciones para riesgos Externos.}
+        \label{fig:accionesRiesgosExternos}
+    \end{figure}
+    
+    % 
+    % 
+    
+    % 
+    \subsubsection{Identificación de capacidades}
+    
+    
+    
+    % 
+    % 
+    \subsubsection{Plano de localización de recursos}
+    
+    % 
+    % 
+    
+    % 
+    % 
+    \subsubsection{ Identificación de apoyos externos}
+    
+    % Lugares que servir´andeapoyoenunsituaci´on
+     %deemergencia.
+    
+    % 
+    \subsubsection{Identificación de puntos de reunión}
+    
+    %\Zonaseguraencasodeunaevacuaci´ ondeemer
+    %gencia.
+    % 
+    \subsubsection{Brigada de evacuación}
+    
+    %Acciones asignadas a cada integrante del equipo
+     %de trabajo en caso de una evacuaci´ on de emer
+    %gencia o repliegue.
+    % 
+    % 
+    \subsubsection{Directorio de telefónicos de emergencia}
+    
+    Listado telefónico de instituciones de atención de emergencias y otras instituciones que intervengan para el seguimiento y control de las mismas las cuales se pueden observar en la siguiente Figura \ref{fig:directorioEmergencias}.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{21/img/directorioEmergecias.pdf}
+        \caption{Directorio Telefonico de Emergencias.}
+        \label{fig:directorioEmergencias}
+    \end{figure}
+    
+    % 
+    \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
+    
+    \subsubsection{Verificación}
+    
+    Costos de no calidad.
+    % 
+    % 
+    \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+    % Hojadean´alisisdem´ etodosresultanteenbasea
+     %sumetodolog´ıa.
+    % 
+    \subsubsection{Desarrollo del muestreo del trabajo}
+    % 
+    % 
+    \subsubsection{Corrección por balanceo de procesos}
+    % 
+    % 
+    \subsubsection{Datos estándar continuos y discretos}
+    % 
+    % 
+    \subsection{Diseño de la forma más económica de realizar el trabajo}
+    
+    % 
+    % 
+    \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+    
+    % 
+    % 
+    \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+    
+    
+    % 
+    % 
     \section{Conclusiones}
     
     Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
@@ -212,29 +481,92 @@
     
     Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
     
+    % \section*{Referencias}
+    
+    % Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+    % La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+    % Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+    % Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
+    % A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+    % Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+    % Véase el link \cite{prueba}, Véase el Apéndice \ref{anexo:pines}.
+    
+    % Ejemplo
+    %  @Article{article,
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Article Title",
+    % 	volume = "30",
+    % 	number = "30",
+    % 	pages = "10127-10134",
+    % 	year = "2013",
+    % 	doi = "10.3389/fnins.2013.12345",
+    % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+    % 	journal = "Frontiers in Neuroscience"
+    % }
+    
+    % @book{book,
+    %   author    = {Author Name}, 
+    %   title     = {The title of the work},
+    %   publisher = {The name of the publisher},
+    %   address   = {The city},
+    %   year      = 1993,
+    % }
+    
+    % @incollection{chapter,
+    %   author       = {Bauthor Surname}, 
+    %   title        = {The title of the work},
+    %   editor       = {Editor Name},
+    %   booktitle    = {The title of the book},
+    %   publisher    = {The name of the publisher},
+    %   address      = {The city},
+    %   year         = 2002,
+    %   pages        = {201-213},
+    % }
+    
+    % @InProceedings{conference,
+    %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+    %   title = {The title of the work},
+    %   booktitle = {The title of the conference proceedings},
+    %   year = 1996,
+    %   publisher = {The name of the publisher},
+    %   editor = {Editor Name1 and Editor Name2},
+    %   pages = {41-50},
+    % }
+    
+    % @book{cho,
+    %   author       = {Gauthor Name1}, 
+    %   title        = {The title of the work},
+    %   publisher = {Country code and patent number},
+    %   address      = {Patent Country},
+    %   year = 2013
+    % }
+    
+    % @book{patent,
+    %   author    = {Hauthor Surname1}, 
+    %   title     = {The title of the work},
+    %   publisher = {Patent number},
+    %   address   = {Patent country},
+    %   year      = 2010,
+    % }
+    
+    % % please use misc for datasets
+    % @misc{dataset, 
+    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+    % 	title = "Data Title",
+    % 	year = "2011",
+    % 	doi = "10.000/55555",
+    % 	URL = "http://www.frontiersin.org/",
+    % }
+    
+    \bibliographystyle{ieeetr}
+    \bibliography{21/referencias}
     % 
     % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \newpage
-    %
-    \centering{\section[\appendixautorefname{}]
-    {APÉNDICE}}\label{anexo:listaDeMateriales.pdf}
-    \includepdf[pages=-]{21/img/listaDeMateriales.pdf}
-    %
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \newpage
-    %
-    \centering{\section[\appendixautorefname{}]
-    {APÉNDICE}}\label{anexo:manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
-    \includepdf[pages=-]{21/img/manualDeEnsambleCircuitoElectrónicoESP32-C6.pdf}
-    %
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    
+    % 
+    % \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:pines}
+    % \includepdf[pages=-]{6/Img/pines.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \newpage
-    \bibliographystyle{ieeetr}
-    \bibliography{21/referencias}
