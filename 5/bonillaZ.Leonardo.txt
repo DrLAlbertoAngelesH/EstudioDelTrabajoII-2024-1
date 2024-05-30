@@ -127,22 +127,22 @@ La Industria 4.0, también conocida como la cuarta revolución industrial, es la
 
 Algunos puntos clave sobre la Industria 4.0:
 
-- Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
-- Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
-- Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
-- Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+— Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+— Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+— Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+— Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
 
 En resumen, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
 
 % Cuantos tipos de manufactura existen?
 1. Según el bien resultante:
     - De productos elaborados: Cuando la mercancía fabricada está destinada al consumidor final. Algunos ejemplos son la industria alimentaria, sector automovilístico, industria tecnológica, industria textil y sector farmacéutico.
-    - De productos semielaborados: Cuando se fabrican productos que servirán como insumos en otros procesos industriales. Por ejemplo, la industria siderúrgica y la industria minera.
+    — De productos semielaborados: Cuando se fabrican productos que servirán como insumos en otros procesos industriales. Por ejemplo, la industria siderúrgica y la industria minera.
 
 2. Según el proceso de producción:
     - Por lote: La producción se hace por cantidades o volúmenes determinados, cuyas unidades son homogéneas.
-    - En serie: Se fabrican productos homogéneos en grandes cantidades.
-    - Por pedido: La empresa comienza el proceso de manufactura cada vez que recibe el pedido de un cliente, brindándole una mercancía personalizada de acuerdo con sus requerimientos.
+    — En serie: Se fabrican productos homogéneos en grandes cantidades.
+    — Por pedido: La empresa comienza el proceso de manufactura cada vez que recibe el pedido de un cliente, brindándole una mercancía personalizada de acuerdo con sus requerimientos.
 
 3. Según cómo se puede medir:
     - De proceso continuo: Cuando el producto se mide en variables continuas como el peso o el volumen.
@@ -296,12 +296,12 @@ Cada uno de estos sistemas tiene sus propias características y aplicaciones, y 
 
 \textbf{La Industria 4.0}, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia. Aquí te dejo algunos puntos clave sobre la Industria 4.0:
 
-- Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
-- Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
-- Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
-- Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+— Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+— Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+— Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+— Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
 
-Además, la Industria 4.0 se entiende como la aplicación de tecnologías disruptivas, como las tecnologías de la información o TICs, con el aumento de la capacidad de computación, y manteniendo la promesa de fábricas inteligentes que son altamente eficientes y cada vez más integradas.
+Además, la Industria 4.0 se entiende como la aplicación de tecnologías disruptivas, como las tecnologías de la información o TIC's, con el aumento de la capacidad de computación, y manteniendo la promesa de fábricas inteligentes que son altamente eficientes y cada vez más integradas.
 
 El desarrollo de fábricas inteligentes brinda una oportunidad increíble para que la industria manufacturera ingrese a la cuarta revolución industrial. El análisis de las grandes cantidades de datos recopilados de los sensores en la planta de producción garantiza la visibilidad en tiempo real de los activos de manufactura y puede proporcionar herramientas para realizar el mantenimiento predictivo a fin de minimizar el tiempo de inactividad del equipo.
 
@@ -331,7 +331,7 @@ El estudio del trabajo tiene como objetivo mejorar la eficiencia y la productivi
 
 La eficiencia en el ensamble del circuito puede ser significativamente mejorada mediante la aplicación de principios de estudio del trabajo. La implementación de técnicas de optimización de procesos, como el análisis de tiempos y movimientos, la estandarización de procedimientos y la formación adecuada del personal, puede reducir el tiempo de ensamble, minimizar los errores y mejorar la calidad general del circuito ensamblado. Esta mejora en la eficiencia no solo podría reducir los costos de producción, sino también aumentar la fiabilidad y durabilidad del circuito, lo que a su vez podría llevar a una mayor satisfacción del cliente.
 
-Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más "económica" de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
+Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más “económica” de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
 \subsection{Objetivos}
 El objetivo de esta investigación es llevar a cabo un ensamble de un circuito, previamente a esto, realizar un análisis del método propuesto, y buscar una mejor forma en la que se puede llevar a cabo proponiendo uno nuevo el cual trate de mejorar el procedimiento, tratando de reducir o eliminar movimientos innecesarios, gestionar los materiales y reducir los costos, tratando de buscar la forma más económica de hacer el ensamble del circuito, analizando a nuestros operadores.
 
@@ -349,20 +349,20 @@ Aplicar los métodos de calificación del operador, haciendo análisis detallado
 
 \subsection{Desarrollo de la guía de plan de Emergencia}
 
-El Plan de Emergencia: Documento que describe los lineamientos a seguir, la organización y los mecanismos, que indican la manera de enfrentar una situación de emergencia o desastre tanto en lo general como en lo particular, así como la utilización viable de los recursos humanos y materiales con los que se cuenta.
+El Plan de Emergencia: Documento que describe los lineamientos a seguir, la organización y los mecanismos, que indican la manera de enfrentar una situación de emergencia o desastre, tanto en lo general como en lo particular, así como la utilización viable de los recursos humanos y materiales con los que se cuenta.
 
 \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manual.Bonilla.Z.Leonardo.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manualBonillaL.pdf}
     \caption{Manual}
     \label{fig:Manual}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.40]{5/img/listadecostosBonillaZLeonaro.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.40]{5/img/listdeCostBonillaL.pdf}
     \caption{Lista de costos}
     \label{fig:Lista de costos}
 \end{figure}
@@ -371,7 +371,7 @@ Materiales:
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistenciasBonillaLdib.PDF}
     \caption{Resistencias}
     \label{fig:Resistencias}
 \end{figure}
@@ -384,7 +384,7 @@ Función: La principal función de una resistencia es limitar la corriente en lo
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoBonillaLdib.pdf}
     \caption{Protoboard}
     \label{fig:Protoboard}
 \end{figure}
@@ -403,7 +403,7 @@ En resumen, un protoboard es una herramienta esencial en el campo de la electró
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/lcdBonillaZLeonardoDibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/lcdBonillaLdib.PDF}
     \caption{LCD}
     \label{fig:LCD}
 \end{figure}
@@ -420,7 +420,7 @@ En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electr
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/modSpi12CBonillaLdib.pdf}
     \caption{Módulo SPI 12C}
     \label{fig:Módulo SPI 12C}
 \end{figure}
@@ -439,7 +439,7 @@ En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la ele
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMhBonillaLDib.PDF}
     \caption{Cable MH}
     \label{fig:Cable MH}
 \end{figure}
@@ -452,7 +452,7 @@ En resumen, un cable macho-hembra es una herramienta esencial en el campo de la 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMM_BonillaZ.Leonardo Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMmBonillaLdib.PDF}
     \caption{Cable MM}
     \label{fig:Cable MM}
 \end{figure}
@@ -466,7 +466,7 @@ En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la e
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/esp32BonillaZLeonardoDibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/esp32BonillaLdib.PDF}
     \caption{ESP 32}
     \label{fig:ESP 32}
 \end{figure}
@@ -485,7 +485,7 @@ En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometroBonillaLdib.PDF}
     \caption{Potenciometro}
     \label{fig:Potenciometro}
 \end{figure}
@@ -500,7 +500,7 @@ En resumen, un potenciómetro es una herramienta esencial en el campo de la elec
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontactoBonillaLdib.pdf}
     \caption{Multicontacto}
     \label{fig:Multicontacto}
 \end{figure}
@@ -515,7 +515,7 @@ En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cabletipocacBonillaZLeonardoDibujo.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cabTipocacBonillaLdib.pdf}
     \caption{Cable de tipo c a c}
     \label{fig:Cable de tipo c a c}
 \end{figure}
@@ -530,7 +530,7 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/tapeteprofesionalorganizadordetrabajo.BonillaZ.LeonardoDibujo.PDF}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/tapeteProfOrgdetrabBonillaLdib.PDF}
     \caption{Tapete profesional organizador de trabajo}
     \label{fig:Tapete Profesional organizador de trabajo}
 \end{figure}
@@ -538,23 +538,23 @@ En resumen, un cable tipo C a C es una herramienta esencial en el campo de la el
 Tapete Profesional organizador de trabajo:
 Composición y Características
 - El tapete está fabricado con silicón.
-- Tiene una superficie antiderrapante y una textura suave al tacto que proporciona comodidad de uso.
-- Protege los equipos contra rayones y golpes.
-- Soporta hasta 400 °C, por lo que puede ser usado para trabajos de soldadura.
-- Sus dimensiones son de 45 cm x 30 cm.
+— Tiene una superficie antiderrapante y una textura suave al tacto que proporciona comodidad de uso.
+— Protege los equipos contra rayones y golpes.
+— Soporta hasta 400 °C, por lo que puede ser usado para trabajos de soldadura.
+— Sus dimensiones son de 45 cm x 30 cm.
 
 Funciones
 - Ayuda a organizar el entorno de trabajo para realizar proyectos o reparaciones de equipos electrónicos, como celulares, tablets, laptops y más.
-- Protege los componentes y piezas durante el trabajo.
-- Tiene propiedad antiestática, lo que es útil para colocar procesadores, microchips, memorias, tarjetas de desarrollo o cualquier otro elemento de electrónica que pueda ser afectado por la estática.
-- Incorpora imanes distribuidos en lugares diferentes, perfectos para retener piezas metálicas, como tornillería, herramientas, puntas de desarmador, tarrajas y pinzas, entre otras.
-- Cuenta con espacios ideales para el trabajo, incluyendo minirranuras, minicajones, orificios, cajones multifunción, cajones con tapa, cajones para herramientas y una regleta.
-- El espacio central es el área de trabajo perfecta donde puedes armar o desarmar los equipos.
+— Protege los componentes y piezas durante el trabajo.
+— Tiene propiedad antiestática, lo que es útil para colocar procesadores, microchips, memorias, tarjetas de desarrollo o cualquier otro elemento de electrónica que pueda ser afectado por la estática.
+— Incorpora imanes distribuidos en lugares diferentes, perfectos para retener piezas metálicas, como tornillería, herramientas, puntas de desarmador, tarrajas y pinzas, entre otras.
+— Cuenta con espacios ideales para el trabajo, incluyendo minirranuras, minicajones, orificios, cajones multifunción, cajones con tapa, cajones para herramientas y una regleta.
+— El espacio central es el área de trabajo perfecta donde puedes armar o desarmar los equipos.
 
 \subsubsection{Planeación}
 
 Asegúrate de conocer siempre tu objetivo.
-Asegúrate de contar con los documentos (formatos, procedimientos, etc).
+Asegúrate de contar con los documentos (formatos, procedimientos, etc.).
 
 % 
 % 
@@ -638,14 +638,14 @@ Implementación de planes o estrategias de seguridad, en caso de emergencias, fe
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.06]{5/img/croquisITQ.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.06]{5/img/croquisItq.pdf}
     \caption{Croquis del Instituto Tecnológico de Querétaro}
     \label{fig:Croquis del Instituto Tecnológico de Querétaro}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/medidasdelITQGoogleMaps.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/meddeItqGoogleMaps.pdf}
     \caption{Medidas del ITQ Google Maps}
     \label{fig:Medidas del ITQ Google Maps}
 \end{figure}
@@ -669,23 +669,51 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 
 \begin{figure}
     \centering
-    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaZLeonardo.pdf}
+    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaL.pdf}
     \caption{Tabla de riesgos}
     \label{fig:Tabla de riesgos}
 \end{figure}
 
 \subsubsection{Identificación de riesgos internos}
+
+La identificación de riesgos internos es un proceso crucial en la gestión de riesgos de cualquier organización. 
+
+1. Anticipación a contratiempos: Permite anticiparse a posibles contratiempos y tomar decisiones estratégicas de manera proactiva.
+
+2. Análisis de vulnerabilidades: Al examinar los riesgos internos, nos adentramos en el terreno de las vulnerabilidades que se originan dentro de la organización misma, como pueden ser los errores humanos, la falta de capacitación del personal o los problemas de comunicación entre los distintos departamentos.
+
+3. Implementación de medidas preventivas y correctivas: Una vez identificados estos riesgos, es posible implementar medidas preventivas y correctivas para minimizar su impacto y garantizar la continuidad de las operaciones empresariales.
+
+4. Fortalecimiento de la capacidad de adaptación: La identificación de los riesgos internos permite a las organizaciones anticiparse a posibles amenazas y fortalecer su capacidad para adaptarse a un entorno empresarial dinámico y cambiante.
+
+
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.30]{5/img/riesgosinternosBonillaZLeonardo.pdf}
+    \includegraphics[trim={50mm 10mm 50mm 10mm}, clip,scale=0.40]{5/img/riesintBonillaL.pdf}
     \caption{Riesgos internos}
     \label{fig:Riesgos internos}
 \end{figure}
+
+
+
 \subsubsection{Identificación de riesgos externos}
+
+La identificación de riesgos externos es un componente esencial en la gestión de riesgo:
+
+1. Identificación de amenazas: Permite identificar posibles eventos en el entorno externo que podrían influir en el logro de los objetivos, por ejemplo, cambios en el marco legal, en la economía, en la política, etcétera.
+
+2. Evaluación de impacto: Una vez identificados estos riesgos, se realiza una evaluación de cómo estos riesgos pueden impactar las operaciones.
+
+3. Planificación estratégica: La identificación de riesgos externos ayuda a la institución a planificar estratégicamente y a tomar decisiones informadas.
+
+4. Mitigación de riesgos: Con base en la identificación y evaluación de los riesgos, la institución puede implementar medidas para mitigar el impacto de estos riesgos.
+
+La identificación de riesgos externos es fundamental para la resiliencia y la adaptabilidad de una institución. Permite a la institución anticiparse a posibles amenazas y adaptarse a un entorno dinámico y cambiante.
+
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.30]{5/img/riesgosexternosBonillaZLeonardo.pdf}
-    \caption{Caption}
+    \includegraphics[trim={50mm 10mm 50mm 10mm}, clip,scale=0.40]{5/img/riesextBonillaL.pdf}
+    \caption{Identificación de riesgos Externos}
     \label{fig:enter-label}
 \end{figure}
 \subsubsection{Plan de acción}
@@ -707,7 +735,7 @@ Desarrollar e implementar un plan de emergencia integral y eficaz para el Instit
 \subsubsection{Directorio de telefónicos de emergencia}
 \begin{figure}
     \centering
-    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.4]{5/img/directoriodeEmergenciaBonillaZLeonardo.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.4]{5/img/direcdeEmerBonillaL.pdf}
     \caption{Directorio De Emergencias}
     \label{fig:Directorio De Emergencias}
 \end{figure}
@@ -729,35 +757,35 @@ Tras haber realizado el estudio no.1 se obtuvo los siguientes resultados:
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia01.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg1.pdf}
     \caption{Evidencia 01}
     \label{fig:Evidencia 01}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia02.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg2.pdf}
     \caption{Evidencia 02}
     \label{fig:Evidencia_02}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia04.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg4.pdf}
     \caption{Evidencia 03}
     \label{fig:Evidencia 03}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia07.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg7.pdf}
     \caption{Evidencia 07}
     \label{fig:Evidencia 07}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia08.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg8.pdf}
     \caption{Evidencia 08}
     \label{fig:Evidencia 08}
 \end{figure}
@@ -780,21 +808,21 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev.2.1.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg21.pdf}
     \caption{Evidencia 2.1}
     \label{fig:Evidencia 2.1}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev.2.2.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg23.pdf}
     \caption{Evidencia 2.2}
     \label{fig:evidencia 2/2}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.3.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg24.pdf}
     \caption{Evidencia 2.3}
     \label{fig:Evidencia 2.3}
 \end{figure}
@@ -802,31 +830,25 @@ Tras haber analizado esta primera muestra, realizamos una segunda muestra para a
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.4.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg25.pdf}
     \caption{Evidencia 2.4}
     \label{fig:Evidencia 2.4}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.5.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg26.pdf}
     \caption{Evidencia 2.5}
     \label{fig:Evidencia 2.5}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.6.pdf}
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evdeReg27.pdf}
     \caption{Evidencia 2.6}
     \label{fig:Evidencia 2.6}
 \end{figure}
 
-\begin{figure}
-    \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/ev2.7.pdf}
-    \caption{Evidencia 2.7}
-    \label{fig:Evidencia 2.7}
-\end{figure}
 
 \begin{figure}
     \centering
