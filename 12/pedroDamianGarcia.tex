@@ -67,16 +67,20 @@
     % define el metodo de tiempos predeterminados
     % define optimización
     %\begin{itemize}
+    En un mundo donde las empresas siempre buscan competir para ser mejores en el mercado, lo bien que hacen las cosas es lo que las hace exitosas. En este caso, ensamblar circuitos electrónicos es muy importante en el proceso de producción, y cada segundo y cada movimiento realmente puede afectar la velocidad y la cantidad de dinero que se genera.
+    
+    Este proyecto trata de descubrir los mejores tiempos y movimientos para armar circuitos electrónicos. Esta investigación tiene como objetivo encontrar y estudiar cada paso del proceso de montaje, desde la recogida de las piezas hasta la comprobación del producto final. El objetivo es hacer que todo funcione mejor, más rápido y eficiente con un plan claro y exhaustivo.
+    
     El estudio de movimientos y tiempos es una técnica a desde su creación se a vuelto de vital importancia para gestión de operaciones, principalmente se centra en la medición de los tiempos necesarios para la ejecución de una tarea. así mediante el análisis de dichos procesos se puede determinar el conjunto de técnicas que pueden llevar a la forma mas eficiente de realización.
     
     Esta metodología particularmente es relevante en la industria, donde se llevan a cabo ensamblajes de diferentes componentes que en su conjunto generan un producto, la creciente demanda y competitividad en la industria hace imprescindible que la manufactura se lleve hasta su máxima optimización.
     
-    Por consiguiente, en este practica se pretende realizar un análisis sobre el ensamble de un circuito eléctrico de manera practica para así comprender la aplicación de las técnicas de medición de tiempos y movimientos en una situación laboral real.
+    Los métodos utilizados para este fin abarcarán un análisis y optimización de diferente índole, como tiempos, procesos y sistemas de trabajo. Además, es necesario mencionar métodos relacionados con la ergonomía y logística interna y, en general, con cualquier tecnología avanzada que pueda emplearse para hacer que la eficiencia del proceso de ensamblaje sea máxima y la cantidad de recursos invertidos sea mínima.
     
     Según Ovalle, Cárdenas(2016), concluyeron que el estudio de movimientos y tiempos sigue teniendo vigencia en la actualidad en el desarrollo de sistemas eficientes de trabajo, según sus estudios realizados. Así como el cronometro para la medición de de tareas es uno de los mas utilizados.
-    Mientras que para Cuevas, González, Torres, Valladares(2021), El estudio de movimientos y tiempos sigue siendo esencial en la actualidad para las empresas, dada la necesidad de optimizar y mejorar los procesos de forma continua. Tambien da la aperturad generar manuales para la capacitación del personal y que su adaptación sea mejor.\cite{REF2}
+    Mientras que para Cuevas, González, Torres, Valladares(2021), El estudio de movimientos y tiempos sigue siendo esencial en la actualidad para las empresas, dada la necesidad de optimizar y mejorar los procesos de forma continua. También da la apertura generar manuales para la capacitación del personal y que su adaptación sea mejor.\cite{REF2}
     
-    Por lo tanto, este proyecto busca reafirmar estos conocimientos y demostrar que incluso en la actualidad puede influir de forma imprescindible en los procesos para una correcta aplicación de mejoras en las diferentes áreas productivas. 
+    Como se ha demostrado, el resultado esperado de este proyecto es un plan integral de mejora de la producción de circuitos electrónicos, que faculte a la empresa a incrementar su competitividad en el mercado, potenciar la producción y entregar un servicio de calidad a tiempo y en tiempo. 
     
         %\item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
         %\item Se deben de mencionar las metodologías más usadas muy brevemente. 
@@ -114,10 +118,15 @@
     % 
     % 
     \section{Descripción del problema}
-    Se nos presenta un circuito eléctrico para el cual existe un ensamble, los distintos componentes son independientes de uno de otro, los principales a mencionar son ESP32-C6, LCD 16X2, Potenciómetro de 1k ohm y cables de conexión.
-    La idea fundamental consiste en realizar una guía de ensamble por parte el analista que permita al operador realizar la tarea de forma eficiente y sencilla, para esto se llevara a cabo la realización de diferentes ciclos para obtención de tiempos y movimientos.
+    Retomando lo anterior, dada la alta competitividad que emerge en la industria las empresa buscan aumentar la eficiencia de producción que les permita mantener un alto rendimiento y descender en sus ventas, por ende el correcto análisis de estas áreas pretende mantener una producción de calidad y fluida.
     
-    El problema principal reside en poder determinar la mejor optimización de la secuencia, mediante las técnicas proporcionados de estudio de movimientos y tiempos para la determinación del tiempo productivo. El circuito debe funcionar y realizar su tarea de forma normal.
+    El problema que se nos presenta es un circuito eléctrico para el cual existe un ensamble, los distintos componentes son independientes de uno de otro, los principales a mencionar son ESP32-C6, LCD 16X2, Potenciómetro de 1k ohm y cables de conexión los cuales conformaran un sistema unidos a un protoboard.
+    
+    La idea fundamental consiste en descomponer y analizar el proceso del ensamble del circuito para que mediante este estudio se pueda realizar una guía de ensamble sencilla a lo comprensión del operador, eliminando movimientos innecesarios e ineficientes. 
+    
+    Por parte el analista existe la responsabilidad de proporcionar las herramientas  que permita al operador realizar la tarea de forma eficiente y sencilla, para esto se llevara a cabo la realización de diferentes ciclos para obtención de tiempos y movimientos.
+    
+    El problema principal reside en poder determinar la mejor manera de optimización de la secuencia, mediante las técnicas proporcionados de estudio del trabajo para la determinación del tiempo productivo. 
     
     Según Correa, J.(2015) El estudio del trabajo es uno de los enfoques más convencionales y frecuentes para mejorar la productividad es mediante la implementación de nuevos procedimientos y la adquisición de equipo y maquinaria actualizados. Sin embargo, esta opción implica una inversión significativa de capital, especialmente cuando se recurre a la importación de equipo y maquinaria, lo que puede generar una salida importante de fondos.\cite{REF6}
     %\begin{itemize}
@@ -213,6 +222,8 @@
         \item Cable USB-C
         \item Protoboard 
     \end{itemize}
+    
+    Véase en las siguientes figuras.\ref{fig:listaDeMateriales1.png}\ref{fig:listaDeMateriales2.png}\ref{fig:listaDeMateriales3.png}
     \begin{figure}[H]
         \centering
         \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.5]{12/Img/listaDeMateriales1.png}
@@ -220,18 +231,145 @@
         \label{fig:listaDeMateriales1.png}
     \end{figure}
     
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.5]{12/Img/listaDeMateriales2.png}
+        \caption{Lista de materiales}
+        \label{fig:listaDeMateriales2.png}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.5]{12/Img/listaDeMateriales3.png}
+        \caption{Lista de materiales}
+        \label{fig:listaDeMateriales3.png}
+    \end{figure}
+    
+    \subsection{Descripción de los materiales}
+    
+    \begin{itemize}
+        \item Protoboard: es una placa rectangular con una matriz de orificios conductores. Está diseñado para permitir la conexión temporal de componentes electrónicos sin la necesidad de soldadura. Los orificios están conectados en filas y columnas, facilitando la prototipación rápida y la creación de circuitos electrónicos experimentales. Los componentes se insertan en los orificios y se conectan entre sí utilizando cables de puente. Esto permite una fácil modificación y depuración de los circuitos.\ref{fig:protoboard}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/protoboard.jpg}
+            \caption{Imagen representativa del Protoboard}
+            \label{fig:protoboard}
+        \end{figure}
+        
+    \end{itemize}
+    
+    \begin{itemize}
+        \item ESP32-C6: Es un microcontrolador de bajo consumo de energía, en el cual sera posicionado en el protoboard, en el cual realizara la tarea de ser receptor y emisor de señal.\ref{fig:ESP32-C6}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/eSP32-C6.jpg}
+            \caption{Imagen representativa del ESP32-C6}
+            \label{fig:ESP32-C6}
+        \end{figure}
+        
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Resistencia: Se trata de un componente de plástico con alambre que se utiliza en circuitos eléctricos para controlar o modificar el flujo de corriente eléctrica. Al insertarse en los orificios del protoboard, este elemento proporciona una ruta alternativa para la corriente, lo que puede disminuir su intensidad o direccionarla según sea necesario para el funcionamiento deseado del circuito.\ref{fig:Resistencia}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.1]{12/Img/resistencia.jpg}
+            \caption{Imagen representativa de la Resistencia}
+            \label{fig:Resistencia}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Cable dupont M-M:  tipo de cable específicamente diseñado para la interconexión de componentes en circuitos eléctricos. Este cable cuenta con una varilla metálica en cada extremo, lo que facilita su conexión directa entre dos puntos del protoboard sin necesidad de soldadura. Este diseño permite una conexión rápida y segura entre los elementos del circuito, lo que resulta especialmente útil en la fase de prototipo y pruebas. \ref{fig:CableDupontMM}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.1]{12/Img/cableDupontMM.jpg}
+            \caption{Imagen representativa de Cable Dupont M-M}
+            \label{fig:CableDupontMM}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Cable dupont M-H: Este tipo de cable se emplea en la construcción de circuitos eléctricos y se caracteriza por tener una varilla metálica únicamente en uno de sus extremos. Esta disposición lo convierte en una opción comúnmente utilizada como extensión para conectar otros cables a una mayor distancia en un protoboard. Al insertar el extremo sin la varilla en el orificio del protoboard, el extremo con la varilla se conecta a otro cable o componente, permitiendo así la expansión y flexibilidad en la disposición de los elementos dentro del circuito.  \ref{fig:CableDupontMH}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.1]{12/Img/cableDupontMH.jpg}
+            \caption{Imagen representativa de Cable Dupont M-H}
+            \label{fig:CableDupontMH}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Potenciómetro: Similar a una resistencia, el potenciómetro tiene la capacidad de ajustar su valor de resistencia eléctrica. Sin embargo, a diferencia de una resistencia estándar con un valor fijo, el potenciómetro es variable y puede ser ajustado manualmente. Esto permite modificar la resistencia en el circuito de acuerdo a las necesidades específicas de la aplicación. Al girar el eje del potenciómetro, se altera la posición de un contacto deslizante sobre una resistencia resistiva, lo que cambia la longitud efectiva del conductor eléctrico. Esta característica lo convierte en una herramienta útil para controlar variables como el brillo de una lámpara, el volumen de un altavoz, o la velocidad de un motor, entre otros ejemplos. El potenciómetro se utiliza comúnmente para mantener una corriente controlada dentro del circuito, permitiendo ajustes precisos en tiempo real según las demandas específicas del sistema.  \ref{fig:Potenciometro}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.1]{12/Img/potenciometro.jpg}
+            \caption{Imagen representativa de Potenciometro}
+            \label{fig:Potenciometro}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item LCD: Este componente electrónico se utiliza principalmente en circuitos eléctricos para visualizar información de manera clara y legible.  \ref{fig:LCD}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.15]{12/Img/lcd.jpg}
+            \caption{Imagen representativa del LCD}
+            \label{fig:LCD}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Extensión multi contacto: Herramienta de transmisión de fuente eléctrica que alimentara al circuito. \ref{fig:extensión}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.15]{12/Img/extensionMultiContacto.jpg}
+            \caption{Imagen representativa de la Extensión}
+            \label{fig:extensión}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Cable USBC: Cable para brindarle una fuente de energía al circuito.  \ref{fig:USBC}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.1]{12/Img/cableUsbc.jpg}
+            \caption{Imagen representativa de la Extensión}
+            \label{fig:USBC}
+        \end{figure}
+    \end{itemize}
+    
+    \begin{itemize}
+        \item Modulo I2C: Este módulo actúa como una interfaz que simplifica la integración y el manejo de las pantallas LCD en los circuitos electrónicos.\ref{fig:modulo}
+    
+          \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.15]{12/Img/moduloI2C.jpg}
+            \caption{Imagen representativa de la Extensión}
+            \label{fig:modulo}
+        \end{figure}
+    \end{itemize}
+    
     \subsection{Procedimiento de ensamble}
     \begin{itemize}
         \item Paso 1. Conectar el multi contacto a una fuente de energía.
         \item Paso 2. Conectar el ESP32-C6 al protoboard.
         \item Paso 3. Conectar los pines de alimentación VCC y GND.
-        \item Paso 4. Conectar el potenciómetro a la protoboard, y mediante los extremos del potenciómetro conectar ek VCC y GND,junto con la central del pin analogico del ESP32-C6.
+        \item Paso 4. Conectar el potenciómetro a la protoboard, y mediante los extremos del potenciómetro conectar el VCC y GND,junto con la central del pin analógico del ESP32-C6.
         \item Paso 5.Conectar la LCD al protoboard junto con las resistencias y condensores, Luego los pines de datos de series (I2C) y los pines de control al ESP32.
         \item Paso 6. Conectar el cable USB-C al multi contacto que le brindara la energía al ESP32.
         \item Paso 7. Al realizar la acción con el potenciómetro verificar que este funcione y haga la lectura indicada. 
     \end{itemize}
-    Mediante este proceso debemos adquirir los resultados necesarios hasta llegar al esperado, dado que en el ensamble se pueden cometer errores se debe tener una correcta documentación para percibir areas de mejora en el proceso.
-        
+    Mediante este proceso debemos adquirir los resultados necesarios hasta llegar al esperado, dado que en el ensamble se pueden cometer errores se debe tener una correcta documentación para percibir áreas de mejora en el proceso.
     
     %Cada estrategia metodológica se establece acorde a cada objetivo, y por tanto deberá ser desglosada precisada y ordenada claramente. En consecuencia cada objetivo que se presentó en forma de verbo en infinitivo deberá determinar una estrategia en forma de adverbio. Ej. Desarrollar…Desarrollo. Son las actividades ordenadas que tienen como finalidad la prueba de la hipótesis. 
     
@@ -260,12 +398,12 @@
     %\end{figure}
     % 
     % 
-    \subsection{Prepara tu documento}
+    %\subsection{Prepara tu documento}
     
-    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+    %Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
+    %Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
+    %Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
+    %Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
     
     \subsection{Acrónimos y Abreviaciones}
     
@@ -273,23 +411,69 @@
     
     \subsection{Ecuaciones}
     
-    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    %Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
+    %Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
+    %Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
+    %Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+    Después de esta preparación, el operador iniciará el proceso de ensamblaje. El analista estará listo con una tabla para registrar los tiempos de cada paso y un cronómetro para medir la duración de cada actividad.
     
+    El proceso continuará hasta que el operador complete el ensamblaje del circuito, marcando así la conclusión de un ciclo de producción. Se llevarán a cabo varios ciclos para recopilar datos significativos.
+    
+    Posteriormente, se compararán los valores obtenidos en cada ciclo. Utilizando una fórmula específica, se calculará el valor esperado. Esta fórmula considerará los tiempos registrados en cada paso del proceso y proporcionará una estimación del tiempo total esperado para el ensamblaje del circuito. Este valor esperado servirá como referencia para evaluar y mejorar la eficiencia del proceso de ensamblaje.
     \begin{equation}
         \label{eq1}
-        x + y = z 
+         (X1+X2+...+Xn)/n 
     \end{equation}
     
-    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+    Una vez recopilados los datos de cada ciclo, se procederá a calcular la media de los tiempos obtenidos. Esta media representará el tiempo esperado para llevar a cabo el ensamblaje del circuito utilizando la metodología de tiempos continuos.
+    
+    Esta cifra promedio servirá como punto de referencia crucial para evaluar la eficiencia del proceso actual. Siempre y cuando el tiempo real de ensamblaje se aproxime al tiempo esperado, se puede concluir que la metodología de tiempos continuos está funcionando adecuadamente. Por otro lado, si existen discrepancias significativas entre el tiempo real y el esperado, esto puede indicar áreas donde se pueden realizar mejoras en el proceso de ensamblaje.
+    %Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
     
     \section{Resultados y discusión}
+    espués de que el operario haya leído detenidamente el manual de fabricación, analizado su contenido y memorizado las instrucciones, procederá a ensamblar el circuito de forma manual. Durante este proceso, el operario se basará exclusivamente en las instrucciones previamente proporcionadas, sin recibir ningún tipo de ayuda externa. Mientras tanto, un analista observará atentamente y grabará un vídeo continuo para evaluar si el operario lleva a cabo cada paso del ensamblaje de manera correcta.
     
-    Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
-    Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
-    En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
+    Una vez completado el ensamblaje, para verificar su adecuada realización, el operario realizará una modificación en el rango del potenciómetro. Esto implicará ajustar el potenciómetro y modificar su resistencia para observar cómo esto afecta la lectura en la pantalla. El analista tomará evidencia tanto de la funcionalidad apropiada de la pantalla LCD al encenderse y recibir la señal como del efecto de la variación de la resistencia del potenciómetro en la lectura, tal como se ilustra en la imagen adjunta.\ref{fig:evidencia5}
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.15]{12/Img/evidencia5.jpg}
+            \caption{Lectura en pantalla LCD}
+            \label{fig:evidencia5}
+    \end{figure}
+    
+    De forma complementaria se adjuntaran algunas imágenes(\ref{fig:evidencia1})(\ref{fig:evidencia2})(\ref{fig:evidencia3})(\ref{fig:evidencia4}) del proceso de ensamble, para que sirvan de evidencia que el ensamble fue realizado de forma adecuada. También como una medida correctiva en caso de que algún elemento del proceso fue realizado de manera equivocada y así brindar retroalimentación y corrección en el manual del ensamble. 
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/evidencia1.jpg}
+            \caption{Evidencia del proceso de ensamble}
+            \label{fig:evidencia1}
+    \end{figure}
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/evidencia2.jpg}
+            \caption{Evidencia del proceso de ensamble}
+            \label{fig:evidencia2}
+    \end{figure}
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/evidencia3.jpg}
+            \caption{Evidencia del proceso de ensamble}
+            \label{fig:evidencia3}
+    \end{figure}
+    
+    \begin{figure}[H]
+            \centering
+            \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{12/Img/evidencia4.jpg}
+            \caption{Evidencia del proceso de ensamble}
+            \label{fig:evidencia4}
+    \end{figure}
+    %Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
+    %Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
+    %En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
     
     \subsection{Autores y Afiliaciones}
     
@@ -408,7 +592,8 @@
     % 
     \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:listaMateriales}
     \includepdf[pages=-]{12/Img/listaMateriales.pdf}
-    \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:guiaDeEnsamble}
-    \includepdf[pages=-]{12/Img/guiaDeEnsamble.pdf}
+    \centering{\section[\appendixautorefname{}]{Apéndice}}\label{anexo:guiaEnsamble}
+    \includepdf[pages=-]{12/Img/guiaEnsamble.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
     
