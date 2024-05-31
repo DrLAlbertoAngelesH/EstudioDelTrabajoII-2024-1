@@ -1,173 +1,87 @@
-\documentclass[letterpaper,12pt,openright,oneside]{article}
-% \documentclass[book,12pt,openright,oneside]{article}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\familydefault}{\sfdefault} % Arial font
-\setlength{\parindent}{16mm} % sangria de 1.6 cm
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \usepackage[left=3cm,top=3cm,right=2cm,nohead,foot=.5cm]{geometry}
-% \usepackage[left=3cm,top=3cm,right=3cm,nohead,foot=2.5cm]{geometry}
-\usepackage[left=2cm,top=2cm,right=2cm,nohead,foot=3cm]{geometry}
-\usepackage[spanish,mexico]{babel}
-%\usepackage[spanish]{babel}
-%\usepackage[latin1]{inputenc}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{listings} % Using listings to highlight code
-\usepackage{xcolor}
-
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=right,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
+@misc{optimizacion, 
+title={Diccionario de la lengua española | Edición del Tricentenario},
+url={https://dle.rae.es/optmizacion}, 
+journal={“Diccionario de la lengua española” - Edición del Tricentenario}, 
+author={ASALE, RAE and RAE},
+year={2023} 
 }
 
-\lstset{style=mystyle}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{chngpage}
-\usepackage{lineno} %paquete para agregar números a cada linea
-\usepackage{times}
-\usepackage{url}
-\usepackage{pdflscape}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\graphicspath{ {images/} }
-\usepackage{color}
-\usepackage{babelbib}
-% \usepackage{subfig}
-\usepackage{subcaption} %paquete para tener multiple imagenes
-\usepackage{amsmath,amssymb,amsthm} 
-% assumes amsmath package installed
-%\usepackage[document]{ragged2e}
-\usepackage{hyperref}
-\hypersetup{
-colorlinks=true,
-citecolor=black,
-urlcolor=blue,
-}
-\urlstyle{rm}
-\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks%  save the current one
-  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
-  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
-  \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
-  \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
-  \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
-  \do\Y\do\Z}
-\newcommand{\grad}{$^{\circ}$}
-\usepackage{multirow}
-\usepackage{todonotes}
-\usepackage{makecell}
-\usepackage{enumitem}
-\usepackage{array}
-\usepackage{amsmath}
-\usepackage{tabularx}
-\usepackage{pdfpages} % \includepdf[pages=-]{myfile.pdf}
-\usepackage{bm,upgreek}
-\usepackage{afterpage}
-\usepackage{gensymb} % Generic symbols for both text and math mode
-\usepackage{float}
-\usepackage{marvosym}
-\usepackage{ragged2e}
-\definecolor{light-gray}{gray}{.7}
-%\spanishdecimal{.}
-
-%-------------------------------------------
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}
-\newcommand{\parcial}[2]{\frac{\partial{#1}}{\partial{#2}}}
-\newtheorem{lemma}{Lema}[subsection]
-%\newtheorem{proof}[theorem]{Proof}
-%\theoremstyle{definition}
-\newtheorem{defn}{Definition}
-\newtheorem{remark}{Remark}
-%\newcommand{\parcial}[2]{\frac{\partial{#1}}{\partial{#2}}}
-\DeclareMathOperator{\sign}{sign}
-\newcommand{\m}[1]{\mathbf{#1}}
-\DeclareMathOperator{\diag}{diag}
-
-\renewcommand{\baselinestretch}{1.5} % interlineado
-
-\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
-\setlength {\marginparwidth }{2cm} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand\thesection{\Roman{section}} %  letters for sections
-% \renewcommand*{\thesubsection}{\null{}}
-\renewcommand*{\thesubsection}{\alph{subsection}}
-\renewcommand*{\thesubsubsection}{\null{}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{document}
-
-\begin{titlepage}
-\begin{center}
-
-% Upper part of the page. The '~' is needed because \\
-% only works if a paragraph has started.
-
-\textsc{\LARGE Tecnológico Nacional de México}\\[0.6 cm]
-\includegraphics[width=0.15\textwidth]{img/ITQNN.jpg}~\\[0.45cm]
-\textsc{\Large Instituto Tecnológico de Querétaro \\ \large{Ingeniería Industrial}}\\[0.5 cm]
-\textsc{\large Proyecto integrador \\ (Febrero 2024 - Mayo 2024)}\\[4.5cm]
-
-{ 
-\huge \bfseries
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Estudio del Trabajo II
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\\[0.4cm] }
-\vspace*{1.5cm}
-
-% Author and supervisor
-\textbf{Profesor:} Dr. Luis Alberto Ángeles Hurtado\\\vspace*{0.5cm}
-
-\raggedright
-% $^{1}$ Instituto Tecnológico de Querétaro.\\
-
-\vfill
-\centering
-% Bottom of the page
-% {\large \today}
-%{\large 5 de diciembre de 2020}
-\end{center}
-\end{titlepage}
-
-% \newpage
-%%%%
-\hypersetup{linkcolor=black}
-% \newpage
-% 
-\renewcommand\contentsname{\centering \'INDICE}
-\tableofcontents
-\newpage
-\linenumbers
-% 
+‌%
 %
-\section{Introducción}
+@misc{Exacto,
+title={Diccionario de la lengua española RAE - ASALE}, 
+url={https://dle.rae.es/exacto}, 
+journal={“Diccionario de la lengua española” - Edición del Tricentenario}, author={ASALE, RAE and RAE}, 
+year={2023} 
+}
 
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[trim = {6mm 150mm 20mm 14mm},clip,scale=0.68]{img/fig_1.pdf}
-%     \caption{descripción de la figura}.}
-%     \label{Ejemplo}
-% \end{figure}
+%
+%
+@misc{Estudiodetiempos, 
+title={¿Sabes que son los estudios de tiempos y como pueden ayudar a ser tu línea de procesos más eficiente? Un estudio de tiempos es una técnica de medición del trabajo que se utiliza para poder establecer y definir el ritmo al que puede trabajar cualquier persona en una tarea específica, tomando en cuent}, 
+url={https://es.linkedin.com/pulse/estudio-de-tiempos-en-la-industria-}, 
+journal={Linkedin.com}, 
+author={de, Ergonomics},
+year={2021}, 
+month={May} 
+}
 
-\include{8/coronaCruzAlanGael}
+%
+%
+@misc{Estudiodemovimientos, 
+title={Software del Sol}, 
+url={https://www.sdelsol.com/glosario/estudio-de-tiempos-y-movimientos/#:~:text=El%20estudio%20de%20tiempos%20y,de%20cada%20operaci%C3%B3n%20sea%20mayor.}, 
+journal={Sdelsol.com}, 
+author={DELSOL, Software}, 
+year={2019}, 
+month={Feb} 
+}
 
+%
+%
+@misc{Ensamble, 
+title={Diccionario de la lengua española RAE - ASALE}, 
+url={https://dle.rae.es/ensamblar}, 
+journal={“Diccionario de la lengua española” - Edición del Tricentenario}, 
+author={ASALE, RAE and RAE},
+year={2023}
+}
 
-\end{document}
+%
+%
+@misc{Circuitoelectrico, 
+title={¿Que es un circuito electrico?}, 
+url={https://industriasgsl.com/blogs/blog/que-es-un-circuito-electrico}, 
+journal={Industrias GSL},
+publisher={Industrias GSL}, 
+author={Alejandro Del Bosque}, 
+year={2022},
+month={Jun} 
+}
+
+%
+%
+@misc{Tiempospredeterminados, 
+title={Tiempos predeterminados}, 
+url={https://www.monografias.com/trabajos37/tiempos-predeterminados/tiempos-predeterminados}, 
+journal={Monografias.com}, 
+author={Escobedo, Teresa}, 
+year={2006}, 
+month={Aug}
+}
+
+‌
+‌
+
+‌
+
+‌
+‌
+‌
+
+‌
+‌
+‌
+‌
+
+‌
