@@ -949,9 +949,43 @@ Costos de no calidad.
 % 
 % 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm1Bonilla.pdf}
+    \caption{Tabla MTM 1}
+    \label{fig:Tabla MTM 1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm2Bonilla.pdf}
+    \caption{Tabla MTM 2}
+    \label{fig:Tabla MTM 2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm3Bonilla.pdf}
+    \caption{Tabla MTM 3}
+    \label{fig:Tabla MTM 3}
+\end{figure}
+
 % 
 % 
 \subsubsection{Desarrollo del muestreo del trabajo}
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.15]{5/img/tiempoCicloCircBonillaL.pdf}
+    \caption{Tiempo Ciclo de Ensamble del Ciruito}
+    \label{fig:Tiempo Ciclo de Ensamble del Circuito}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstandarBonilla.pdf}
+    \caption{Tabla de Tiempo estándar}
+    \label{fig:Tabla de Tiempo estándar}
+\end{figure}
 % 
 % 
 \subsubsection{Corrección por balanceo de procesos}
@@ -975,11 +1009,34 @@ Costos de no calidad.
 % 
 \section{Conclusiones}
 
-Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+Por supuesto, puedo complementar tu conclusión.
+
+El proyecto ha demostrado la importancia de la estandarización en el ensamble de circuitos. A pesar de las dificultades iniciales, como la falta de conocimiento previo de electrónica por parte de los operadores y la confusión con los cables, se logró establecer un tiempo estándar de aproximadamente 8 minutos para el ensamble. Esto se logró gracias a la aplicación de diversas herramientas del estudio del trabajo, el uso de los Tiempos Predeterminados Sintéticos (STP), el uso de probabilidades y la estandarización de los métodos.
+
+Además, este proyecto ha resaltado la necesidad de una formación adecuada para los operadores, especialmente en áreas técnicas como la electrónica. Con una formación adecuada, los operadores podrían realizar sus tareas de manera más eficiente, lo que podría reducir aún más el tiempo de ensamble.
+
+Finalmente, aunque se ha logrado el objetivo de encontrar un método más económico para el ensamble del circuito, es importante recordar que la mejora continua es un componente clave de cualquier proceso de producción. Por lo tanto, se deben buscar constantemente oportunidades para optimizar aún más el proceso de ensamble y reducir los costos.
+
+En resumen, este proyecto ha demostrado que, a pesar de los desafíos, es posible estandarizar y optimizar los procesos de ensamble para lograr un método más económico y eficiente. Sin embargo, la formación de los operadores y la mejora continua son aspectos cruciales que deben tenerse en cuenta para el éxito a largo plazo.
+
+1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
+
+2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
+
+3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
+
+Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
+
 
 \section{Agradecimientos}
+Agradecimientos
 
-Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+Quisiera expresar mi más profundo agradecimiento a todas las personas que han hecho posible la realización de este trabajo.
 
+En agradecimiento de todos los colaboradores, que fueron mis compañeros, con los cuales compartimos información para lograr el tiempo estándar, y a mi novia Alitza A. Piedra Moreno, con la que estuve realizando las investigaciones en el plantel, con el fin de saber sobre el plantel y con los recursos que contábamos y así poder continuar con el proyecto
+
+Agradezco al Instituto Tecnológico de Querétaro por brindarme las instalaciones y recursos necesarios para llevar a cabo mi investigación.
+
+Finalmente, pero no menos importante, agradezco a mi familia y mi novia por la motivación y apoyo para realizar el trabajo.
 \bibliographystyle{ieeetr}
 \bibliography{5/referencias}
