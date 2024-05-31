@@ -949,6 +949,7 @@ Costos de no calidad.
 % 
 % 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios en la gestión de operaciones y eficiencia del trabajo. Esto incluye mejorar la eficiencia operacional, establecer metas claras, calcular con precisión los costos de producción, proporcionar una base para el diseño de trabajo y fomentar la mejora continua. Sin embargo, es importante revisar y actualizar regularmente estos tiempos para reflejar cualquier cambio en los procesos o condiciones de trabajo. 
 \begin{figure}
     \centering
     \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm1Bonilla.pdf}
@@ -1008,8 +1009,6 @@ Costos de no calidad.
 % 
 % 
 \section{Conclusiones}
-
-Por supuesto, puedo complementar tu conclusión.
 
 El proyecto ha demostrado la importancia de la estandarización en el ensamble de circuitos. A pesar de las dificultades iniciales, como la falta de conocimiento previo de electrónica por parte de los operadores y la confusión con los cables, se logró establecer un tiempo estándar de aproximadamente 8 minutos para el ensamble. Esto se logró gracias a la aplicación de diversas herramientas del estudio del trabajo, el uso de los Tiempos Predeterminados Sintéticos (STP), el uso de probabilidades y la estandarización de los métodos.
 
