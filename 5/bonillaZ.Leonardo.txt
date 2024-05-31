@@ -943,6 +943,9 @@ En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas
 
 \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
 
+El análisis de métodos, materiales, herramientas e instalaciones en el ensamble de un circuito electrónico es crucial para optimizar la producción y garantizar la calidad del producto. El análisis de métodos busca mejorar la eficiencia identificando ineficiencias en los procedimientos de ensamble. El análisis de materiales asegura que los componentes del circuito sean de alta calidad. El análisis de herramientas evalúa si las herramientas utilizadas son adecuadas y están en buen estado. Finalmente, el análisis de instalaciones evalúa el entorno de trabajo para garantizar la eficiencia y seguridad de los trabajadores. Estos análisis son esenciales para la mejora continua y la optimización de costos en la producción de circuitos electrónicos. 
+
+
 \subsubsection{Verificación}
 
 Costos de no calidad.
