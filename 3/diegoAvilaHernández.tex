@@ -249,6 +249,12 @@
     \end{figure}
     % 
     % 
+    \begin{itemize}
+    \item Véase hoja de registro \ref{anexo:hojaDeRegistro}.
+        \item Véase ensamble de circuito electrónico \ref{anexo:ensambleDeCircuitoElectrónico1}
+    \end{itemize}
+    % 
+    % 
     \subsection{Desarrollo de la guía de plan de Emergencia}
     
     El Plan de Emergencia es un documento que detalla las directrices a seguir, la estructura organizativa y los procedimientos a implementar para manejar una situación de emergencia o desastre, abarcando tanto aspectos generales como específicos. Además, especifica cómo se deben utilizar de manera efectiva los recursos humanos y materiales disponibles.
@@ -1046,14 +1052,84 @@
     % 
     \subsubsection{Desarrollo del muestreo del trabajo}
     
-    Véase la tabla donde se muestra el cálculo del tiempo de ciclo en el ensamble del circuito electrónico \ref{fig:tiempoCicloEnsamble}
+    Durante el desarrollo del proyecto, se identificó un problema debido a la falta de datos, específicamente la media y la varianza de nuestra población. Estos datos son esenciales en nuestro análisis para poder obtener los resultados deseados.
+    Para lograr esto, se emplearon diversos métodos, incluyendo uno que utiliza probabilidades. Para calcular la media de la población, se aplicó la siguiente ecuación \ref{equ:media} y para  la desviación estándar utilizamos la ecuación \ref{equ:desviaciónestándar}. 
+    % 
+    % 
+    \begin{equation}
+                \label{equ:media}
+               \mu = \dfrac{b+a}{2}
+            \end{equation}
+        
+          \begin{equation}
+                \label{equ:desviaciónestándar}
+                \sigma = \sqrt{\dfrac{(b-a+1)^2-1}{12}}
+            \end{equation}
+    % 
+    % 
+    Para calcular el tiempo de ciclo, se diseñó un método de muestreo empleando un enfoque probabilístico. Se tomaron dos muestras en diferentes momentos, ya que estas son variables mutuamente excluyentes. Nuestro objetivo es encontrar una muestra que represente con precisión el valor real.
+    Se creó una hoja de datos en Excel para calcular el tiempo de ciclo de cada elemento individualmente. Como nuestro trabajo se divide en 16 elementos, tenemos 16 tiempos de ciclo individuales, para calcular el tiempo de ciclo total inicial se sumaron los tiempos de ciclo individual. Por último para la
+    obtención del tiempo estándar se calculó la desviación estándar de las dos muestras dado a que ésta tomara el lugar de los suplementos y holguras con ello el tiempo estándar se calculó con la ecuación \ref{equ:tiempoestándar}
+    % 
+    % 
+    \begin{equation}
+                \label{equ:tiempoestándar}
+               TE= TC + \sigma
+            \end{equation}
+    % 
+    % 
+    Véanse las tablas donde se muestra el cálculo del tiempo de ciclo y así mismo el tiempo estándar en el ensamble del circuito electrónico \ref{fig:tiempoCicloYEstándarEnsamble} \ref{fig:tiempoCicloYEstándarEnsamble2}
     % 
     % 
     \begin{figure}[H]
         \centering
-        \includegraphics[scale=0.4]{3/Img/tiempoCicloEnsamble.pdf}
-        \caption{Tiempo Ciclo Ensamble} 
-        \label{fig:tiempoCicloEnsamble}
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándarEnsamble.pdf}
+        \caption{Tiempo ciclo y tiempo estándar} 
+        \label{fig:tiempoCicloYEstándarEnsamble}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándarEnsamble2.pdf}
+        \caption{Continuación de la tabla anterior} 
+        \label{fig:tiempoCicloYEstándarEnsamble2}
+    \end{figure}
+    % 
+    % 
+    Se utilizó un método probabilístico inicialmente. Sin embargo, debido a que esta sección se refiere al muestreo, se empleó una metodología diferente. Para ello, utilizamos las 2 muestras previamente seleccionadas, además de 8 muestras adicionales de 4 compañeros para realizar el muestreo de manera adecuada. En este método, también calculamos el promedio del tiempo de cada elemento para determinar el tiempo de ciclo individual. Luego, sumamos estos tiempos para obtener el tiempo de ciclo total del ensamblaje. Con los tiempos totales de cada muestra, también calculamos la varianza y la desviación estándar.
+    Véanse las tablas donde se muestra el cálculo del tiempo de ciclo y así mismo el tiempo estándar en el ensamble del circuito electrónico al haber recolectado más lecturas. \ref{fig:tiempoCicloYEstándar10Lecturas} \ref{fig:tiempoCicloYEstándar10Lecturas2} \ref{fig:tiempoCicloYEstándar10Lecturas3} \ref{fig:tiempoCicloYEstándar10Lecturas4}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándar10Lecturas.pdf}
+        \caption{Tiempo ciclo con las lecturas de mis compañeros parte 1} 
+        \label{fig:tiempoCicloYEstándar10Lecturas}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándar10Lecturas2.pdf}
+        \caption{Tiempo ciclo con las lecturas de mis compañeros parte 2} 
+        \label{fig:tiempoCicloYEstándar10Lecturas2}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándar10Lecturas3.pdf}
+        \caption{Tiempo ciclo y tiempo estándar con las lecturas de mis compañeros} 
+        \label{fig:tiempoCicloYEstándar10Lecturas3}
+    \end{figure}
+    % 
+    % 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.4]{3/Img/tiempoCicloYEstándar10Lecturas4.pdf}
+        \caption{Valor máximo, valor mínimo y rango} 
+        \label{fig:tiempoCicloYEstándar10Lecturas4}
     \end{figure}
     % 
     % 
@@ -1087,21 +1163,19 @@
     % 
     \section{Conclusiones}
     
-    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+    El propósito de este proyecto era crear un trabajo integrador a partir del montaje de un circuito, utilizando todos los temas vistos durante el semestre, como el estudio de movimientos y tiempos, así como muestras continuas o discretas. Además de aplicar los conocimientos adquiridos en Estudio del Trabajo II, también se buscaba complementar el proyecto con conocimientos de otras materias, como probabilidad y estadística, higiene y salud, y Estudio del Trabajo I.
+    
+    Nuestro objetivo principal era diseñar, mejorar e integrar sistemas productivos de bienes y servicios utilizando tecnologías para optimizarlos, con el fin de determinar el tiempo estándar para el ensamblaje del circuito.
+    
+    Sin embargo, el proyecto integrador no pudo completarse debido a diversas complicaciones surgidas a lo largo del semestre, como el retraso causado por la ESP32 y otros factores. A pesar de esto, el trabajo realizado no fue en vano, ya que adquirimos un conocimiento significativo sobre la normalización de procesos a nivel profesional. También aprendimos cómo los conocimientos de diferentes materias se complementan para ciertos trabajos, como fue el caso de este proyecto. Además, pudimos diseñar un manual de ensamblaje electrónico para capacitar a los operarios sin experiencia en este tipo de ensamblajes.
+    
+    Realizamos análisis de las pruebas de ensamblaje para identificar áreas de mejora y reducir costos, lo que haría más eficiente el proceso y facilitaría la tarea para los operarios. También nos familiarizamos con herramientas como Overleaf, GitHub y Visual Studio, que son ampliamente utilizadas en la industria y que adquirir experiencia con ellas durante el proyecto nos prepara para futuros trabajos.
+    
+    Al final, aunque no se pudo completar el proyecto integrador, logramos alcanzar la mayoría de nuestros objetivos y cubrir casi en su totalidad la hipótesis planteada. Este trabajo nos brindó una visión de los desafíos que enfrentaremos como ingenieros industriales en el futuro, y nos enseñó lecciones valiosas que serán de gran ayuda en nuestra carrera profesional.
     
     \section{Agradecimientos}
     
-    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
-    
-    \begin{itemize}
-    % \begin{itemize}
-        % \item Se debe establecer que se habrá de hacer, como, conque, y donde para obtener la información que permita probar la hipótesis.  
-        % \item Se debe desglosar de acuerdo a los objetivos específicos.
-        % \item Se debe establecer una estrategia metodológica por cada objetivo específico. De manera simplista se podría decir que se cambia el verbo en infinitivo por su respectivo adverbio.
-        % \item En cada objetivo se debe describir que método, que materiales y que equipo se usará para conseguirlo.
-        \item Véase hoja de registro \ref{anexo:hojaDeRegistro}.
-        \item Véase ensamble de circuito electrónico \ref{anexo:ensambleDeCircuitoElectrónico1}
-    \end{itemize}
+    Agradezco al profesor Luis Alberto Ángeles Hurtado por haber brindado su apoyo, conocimiento y experiencia para desarrollar este proyecto integrador, así como el seguimiento que nos dio y las retroalimentaciones que hizo, a mis compañeros que también me brindaron ayuda y en algunos casos resolvían mis dudas, también al Instituto Tecnológico de Querétaro que nos proporcionó información para enriquecer este proyecto integrador sobre el estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización. 
     % 
     % 
     
@@ -1243,7 +1317,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
-    \centering{\section[\appendixautorefname{}]{HOJA DE REGISTRO}}\label{anexo:hojaDeRegistro}
+    \centering{\section[\appendixautorefname{}]{}}\label{anexo:hojaDeRegistro}
     \includepdf[pages=-]{3/Img/hojaDeRegistro.pdf}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
