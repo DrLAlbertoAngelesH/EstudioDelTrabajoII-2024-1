@@ -151,7 +151,9 @@
     \section{Objetivo}
     
     %Precisar la acción necesaria para probar la hipótesis. Dicha acción se establece mediante el uso de verbos activos y en infinitivo.
-        Como objetivo se deberá realizar un estudio de movimientos a través de la obtención de datos de cada compañero para así generar una base de datos como "registro histórico" que contenga las metodologías a utilizar de cada uno de los miembros del salón con el propósito de realizar un análisis de estos mismos, y de esta manera desarrollar nuevas manera para optimizar y facilitar el aprendizaje del operador, el proceso del ensamblaje y todo lo referente a este.
+El alumno diseñará, mejorará e integrará sistemas productivos de bienes y servicios aplicando tecnologías para su optimización.
+Diseñará, implementará y mejorará sistemas de trabajo para elevar la productividad.
+En un plazo menor a seis meses y se plasmara en un proyecto integrador.
     
     \subsection{Objetivos específicos }
     
@@ -197,21 +199,80 @@
      Con la ayuda de este método podremos desarrollar un diseño para el tapete organizador mucho más balanceado y ordenado, para de esta manera a la hora de obtener los valores de tiempos obtenidos sepamos que se eliminaron ciertos factores que pudieron influir en la demora del operador a través de un manejo y dirección adecuado del material.
 
 \subsubsection{Diagrama de procesos Bimanual}
-Esta es una herramienta utilizada en el estudio de movimientos, donde presenta todos los micromovimientos realizados tanto con la mano izquierda como con la mano derecha, para de esta manera buscar eliminar aquellos movimientos innecesarios y realizar cada paso de la actividad de manera eficiente.\cite{EstTrabajo}
+Esta es una herramienta utilizada en el estudio de movimientos, donde presenta todos los micromovimientos realizados tanto con la mano izquierda como con la mano derecha, para de esta manera buscar eliminar aquellos movimientos innecesarios y realizar cada paso de la actividad de manera eficiente, esta será usada en el sistema de tiempos predeterminados para generar un tiempo estándar en base a tablas de tiempo para cada micromovimiento, las cuales se presentarán a continuación, para posteriormente sumar la holgura obtenida.\cite{EstTrabajo} 
 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
 
         Siendo el primero de estos la medición del tiempo productivo a través del uso de una cámara para generar observaciones (una película) del proceso necesario para ensamblar el circuito y así cada miembro del grupo realice su propia medición en base a la película propia. Para posteriormente generar su separación en movimientos a los cuales se le otorgaran un valor de tiempo y así poder de esta manera obtener el valor esperado para cada ciclo a analizar. 
-        Para poder desarrollar este método se requiere generar diversas parejas dentro de las cuales se asignaran roles entre el operador y el analista para de esta manera realizar dos observaciones cada uno de como se debe de llevar acabo el ensamble del circuito, llenando un formato con la información básica del operador como en la figura \ref{fig:tabla_Referencia} y así generar una película que nos muestre ese proceso para que al finalizar de esta el miembro que tome el rol del operario deberá pasar lo prueba de calidad del producto, el cual es mover los valores de resistencia del potenciómetro para que se muestre una fluctuación en las lecturas de parte del LCD, realizando el mismo proceso pero ahora con la persona que tomo el rol del analista convirtiéndose en el operario y viceversa.
+        Para poder desarrollar este método se requiere generar diversas parejas dentro de las cuales se asignaran roles entre el operador y el analista para de esta manera realizar dos observaciones cada uno de como se debe de llevar acabo el ensamble del circuito, llenando un formato con la información básica del operador como en la figura \ref{fig:tablaReferencia} y así generar una película que nos muestre ese proceso para que al finalizar de esta el miembro que tome el rol del operario deberá pasar lo prueba de calidad del producto, el cual es mover los valores de resistencia del potenciómetro para que se muestre una fluctuación en las lecturas de parte del LCD, realizando el mismo proceso pero ahora con la persona que tomo el rol del analista convirtiéndose en el operario y viceversa.
         \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 50mm 1mm 1mm},clip,scale=0.3]{19/Img/tabla_Referencia.pdf}
+        \includegraphics[trim = {1mm 50mm 1mm 1mm},clip,scale=0.3]{19/Img/tablaReferencia.pdf}
         \caption{Hoja de referencia para el operador.}
-        \label{fig:tabla_Referencia}
+        \label{fig:tablaReferencia}
     \end{figure}
-    
+    MTM-1\\
+    Para desarrollar este estudio se decidió utlizar el STP conocido como MTM-1, el cual es el sistema de tiempos predeterminados más comunes y usados, este significa Medicion de Tiempos de Métodos y en este se presentan 10 movimientos básicos con los que se realiza cualquier actividad, siendo los siguientes:
+    \begin{enumerate}
+    \item Alcanzar (AL)
+    \item Mover (M)
+    \item Girar (T)
+    \item Aplicar presión (AP)
+    \item Asir (G)
+    \item Colocar (P)
+    \item Soltar (SL)
+    \item Separar (D)
+    \item Movimiento del cuerpo (BM)
+\item Movimiento de ojos (ET)
+    \end{enumerate}
+    Cada uno de estos movimientos poseen su propia tabla de tiempos; estas tablas presentan los TMU son unidades de tiempo que se le otorga a cada movimiento, en cual en base a diversos factores a considerar los cuales se presentarán en las siguientes tablas:
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 150mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaAlcanzar.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Alcanzar}
+        \label{fig:tablaAlcanzar}
+    \end{figure}
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 150mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaMover.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Mover}
+        \label{fig:tablaMover}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 190mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaGirar.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Girar}
+        \label{fig:tablaGirar}
+    \end{figure}
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 200mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaAplicarPresión.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Aplicar Presión}
+        \label{fig:tablaAplicarPresión}
+    \end{figure}
+        \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 210mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaColocar.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Colocar}
+        \label{fig:tablaColocar}
+    \end{figure}
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {42mm 195mm 42mm 24mm},clip,scale=0.6]{19/Img/tablaSoltar.pdf}
+        \caption{Tabla de tiempos TMU para el movimiento Soltar}
+        \label{fig:tablaSoltar}
+    \end{figure}
+
+    Holguras\\
+    Para el tiempo obtenido a través de este método es necesario considerar el valor de las holguras otorgadas, ya que no todos los trabajadores pueden hacerlo al 100\% de sus capacidades todo el tiempo, al igual que no puede seguir el ritmo del tiempo "necesario" para realizar la actividad todo el tiempo, por lo que en base a diversos factores a considerar se han generado una tabla de suplementos u "holguras" \ref{fig:tablaHolguras} continuas y variables, las cuales dependiendo de la situación del operario se le otorgará un número el cual representa el porcentaje extra del tiempo ciclo que se le otorgará al trabajador.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 40mm 1mm 1mm},clip,scale=0.4]{19/Img/tablaHolguras.pdf}
+        \caption{Tabla de Holguras y suplementos}
+        \label{fig:tablaHolguras}
+    \end{figure}
 \subsubsection{Desarrollo del muestreo del trabajo}
-Al ser un grupo limitado de observaciones a analizar se decidió utilizar los valores obtenidos de cada uno de los analistas para usar estos valores como la muestra y de esta manera obtener el tiempo ciclo y estándar para llevar acaba esta actividad.
+Además del método anterior una forma tal vez incluso más exacta para la obtención de un tiempo estándar al centrarse mas en casos reales es el muestreo del trabajo, el cual en base a las películas de cada ciclo realizado se realiza un análisis de estas para separar el ensamble en cierta cantidad de actividades, las cuales gracias a la película se obtienen sus tiempos. Al ser un grupo limitado de observaciones a analizar se decidió utilizar los valores obtenidos de cada uno de los analistas para usar estos valores como la muestra y de esta manera obtener el tiempo ciclo y estándar para llevar acaba esta actividad.
 
 \subsubsection{Corrección por balanceo de procesos}
 También se requerirá de realizar un análisis sobre la parte que llega a afectar o distraer al operario en la estación de trabajo para de esta manera buscar optimizar y mejorar los tiempos de esa parte del ensamblaje.
@@ -305,7 +366,7 @@ Posterior a esto se buscara estandarizar todos lo necesario para llevar acabo el
     
             \begin{figure}[H]
         \centering
-        \includegraphics[trim = {65mm 35mm 60mm 40mm},clip,scale=0.5]{19/Img/esp-32Figura.pdf}
+        \includegraphics[trim = {65mm 35mm 60mm 40mm},clip,scale=0.5]{19/Img/esp32Figura.pdf}
         \caption{Imagen del modelo 3D del ESP-32}
         \label{fig:ESP-32}
     \end{figure}
@@ -382,7 +443,7 @@ Posterior a esto se buscara estandarizar todos lo necesario para llevar acabo el
            
                 \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{19/Img/esp-32Dibujo.pdf}
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{19/Img/esp32Dibujo.pdf}
         \caption{Dibujo ESP-32}
         \label{fig:Dibujo ESP-32}
     \end{figure}
@@ -447,7 +508,7 @@ Para este momento ya se habrán estandarizado los tiempos en base a la muestra o
     
     %Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
     
-    
+    \newpage
     \section{Resultados y discusión}
 
     \subsection{Desarrollo de la guía del Plan de Emergencia}
@@ -467,7 +528,7 @@ Para este momento ya se habrán estandarizado los tiempos en base a la muestra o
 
     \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.32]{19/Img/mapaITQ-2.pdf}
+    \includegraphics[scale=0.32]{19/Img/mapaITQ2.pdf}
     \caption{Imagen Satelital del Instituto Tecnológico Nacional de Querétaro.}
     \label{fig:mapaITQ-2}
 \end{figure}
@@ -478,7 +539,7 @@ Para este momento ya se habrán estandarizado los tiempos en base a la muestra o
 
     \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.32]{19/Img/diagrama-1.pdf}
+    \includegraphics[scale=0.32]{19/Img/diagrama1.pdf}
     \caption{Diagrama para la identificación de riesgos y acciones}
     \label{fig:diagrama-1}
     \end{figure}
@@ -646,12 +707,12 @@ En caso de algún accidente o situación en la que no puede ser manejada por el 
      \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
 \subsubsection{Verificación}
     
-    Ya con la lectura, análisis y memorización del manual de fabricación por parte del operador se iniciara de manera manual el ensamblaje del circuito a manos del operador, rellenando una hoja de referencia con todos los datos solicitados para poder llevar acabo la operación \ref{fig:tabla_Operador}, mientras que el analista observa y realice la película (muestra continua) sobre como el operario llevo acabo todo el proceso de ensamblaje utilizando únicamente como base las instrucciones dadas con anterioridad, sin ningún tipo de apoyo externo, para de esta manera concluir si el circuito fue armado correctamente.
+    Ya con la lectura, análisis y memorización del manual de fabricación por parte del operador se iniciara de manera manual el ensamblaje del circuito a manos del operador, rellenando una hoja de referencia con todos los datos solicitados para poder llevar acabo la operación \ref{fig:tablaOperador}, mientras que el analista observa y realice la película (muestra continua) sobre como el operario llevo acabo todo el proceso de ensamblaje utilizando únicamente como base las instrucciones dadas con anterioridad, sin ningún tipo de apoyo externo, para de esta manera concluir si el circuito fue armado correctamente.
 \begin{figure}[H]
     \centering
-    \includegraphics[trim = {1mm 50mm 1mm 1mm},clip,scale=0.3]{19/Img/tabla_Operador.pdf}
+    \includegraphics[trim = {1mm 50mm 1mm 1mm},clip,scale=0.3]{19/Img/tablaOperador.pdf}
     \caption{Hoja de referencia del Operador José de Jesús Ramos.}
-    \label{fig:tabla_Operador}
+    \label{fig:tablaOperador}
 \end{figure}
     Al terminar todo el proceso de armado para confirmar que este se realizo adecuadamente se necesitará que el operador realice una modificación al rango del potenciómetro, al moverlo y modificar su resistencia para observar su cambio en la pantalla, de esta manera el analista deberá de tomar evidencia de como no solo la pantalla LCD funciona adecuadamente al prender y enviar una señal, sino también el hecho de que si se genera algún cambio en la lectura ofrecida por el potenciómetro a la hora de variar la resistencia de este último como se y de esta manera poder verificar que estos cambios ocurren de manera adecuada como en la figura \ref{fig:evidenciaCambio1}.
                 \begin{figure}[H]
@@ -715,22 +776,140 @@ En caso de algún accidente o situación en la que no puede ser manejada por el 
 
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.09]{19/Img/diagrama_Bimanual_1.pdf}
+        \includegraphics[trim = {280mm 1318mm 250mm 0mm},clip,scale=0.25]{19/Img/diagramaBimanual1.pdf}
         \newpage
-        \caption{Diagrama Bimanual para la creación del circuito eléctrico.}
-        \label{fig:diagrama_Bimanual_1}
+        \label{fig:diagramaBimanual11}
     \end{figure}
-
-    Posterior a la separación de movimientos de Therbligs se realizará un nuevo diagrama Bimanual en este caso considerando los 10 movimientos básicos presentados en la Medición del Tiempo de Métodos 1 (MTM-1) como se presenta en la figura \ref{fig:diagrama_Bimanual_2}, para de esta manera utilizar sus tablas ya establecidas y así facilitar la generación de los tiempos para cada movimiento 
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {280mm 500mm 250mm 790mm},clip,scale=0.25]{19/Img/diagramaBimanual1.pdf}
+        \newpage
+        \label{fig:diagramaBimanual12}
+    \end{figure}
     \begin{figure}[H]
         \centering
-        \includegraphics[trim = {1mm 200mm 1mm 1mm},clip,scale=0.08]{19/Img/diagrama_Bimanual_2.pdf}
+        \includegraphics[trim = {280mm 0mm 250mm 1608mm},clip,scale=0.25]{19/Img/diagramaBimanual1.pdf}
+        \newpage
+        \caption{Diagrama Bimanual para la creación del circuito eléctrico.}
+        \label{fig:diagramaBimanual13}
+    \end{figure}
+    Posterior a la separación de movimientos de Therbligs se realizará un nuevo diagrama Bimanual en este caso considerando los 10 movimientos básicos presentados en la Medición del Tiempo de Métodos 1 (MTM-1) como se presenta en la figura \ref{fig:diagramaBimanual23}, para de esta manera utilizar sus tablas ya establecidas y así facilitar la generación de los tiempos para cada movimiento 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {260mm 1359mm 250mm 0mm},clip,scale=0.25]{19/Img/diagramaBimanual2.pdf}
+        \newpage
+        \label{fig:diagramaBimanual21}    
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {260mm 530mm 250mm 750mm},clip,scale=0.25]{19/Img/diagramaBimanual2.pdf}
+        \newpage
+        \label{fig:diagramaBimanual22}    
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {260mm 210mm 250mm 1578mm},clip,scale=0.25]{19/Img/diagramaBimanual2.pdf}
         \newpage
         \caption{Diagrama Bimanual hecho en base a los movimientos del MTM-1.}
-        \label{fig:diagrama_Bimanual_2}
-
-        
+        \label{fig:diagramaBimanual23}    
     \end{figure}
+
+    En base a la tabla \ref{fig:diagramaBimanual23}  y con apoyo de las tablas \ref{fig:tablaAlcanzar}, \ref{fig:tablaMover}, \ref{fig:tablaGirar}, \ref{fig:tablaAplicarPresión}, \ref{fig:tablaColocar} y \ref{fig:tablaSoltar}, las cuales representan los valores de TMU para cada uno de los movimientos del MTM-1 y de esta manera obtener en base a la situación del movimiento la cantidad de TMU's para cada micromovimiento de cada acción con ambas manos, para posterior a eso sumar todos esos valores y obtener el "tiempo ciclo" que se obtendría de un movimiento de manos adecuado.
+        \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {5mm 60mm 1mm 10mm},clip,scale=0.3]{19/Img/tablaTMU1.pdf}
+        \newpage
+        \label{fig:tablaTMU1}    
+    \end{figure}
+            \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {5mm 45mm 1mm 10mm},clip,scale=0.35]{19/Img/tablaTMU2.pdf}
+        \newpage
+        \label{fig:tablaTMU2}    
+    \end{figure}
+            \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {5mm 37mm 1mm 10mm},clip,scale=0.35]{19/Img/tablaTMU3.pdf}
+        \newpage
+        \label{fig:tablaTMU3}    
+    \end{figure}
+                \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {5mm 45mm 1mm 10mm},clip,scale=0.35]{19/Img/tablaTMU4.pdf}
+        \newpage
+        \label{fig:tablaTMU4}    
+    \end{figure}
+            \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 140mm 1mm 10mm},clip,scale=0.35]{19/Img/tablaTMU5.pdf}
+        \newpage
+        \caption{Tabla de TMU para los micromovimientos de Diagrama Bimanual MTM-1.}
+        \label{fig:tablaTMU5}    
+    \end{figure}
+Para estos valores medimos el tamaño de distancia en el que se encontraba el tapete organizador del cuerpo del operario, obteniendo aproximadamente 45 cm de distancia, el cual transformado a pulgadas que es la medición que la tablas utilizan dan como resultado 17.7165 pulgadas, las cuales decidimos redondear a 18 plg. para facilitar el uso de la tabla. También considerando un ángulo de 120 grados varias veces y otros factores solicitados para la obtención de cada uno dependiendo del movimiento deseado.
+\\Posterior a esto se realizo un análisis de holguras para el ensamble, considerando los factores presentes en la figura \ref{fig:tablaHolguras} pudimos obtener los valores presentes en la figura \ref{fig:tablaHolguraTMU} y de esta manera conseguir el porcentaje de holgura de 14\% el cual será el que se usará en el tiempo estándar.
+            \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {25mm 30mm 1mm 140mm},clip,scale=0.4]{19/Img/tablaTMU5.pdf}
+        \newpage
+        \caption{Resultados del análisis de holgura del ensamble.}
+        \label{fig:tablaHolguraTMU}    
+    \end{figure}
+    Para concluir, se requiere de la suma tanto del tiempo ciclo como del tiempo otrogado por holguras para obtener el tiempo estándar, por lo que se suman todos los TMU y en base a la cantidad de TMU's presentes por minuto se obtiene un valor en minutos del tiempo ciclo, para luego obtener el 14\% de este y sumarlo para finalmente obtener el tiempo estándar de casi 2.50 minutos como se presenta en la figura \ref{fig:resultadoTMU}.
+                \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {25mm 190mm 1mm 20mm},clip,scale=0.4]{19/Img/resultadoTMU.pdf}
+        \newpage
+        \caption{Resultados del análisis de holgura del ensamble.}
+        \label{fig:resultadoTMU}    
+    \end{figure}
+  \subsubsection{Desarrollo del muestreo del trabajo}
+Para la obtención de la muestra de cada uno de los analistas primero se debe de obtener un estándar propio para luego realizar la comparación con los demás, por lo que primero se debe de analizar la película del primer ciclo y dividirlo en ciertas actividades para obtener el tiempo en minutos de cuanto le tomo realizar cada una, para claro en sumatorio dar el tiempo total de la película, anotando estos valores en una tabla que presente tanto las actividades como sus tiempos. Después se realiza lo mismo con el segundo ciclo y se anotan los valores para de esta manera obtener un promedio de tiempo para cada actividad y un rango de tiempo en el que fluctuara esta actividad \ref{fig:valorMáximoAnalista}como se presenta en la figura \ref{fig:tiemposAnalista}, siendo el promedio de cada actividad el que se comparara con los demás muestras de los otros analistas.
+                \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 10mm 1mm 1mm},clip,scale=0.4]{19/Img/tiemposAnalista.pdf}
+        \newpage
+        \caption{Tiempos promedio de cada actividad  usados en la obtención del tiempo ciclo individual.}
+        \label{fig:tiemposAnalista}    
+    \end{figure}
+    Además de obtener el promedio de cada actividad ya se puede obtener el tiempo de estándar gracias a la muestra de dos ciclos realizada por el operador, al sumarle la desviación estándar de los tiempos de cada actividad a la suma de segundos de esta, pero dado a que cada analista solo realizo dos ciclos este tiempo resulta poco confiable y por ende solo es un valor de la muestra de tiempos de los demás analistas.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 130mm 1mm 1mm},clip,scale=0.3]{19/Img/valorMáximoAnalista.pdf}
+        \newpage
+        \caption{Rango de tiempo para cada uno de los valores.}
+        \label{fig:valorMáximoAnalista}    
+    \end{figure}
+    Después de asegurar que los valores promedio de cada actividad fueron sacados adecuadamente se compartirán con los demás analistas para hacer una tabla en la que se presenten los tiempos promedios de ambas ciclos de cada operador, para así obtener un tiempo promedio de cada actividad, un rango de tiempos para cada una (figura \ref{fig:valorMáximoMuestro}) para finalmente sumar todos los tiempos promedio y obtener el tiempo ciclo, el cual es el tiempo que se toma el operador para realizar el ensamble adecuadamente. Como se menciona anteriormente la razón por la que se decidió utilizar también los valores promedio de otro analista es para tener un valor ciclo y un tiempo estándar más realista y adecuado, ya que no todos los trabajadores se desenvuelven de la misma manera y debemos de tener una muestra más amplia en base a ello.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 40mm 1mm 1mm},clip,scale=0.25]{19/Img/tiemposMuestreo1.pdf}
+        \newpage
+        \label{fig:tiemposMuestreo1 }    
+    \end{figure}
+        \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 37mm 1mm 1mm},clip,scale=0.25]{19/Img/tiemposMuestreo2.pdf}
+        \newpage
+        \caption{Tiempos promedio de actividades de todos los analistas.}
+        \label{fig:tiemposMuestreo2 }    
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 125mm 1mm 1mm},clip,scale=0.3]{19/Img/valorMáximoMuestro.pdf}
+        \newpage
+        \caption{Rango de tiempos para cada actividad del muestreo.}
+        \label{fig:valorMáximoMuestro}    
+    \end{figure}
+    Después de obtener los valores de promedio de cada actividad al igual en el caso individual se debe de realizar la sumatoria de todos estos valores y así obtener el tiempo ciclo, sumado a tener que obtener la desviación estándar para estos valores como en la figura \ref{fig:resultadoMuestreo}, al obtener ambos valores se vuelven a sumar entre sí para poder obtener el tiempo estándar del ensamble, el cual es el tiempo general que cualquier buen operador capacitado debería de tomar para poder realizar todo el ensamble en tiempo y forma.
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {10mm 150mm 1mm 20mm},clip,scale=0.4]{19/Img/resultadoMuestreo.pdf}
+        \newpage
+        \caption{Tiempos promedio de actividades de todos los analistas.}
+        \label{fig:resultadoMuestreo}    
+    \end{figure}
+    Siendo el resultado dado por las muestras un tiempo de 10 minutos con 48, casi 11 minutos, valores que como se puede observar en comparación al tiempo estándar obtenido de un solo analista resulta ser casi el doble, demostrando que la diferencia entre habilidades de los operadores varía considerablemente entre las muestras obtenidas de cada analista, generando que este tiempo estándar pueda resultar bastante exagerado para algunos y aceptable para otros.
     %Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
     %Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora esta listo para estilizar su documento.
     %En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
@@ -752,12 +931,12 @@ En caso de algún accidente o situación en la que no puede ser manejada por el 
     
     \section{Conclusiones}
     
-    En conclusión este método puede resultar el más sencillo y rápido de todos pero no por eso significará que perderá su validez, por lo cual aún existiendo otros métodos este es una buena opción si se posee un registro histórico con el cual comparar.
-    %Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
-    
+Podemos concluir que después de los 6 aproximados si se llego a la generación de un proyecto integrador adecuado para el proceso de ensamble del circuito eléctrico y logramos obtener los tiempos estándar que un operador requiere para esto, al tomar en consideración todos los temas presentados a lo largo del semestre, iniciando con el uso y entendimiento del estudio de tiempos y movimientos, para permitirnos realizar un análisis detallado y adecuado tanto de todas las piezas que conformaban el ensamble, los sistemas que desempeñamos para obtener los valores de los tiempos e incluso obtuvimos conocimientos más específicos y completos de nuestra área de trabajo, que es la institución, al realizar el plan de emergencia que permitió identificar no solo la localización de todo material necesario para mitigar cualquier riesgo, sino también para comprender la situación de la institución referente a la seguridad.
+\\Sumado a esto también pudimos trabajar con compañeros con los cuales no teníamos ningún tipo de interacción, ya sea  para realizar el ensamble o simplemente para apoyarnos en entender la materia permitió que pudiéramos acabar el proyecto de forma adecuada, sino también permitió que pudiéramos mejorar nuestras habilidades sociales y de dirección. También pudimos llevar en práctica las muestras de trabajo que se nos enseño durante la materia en conjunto con conocimientos de herramientas y temas nuevos que aunque en un inicio puedan parecer que simplemente eran una molestia para nuestro trabajo en un futuro pueden resultar de gran utilidad, desde el conocimiento básico de eléctrica que nos dio con el manejo de los materiales del ensamble, pero sobre todo el aprendizaje del uso de la herramienta de overleaf y Github, las cuales indudablemente utilizaremos cuando tengamos que diseñar e implementar planes de optimización para la fabricación en empresas reales, por lo que estas herramientas nos darán una ventaja a futuro en nuestra carrera. En líneas generales creo que todos los objetivos a desarrollar se concluyeron exitosamente y pudimos llevar acabo un proyecto que demostró el esfuerzo, tiempo y dedicación que se le puso para realizarlo adecuadamente, por lo que en un futuro esto ayudará a que podamos desarrollar más rápido, mas preciso y mas exacto futuros proyectos que se nos ofrecerán en nuestro paso por la institución.
+%Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.    
     \section{Agradecimientos}
     
-    Quiero agradecer a mis compañeros los cuales se tomaron la molestia de explicarme lo básico de SolidWorks para que pudiera lograr terminar a tiempo los trabajos.
+    Quiero agradecer a mis compañeros los cuales se tomaron la molestia de explicarme lo básico de SolidWorks para que pudiera lograr terminar a tiempo los trabajos y al profesor por todo el tiempo que ofreció para desarrollar este proyecto.
     %Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
     
     %\section*{Referencias}
@@ -768,79 +947,15 @@ En caso de algún accidente o situación en la que no puede ser manejada por el 
     %Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
     %A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
     
-    % Ejemplo
-    %  @Article{article,
-    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-    % 	title = "Article Title",
-    % 	volume = "30",
-    % 	number = "30",
-    % 	pages = "10127-10134",
-    % 	year = "2013",
-    % 	doi = "10.3389/fnins.2013.12345",
-    % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
-    % 	journal = "Frontiers in Neuroscience"
-    % }
-    
-    % @book{book,
-    %   author    = {Author Name}, 
-    %   title     = {The title of the work},
-    %   publisher = {The name of the publisher},
-    %   address   = {The city},
-    %   year      = 1993,
-    % }
-    
-    % @incollection{chapter,
-    %   author       = {Bauthor Surname}, 
-    %   title        = {The title of the work},
-    %   editor       = {Editor Name},
-    %   booktitle    = {The title of the book},
-    %   publisher    = {The name of the publisher},
-    %   address      = {The city},
-    %   year         = 2002,
-    %   pages        = {201-213},
-    % }
-    
-    % @InProceedings{conference,
-    %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
-    %   title = {The title of the work},
-    %   booktitle = {The title of the conference proceedings},
-    %   year = 1996,
-    %   publisher = {The name of the publisher},
-    %   editor = {Editor Name1 and Editor Name2},
-    %   pages = {41-50},
-    % }
-    
-    % @book{cho,
-    %   author       = {Gauthor Name1}, 
-    %   title        = {The title of the work},
-    %   publisher = {Country code and patent number},
-    %   address      = {Patent Country},
-    %   year = 2013
-    % }
-    
-    % @book{patent,
-    %   author    = {Hauthor Surname1}, 
-    %   title     = {The title of the work},
-    %   publisher = {Patent number},
-    %   address   = {Patent country},
-    %   year      = 2010,
-    % }
-    
-    % % please use misc for datasets
-    % @misc{dataset, 
-    % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-    % 	title = "Data Title",
-    % 	year = "2011",
-    % 	doi = "10.000/55555",
-    % 	URL = "http://www.frontiersin.org/",
-    % }
-    
+
+    \newpage
     \bibliographystyle{ieeetr}
     \bibliography{19/referencias}
     % 
     % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \appendix
+    \newpage
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % 
     % 
