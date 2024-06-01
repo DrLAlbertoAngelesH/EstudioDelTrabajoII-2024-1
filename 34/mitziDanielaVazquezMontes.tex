@@ -573,7 +573,6 @@
     %
     %
     \subsubsection{Directorio de telefónicos de emergencia}
-    
     Listado telefónico de instituciones de atención de emergencias y otras instituciones que intervengan para el seguimiento y control de las mismas.
     
     \begin{figure}[H]
@@ -619,17 +618,37 @@
         \label{fig:diagramaBimanual3}
     \end{figure}
     % 
-    \subsubsection{Desarrollo del muestreo del trabajo}
-    % 
-    % 
+    \subsubsection{Desarrollo del muestreo del trabajo} 
+    En el desarrollo del proyecto, se identificó la falta de datos cruciales como la media y la varianza de la población, esenciales para obtener nuestros resultados. Para solucionar esto, se implementaron varios métodos, entre ellos, el uso de probabilidades.
+    Estás fórmulas nos permiten estimar la tendencia central de nuestra población utilizando solo dos muestras, lo cual reduce significativamente el costo y tiempo de obtención de datos. Esto justifica por qué en este proyecto se realizaron únicamente dos observaciones
+    Para obtener la media poblacional se usó la siguiente ecuación:
+    
+    
+    \begin{equation}
+        \mu_x=\dfrac{b+a}{2}
+    \end{equation}
+    Y Oara la desviaciÓn estándar utilizamos la siguiente ecuación:
+    \begin{equation}
+    \sigma_x=\sqrt{\dfrac{(b-a+1)^2-1}{(12}}
+    \end{equation}
+    Se procederá al cálculo del tiempo de ciclo y tiempo estándar. El video generado, considerado como una muestra continua (una película), sirvió de base para este análisis. Se creó una hoja de datos en Excel para determinar el tiempo de ciclo individual de cada uno de los 17 elementos en los que se dividió nuestro trabajo.
+    Para este cálculo, se promedió el tiempo en minutos que el operador empleó en nuestras dos muestras. Los dos videos recopilados se analizaron para identificar los puntos de transición entre actividades y determinar así el tiempo de cada elemento. Es importante señalar que los tiempos registrados en segundos se convirtieron a minutos, dividiendo los segundos entre 60.
+    
+    %
     \subsubsection{Corrección por balanceo de procesos}
     % 
     % 
     \subsubsection{Datos estándar continuos y discretos}
+    
     % 
     % 
     \subsection{Diseño de la forma más económica de realizar el trabajo}
-    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.4]{34/img/tablaFormaMásEconómica.pdf}
+        \caption{Tabla comparativa de la forma más económica de hacer el trabajo}
+        \label{fig:tablaFormaMásEconómica}
+    \end{figure}
     % 
     % 
     \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
@@ -657,14 +676,83 @@
         \caption{Análisis de la hoja 3 de unidades TMU de la muestra 1 realizada el día 25 de abril del presente año.}
         \label{fig:análisisMtmTmu3}
     \end{figure}
+    %
+    \begin{itemize}
+        \item Tiempo ciclo ensamble de la toma de 2 lecturas
+    \end{itemize}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble2Lecturas1.pdf}
+        \caption{Primera hoja del tiempo ciclo de dos lecturas}
+        \label{fig:tiempoCicloEnsamble2Lecturas1}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble2Lecturas2.pdf}
+        \caption{Segunda hoja del tiempo ciclo de dos lecturas}
+        \label{fig:tiempoCicloEnsamble2Lecturas2}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble2Lecturas3.pdf}
+        \caption{Tercera hoja del tiempo ciclo de dos lecturas}
+        \label{fig:tiempoCicloEnsamble2Lecturas3}
+    \end{figure}
+    
+    \begin{itemize}
+        \item Tiempo ciclo ensamble de la toma de 10 lecturas
+    \end{itemize}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble10Lecturas1.pdf}
+        \caption{Primera hoja del tiempo ciclo}
+        \label{fig:tiempoCicloEnsamble10Lecturas1}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble10Lecturas2.pdf}
+        \caption{Segunda hoja del tiempo ciclo}
+        \label{fig:tiempoCicloEnsamble10Lecturas2}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble10Lecturas3.pdf}
+        \caption{Tercera hoja del tiempo ciclo}
+        \label{fig:tiempoCicloEnsamble10Lecturas3}
+    \end{figure}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.45]{34/img/tiempoCicloEnsamble10Lecturas4.pdf}
+        \caption{Cuarta hoja del tiempo ciclo}
+        \label{fig:tiempoCicloEnsamble10Lecturas4}
+    \end{figure}
+    
+    
+    
+    
     % 
     \section{Conclusiones}
+    \begin{itemize}
+        \item El proyecto integrador fue una experiencia enriquecedora que permitió aplicar los conocimientos adquiridos a lo largo del semestre en un contexto práctico y real, se aplicaron los conceptos aprendidos durante el semestre Enero Junio de este año, incluyendo el estudio de movimientos y tiempos, así como el análisis de muestras continuas y discretas. Sin embargo, este proyecto no se limitó a los conocimientos adquiridos en el estudio del trabajo II, sino que también buscó integrar las enseñanzas de otras materias, las cuales impactaron mucho en el desarrollo de este proyecto, ya que era de suma importancia contar con conocimientos previos adquiridos en las materias de Estudio del Trabajo I, Probabilidad y estadística, Higiene y seguridad industrial, Electricidad y dibujo Industrial. Además, se elaboró un completo plan de emergencia que abordó aspectos como la identificación de riesgos internos y externos, la localización y planos del instituto, así como la identificación de apoyos externos en caso de emergencia, pero Nuestro objetivo principal fue optimizar sistemas de producción de bienes y servicios mediante tecnologías, centrándonos en la determinación del tiempo estándar en el ensamble del circuito.
+    \end{itemize}
     
-    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+    \begin{itemize}
+        \item Se alcanzó aproximadamente un 80 por ciento de cumplimiento de la hipótesis, ya que se logró mejorar las habilidades del estudiante y su capacidad para desarrollar nuevas prácticas, especialmente en el contexto del tiempo estándar de una operación. Cabe mencionar que este proyecto integrador no se logró terminar al 100 por ciento debido a que a lo largo del tiempo transcurrido para poder completarlo ocurrieron una serie de acontecimientos que hicieron que nos retrasáramos, ya que lo principal que nos atraso fue que la ESP-32 se dañó, lo cual tuvimos que tomar una drástica decisión de comprar otra para poder seguir con el proyecto. Gracias a esta serie de acontecimientos ocurridos logramos aprender bastante.
+     Con la ayuda de diferentes herramientas como Solidworks logramos sacar el diseño de los materiales a utilizar, para así poder realizar el manual para ensamblajes electrónicos con el objetivo de capacitar a operarios sin experiencia en este campo, ya que este manual se diseñó con el objetivo de que cualquier persona pueda entenderlo con un lenguaje claro y entendible y con ayudas visuales de igual manera que se pudieran interpretar. Posteriormente realizamos dos pruebas de ensamble, analizamos los resultados para identificar áreas de optimización y reducción de costos en los materiales. Asimismo, se llevó a cabo un análisis exhaustivo de los métodos, herramientas y materiales necesarios para el ensamblaje, lo que demostró la habilidad del estudiante para investigar y sintetizar información de manera efectiva. Además, se identificaron oportunidades para reducir costos mediante la adquisición de componentes más simples y la búsqueda de proveedores más económicos, lo que refleja la capacidad del estudiante para pensar de manera crítica y proponer soluciones creativas.
+    \end{itemize}
+    \begin{itemize}
+        \item En resumen, el proyecto integrador no solo contribuyó al desarrollo de habilidades técnicas, sino que también fortaleció habilidades blandas como el trabajo en equipo, la resolución de problemas y la adaptabilidad frente a desafíos imprevistos. Estas habilidades serán fundamentales en el futuro profesional de los estudiantes, destacando la importancia de la educación aplicada y la experiencia práctica en el proceso de aprendizaje. El proyecto integrador ejemplifica cómo la educación puede ser más efectiva al fomentar la aplicación de conocimientos en contextos reales y alentar el desarrollo de habilidades transversales.
+    \end{itemize}
+    
     
     \section{Agradecimientos}
     
-    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+    
     
     %\section*{Referencias}
     
