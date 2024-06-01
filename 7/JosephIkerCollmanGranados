@@ -153,7 +153,6 @@
   
   El análisis de movimientos y tiempos optimiza la eficacia laboral al dividir actividades en acciones simples, cronometrarlas y eliminar las innecesarias para mejorar la ejecución, reducir tiempos, aumentar la productividad y mejorar la ergonomía y seguridad laboral.
   
-  \newline
   
   DEFINICION DE ENSAMBLE
   \newline
@@ -325,6 +324,7 @@
   
   
   \section{Descripcion del Problema }
+  
   \newline 
   
   1. Tiempo de Ensamblaje: El proceso debe completarse dentro del tiempo estimado en el plan del proyecto.
@@ -817,27 +817,12 @@
   -potenciómetro 
   
   \subsection{Desarrollo de la guia de plan de emergencia  }
-  
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    Plan de Emergencia &  \includegraphics[height=90mm]{7/img/plan emergencia.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular}  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=85mm]{7/img/plan emergencia.jpg}
+      \label{fig:plan}
+  \end{figure}
+  Figura 1 : Aqui describira elplan de emergencia .
   
   \subsubsection{Planeación}
   
@@ -858,29 +843,13 @@
   
   El desarrollo del sistema de tiempos predeterminados implica la creación de un método para calcular los tiempos estándar requeridos para completar tareas específicas.
   % 
-  
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-      \includegraphics[height=90mm]{7/img/imagen2.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &   \\
-         & 
-    \end{tabular}  
-    
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=85mm]{7/img/imagen2.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
   \newline 
+  Figura 2 
   
   El sistema de tiempos predeterminados, originado a partir de los Therbligs, dio lugar al Método de Medición de Tiempos (MTM), desarrollado por Maynard, Stegemerten y asociados. MTM-1, el sistema básico que utilizaremos en el proyecto, descompone las operaciones en movimientos básicos identificados por símbolos y asigna tiempos estándar predeterminados a cada movimiento, basándose en su naturaleza y condiciones (TMU).
   \newline 
@@ -899,27 +868,13 @@
   9. Movimientos del cuerpo (Pierna-Pie, horizontal y vertical): Movimientos corporales completos.
   10. Movimientos Simultáneos: Realización simultánea de varios movimientos mencionados anteriormente.
   
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-      \includegraphics[height=60mm]{7/img/tablaalcanzar.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &   \ \
-         & 
-    \end{tabular}  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablaalcanzar.png}
+      \label{fig:tablaalcan}
+  \end{figure}
   \newline
+  Figura 3
   
   Para determinar los TMU de "Alcanzar" y sus siglas:
   \newline
@@ -934,288 +889,98 @@
   
   Usando el formato LITERAL/DISTANCIA/CASO para determinar las siglas del movimiento, la celda resultante de la intersección de distancia y caso da el valor estándar del TMU.
   
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablaalcanzarv2.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  
+    Figura 4: Alcanzar un objeto a una distancia variable de 8 pulgadas se codifica como R8B = 11.5 TMU.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablamover.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 5: Valores estándar del Therblig Mover. Los TMU de Mover se determinan utilizando LITERAL, DISTANCIA, CASO y PESO. Los formatos usados son LITERAL/DISTANCIA/CASO o LITERAL/DISTANCIA/CASO/PESO, según el peso del objeto y la decisión del analista.
     
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tablaalcanzarv2.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 5: Alcanzar un objeto a una distancia variable de 8 pulgadas se codifica como R8B = 11.5 TMU.
-  
-    \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tablamover.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 6: Valores estándar del Therblig Mover. Los TMU de Mover se determinan utilizando LITERAL, DISTANCIA, CASO y PESO. Los formatos usados son LITERAL/DISTANCIA/CASO o LITERAL/DISTANCIA/CASO/PESO, según el peso del objeto y la decisión del analista.
-  
-    \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tablamoverv2.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 7: Alcanzar un objeto que varía de ubicación a 8 pulgadas se codifica como R8B = 11.5 TMU.
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablamoverv2.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 6: Alcanzar un objeto que varía de ubicación a 8 pulgadas se codifica como R8B = 11.5 TMU.
   
   
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=35mm]{7/img/tablatresa.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablatresa.jpg}
+      \label{fig:tablatres}
+  \end{figure}
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 8: Girar y aplicar presión-A: T/Peso/°Girados; Soltar: RL/Caso.
+    Figura 7: Girar y aplicar presión-A: T/Peso/°Girados; Soltar: RL/Caso.
   
   
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=35mm]{7/img/tablatresb.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablatresb.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
+    Figura 8: Valores estándar del Therblig Girar y Aplicar Presión-B.
   
-    Figura 9: Valores estándar del Therblig Girar y Aplicar Presión-B.
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=35mm]{7/img/tabla4.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 10: Valores estandar del Therblig Asir.
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla4.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 9: Valores estandar del Therblig Asir.
   
   
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=25mm]{7/img/tabla5.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/tabla5.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 10: Valores estandar del Therblig Colocar en Posicion.
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla6.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 11: Valores estandar del Therblig Soltar
   
-    Figura 11: Valores estandar del Therblig Colocar en Posicion.
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla7.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 12: Valores estandar del Therblig Desenganchar
   
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tabla6.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 12: Valores estandar del Therblig Soltar
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=35mm]{7/img/tabla7.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 13: Valores estandar del Therblig Desenganchar
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=25mm]{7/img/tabla8.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-        Figura 14: Valores estandar del Therblig Desplazamiento de
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/tabla8.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 13: Valores estandar del Therblig Desplazamiento de
   Ojos y Enfoque Ocular.
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tabla9.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-  
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    
-      Figura 15: Valores estandar del Therblig Movimientos del
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla9.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+     Figura 14: Valores estandar del Therblig Movimientos del
   Cuerpo (Pierna-Pie, horizontal y vertical).
      
   
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/tabla10.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 16: Tablas MTM de todos los Movimientos Simultaneos.
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla10.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 15: Tablas MTM de todos los Movimientos Simultaneos.
   La ley por la que se rige el
   % 
   \subsubsection{Desarrollo del muestreo del trabajo}
@@ -1365,25 +1130,25 @@
     \hline
     NOMBRE & imagen  & pieza \\
     \hline 
-    potenciómetro  &  \includegraphics[height=19mm]{7/img/potenciometro.jpg}  & 
+    potenciómetro  &  \includegraphics[height=29mm]{7/img/potenciometro.jpg}  & 
      \includegraphics[width=19mm]{7/img/piezaaauno.PNG} \\
       \hline
-    protoboard &  \includegraphics[height=19mm]{7/img/protoboard.jpg}  & 
+    protoboard &  \includegraphics[height=29mm]{7/img/protoboard.jpg}  & 
      \includegraphics[width=19mm]{7/img/Piezauno.PNG} \\
       \hline
-      lcd & \includegraphics[height=19mm]{7/img/lcd.jpg}  & 
+      lcd & \includegraphics[height=29mm]{7/img/lcd.jpg}  & 
      \includegraphics[width=19mm]{7/img/piezatress.PNG} \\
       \hline
-      cable HM & \includegraphics [height=19mm]{7/img/cables.jpg}  & 
+      cable HM & \includegraphics [height=29mm]{7/img/cables.jpg}  & 
      \includegraphics[width=19mm]{7/img/cuatrooo.PNG} \\
       \hline
-      CABLE HH & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+      CABLE HH & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
      \includegraphics[width=19mm]{7/img/cinco.PNG} \\
       \hline 
-       CABLE 1 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+       CABLE 1 & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
      \includegraphics[width=19mm]{7/img/seis.PNG} \\
       \hline 
-       CABLE 2 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
+       CABLE 2 & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
      \includegraphics[width=19mm]{7/img/siete.PNG} \\
       \hline 
       
@@ -1391,7 +1156,7 @@
      
        \label {tab:my_label1}  \label {7/}
         \end{table} 
-  
+  figura 25
     \begin{tabular}{c|c}
          &  \\
          & 
@@ -1420,6 +1185,7 @@
          &  \\
          & 
     \end{tabular}  
+    figura 16
       
   \subsubsection{Planeación}
   
@@ -1530,6 +1296,7 @@
      
        \label {tab:my_label3}  \label {}
         \end{table} 
+  figura 17
   
     \begin{tabular}{c|c}
          &  \\
@@ -1572,6 +1339,7 @@
          &  \\
          & 
     \end{tabular}  
+    figura 18
   
   Puntos Clave para un Manual de Emergencia
   \newline 
@@ -1623,172 +1391,177 @@
   
   \subsection{Desarrollo de la guía de plan de Emergencia}
   
-   \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=75mm]{7/img/tecuno.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tecuno.png}
+      \label{fig:tec}
+  \end{figure}
+  figura 19
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tecdos.png}
+      \label{fig:tec}
+  \end{figure}
   
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=85mm]{7/img/tecdos.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
+  figura 20
   \subsubsection{Identificación del riesgo}
   
   La identificación de riesgos en un manual de emergencia implica reconocer posibles amenazas que puedan afectar su efectividad y la seguridad de las personas en situaciones críticas. Esto incluye evaluar escenarios como desastres naturales, accidentes industriales, incendios, entre otros, para desarrollar respuestas apropiadas y medidas preventivas.
   
-  \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-  
-     \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=55mm]{7/img/matrizriesgo.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 30: Matriz de riesgos.
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=60mm]{7/img/matrizriesgo.jpg}
+      \label{fig:matriz}
+  \end{figure}
+    Figura 21: Matriz de riesgos.
   
   \subsubsection{Riesgos internos}
   
   Los riesgos internos en un manual de emergencia incluyen fallas en la infraestructura, errores humanos, problemas organizativos, vulnerabilidades en la seguridad y interrupciones en el suministro.
   
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=25mm]{7/img/programinterno.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-  Figura 31: Diagrama para la identificacion de riesgos y acciones.
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/programinterno.jpg}
+      \label{fig:programa }
+  \end{figure}
+  Figura 22: Diagrama para la identificacion de riesgos y acciones.
   
   \subsubsection{Riesgos externos}
   
   Los riesgos externos en un manual de emergencia incluyen desastres naturales, ataques cibernéticos, interrupciones en la cadena de suministro, conflictos sociopolíticos y pandemias.
   
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=95mm]{7/img/riesgos.jpg}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
-  
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
-  
-    Figura 32: Descripcion de los riesgos al realizar las actividades mas comunes y de riesgo dentro del aula.
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]{7/img/riesgos.jpg}
+      \label{fig:riesgoss}
+  \end{figure}
+  Figura 23: Descripcion de los riesgos al realizar las actividades mas comunes y de riesgo dentro del aula.
   
   \subsubsection{Plan de acción}
   
   Un plan de acción para un manual de emergencia incluye evaluar riesgos desarrollar protocolos específicos asignar roles capacitar al personal y realizar simulacros asegurar equipos y recursos establecer canales de comunicación efectivos y revisar y actualizar el manual regularmente que se lleva a cabo de manera anticipada en el Instituto Tecnologico de Queretaro (ITQ)
   
-  \begin{table} [H]
-        
-    \huge
-    \tiny 
-    \begin{tabular}   {| c |  c |  c | }
-    
-   
-   \hline 
-    &  \includegraphics[height=60mm]{7/img/riesgosdoss.png}  \\
-      \hline
-       
-      \end{tabular} 
-     
-       \label {tab:my_label2}  \label {7/}
-        \end{table} 
   
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular} 
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/riesgosdoss.png}
+      \label{fig:riesgos}
+  \end{figure}
+  Figura 24: Descripcion de las acciones anticipadas y correctivas ante un riesgo externos.
+  
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]{7/img/riesgos internos.png}
+      \label{fig:rinternos}
+  \end{figure}
+  Figura 25: Descripcion de las acciones anticipadas y correctivas ante un riesgo internos.
   
   \subsubsection{Identificación de capacidades}
   
+  Identificar lo que una persona o grupo puede hacer basado en sus habilidades y recursos.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/invrecursoss.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 26: descripcion de cantidad de inventario en materia de seguridad .
+    
   \subsubsection{Plano de localización de recursos}
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar1.png}
+      \label{fig:ubicacion}
+  \end{figure}
+   Figura 27: En esta zona hay 9 extintores , 6 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/lugar2.png}
+      \label{fig:lugar2}
+  \end{figure}
+   Figura 28: En esta zona hay 8 extintores , 6 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+     
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar 3.png}
+      \label{fig:lugar}
+  \end{figure}
+     Figura 29: En esta zona hay 5 extintores , 3 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar4.png}
+      \label{fig:lugar}
+  \end{figure}
+   Figura 30: En esta zona hay 5 extintores , 6 botiquines , 5 detectores de humo , 4 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar5.png}
+      \label{fig:lugar}
+  \end{figure}
+   Figura 31 : En esta zona hay 7 extintores , 2 botiquines , 5 detectores de humo , 4 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar6.png}
+      \label{fig:lugar}
+  \end{figure}
+     Figura 32: En esta zona hay 5 extintores , 2 botiquines , 5 detectores de humo , 2 lamparas de emergencia.
   
   \subsubsection{ Identificación de apoyos externos}
   
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/ubicacion.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/urgencias.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 33: Lugares que serviran de apoyo en un situacion
+  de emergencia.
+    
   \subsubsection{Identificación de puntos de reunión}
+    punto a
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/punto1.png}
+      \label{fig:puntos}
+  \end{figure}
+    punto b
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/puntob.png}
+      \label{fig:puntos}
+  \end{figure}
+   Figura 34: Lugares que serviran como punto en una situacion
+  de emergencia.
+  
   
   \subsubsection{Brigada de evacuación}
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/brigada.png}
+      \label{fig:brigada}
+  \end{figure}
+   Figura 35: Tareas asignadas a cada miembro del equipo en caso de evacuación o repliegue de emergencia.
   
   \subsubsection{Directorio de telefónicos de emergencia}
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/numeros.png}
+      \label{fig:directorio}
+  \end{figure}
+    Figura 36: Numeros de emergencia.
   
   \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
   
