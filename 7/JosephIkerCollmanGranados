@@ -1568,6 +1568,34 @@
   \subsubsection{Verificación}
   
   \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+  
+  Organización: Estudio del Trabajo II Fecha: 25 de Mayo del 2024
+  Operación: 
+  Ensamble de Circuito Electronico
+  Sistema: MTM-1
+  Analista: Collman Granados Joseph Iker Estudio N°.- 1
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/mtmhoja1.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/mtmhoja2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/tresmtm.png}
+      \label{fig:directorio}
+  \end{figure}
+  
   % 
   % 
   \subsubsection{Desarrollo del muestreo del trabajo}
