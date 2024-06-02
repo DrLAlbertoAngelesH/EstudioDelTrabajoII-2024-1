@@ -586,6 +586,7 @@ En resumen, un cable macho-hembra es una herramienta esencial en el campo de la 
 \end{figure}
 
 cable Macho-Macho:
+
 Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
 
 Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
@@ -1077,13 +1078,12 @@ Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios 
 
 El tiempo estándar se calcula utilizando una combinación de observación directa, tiempos predeterminados y ajustes para factores como la fatiga y los retrasos inevitables. Para calcular el tiempo estándar:
 
-1. Observación Directa: Se observa y se mide el tiempo que un trabajador capacitado y calificado tarda en realizar una tarea trabajando a un ritmo normal. Esto se hace generalmente utilizando un cronómetro y se conoce como estudio de tiempos.
-
-2. Tiempos Predeterminados: Se utilizan tablas de tiempos predeterminados para calcular el tiempo que debería tomar cada movimiento o serie de movimientos en la tarea. Estas tablas se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
-
-3. Ajustes: Se hacen ajustes al tiempo observado para tener en cuenta factores como la fatiga y los retrasos inevitables. Estos ajustes se basan en tablas y fórmulas estándar y se expresan como un porcentaje del tiempo observado.
-
-4. Cálculo del Tiempo Estándar: Finalmente, se suma el tiempo observado ajustado y los tiempos predeterminados para obtener el tiempo estándar.
+\begin{enumerate}
+    \item  Observación Directa: Se observa y se mide el tiempo que un trabajador capacitado y calificado tarda en realizar una tarea trabajando a un ritmo normal. Esto se hace generalmente utilizando un cronómetro y se conoce como estudio de tiempos.
+    \item  Tiempos Predeterminados: Se utilizan tablas de tiempos predeterminados para calcular el tiempo que debería tomar cada movimiento o serie de movimientos en la tarea. Estas tablas se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+    \item Ajustes: Se hacen ajustes al tiempo observado para tener en cuenta factores como la fatiga y los retrasos inevitables. Estos ajustes se basan en tablas y fórmulas estándar y se expresan como un porcentaje del tiempo observado.
+    \item  Cálculo del Tiempo Estándar: Finalmente, se suma el tiempo observado ajustado y los tiempos predeterminados para obtener el tiempo estándar.
+\end{enumerate}
 
 Es importante mencionar que el tiempo estándar puede variar dependiendo de una serie de factores, incluyendo la habilidad y experiencia del trabajador, las condiciones de trabajo, la calidad de las herramientas y equipos utilizados, y otros factores. 
 
@@ -1195,9 +1195,16 @@ Basándonos en el análisis que se llevó a cabo al operador, y en colaboración
 % 
 % 
 \subsubsection{Corrección por balanceo de procesos}
+En esta sección buscaremos la forma de realizar una corrección mediante el balanceo de líneas. Una de las principales razones para realizar el balanceo de líneas es para igualar los tiempos de trabajo en cada estación. Esto significa que cada estación de trabajo en la línea de producción debe producir a la tasa adecuada para minimizar los tiempos de espera entre estaciones de trabajo y, en última instancia, aumentar la eficiencia general de la línea de producción.
+Además, el balanceo de líneas ayuda a evitar el ocio y los tiempos de espera. Al equilibrar el ritmo de producción en cada estación, se pueden minimizar los tiempos de espera entre estaciones de trabajo. Esto es crucial para mantener un flujo de trabajo constante y eficiente.
+Otra razón importante para realizar el balanceo de líneas es reducir los costos e inventarios. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en ahorros significativos en términos de costos de producción y almacenamiento de inventario.
+Finalmente, el balanceo de líneas puede ayudar a incrementar la productividad y mejorar la calidad y satisfacción del cliente. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en productos de mayor calidad y una mayor satisfacción del cliente.
+En resumen, el balanceo de líneas es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
 % 
 % 
 \subsubsection{Datos estándar continuos y discretos}
+
 % 
 % 
 \subsection{Diseño de la forma más económica de realizar el trabajo}
