@@ -282,14 +282,18 @@ Estos sistemas se utilizan para sintetizar las estimaciones hechas, puesto que l
 
 Existen más de 50 sistemas diferentes para realizar estudios de tiempos predeterminados. Algunos de los sistemas de tiempos predeterminados más conocidos son:
 
-1. MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
-2. GPD (General Purpose Data – Basado en MTM).
-3. BMT (Basic Motion Time Study).
-4. UAS (Universal Analyzing System).
-5. MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
-6. MICRO (Micro Motion Análisis).
-7. MODAPTS (Modular Arrangement of PTS).
-8. MACRO (Macro Motion Análisis).
+\begin{enumerate}
+    \item MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
+    \item GPD (General Purpose Data – Basado en MTM).
+    \item BMT (Basic Motion Time Study).
+    \item UAS (Universal Analyzing System)
+    \item MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
+    \item MICRO (Micro Motion Análisis)
+    \item MODAPTS (Modular Arrangement of PTS)
+    \item MACRO (Macro Motion Análisis)
+
+\end{enumerate}
+
 
 Cada uno de estos sistemas tiene sus propias características y aplicaciones, y se utilizan en diferentes contextos dependiendo de las necesidades específicas de la organización. 
 
@@ -306,6 +310,51 @@ Además, la Industria 4.0 se entiende como la aplicación de tecnologías disrup
 El desarrollo de fábricas inteligentes brinda una oportunidad increíble para que la industria manufacturera ingrese a la cuarta revolución industrial. El análisis de las grandes cantidades de datos recopilados de los sensores en la planta de producción garantiza la visibilidad en tiempo real de los activos de manufactura y puede proporcionar herramientas para realizar el mantenimiento predictivo a fin de minimizar el tiempo de inactividad del equipo.
 
 El uso de dispositivos del IoT de alta tecnología en fábricas inteligentes conduce a mayor productividad y mejor calidad. Reemplazar los modelos comerciales de inspección manual con insights visuales basados en IA, reduce los errores de manufactura y ahorra tiempo y dinero, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
+
+Para poder calcular los tiempos estándar, tiempo, ciclo, y  los demás MTM, junto con el TMU, tenemos que apoyarnos de diferentes herramientas, como lo es la estadística y demás.
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+\begin{equation}
+        \label{equ:1}
+       \bar{x} {\pm} {\frac{zs}{\sqrt{n}}}
+    \end{equation}
+
+Siendo está la forma de calcular la media muestral, en una muestra>30, siendo una muestra grande, siendo así teniendo que utilizar el método T de Student para nuestro muestreo, pues no es mayor de 30. Con lo que deberemos calcular con la siguiente ecuación:
+
+\begin{equation}
+        \label{equ:ciclo}
+        \bar{x} {\pm} {\frac{ts}{\sqrt{n}}}
+    \end{equation}
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+Un operador calificado es un trabajador que ha recibido una formación específica y ha demostrado tener los conocimientos necesarios para operar de manera eficiente y segura un equipo o maquinaria específica. Esta formación suele incluir una combinación de instrucción teórica y práctica, y puede culminar en una evaluación o certificación.
+Además, un operador calificado debe estar familiarizado con las normas y leyes de seguridad e higiene relevantes para su trabajo¹. También debe tener experiencia en el campo en el que trabaja y conocimientos empíricos.
+
+En resumen, un operador calificado es un trabajador que ha demostrado tener la formación, los conocimientos y la experiencia necesarios para realizar su trabajo de manera eficiente y segura.
+
+ Para poder calificar el desempeño de cada operador, se debe ajustar el tiempo medio observado, para cada elemento que lleva a cabo el operador, para el tiempo normal que requiere cada uno de los operadores, con el cual se calcula:
+
+ \begin{equation}
+        \label{equ:TN}
+       TN= TO  \frac{C}{100}
+    \end{equation}
+
+Y en el caso del tiempo que requiere un operador completamente calificado, es decir, un operador lo suficientemente capaz, trabaja a un tiempo estándar, el cual se basa en una velocidad y movimiento "predeterminados" en un tiempo que no varía, el cual es el Tiempo Estándar, el cual se determina con los operadores calificados, y el tiempo estándar, el cual se calcula con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:TE}
+       TE = TN + TN x holgura = TN x (1 + holgura)
+    \end{equation}
+ 
+También debemos de considerar la eficiencia de los operadores, esto con el mismo fin de obtener la calificación del operador, y para calcular esta eficiencia es con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:Eficiencia}
+       E= 100 * \frac{He}{Hc} = 100 * \frac{Oc}{Oe}
+    \end{equation}
+
 
 % 
 % 
