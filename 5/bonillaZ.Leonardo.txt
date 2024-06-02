@@ -969,9 +969,9 @@ Es importante mencionar que el tiempo estándar puede variar dependiendo de una 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstándarBonilla.pdf}
-    \caption{Tiempo Estándar}
-    \label{fig:Tiempo Estándar}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstandelOperBonilla.pdf}
+    \caption{Tiempo Estándar del Operador}
+    \label{fig:Tiempo Estándar del Operador}
 \end{figure}
 
 \begin{figure}
@@ -995,7 +995,7 @@ Es importante mencionar que el tiempo estándar puede variar dependiendo de una 
     \label{fig:Tabla MTM 3}
 \end{figure}
 
-Para desarrollar todo lo visto en la tabla de los tiempos Estándar \ref{fig:Tiempo Estándar} se tuvo que dividir cada paso en elementos, para posteriormente hacer el análisis de cada uno de ellos, usando como referencia las tablas \ref{fig:Tabla MTM 1},\ref{fig:Tabla MTM 2} y \ref{fig:Tabla MTM 3} para poder identificar cada uno de estos valores, y qué valor tiene según los TMU, en algunos casos no se puede identificar los valores exactos, así que se tiene que interpolar:
+Para desarrollar todo lo visto en la tabla de los tiempos Estándar \ref{fig:Tiempo Estándar del Operador} se tuvo que dividir cada paso en elementos, para posteriormente hacer el análisis de cada uno de ellos, usando como referencia las tablas \ref{fig:Tabla MTM 1},\ref{fig:Tabla MTM 2} y \ref{fig:Tabla MTM 3} para poder identificar cada uno de estos valores, y qué valor tiene según los TMU, en algunos casos no se puede identificar los valores exactos, así que se tiene que interpolar:
 $$ y = y_1 + \frac{(x - x_1)(y_2 - y_1)}{x_2 - x_1} $$
 
 Sin embargo, también tenemos que considerar las holguras, y otros contratiempos, los cuales pueden hacer que varíen los tiempos o se vean afectados, dado que estamos trabajando con operadores humanos, e inclusive inexpertos en el ensamble del circuito
@@ -1063,6 +1063,8 @@ Estos son para considerar holguras usuales que se pueden presentar ante cualquie
     \caption{Tabla de holguras porcentuales}
     \label{fig:Tabla de holguras porcentuales}
 \end{figure}
+
+Basándonos en el análisis que se llevó a cabo al operador, y en colaboración de mis compañeros, los cuales cada quien llevo su análisis de cada operador asignado, con los cuales obtuve aplicando los STP y MTM, el tiempo estándar para realizar el ensamble del circuito eléctrico
 
 \begin{figure}
     \centering
