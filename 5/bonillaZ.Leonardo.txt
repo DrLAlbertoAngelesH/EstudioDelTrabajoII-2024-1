@@ -354,6 +354,77 @@ También debemos de considerar la eficiencia de los operadores, esto con el mism
         \label{equ:Eficiencia}
        E= 100 * \frac{He}{Hc} = 100 * \frac{Oc}{Oe}
     \end{equation}
+ donde:
+    \begin{itemize}
+        \item E = porcentaje de eficiencia,
+        \item He = horas estándar trabajadas,
+        \item Hc = horas de reloj en el trabajo,
+        \item Oe = producción esperada,
+        \item 0c = producción actual
+    \end{itemize}
+
+%Sistemas de calificación
+Con todo lo anterior, se usa para poder llevar a cabo la calificación de cada operador, y en base a ello determinar a los operadores más competentes, los cuales nos ayudan a mejorar los métodos para el trabajo, pero para ello debemos calificarlos con diversos sistemas los cuales nos ayudan a determinar la calificación en base a diversos factores, ya sea por los tiempos, movimientos, holguras y demás, entre ellos uno de los más destacables o más usados, es el sistema de calificación Westing House.
+
+El sistema de calificación Westinghouse es un método que se utiliza para evaluar el desempeño de un operario en base a cuatro factores: habilidad, esfuerzo, condiciones y consistencia.
+
+\begin{enumerate}
+    \item Habilidad: Se define como la destreza para seguir un método dado y se relaciona con la experiencia que se demuestra mediante la coordinación adecuada entre la mente y las manos. Existen seis grados de habilidad: malo, aceptable, promedio, bueno, excelente y superior.
+
+    \item Esfuerzo: Se define como una demostración de la voluntad para trabajar de manera eficaz. Se caracteriza por la rapidez con la que se aplica la habilidad. Los seis grados de calificación del esfuerzo son malo, aceptable, promedio, bueno, excelente y excesivo.
+
+    \item Condiciones: Son condiciones externas que afectan al operario, no a la operación. Tales como: temperatura, ventilación, luz y ruido. Los seis grados de calificación de las condiciones son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    \item  Consistencia: Se evalúa mientras el operario está trabajando. Los valores de tiempos elementales que se repiten constantemente tendrán una consistencia perfecta. Los seis grados de calificación de la consistencia son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    
+\end{enumerate}
+
+Este sistema de calificación fue desarrollado por Westinghouse Electric Corporation y es uno de los sistemas de calificación más antiguos y ampliamente utilizados. Al evaluar la actuación del operario con este método, se pueden obtener datos que ayuden a mejorar la eficiencia y productividad en el trabajo. 
+
+Además del Sistema Westing House, existen otros sistemas de calificación, algunos de ellos son:
+
+\begin{enumerate}
+    \item Clasificación de Velocidad: Este método de calificación consiste en juzgar la velocidad de los movimientos del operador en relación con un ritmo normal. Se puede aplicar a diferentes elementos del trabajo y matemáticamente.
+    \item Clasificación Sintética: Este sistema de calificación fue propuesto por Morrow. En este sistema, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS).
+    \item Calificación del Objetivo: Este sistema de calificación se basa en la evaluación del rendimiento del trabajador en relación con un objetivo o meta establecida.
+    \item Evaluación Psicológica de la Calificación de Desempeño: Este sistema de calificación se basa en la evaluación de las habilidades psicológicas y emocionales del trabajador, además de su rendimiento en el trabajo.
+\end{enumerate}
+
+Cada uno de estos sistemas tiene sus propias ventajas y desventajas, y la elección del sistema de calificación adecuado puede depender de varios factores, como el tipo de trabajo, las características del trabajador y los objetivos de la organización. 
+
+El sistema de calificación Morrow es un método de evaluación del desempeño de los trabajadores que se basa en la utilización de estándares de tiempo predeterminados. Este sistema fue propuesto por Morrow y es uno de los sistemas de calificación más antiguos y ampliamente utilizados.
+
+En el sistema de calificación Morrow, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS). Estos estándares de tiempo se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+
+El objetivo de este sistema de calificación es proporcionar una medida objetiva y estandarizada del desempeño de un trabajador. Al utilizar los estándares de tiempo predeterminados, se puede comparar el desempeño de diferentes trabajadores de manera justa y consistente.
+
+Además, el sistema de calificación Morrow puede ayudar a identificar áreas de mejora en el desempeño de los trabajadores. Al comparar el desempeño real de un trabajador con los estándares de tiempo predeterminados, se pueden identificar áreas donde el trabajador puede necesitar formación adicional o donde se pueden hacer cambios en el proceso de trabajo para mejorar la eficiencia.
+
+En resumen, el sistema de calificación Morrow es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
+Para calificar por Esfuerzo, se usa la siguiente fórmula:
+
+\begin{equation}
+        \label{equ:Factor de des}
+       P= \frac{Ft}{O}
+    \end{equation}
+    
+    donde: 
+    \begin{itemize}
+        \item P =  factor de desempeño o de calificación
+        \item Ft = tiempo del movimiento fundamental
+        \item O =  tiempo elemental medio observado para los elementos usados en Ft
+    \end{itemize}
+
+El sistema de calificación objetiva es un método de evaluación que se utiliza para medir el grado de consecución de objetivos, competencias o criterios de evaluación que ha alcanzado un alumno. Este sistema convierte una evaluación cualitativa en cuantitativa.
+
+En este sistema, los instrumentos de calificación son herramientas pedagógicas que determinan el grado de suficiencia o insuficiencia de los conocimientos demostrados por un alumno, tomando como referentes los criterios de calificación y, cuando proceda, los estándares de aprendizaje.
+
+Por otro lado, los criterios de calificación son especificaciones que indican qué es necesario para obtener una calificación en lugar de otra². Estos criterios se combinan con los instrumentos de evaluación para diseñar una evaluación completa.
+
+Es importante mencionar que este sistema de calificación requiere un análisis cuidadoso de los contenidos de cada unidad didáctica, con sus correspondientes criterios y estándares (o resultados de aprendizaje, en Formación Profesional).
+
+En resumen, el sistema de calificación objetiva es una herramienta útil para evaluar el conocimiento y la comprensión de hechos y conceptos específicos por parte de los alumnos. Sin embargo, es importante equilibrar el uso de evaluaciones objetivas con otros tipos de evaluaciones para proporcionar una evaluación completa del aprendizaje de los alumnos. 
+
 
 
 % 
