@@ -952,19 +952,6 @@ Costos de no calidad.
 % 
 % 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
-\begin{figure}
-    \centering
-    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm2Bonilla.pdf}
-    \caption{Tabla MTM 2}
-    \label{fig:Tabla MTM 2}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm3Bonilla.pdf}
-    \caption{Tabla MTM 3}
-    \label{fig:Tabla MTM 3}
-\end{figure}
 
 Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios en la gestión de operaciones y eficiencia del trabajo. Esto incluye mejorar la eficiencia operacional, establecer metas claras, calcular con precisión los costos de producción, proporcionar una base para el diseño de trabajo y fomentar la mejora continua. Sin embargo, es importante revisar y actualizar regularmente estos tiempos para reflejar cualquier cambio en los procesos o condiciones de trabajo. 
 
@@ -992,6 +979,20 @@ Es importante mencionar que el tiempo estándar puede variar dependiendo de una 
     \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm1Bonilla.pdf}
     \caption{Tabla MTM 1}
     \label{fig:Tabla MTM 1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm2Bonilla.pdf}
+    \caption{Tabla MTM 2}
+    \label{fig:Tabla MTM 2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm3Bonilla.pdf}
+    \caption{Tabla MTM 3}
+    \label{fig:Tabla MTM 3}
 \end{figure}
 
 Para desarrollar todo lo visto en la tabla de los tiempos Estándar \ref{fig:Tiempo Estándar} se tuvo que dividir cada paso en elementos, para posteriormente hacer el análisis de cada uno de ellos, usando como referencia las tablas \ref{fig:Tabla MTM 1},\ref{fig:Tabla MTM 2} y \ref{fig:Tabla MTM 3} para poder identificar cada uno de estos valores, y qué valor tiene según los TMU, en algunos casos no se puede identificar los valores exactos, así que se tiene que interpolar:
@@ -1033,11 +1034,34 @@ Si el resultado es positivo, significa que existe cierta flexibilidad en el cron
 % 
 % 
 \subsubsection{Desarrollo del muestreo del trabajo}
+
+Como se mencionó anteriormente, se ha visto como calcular los tiempos predeterminados, los cuales hemos de usar para calcular y estandarizar en este proyecto del ensamble, con nuestro operador.
+
+Tras hacer la película, dividir cada elemento y asignarle un valor, para posteriormente interpolar y obtener la estandarización de los tiempos para el ensamble; Estos fueron los resultados:
+
 \begin{figure}
     \centering
     \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.15]{5/img/tiempoCicloCircBonillaL.pdf}
-    \caption{Tiempo Ciclo de Ensamble del Ciruito}
+    \caption{Tiempo Ciclo de Ensamble del Circuito}
     \label{fig:Tiempo Ciclo de Ensamble del Circuito}
+\end{figure}
+
+Para obtener los valores de la tabla anterior, (\ref{fig:Tiempo Ciclo de Ensamble del Circuito}), se consideraron las holguras, las cuales consideré de valores determinados por tablas:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasBonilla.pdf}
+    \caption{Tabla de holguras}
+    \label{fig:Tabla de holguras}
+\end{figure}
+
+Estos son para considerar holguras usuales que se pueden presentar ante cualquier operador, pues estamos trabajando con humanos inexpertos en el ensamble del circuito eléctrico. Sin embargo, también se consideró los valores o equivalencias porcentuales al tiempo del ensamble, esto con el fin de obtener el tiempo estándar:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasPorcentBonilla.pdf}
+    \caption{Tabla de holguras porcentuales}
+    \label{fig:Tabla de holguras porcentuales}
 \end{figure}
 
 \begin{figure}
