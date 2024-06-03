@@ -61,6 +61,13 @@ El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Ado
 
 \section{Introducción}
 
+%     \item Se debe exponer de manera concreta y en lenguaje sencillo : el tema, o lo(s) objeto (s) de estudio. 
+%     \item Se deben de mencionar las metodologías más usadas muy brevemente. 
+%     \item Se debe de señalar el avance en los últimos años.
+%     \item Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% Define estudio de tiempos y movimientos
 El estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización se refiere a la aplicación de técnicas de ingeniería industrial para mejorar la eficiencia y productividad en el proceso de ensamble de circuitos electrónicos.
 
 Este estudio implica la observación y análisis detallado de cada paso en el proceso de ensamble, desde la colocación de los componentes hasta la soldadura y pruebas finales. Se registran los tiempos y movimientos necesarios para cada operación, y se identifican las áreas de ineficiencia o desperdicio.
@@ -77,7 +84,23 @@ El objetivo principal del estudio de trabajo es incrementar la productividad sin
 
 En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
 
-\subsection{Definiciones}
+
+El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020}
+
+% define que es circuito electronico
+Un circuito electrónico es un conjunto de componentes eléctricos conectados que realizan una función específica. Los componentes pueden ser resistencias, condensadores, transistores, entre otros. Los circuitos electrónicos son fundamentales en la tecnología actual y se utilizan en dispositivos como televisores, computadoras y teléfonos celulares. Los circuitos pueden ser en serie, paralelo, mixto, abierto o cerrado, dependiendo de cómo estén conectados los componentes. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.
+
+% define optimización
+La optimización es el proceso de encontrar la mejor solución o configuración dentro de un conjunto de opciones posibles. El objetivo es maximizar algún criterio deseado o minimizar ciertos factores no deseados, teniendo en cuenta las restricciones y condiciones específicas del problema. Se aplica en diversos campos, como la ingeniería, la economía, la logística y la gestión empresarial. En esencia, la optimización implica una búsqueda constante de mejoras y eficiencias.
+En otras palabras, la optimización tiene como objetivo, procurando la reducción, (ya sea de costos, mantenimiento, de producción, entre otros), e inclusive de movimientos, procurando un mayor rendimiento en la producción, siempre buscando la mejor manera de hacer el proceso, en este caso, buscamos la optimización de recursos y movimientos.
+
+% define el metodo de tiempos predeterminados
+El método de tiempos predeterminados es un procedimiento en el estudio del trabajo que asigna tiempos a movimientos y grupos de movimientos básicos. Estos tiempos se obtienen del estudio de numerosas muestras de operaciones diversificadas. Este método permite calcular tiempos teóricos de ejecución de actividades influenciables por el hombre y ayuda a optimizar el diseño de puestos y métodos de trabajo. Existen alrededor de 50 sistemas de valores sintéticos establecidos, incluyendo el MTM (Medición de Tiempos de Método).
+
+% Al final se debe hacer alusión al o lo(s) objetivos del proyecto de investigación.
+Siendo nuestro objetivo general, tratar de buscar el modo más barato y mejor para lograr el ensamble, mediante la experimentación, llevando a cabo el ensamble, y buscando las mejores opciones, tratando de lograr una mejor eficiencia, y optimizando recursos y costos.
+
+Definiciones
    \begin{enumerate}
        \item Git: Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
        \item GitHub: GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
@@ -89,15 +112,55 @@ En los últimos años, el estudio de trabajo ha experimentado cambios significat
        \item Balanceo de líneas: El balanceo de líneas se define como una técnica de organización en la producción que busca distribuir equitativamente las tareas y tiempos de ciclo en una línea de ensamblaje, con el fin de mejorar la eficiencia y la productividad. Esta técnica busca evitar cuellos de botella y desequilibrios en la carga de trabajo entre estas estaciones, asegurando un flujo constante y óptimo de producción.
    \end{enumerate}
 
-% Define estudio de tiempos y movimientos
-% define que es ensamble
-% define que es circuito electronico
-% define el metodo de tiempos predeterminados
-% define optimización
 
 % 
 % 
 \section{Justificación}
+% \begin{itemize}
+%     \item Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% 
+% Se debe de describir lo que se requiere, lo que se necesita o lo que se demanda en la actualidad con un enfoque global pero terminar con menciones a temas locales o nacionales.
+% 
+La Industria 4.0, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia.
+
+Algunos puntos clave sobre la Industria 4.0:
+
+— Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+— Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+— Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+— Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+
+En resumen, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
+
+% Cuantos tipos de manufactura existen?
+1. Según el bien resultante:
+    - De productos elaborados: Cuando la mercancía fabricada está destinada al consumidor final. Algunos ejemplos son la industria alimentaria, sector automovilístico, industria tecnológica, industria textil y sector farmacéutico.
+    — De productos semielaborados: Cuando se fabrican productos que servirán como insumos en otros procesos industriales. Por ejemplo, la industria siderúrgica y la industria minera.
+
+2. Según el proceso de producción:
+    - Por lote: La producción se hace por cantidades o volúmenes determinados, cuyas unidades son homogéneas.
+    — En serie: Se fabrican productos homogéneos en grandes cantidades.
+    — Por pedido: La empresa comienza el proceso de manufactura cada vez que recibe el pedido de un cliente, brindándole una mercancía personalizada de acuerdo con sus requerimientos.
+
+3. Según cómo se puede medir:
+    - De proceso continuo: Cuando el producto se mide en variables continuas como el peso o el volumen.
+
+% Cuantas empresas de manufactura existen en Mundo?
+Debido a la globalización, actualmente no se sabe a ciencia cierta cuantas empresas de manufactura existen con certeza; sin embargo, Según los datos más recientes, existen aproximadamente 21.7 millones de empresas de fabricación en todo el mundo. Es importante destacar que una de cada tres empresas de fabricación tiene su sede en China, con un total de 7.2 millones de compañías dedicadas a la manufactura. Sin embargo, estos números pueden variar debido a la constante creación y cierre de empresas. 
+
+% Cuantas empresas de manufactura existen en México?
+En diciembre de 2023, México contaba con 611,331 establecimientos relacionados con el sector manufacturero. El Estado de México era la entidad federativa con la mayor cantidad de locales de este tipo, albergando cerca del 11\% del total. Le siguieron Oaxaca y Jalisco, ambos estados con más de 53,000 establecimientos en esta industria. Es importante mencionar que estos datos pueden variar con el tiempo.
+
+
+% Cuantas empresas de manufactura existen en Querétaro?
+Querétaro es un importante centro de manufactura en México. La principal industria en Querétaro es la manufacturera, que genera el 30\% del Producto Interno Bruto (PIB) estatal.
+— En el sector automotriz, Querétaro posee 317 empresas en el sector de autopartes.
+— En el sector aeroespacial, Querétaro se encuentra entre las cinco entidades del país con mayor número de empresas aeroespaciales (50).
+
+Estos datos indican que Querétaro tiene una presencia significativa en la industria manufacturera, especialmente en los sectores automotriz y aeroespacial. 
+
 
 A nivel global, el estudio del trabajo es cada vez más relevante debido a las rápidas transformaciones en el mundo laboral. Las tendencias económicas, sanitarias y geopolíticas han creado resultados divergentes para los mercados laborales de todo el mundo. La adopción de tecnología sigue siendo un motor clave de la transformación empresarial. Además, la especialización del conocimiento se ha convertido en una necesidad, intensificándose la demanda en torno a ciertos especialistas altamente cualificados.
 
@@ -112,6 +175,18 @@ Por lo tanto, es esencial continuar con el estudio del trabajo para entender y a
 % 
 % 
 \section{Descripción del problema}
+% \begin{itemize}
+%     \item Se debe describir la desviación o diferencia del ``es'' con respecto al ``debe ser''.
+%     \item Se debe hacer alusión a la incógnita científica*.
+%     \item Debe de tener Referencias científicas, URL, tesis, etc.
+% \end{itemize}
+% \textbf{*La incógnita científica es el elemento cuya solución incrementa el conocimiento científico.}
+% 
+% 
+% ``es''
+La educación y el desarrollo de tecnologías es algo fundamental para cada país, inclusive siendo una competencia a nivel mundial, así que para ello, se hace uso de la industrialización, la cual se desarrolla gracias a la educación e investigación, que día a día van cambiando de manera constante, entonces para que la industria pueda seguir avanzando y mejorando, debe hacer uso de técnicas para poder mejorar su producción y reduciendo costos, aplicando el Estudio o análisis en el trabajo, para obtener un mayor rendimiento como industria, e inclusive gestionando proyectos que sean redituables.
+
+% ``debe ser''
 El estudio del trabajo, una disciplina que busca optimizar la utilización eficaz de los recursos y establecer estándares de rendimiento, enfrenta varios desafíos en el mundo actual. Uno de los problemas más notables es la creciente tendencia hacia la flexibilización y precarización laboral, así como la diversificación y multiplicación de las formas de trabajo. 
 
 Estas tendencias están moldeando un panorama complejo y heterogéneo para las expectativas de estabilidad y bienestar social generadas por las sociedades capitalistas. La transformación en el trabajo supone un importante problema para la salud de las sociedades contemporáneas, ya que genera serias contradicciones y desigualdades sociales. Además, la aceleración de las innovaciones tecnológicas y la pandemia de
@@ -127,14 +202,237 @@ buscar soluciones efectivas.
 % 
 \section{Fundamentación teórica}
 
-El estudio del trabajo es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
+\textbf{El estudio del trabajo} es una evaluación sistemática de los métodos utilizados para la realización de actividades con el objetivo de optimizar la utilización eficaz de los recursos y de establecer estándares de rendimiento respecto a las actividades que se realizan. 
+
+Este examen sistemático de las operaciones y actividades de los trabajadores se realiza para mejorar en términos de eficiencia y economía a través de la aplicación de la ingeniería de métodos y la medición del trabajo. 
+
+El estudio del trabajo se compone de dos partes principales:
+- Estudio de métodos: Analiza de forma sistemática la forma de realizar las actividades con el objetivo de encontrar y ejecutar mejoras. Busca mejorar la productividad mediante la reducción del contenido del trabajo.
+— Medición del trabajo: Aplica y cuantifica las técnicas para determinar el tiempo que invierte un trabajador en llevar a cabo una tarea definida, efectuándola según la norma de ejecución preestablecida por la empresa.
+
+El objetivo del estudio del trabajo es examinar el trabajo humano en todas sus dimensiones, investigar todos los factores que influyen en la eficiencia de su desempeño con el fin de incrementar la productividad sin recurrir a grandes inversiones de capital o exigir un mayor esfuerzo a la mano de obra. 
+
+
+\textbf{Los Therbligs} son un conjunto de diecisiete movimientos fundamentales que se utilizan para analizar y mejorar los procesos productivos. Fueron creados por Frank y Lillian Gilbreth, dos pioneros en el estudio de la ergonomía y la eficiencia en el trabajo. La palabra «therblig» es una amalgama de las iniciales de los apellidos de los creadores.
+
+Cada Therblig representa una forma específica en la que los trabajadores interactúan con los materiales y las herramientas en el proceso productivo. A través de la clasificación y el análisis de estos, se puede identificar y eliminar cualquier paso innecesario o duplicado. Esto ayuda a reducir el tiempo y los costos de producción, y a mejorar la calidad del producto final.
+
+Los Therbligs se clasifican en tres categorías:
+- Movimientos de transporte: Se utilizan para mover materiales o productos de un lugar a otro¹.
+— Movimientos de búsqueda: Se utilizan para buscar o identificar materiales o herramientas necesarias para la tarea en cuestión.
+— Movimientos de transformación: Se utilizan para transformar los materiales en el producto final¹.
+
+Cada uno de estos tiene su papel en el proceso productivo y puede ser analizado para encontrar formas de optimizarlo¹. En resumen, los Therbligs son una herramienta valiosa para optimizar el proceso productivo y aumentar la eficiencia.
+
+Los 17 movimientos básicos del cuerpo humano para el trabajo. Gilbreth denominó “Therblig” a cada uno de los movimientos fundamentales, y concluyó que toda operación se compone de una serie de 17 divisiones básicas. 
+
+\textbf{1. Buscar}. Es elemento básico de la operación de localizar un objeto. Buscar es therblig que el analista debe tratar de eliminar siempre. Las estaciones de trabajo bien planeadas permiten que el trabajo se lleve cabo continuamente, de manera que no es preciso que el operario realice este elemento. 
+
+\textbf{2. Seleccionar}. Este es el therblig que se efectúa cuando el operario tiene que escoger una pieza dentro de dos o más semejantes. Este therblig sigue, generalmente, al de “buscar” y es difícil determinar exactamente, aun mediante el método detallado de los micromovimientos, cuando termina la búsqueda y empieza la selección. La selección puede clasificarse dentro de los Therbligs ineficientes y debe ser eliminada del ciclo de trabajo por una mejor distribución en la estación de trabajo y un mejor control de las piezas. 
+
+\textbf{3. Tomar}. Este es movimiento elemental que hace la mano al cerrar los dedos rodeando una pieza o parte para asirla en una operación. El tomar es un therblig eficiente y, por lo tanto, no puede ser eliminado, aunque en muchos casos se puede mejorar. El “tomar” casi siempre va precedido de “alcanzar” y seguido de “mover”. Estudios detallados han demostrado que existen varias formas de asir, algunas de las cuales requieren tres veces más tiempo que otras. Debe tratarse de reducir al mínimo el número de operaciones de asimiento durante el ciclo de trabajo, y las piezas a tomar o coger deben estar dispuestas a manera que pueda emplearse el tiempo más simple de asir. 
+
+\textbf{4. Alcanzar}. El therblig “alcanzar” principia en el instante en que la mano se mueve hacia un objeto o sitio, y finaliza en cuanto se detiene el movimiento al llegar al objeto o al sitio. Este elemento va precedido casi siempre del de “soltar” y seguido del de “tomar”. Es natural que el tiempo requerido para alcanzar dependa de la distancia recorrida por la mano. Dicho tiempo también depende, en cierto grado, del tipo de alcance. Como tomar, “alcanzar” puede clasificarse como un therblig objetivo y, generalmente, no puede ser eliminado del ciclo de trabajo. Sin embargo, sí puede ser reducido acortando las distancias requeridas para alcanzar y dando ubicación fija a los objetos. 
+
+\textbf{5. Mover}. Este therblig comienza en cuanto la mano con carga se mueve hacia un sitio o ubicación general, y termina en el instante en que el movimiento se detiene al llegar a su destino. Mover está precedido casi siempre de asir y seguido de soltar o colocar en posición. El tiempo requerido para mover depende de la distancia, del peso que se mueve y del tipo de movimiento. Mover es un therblig objetivo y es difícil eliminarlo del ciclo de trabajo. 
+
+\textbf{6. Sostener}. Esta es la división básica que tiene lugar cuando una de las dos manos soporta o ejerce control sobre un objeto, mientras la otra mano ejecuta el trabajo útil. “Sostener” es un therblig ineficiente y puede eliminarse. El sostener comienza en el instante en que una mano ejerce control sobre el objeto, y termina en el momento en que la otra completa su trabajo sobre el mismo. 
+
+\textbf{7. Soltar}. Comienza en el momento en el que los dedos comienzan a separarse de la pieza sostenida, y termina en el instante en que todos los dedos quedan libres de ella. Este therblig va casi siempre precedido por mover o colocar en posición y seguido por alcanzar. 
+
+\textbf{8. Colocar en posición}. Es el elemento de trabajo que consiste en situar o colocar un objeto de modo que quede orientado propiamente en un sitio específico. El therblig “colocar en posición” tiene efecto como duda o vacilación mientras la mano, o las manos, tratan de disponer la pieza, de modo que el siguiente trabajo puede ejecutarse con más facilidad, de hecho, colocar en posición puede ser la combinación de varios movimientos muy rápidos. 
+
+\textbf{9. Pre-colocar en posición}. Este es un elemento de trabajo que consiste en colocar un objeto en un sitio predeterminado, de manera que pueda llevarse y ser llevado a la posición en que ha de ser sostenido cuando esto se necesite. La pre-colocación en posición ocurre frecuentemente junto con otros therbligs, uno de los cuales suele ser mover. Es la división básica que dispone una pieza de manera que quede en posición conveniente a su llegada. Es difícil medir el tiempo necesario para este elemento, ya que es un therblig que difícilmente puede ser aislado. 
+
+\textbf{10. Inspeccionar}. Este therblig es un elemento incluido en la operación para asegurar una calidad aceptable mediante una verificación regular realizada por el trabajador que efectúa la operación. Se lleva a cabo una inspección cuando el fin principal es comparar un objeto dado con un patrón o estándar. El tiempo necesario para la inspección depende primariamente de la rigurosidad de la comparación con el estándar, y de lo que la pieza en cuestión se parte del mismo. 
+
+\textbf{11. Ensamblar}. El elemento “ensamblar” es la división básica que ocurre cuando se reúnen dos piezas embonantes. Es otro therblig objetivo y puede ser más fácil mejorarlo que eliminarlo. El ensamblar suele ir precedido de colocar en posición o mover, y generalmente va seguido de soltar. Comienza en el instante en el que las dos piezas a unir se ponen en contacto, y termina al completarse la unión. 
+
+\textbf{12. Desensamblar}. Este elemento es precisamente lo contrario de ensamblar. Ocurre cuando se separan piezas embonantes unidas. Esta división básica generalmente va precedida de asir y puede estar seguida por mover o soltar. Él desensamble es de naturaleza objetiva y las posibilidades de mejoramiento son más probables que la eliminación del therblig. Él desensamble comienza en el momento en el que una o ambas manos tienen el control del objeto después de cogerlo, y termina una vez que finaliza él desensamble, que generalmente lo evidencia el inicio de mover o soltar. 
+
+\textbf{13. Usar}. Este therblig es completamente objetivo y tiene lugar cuando una o las dos manos controlan un objeto, durante la parte del ciclo en que se ejecuta trabajo productivo. La duración de este therblig depende de la operación, así como de la destreza del operario. El usar se detecta fácilmente, ya que este therblig hace progresar la operación hacia su objetivo final. 
+
+\textbf{14. Demora (o retraso) inevitable}. La dilatación inevitable es una interrupción que el operario no puede evitar en la continuidad del trabajo. Corresponde al tiempo muerto en el ciclo de trabajo experimentado por una o ambas manos, según la naturaleza del proceso. 
+
+\textbf{15. Demora (o retraso) evitable}. Todo tiempo muerto que ocurre durante el ciclo de trabajo y del que solo el operario es responsable, intencional o no intencionalmente, se clasifica bajo el nombre de demora, retraso evitable. 
+
+\textbf{16. Planear}. Es el therblig ”planear” es el proceso mental que ocurre cuando el operario se detiene para determinar la acción a seguir. Planear puede aparecer en cualquier etapa del ciclo y suele descubrirse fácilmente en forma de una vacilación o duda, después de haber localizado todos los componentes. Este therblig es característico de la actuación de los operarios noveles y generalmente se elimina del ciclo mediante el entrenamiento adecuado de este personal. 
+
+\textbf{17. Descanso (o hacer alto en el trabajo)}. Esta clase de retraso aparece rara vez en un ciclo de trabajo, pero suele aparecer periódicamente como necesidad que experimenta el operario de reponerse a la fatiga. La duración del descanso para sobrellevar la fatiga variará, como es natural, según la clase de trabajo y según las características del operario que lo ejecuta.
+
+
+\textbf{La estandarización }es un proceso que busca ajustar o adaptar características en un producto, servicio o procedimiento para que se asemejen a un tipo, modelo o norma en común. Implica concertar algo para que resulte coincidente o concordante con un modelo, un patrón o una referencia. 
+
+En el contexto de una empresa, la estandarización puede referirse a la creación y aplicación de normas que se emplean a nivel general. Esto puede incluir la estandarización de procesos internos, donde todas las partes de una actividad determinada se encuentran con los mismos parámetros, elementos y reglas. Esto puede llevar a una mayor eficiencia, reducción de costos, mejora de la calidad del servicio o producto, y una mejor atención al cliente.
+
+Además, la estandarización puede facilitar la colaboración en proyectos, ya que todos los participantes trabajan de la misma forma, permitiendo que un proyecto pueda pasar de un equipo a otro con un período de adaptación casi inexistente. En resumen, la estandarización es una herramienta poderosa para mejorar la eficiencia y la calidad en diversas áreas de una organización
+
+
+\textbf{El estudio del trabajo} es una disciplina que se centra en la evaluación sistemática de los métodos utilizados para realizar actividades con el objetivo de mejorar la utilización eficaz de los recursos y establecer estándares de rendimiento. Esta disciplina se basa en la suposición de que se puede utilizar el método científico para estudiar el trabajo. El estudio de trabajo se basa en la documentación y reflexión previa respecto al tema a investigar que los investigadores han recopilado y analizado.
 
 Los fundamentos teóricos del estudio del trabajo están formados por los antecedentes investigativos, las bases teóricas y conceptuales, y las bases legales. Los antecedentes investigativos son los trabajos de investigación que se han hecho previamente sobre el tema. Las bases teóricas y conceptuales son los trabajos de reflexión, interpretación y teorización en torno al tema que constituyen la literatura especializada. Las bases legales son el conjunto de disposiciones y consideraciones de tipo legal y moral que son de relevancia para el proyecto o la investigación.
 
 En términos más específicos, el estudio del trabajo consiste en la aplicación de métodos y experiencias para la investigación y configuración de sistemas de trabajo, con el fin de aumentar la rentabilidad de la empresa, teniendo en cuenta el rendimiento y las necesidades del ser humano. Este estudio del trabajo es esencial en la formación de los ingenieros industriales, ya que les proporciona las herramientas necesarias para analizar y mejorar procesos productivos en las empresas, además de garantizar condiciones de trabajo seguras y confortables para los
 empleados.
 
-En resumen, el estudio del trabajo es una disciplina basada en la suposición de que se puede aplicar el método científico para estudiar el trabajo. Su fundamentación teórica se basa en la documentación y reflexión previa respecto al tema a investigar, y sirve como sostén conceptual de su trabajo o proyecto final.
+1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
+
+2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
+
+3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
+
+Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
+
+\textbf{Los Sistemas de Tiempos Predeterminados} (STP) son una colección de tiempos válidos asignados a movimientos y a grupos de movimientos básicos, que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Son el resultado del estudio de un gran número de muestras de operaciones diversificadas, con un dispositivo para tomar el tiempo, tal como la cámara de cine, que es capaz de medir elementos muy cortos.
+
+Estos sistemas se utilizan para sintetizar las estimaciones hechas, puesto que las diferentes operaciones manuales consisten en diferentes combinaciones y permutaciones de un número limitado de movimientos de los miembros del cuerpo, tales como mover la mano hacia un objeto, tomarlo, trasladarlo y dejarlo. Debido a que cada una de estas pequeñas subdivisiones son comunes a un gran número de operaciones manuales, es posible, técnica y económicamente, obtener un tiempo esperado de ejecución para cada una de ellas.
+
+Existen más de 50 sistemas diferentes para realizar estudios de tiempos predeterminados. Algunos de los sistemas de tiempos predeterminados más conocidos son:
+
+\begin{enumerate}
+    \item MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
+    \item GPD (General Purpose Data – Basado en MTM).
+    \item BMT (Basic Motion Time Study).
+    \item UAS (Universal Analyzing System)
+    \item MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
+    \item MICRO (Micro Motion Análisis)
+    \item MODAPTS (Modular Arrangement of PTS)
+    \item MACRO (Macro Motion Análisis)
+
+\end{enumerate}
+
+
+Cada uno de estos sistemas tiene sus propias características y aplicaciones, y se utilizan en diferentes contextos dependiendo de las necesidades específicas de la organización. 
+
+
+\textbf{La Industria 4.0}, también conocida como la cuarta revolución industrial, es la transformación digital del sector manufacturero que utiliza tecnologías avanzadas para mejorar la productividad, la flexibilidad y la eficiencia. Aquí te dejo algunos puntos clave sobre la Industria 4.0:
+
+— Tecnologías: La Industria 4.0 integra tecnologías como el Internet de las Cosas (IoT), la computación y análisis en la nube, la Inteligencia Artificial (IA) y el aprendizaje automático (machine learning) en sus instalaciones de producción y en todas sus operaciones.
+— Fábricas inteligentes: Estas fábricas están equipadas con sensores avanzados, software integrado y robótica que recopilan y analizan datos, permitiendo una mejor toma de decisiones.
+— Automatización y mantenimiento predictivo: Estas tecnologías digitales conducen a una mayor automatización, mantenimiento predictivo, optimización automática de mejoras de procesos y, sobre todo, un nuevo nivel de eficiencia y capacidad de respuesta a los clientes que antes no era posible.
+— Aplicabilidad: Los conceptos y tecnologías de la Industria 4.0 se pueden aplicar en todo tipo de empresas industriales, incluyendo la manufactura discreta y de procesos, el petróleo y el gas, la minería y otros segmentos industriales.
+
+Además, la Industria 4.0 se entiende como la aplicación de tecnologías disruptivas, como las tecnologías de la información o TIC's, con el aumento de la capacidad de computación, y manteniendo la promesa de fábricas inteligentes que son altamente eficientes y cada vez más integradas.
+
+El desarrollo de fábricas inteligentes brinda una oportunidad increíble para que la industria manufacturera ingrese a la cuarta revolución industrial. El análisis de las grandes cantidades de datos recopilados de los sensores en la planta de producción garantiza la visibilidad en tiempo real de los activos de manufactura y puede proporcionar herramientas para realizar el mantenimiento predictivo a fin de minimizar el tiempo de inactividad del equipo.
+
+El uso de dispositivos del IoT de alta tecnología en fábricas inteligentes conduce a mayor productividad y mejor calidad. Reemplazar los modelos comerciales de inspección manual con insights visuales basados en IA, reduce los errores de manufactura y ahorra tiempo y dinero, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
+
+Para poder calcular los tiempos estándar, tiempo, ciclo, y  los demás MTM, junto con el TMU, tenemos que apoyarnos de diferentes herramientas, como lo es la estadística y demás.
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+\begin{equation}
+        \label{equ:1}
+       \bar{x} {\pm} {\frac{zs}{\sqrt{n}}}
+    \end{equation}
+
+Siendo está la forma de calcular la media muestral, en una muestra>30, siendo una muestra grande, siendo así teniendo que utilizar el método T de Student para nuestro muestreo, pues no es mayor de 30. Con lo que deberemos calcular con la siguiente ecuación:
+
+\begin{equation}
+        \label{equ:ciclo}
+        \bar{x} {\pm} {\frac{ts}{\sqrt{n}}}
+    \end{equation}
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+Un operador calificado es un trabajador que ha recibido una formación específica y ha demostrado tener los conocimientos necesarios para operar de manera eficiente y segura un equipo o maquinaria específica. Esta formación suele incluir una combinación de instrucción teórica y práctica, y puede culminar en una evaluación o certificación.
+Además, un operador calificado debe estar familiarizado con las normas y leyes de seguridad e higiene relevantes para su trabajo¹. También debe tener experiencia en el campo en el que trabaja y conocimientos empíricos.
+
+En resumen, un operador calificado es un trabajador que ha demostrado tener la formación, los conocimientos y la experiencia necesarios para realizar su trabajo de manera eficiente y segura.
+
+ Para poder calificar el desempeño de cada operador, se debe ajustar el tiempo medio observado, para cada elemento que lleva a cabo el operador, para el tiempo normal que requiere cada uno de los operadores, con el cual se calcula:
+
+ \begin{equation}
+        \label{equ:TN}
+       TN= TO  \frac{C}{100}
+    \end{equation}
+
+Y en el caso del tiempo que requiere un operador completamente calificado, es decir, un operador lo suficientemente capaz, trabaja a un tiempo estándar, el cual se basa en una velocidad y movimiento "predeterminados" en un tiempo que no varía, el cual es el Tiempo Estándar, el cual se determina con los operadores calificados, y el tiempo estándar, el cual se calcula con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:TE}
+       TE = TN + TN x holgura = TN x (1 + holgura)
+    \end{equation}
+ 
+También debemos de considerar la eficiencia de los operadores, esto con el mismo fin de obtener la calificación del operador, y para calcular esta eficiencia es con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:Eficiencia}
+       E= 100 * \frac{He}{Hc} = 100 * \frac{Oc}{Oe}
+    \end{equation}
+ donde:
+    \begin{itemize}
+        \item E = porcentaje de eficiencia,
+        \item He = horas estándar trabajadas,
+        \item Hc = horas de reloj en el trabajo,
+        \item Oe = producción esperada,
+        \item 0c = producción actual
+    \end{itemize}
+
+%Sistemas de calificación
+Con todo lo anterior, se usa para poder llevar a cabo la calificación de cada operador, y en base a ello determinar a los operadores más competentes, los cuales nos ayudan a mejorar los métodos para el trabajo, pero para ello debemos calificarlos con diversos sistemas los cuales nos ayudan a determinar la calificación en base a diversos factores, ya sea por los tiempos, movimientos, holguras y demás, entre ellos uno de los más destacables o más usados, es el sistema de calificación Westing House.
+
+El sistema de calificación Westinghouse es un método que se utiliza para evaluar el desempeño de un operario en base a cuatro factores: habilidad, esfuerzo, condiciones y consistencia.
+
+\begin{enumerate}
+    \item Habilidad: Se define como la destreza para seguir un método dado y se relaciona con la experiencia que se demuestra mediante la coordinación adecuada entre la mente y las manos. Existen seis grados de habilidad: malo, aceptable, promedio, bueno, excelente y superior.
+
+    \item Esfuerzo: Se define como una demostración de la voluntad para trabajar de manera eficaz. Se caracteriza por la rapidez con la que se aplica la habilidad. Los seis grados de calificación del esfuerzo son malo, aceptable, promedio, bueno, excelente y excesivo.
+
+    \item Condiciones: Son condiciones externas que afectan al operario, no a la operación. Tales como: temperatura, ventilación, luz y ruido. Los seis grados de calificación de las condiciones son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    \item  Consistencia: Se evalúa mientras el operario está trabajando. Los valores de tiempos elementales que se repiten constantemente tendrán una consistencia perfecta. Los seis grados de calificación de la consistencia son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    
+\end{enumerate}
+
+Este sistema de calificación fue desarrollado por Westinghouse Electric Corporation y es uno de los sistemas de calificación más antiguos y ampliamente utilizados. Al evaluar la actuación del operario con este método, se pueden obtener datos que ayuden a mejorar la eficiencia y productividad en el trabajo. 
+
+Además del Sistema Westing House, existen otros sistemas de calificación, algunos de ellos son:
+
+\begin{enumerate}
+    \item Clasificación de Velocidad: Este método de calificación consiste en juzgar la velocidad de los movimientos del operador en relación con un ritmo normal. Se puede aplicar a diferentes elementos del trabajo y matemáticamente.
+    \item Clasificación Sintética: Este sistema de calificación fue propuesto por Morrow. En este sistema, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS).
+    \item Calificación del Objetivo: Este sistema de calificación se basa en la evaluación del rendimiento del trabajador en relación con un objetivo o meta establecida.
+    \item Evaluación Psicológica de la Calificación de Desempeño: Este sistema de calificación se basa en la evaluación de las habilidades psicológicas y emocionales del trabajador, además de su rendimiento en el trabajo.
+\end{enumerate}
+
+Cada uno de estos sistemas tiene sus propias ventajas y desventajas, y la elección del sistema de calificación adecuado puede depender de varios factores, como el tipo de trabajo, las características del trabajador y los objetivos de la organización. 
+
+El sistema de calificación Morrow es un método de evaluación del desempeño de los trabajadores que se basa en la utilización de estándares de tiempo predeterminados. Este sistema fue propuesto por Morrow y es uno de los sistemas de calificación más antiguos y ampliamente utilizados.
+
+En el sistema de calificación Morrow, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS). Estos estándares de tiempo se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+
+El objetivo de este sistema de calificación es proporcionar una medida objetiva y estandarizada del desempeño de un trabajador. Al utilizar los estándares de tiempo predeterminados, se puede comparar el desempeño de diferentes trabajadores de manera justa y consistente.
+
+Además, el sistema de calificación Morrow puede ayudar a identificar áreas de mejora en el desempeño de los trabajadores. Al comparar el desempeño real de un trabajador con los estándares de tiempo predeterminados, se pueden identificar áreas donde el trabajador puede necesitar formación adicional o donde se pueden hacer cambios en el proceso de trabajo para mejorar la eficiencia.
+
+En resumen, el sistema de calificación Morrow es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
+Para calificar por Esfuerzo, se usa la siguiente fórmula:
+
+\begin{equation}
+        \label{equ:Factor de des}
+       P= \frac{Ft}{O}
+    \end{equation}
+    
+    donde: 
+    \begin{itemize}
+        \item P =  factor de desempeño o de calificación
+        \item Ft = tiempo del movimiento fundamental
+        \item O =  tiempo elemental medio observado para los elementos usados en Ft
+    \end{itemize}
+
+El sistema de calificación objetiva es un método de evaluación que se utiliza para medir el grado de consecución de objetivos, competencias o criterios de evaluación que ha alcanzado un alumno. Este sistema convierte una evaluación cualitativa en cuantitativa.
+
+En este sistema, los instrumentos de calificación son herramientas pedagógicas que determinan el grado de suficiencia o insuficiencia de los conocimientos demostrados por un alumno, tomando como referentes los criterios de calificación y, cuando proceda, los estándares de aprendizaje.
+
+Por otro lado, los criterios de calificación son especificaciones que indican qué es necesario para obtener una calificación en lugar de otra². Estos criterios se combinan con los instrumentos de evaluación para diseñar una evaluación completa.
+
+Es importante mencionar que este sistema de calificación requiere un análisis cuidadoso de los contenidos de cada unidad didáctica, con sus correspondientes criterios y estándares (o resultados de aprendizaje, en Formación Profesional).
+
+En resumen, el sistema de calificación objetiva es una herramienta útil para evaluar el conocimiento y la comprensión de hechos y conceptos específicos por parte de los alumnos. Sin embargo, es importante equilibrar el uso de evaluaciones objetivas con otros tipos de evaluaciones para proporcionar una evaluación completa del aprendizaje de los alumnos. 
+
+
 
 % 
 % 
@@ -156,30 +454,75 @@ El estudio del trabajo es una disciplina que se centra en la evaluación sistem�
 
 7. Facilitar la mejora continua: El estudio del trabajo proporciona una base para la mejora continua al identificar oportunidades para mejorar los procesos de trabajo.
 
-En resumen, el estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones
+El estudio del trabajo tiene como objetivo mejorar la eficiencia y la productividad, reducir costos, mejorar la calidad, mejorar las condiciones de trabajo, establecer estándares de tiempo, formar una base para la remuneración y facilitar la mejora continua. Mediante esta práctica, planeamos implementar todas las herramientas que el estudio de trabajo nos puede brindar para hacer el análisis de un ensamble y poder optimizar tanto costo, movimientos y operaciones.
+
+La eficiencia en el ensamble del circuito puede ser significativamente mejorada mediante la aplicación de principios de estudio del trabajo. La implementación de técnicas de optimización de procesos, como el análisis de tiempos y movimientos, la estandarización de procedimientos y la formación adecuada del personal, puede reducir el tiempo de ensamble, minimizar los errores y mejorar la calidad general del circuito ensamblado. Esta mejora en la eficiencia no solo podría reducir los costos de producción, sino también aumentar la fiabilidad y durabilidad del circuito, lo que a su vez podría llevar a una mayor satisfacción del cliente.
+
+Con el análisis de este ensamble podremos aplicar las herramientas que nos proporciona el estudio de trabajo, y así podremos ver y gestionar los métodos aplicados, para que así que busquemos la forma más “económica” de llevarlo a cabo, gestionando los materiales, los métodos ya mencionados, costos, tiempos, movimientos, entre otros.
+
+\section{Objetivo}
+El objetivo de esta investigación es llevar a cabo un ensamble de un circuito, previamente a esto, realizar un análisis del método propuesto, y buscar una mejor forma en la que se puede llevar a cabo proponiendo uno nuevo el cual trate de mejorar el procedimiento, tratando de reducir o eliminar movimientos innecesarios, gestionar los materiales y reducir los costos, tratando de buscar la forma más económica de hacer el ensamble del circuito, analizando a nuestros operadores.
 
 \subsection{Objetivos específicos }
 
 Mediante esta práctica, estamos buscando la manera de implementar todos los métodos antes ya investigados, llevando a cabo el ensamble del circuito, con diversos operadores, y así mismo poder sacar una media del tiempo que se requiere para poder hacer el ensamble, y buscar la manera de optimizar los costos, inclusive viendo la forma de optimizar movimientos y tiempos, aplicando las herramientas que el estudio del trabajo nos ofrece.
 
-A partir de este análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”.
+A partir de este análisis, buscaremos los métodos más económicos, y a su vez, haremos un análisis de que podríamos modificar para que sea mejor el rendimiento del operador, y a su vez, podamos reducir el costo de”producción”, mejorar el rendimiento de nuestro operador, gestionar costos e implementar nuevos materiales, para poder generar una mejor estandarización tanto del procedimiento como del material, para evitar gastos innecesarios. 
+
+Aplicar los métodos de calificación del operador, haciendo análisis detallado del ensamble, para así estandarizarlo y mejorar el proceso. 
 
 % 
 % 
-\section{Cuerpo (Metodología, modelo matemático, etc.)}
+\section{Metodología}
 
-\includepdf[pages=1-]{5/img/manual.Bonilla.Z.Leonardo.pdf}
-\label{anexo:manual.Bonilla.Z.Leonardo}
+\subsection{Desarrollo de la guía de plan de Emergencia}
 
-\includepdf[pages=1-]{5/img/Lista de costos_BonillaZ.Leonaro.pdf}
-\label{anexo:Lista de costos_BonillaZ.Leonaro}
+El Plan de Emergencia: Documento que describe los lineamientos a seguir, la organización y los mecanismos, que indican la manera de enfrentar una situación de emergencia o desastre, tanto en lo general como en lo particular, así como la utilización viable de los recursos humanos y materiales con los que se cuenta.
+
+\subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/diagBimBonillaLeonardo.pdf}
+    \caption{Diagrama Bimanual}
+    \label{fig:Diagrama Bimanual}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.20]{5/img/manualBonillaL.pdf}
+    \caption{Manual}
+    \label{fig:Manual}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.40]{5/img/listdeCostBonillaL.pdf}
+    \caption{Lista de costos}
+    \label{fig:Lista de costos}
+\end{figure}
 
 Materiales:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/resistenciasBonillaLdib.PDF}
+    \caption{Resistencias}
+    \label{fig:Resistencias}
+\end{figure}
+
 Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un componente pasivo que se utiliza en electrónica para limitar la cantidad de corriente que fluye a través de un circuito.
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
 
-Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009electronica}
+Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/protoBonillaLdib.pdf}
+    \caption{Protoboard}
+    \label{fig:Protoboard}
+\end{figure}
 
 Protoboard: Un protoboard, también conocido como placa de pruebas, es un instrumento muy útil en el campo de la electrónica.
 
@@ -191,7 +534,14 @@ Función: La principal función de un protoboard es permitir a los ingenieros y 
 
 el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de que se desconecte cualquier componente. Si la prueba no es satisfactoria, es fácil cambiar las conexiones y reemplazar los componentes.
 
-En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017arduino}
+En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/lcdBonillaLdib.PDF}
+    \caption{LCD}
+    \label{fig:LCD}
+\end{figure}
 
 LCD: Una LCD de 16x2 es una pantalla de cristal líquido que puede mostrar hasta 32 caracteres alfanuméricos en dos filas de 16 caracteres cada una.
 
@@ -201,7 +551,14 @@ Funciones: La principal función de una LCD de 16x2 es mostrar información de m
 
 Uso: Las LCD de 16x2 se utilizan en una amplia gama de aplicaciones, como diversos circuitos y dispositivos, incluyendo teléfonos móviles, calculadoras, ordenadores, televisores, entre otros. También son comúnmente utilizadas en proyectos de bricolaje y aplicaciones integradas debido a su facilidad de programación.
 
-En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos. \cite{carlet2018linear}
+En resumen, una LCD de 16x2 es una herramienta esencial en el campo de la electrónica que permite la visualización de información de una forma gráfica, mediante caracteres, símbolos o pequeños dibujos.\cite{carlet2018}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/modSpi12CBonillaLdib.pdf}
+    \caption{Módulo SPI 12C}
+    \label{fig:Módulo SPI 12C}
+\end{figure}
 
 Módulo SPI 12C: Un módulo SPI I2C es un dispositivo de comunicación en serie que se utiliza en sistemas integrados para intercambiar datos de alta velocidad entre múltiples dispositivos en el bus.
 
@@ -213,22 +570,42 @@ El protocolo SPI (Interfaz Periférica Serie) tiene una arquitectura maestro-esc
 
 Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una arquitectura maestro-esclavo, pero en lugar de utilizar múltiples líneas para la transmisión de datos como SPI, I2C utiliza solo dos líneas: la línea de datos serie (SDA) y la línea de reloj serié (SCL). Esto hace que I2C sea ideal para aplicaciones que requieren menos cables y menos pines del microcontrolador.
 
-En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014implementación}
+En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMhBonillaLDib.PDF}
+    \caption{Cable MH}
+    \label{fig:Cable MH}
+\end{figure}
 
 Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar dos dispositivos electrónicos. Composición y fabricación: Los cables macho-hembra están compuestos por dos conectores, uno macho y otro hembra, que están unidos por un cable. El conector macho tiene una serie de pines o clavijas que se insertan en el conector hembra, que a su vez tiene receptáculos o ranuras para recibir los pines. Estos conectores suelen ser metálicos y están protegidos por una carcasa de plástico.
 
 Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
 
-En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003fabricacion}
+En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cableMmBonillaLdib.PDF}
+    \caption{Cable MM}
+    \label{fig:Cable MM}
+\end{figure}
 
 cable Macho-Macho:
+
 Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
 
 Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
 
-En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023solar}
+En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/esp32BonillaLdib.PDF}
+    \caption{ESP 32}
+    \label{fig:ESP 32}
+\end{figure}
 
 ESP32: La ESP32 es un microcontrolador de alto rendimiento y bajo consumo de energía, diseñado por Espressif Systems, que ha ganado popularidad en el mundo de la electrónica y la programación.
 
@@ -240,7 +617,14 @@ Detalles importantes para su manejo: La ESP32 tiene modos de bajo consumo de ene
 
 La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al tacto y envían información a la tarjeta. El ADC incorporado sirve para convertir cantidades analógicas en cantidades digitales, con 16 pines con esta funcionalidad. La placa tiene puertos de 5V y 3.3V, pines de comunicación serié GND, TX y RX, y otros. Por lo tanto, en algunos casos, se puede usar un solo pin en el tablero para diversas funcionalidades. El ESP32 también tiene un sensor de temperatura incorporado para controlar la temperatura de funcionamiento de la tarjeta.
 
-En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018demostrador}
+En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/potenciometroBonillaLdib.PDF}
+    \caption{Potenciometro}
+    \label{fig:Potenciometro}
+\end{figure}
 
 Potenciómetro: Un potenciómetro es un componente electrónico que se utiliza para controlar y ajustar la resistencia eléctrica de un circuito. 
 
@@ -248,15 +632,29 @@ Composición y fabricación: Los potenciómetros están compuestos por una banda
 
 Funciones: La principal función de un potenciómetro es permitir el ajuste manual de la resistencia en un circuito, lo que a su vez permite controlar la cantidad de corriente eléctrica que fluye a través del circuito. Esto puede ser útil para ajustar la intensidad de corriente, el brillo de una luz, el volumen de un sonido, entre otras aplicaciones. Además, los potenciómetros pueden ayudarte a medir un voltaje desconocido comparándolo con un voltaje conocido.
 
-En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{de2012medidas}
+En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{medidas2012}
 
-Multicontacto: Un multicontacto de 5 tomacorrientes es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/multicontactoBonillaLdib.pdf}
+    \caption{Multicontacto}
+    \label{fig:Multicontacto}
+\end{figure}
+
+Multicontacto: Un multicontacto es un dispositivo que permite conectar múltiples aparatos eléctricos a una sola toma de corriente, al mismo tiempo que ofrece la posibilidad de cargar dispositivos a través de sus puertos USB. Composición y fabricación: Los multicontactos están compuestos por una carcasa de plástico resistente que aloja las tomas de corriente y los puertos USB. Las tomas de corriente están diseñadas para recibir enchufes de tipo B, que son los más comunes. Los puertos USB incluyen tanto puertos USB-A como USB-C, que son compatibles con una amplia gama de dispositivos electrónicos.
 
 Funciones: La principal función de un multicontacto es proporcionar múltiples tomas de corriente a partir de una sola toma de pared. Esto es especialmente  útil en áreas donde las tomas de corriente son limitadas. Los puertos USB permiten cargar dispositivos como teléfonos móviles, tabletas y otros dispositivos compatibles con USB. Algunos modelos de multicontactos también incluyen protección contra sobrecargas, lo que ayuda a proteger los dispositivos conectados de posibles daños causados por picos de voltaje. Características importantes: Este tipo de multicontacto puede soportar una potencia nominal de hasta 2500 W.
 
 Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
-En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011autoria}
+En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/cabTipocacBonillaLdib.pdf}
+    \caption{Cable de tipo c a c}
+    \label{fig:Cable de tipo c a c}
+\end{figure}
 
 Cable de tipo C a C: Un cable tipo C a C es un tipo de cable que se utiliza para conectar dos dispositivos que tienen puertos USB tipo C.
 
@@ -264,86 +662,109 @@ Composición y fabricación: Los cables tipo C a C están compuestos por dos con
 
 Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
 
-En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011autoria}
+En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011}
 
+\begin{figure}
+    \centering
+    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,width=0.45\textwidth]{5/img/tapeteProfOrgdetrabBonillaLdib.PDF}
+    \caption{Tapete profesional organizador de trabajo}
+    \label{fig:Tapete Profesional organizador de trabajo}
+\end{figure}
 
+Tapete Profesional organizador de trabajo:
+Composición y Características
+- El tapete está fabricado con silicón.
+— Tiene una superficie antiderrapante y una textura suave al tacto que proporciona comodidad de uso.
+— Protege los equipos contra rayones y golpes.
+— Soporta hasta 400 °C, por lo que puede ser usado para trabajos de soldadura.
+— Sus dimensiones son de 45 cm x 30 cm.
 
-%
-%
-%
-%
+Funciones
+- Ayuda a organizar el entorno de trabajo para realizar proyectos o reparaciones de equipos electrónicos, como celulares, tablets, laptops y más.
+— Protege los componentes y piezas durante el trabajo.
+— Tiene propiedad antiestática, lo que es útil para colocar procesadores, microchips, memorias, tarjetas de desarrollo o cualquier otro elemento de electrónica que pueda ser afectado por la estática.
+— Incorpora imanes distribuidos en lugares diferentes, perfectos para retener piezas metálicas, como tornillería, herramientas, puntas de desarmador, tarrajas y pinzas, entre otras.
+— Cuenta con espacios ideales para el trabajo, incluyendo minirranuras, minicajones, orificios, cajones multifunción, cajones con tapa, cajones para herramientas y una regleta.
+— El espacio central es el área de trabajo perfecta donde puedes armar o desarmar los equipos.
 
-\includepdf[pages=1-]{5/img/Cable tipo c a c_ Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexoCable tipo c a c_ Bonilla.Z.Leonardo_Dibujo}
+\subsubsection{Planeación}
 
+Con esta investigación, buscamos poder implementar cambios en la realización del circuito eléctrico, buscando aplicar las herramientas del estudio del trabajo, con lo que primero realizaremos un  análisis del método propuesto y con esto buscaremos la manera más económica de realizar el trabajo, optimizando el ensamble.
 
-\includepdf[pages=1-]{5/img/cableMH_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:cableMH_Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/cableMM_BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:cableMM_BonillaZ.Leonardo Dibujo}
-
-
-\includepdf[pages=1-]{5/img/ESP32_BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:ESP32_BonillaZ.Leonardo Dibujo}
-
-
-\includepdf[pages=1-]{5/img/LCD_ BonillaZ.Leonardo Dibujo.pdf}
-\label{anexo:LCD_ BonillaZ.Leonardo Dibujo}
-
-
-\includepdf[pages=1-]{5/img/módulo SPI 12C_BonillaZ.Leonardo_Dibujo.pdf}
-\label{anexo:módulo SPI 12C_BonillaZ.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/multicontacto_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:multicontacto_Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/potenciometro.BonillaZ.Leonardo._Dibujo.pdf}
-\label{anexo:potenciometro.BonillaZ.Leonardo._Dibujo}
-
-
-\includepdf[pages=1-]{5/img/protoboard_Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:protoboard_Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/resistencias.Bonilla.Z.Leonardo_Dibujo.pdf}
-\label{anexo:resistencias.Bonilla.Z.Leonardo_Dibujo}
-
-
-\includepdf[pages=1-]{5/img/Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo.pdf}
-\label{anexo:Tapete profesional organizador de trabajo.BonillaZ.Leonardo_Dibujo}
+Para lograr esto, vamos a identificar los elementos, materiales, lugar de trabajo, condiciones de trabajo, entre otras cosas, haciendo un muestro continuo y con ayuda de los STP buscaremos normalizar el trabajo y estandarizar tanto materiales, tiempos hasta movimientos y métodos, para así lograr un balanceo de línea.
 
 % 
 % 
-\subsection{Prepara tu documento}
+\subsubsection{5's}
+La metodología de las 5S es una técnica de gestión japonesa basada en cinco principios simples. Los cuales nos ayudan para mejorar la productividad, reducción de tiempos, entre otras cosas, se basa en:
 
-Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
+1. Seiri (Clasificación): Este principio se refiere a la eliminación de elementos innecesarios en el lugar de trabajo. Todo lo que no se necesita para realizar el trabajo debe ser retirado. Esto ayuda a reducir el desorden y a mejorar la eficiencia.
 
-\subsection{Acrónimos y Abreviaciones}
+2. Seiton (Orden): Una vez que se han eliminado los elementos innecesarios, el siguiente paso es organizar lo que queda. Cada herramienta o material debe tener un lugar designado y debe ser devuelto a ese lugar después de su uso. Esto facilita encontrar lo que se necesita y evita la pérdida de tiempo buscando.
 
-Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
+3. Seiso (Limpieza): Este principio se refiere a mantener el lugar de trabajo limpio y ordenado. No solo se trata de limpiar al final del día, sino de mantener la limpieza durante todo el día. Esto puede ayudar a prevenir accidentes y problemas de calidad.
 
-\subsection{Ecuaciones}
+4. Seiketsu (Normalización): Este principio se refiere a la creación de reglas y estándares para mantener los tres primeros principios. Esto puede incluir horarios de limpieza, lugares designados para herramientas y materiales, y procedimientos para realizar el trabajo.
 
-Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuaciones, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
+5. Shitsuke (Disciplina): El último principio se refiere a mantener los estándares y mejorar constantemente. Esto requiere disciplina y compromiso por parte de todos en el lugar de trabajo.
 
-\begin{equation}
-    \label{eq1}
-    x + y = z 
-\end{equation}
+La metodología de las 5S es una parte fundamental de la producción ajustada (Lean Production) y se considera una base para implementar herramientas y procesos de producción más avanzados. Al seguir estos principios, se puede crear un ambiente de trabajo más eficiente, seguro y productivo.
 
-Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…”
+La metodología de las 5S, originaria de Japón, puede ser aplicada en el Instituto Tecnológico de Querétaro (ITQ) para mejorar la eficiencia y seguridad en diversas áreas. En los laboratorios y talleres, ayuda a mantener un ambiente limpio y organizado, facilitando el trabajo y minimizando accidentes. En los proyectos de equipo, promueve la productividad y reduce el estrés al mantener el área de trabajo ordenada. Los estudiantes pueden aplicar las 5S en sus espacios de estudio para mejorar su eficiencia de aprendizaje. Además, la administración de la escuela puede utilizar las 5S para mejorar la eficiencia de sus operaciones. En resumen, las 5S pueden beneficiar a todos en el ITQ, creando un ambiente más eficiente, seguro y agradable para aprender y trabajar.
 
-\section{Resultados y discusión}
+% 
+% 
+\subsubsection{Desarrollo del sistema de tiempos predeterminado}
+
+Los sistemas de tiempos predeterminados son una colección de tiempos asignados a movimientos básicos y a grupos de movimientos que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Aquí te explico cómo funcionan:
+
+1. Identificación de movimientos básicos: Se determinan los micromovimientos básicos que deben utilizarse en la operación que se estudia.
+
+2. Asignación de tiempos: Se suman los valores de tiempo dados por las tablas de datos para cada uno de dichos movimientos.
+
+3. Suplemento por fatiga y retrasos: Se concede el suplemento por fatiga, retrasos personales y retrasos inevitables en caso de ser necesario.
+
+4. Registro de datos: Los datos se deben registrar en TMU (Time Measurement Units).  TMU = 0.00001 hora = 0.0006 minuto = 0.036 segundo.
+
+Estos sistemas se basan en la idea de que todo el trabajo se puede reducir a un conjunto básico de movimientos. Por medio de estas subdivisiones básicas, conocidas simplemente como movimientos, y sus tiempos de ejecución asociados, es posible llegar a establecer los diferentes movimientos requeridos por un método dado, consultar las tablas de los valores de tiempos, para obtener el tiempo esperado de ejecución de cada uno de estos movimientos, y sumar estos tiempos para obtener un tiempo total esperado de ejecución de ese método.
+
+Los sistemas de tiempos predeterminados, como el MTM (Medición de Tiempos de Método), son muy útiles para optimizar el diseño de puestos y métodos de trabajo. Permiten un análisis minucioso del método y son competitivos para obtener tiempos estándar. Sin embargo, para lograr el mayor porcentaje de credibilidad es necesaria la práctica continua.
+
+La interpolación es un método matemático que se utiliza para estimar valores desconocidos dentro de un rango definido por valores conocidos. Aquí te explico cómo se realiza la interpolación lineal, que es uno de los métodos más comunes:
+Identificación de los puntos conocidos: Selecciona dos puntos conocidos en el rango donde deseas estimar un valor. Estos puntos se representan como (x1,y1) y (x2,y2)
+
+Identificación del punto desconocido: Identifica el valor de x para el cual deseas estimar un valor de y. Este punto se representa como (x, y)
+
+Aplicación de la fórmula de interpolación lineal: Utiliza la siguiente fórmula para estimar el valor de y:
+
+$$
+y = y_1 + \frac{(x - x_1) \cdot (y_2 - y_1)}{x_2 - x_1}
+$$
+
+
+% 
+% 
+\subsubsection{Desarrollo del muestreo del trabajo}
+El muestreo de trabajo es una técnica que se utiliza para investigar las proporciones del tiempo total dedicada a las diversas actividades que componen una tarea, actividades o trabajo:
+
+1. Selecciona las actividades o actividad a observar y socializa: Es importante que los trabajadores involucrados estén enterados de lo que se va a hacer para el buen desarrollo del ejercicio.
+
+2. Cálcula la proporción del tiempo de la actividad o demora (p).
+
+3. Calcular el número de observaciones con la exactitud deseada y el valor de z.
+
+4. Cómo determinar la frecuencia de las observaciones.
+
+5. Observar y registrar las actividades.
+
+6. Analizar los resultados.
+
+El muestreo de trabajo se realiza para determinar:
+- Qué tanto se está utilizando el personal o la maquinaria.
+— Las holguras, entendidas como el tiempo disponible para realizar una actividad sin retrasar la producción.
+— Los estándares de producción.
+
+Cuando el tamaño de la muestra es representativo de la población y las observaciones se realizan al azar, podemos considerar bajo cierto nivel de confianza que las observaciones son un reflejo de la situación real en la fábrica. 
 
 La media poblacional, también conocida como el valor esperado, de una distribución de probabilidad se puede calcular utilizando la siguiente fórmula:
 
@@ -357,152 +778,478 @@ Donde:
 \item $P(x)$ es la probabilidad de cada valor $x$.
 \end{itemize}
 
+% 
+% 
+\subsubsection{Corrección por balanceo de procesos}
+
+% 
+% 
+\subsubsection{Datos estándar continuos y discretos}
+
+% 
+% 
+\subsection{Diseño de la forma más económica de realizar el trabajo}
+
+% 
+% 
+\subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+
+% 
+% 
+\subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+% 
+% 
+
+
+\section{Resultados y discusión}
+
+\subsection{Desarrollo de la guía de plan de Emergencia}
+
+En este documento se describirá el plan de emergencia que se debe llevar a cabo de algún incidente, el cual podamos aplicar para evitar mayores riesgos.
+Un plan de emergencia se implementa en la industria para identificar riesgos, establecer medidas preventivas y procedimientos de evacuación, y definir roles y responsabilidades. 
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia01.pdf}
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/ubicacionitqGoogleMaps.pdf} % Reducir a la mitad del tamaño original
+    \caption{Localización del Instituto Tecnológico de Qro en Google Maps}
+    \label{fig:Localización del Instituto Tecnológico de Querétaro en Google Maps}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.06]{5/img/croquisItq.pdf}
+    \caption{Croquis del Instituto Tecnológico de Querétaro}
+    \label{fig:Croquis del Instituto Tecnológico de Querétaro}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.25]{5/img/meddeItqGoogleMaps.pdf}
+    \caption{Medidas del ITQ Google Maps}
+    \label{fig:Medidas del ITQ Google Maps}
+\end{figure}
+
+\subsubsection{Identificación del riesgo}
+
+Como Institución, debemos estar comprometidos a mantener y mejorar constantemente nuestro plan de intervención en caso de alguna emergencia o riesgo que se pueda presentar en la institución, esto con el fin de prevenirnos ante cualquier riesgo que se pueda presentar en la estadía de los estudiantes y/o visitantes, (Compañeros externos, colaboradores, clientes, entre otros).
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.3]{5/img/progInternoBonillaL.pdf}
+    \caption{Programa Interno}
+    \label{fig:Programa Interno}
+\end{figure}
+
+\subsubsection{Riesgos internos}
+
+La identificación de riesgos internos es un proceso crucial en la gestión de riesgos de cualquier organización. 
+
+1. Anticipación a contratiempos: Permite anticiparse a posibles contratiempos y tomar decisiones estratégicas de manera proactiva.
+
+2. Análisis de vulnerabilidades: Al examinar los riesgos internos, nos adentramos en el terreno de las vulnerabilidades que se originan dentro de la organización misma, como pueden ser los errores humanos, la falta de capacitación del personal o los problemas de comunicación entre los distintos departamentos.
+
+3. Implementación de medidas preventivas y correctivas: Una vez identificados estos riesgos, es posible implementar medidas preventivas y correctivas para minimizar su impacto y garantizar la continuidad de las operaciones empresariales.
+
+4. Fortalecimiento de la capacidad de adaptación: La identificación de los riesgos internos permite a las organizaciones anticiparse a posibles amenazas y fortalecer su capacidad para adaptarse a un entorno empresarial dinámico y cambiante.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={50mm 10mm 50mm 10mm}, clip,scale=0.40]{5/img/riesintBonillaL.pdf}
+    \caption{Riesgos internos}
+    \label{fig:Riesgos internos}
+\end{figure}
+
+\begin{enumerate}
+    \item Nombre comercial: Instituto Tecnológico de Qro
+    \item Domicilio:Av. Tecnológico S/N, Centro Histórico, Centro, 76000 Santiago de Querétaro, Qro.
+    \item Horario de servicio: 6:30 - 22:30 hrs.
+    \item Teléfonos: (+52) 442 2274 400
+    \item Actividad principal: Centro de estudios de educación superior tecnológica, ofreciendo carreras de ingenierías, maestras y doctorados.
+    \item Representante legal:
+    \item Cantidad de trabajadores: 343
+    \item Superficie del establecimiento en m2:78,091
+\end{enumerate}
+
+\subsubsection{Riesgos externos}
+
+La identificación de riesgos externos es un componente esencial en la gestión de riesgo:
+
+1. Identificación de amenazas: Permite identificar posibles eventos en el entorno externo que podrían influir en el logro de los objetivos, por ejemplo, cambios en el marco legal, en la economía, en la política, etcétera.
+
+2. Evaluación de impacto: Una vez identificados estos riesgos, se realiza una evaluación de cómo estos riesgos pueden impactar las operaciones.
+
+3. Planificación estratégica: La identificación de riesgos externos ayuda a la institución a planificar estratégicamente y a tomar decisiones informadas.
+
+4. Mitigación de riesgos: Con base en la identificación y evaluación de los riesgos, la institución puede implementar medidas para mitigar el impacto de estos riesgos.
+
+La identificación de riesgos externos es fundamental para la resiliencia y la adaptabilidad de una institución. Permite a la institución anticiparse a posibles amenazas y adaptarse a un entorno dinámico y cambiante.
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={50mm 10mm 50mm 10mm}, clip,scale=0.40]{5/img/riesextBonillaL.pdf}
+    \caption{Identificación de riesgos Externos}
+    \label{fig:enter-label}
+\end{figure}
+
+\subsubsection{Programa de actividades de prevención y auxilio}
+
+Para evitar los riesgos que anteriormente se han mencionado, debemos implementar un plan para evitar todos estos riesgos, para ello se planteó:
+
+\begin{enumerate}
+    \item Implementar un programa de mantenimiento
+    \item Pedir apoyo a las autoridades para implementación de elementos de seguridad
+    \item Solicitar equipo de seguridad para las calles
+    \item Solicitar auxiliares viales y señalitica vial
+    \item Mantenimiento completo de la Institución
+\end{enumerate}
+
+Con esto buscamos evitar y eliminar todos los riesgos vistos previamente con el análisis antes realizados, y con esto de igual manera se busca tratar de darle un seguimiento y así erradicar los riesgos que se han conservado a lo largo del tiempo debido a la falta de mantenimiento.
+
+\subsubsection{Plan de acción}
+
+\subsubsection{Identificación de capacidades}
+
+\subsubsection{Plano de localización de recursos}
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.25]{5/img/invdeRecusosdeEmBonillaL - Hoja 1.pdf}
+    \caption{Inventario de Recursos de Equipo de Emergencia}
+    \label{fig:Inventario de Recursos de Equipo de Emergencia}
+\end{figure}
+
+\subsubsection{ Identificación de apoyos externos}
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.28]{5/img/directoriodeApoyExtBonillaL.pdf}
+    \caption{Directorio de apoyos externos}
+    \label{fig:Directorio de Apoyos Externos}
+\end{figure}
+
+\subsubsection{Objetivo}
+
+Desarrollar e implementar un plan de emergencia integral y eficaz para el Instituto Tecnológico de Querétaro que garantice la seguridad y bienestar de todos los miembros de la comunidad universitaria. El cual nos sirva como estrategia ante accidentes, fenómenos naturales, (ya sea terremotos, sismos, tormentas, inundaciones, y cualquier otro que se pueda llegar a presentar), o cualquier otro altercado, y así poder aplicarlo en caso necesario, y salvaguardar la vida tanto de los clientes, como de los integrantes del Instituto.
+
+\subsubsection{Objetivos específicos}
+
+\subsubsection{Identificación de puntos de reunión}
+\begin{figure}
+    \centering
+    \includegraphics[trim={1mm 1mm 1mm 1mm}, clip,scale=0.06]{5/img/puntdeReuBonillaL.pdf}
+    \caption{Puntos de reunión}
+    \label{fig:Puntos de reunión}
+\end{figure}
+
+\subsubsection{Brigada de evacuación}
+
+\subsubsection{Directorio de telefónicos de emergencia}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.001 0.001 0.001 0.001}, clip,scale=0.4]{5/img/direcdeEmerBonillaL.pdf}
+    \caption{Directorio De Emergencias}
+    \label{fig:Directorio De Emergencias}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim={0.1 0.1 0.1 0.1}, clip,scale=0.2]{5/img/tabladeRiesgosBonillaL.pdf}
+    \caption{Tabla de riesgos}
+    \label{fig:Tabla de riesgos}
+\end{figure}
+
+
+Tras haber realizado el estudio no.1 se obtuvo los siguientes resultados:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg1.pdf}
     \caption{Evidencia 01}
     \label{fig:Evidencia 01}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia02.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg2.pdf}
     \caption{Evidencia 02}
     \label{fig:Evidencia_02}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia04.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg4.pdf}
     \caption{Evidencia 03}
     \label{fig:Evidencia 03}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia07.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg7.pdf}
     \caption{Evidencia 07}
     \label{fig:Evidencia 07}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[trim = {65mm 40mm 80mm 60mm},clip,scale=0.5]{5/img/evidencia08.pdf}
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg8.pdf}
     \caption{Evidencia 08}
     \label{fig:Evidencia 08}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/registro1.pdf}
+    \caption{Registro 1}
+    \label{fig:Registro 1}
+\end{figure}
+
+Como podemos ver en el registro anterior, el estudio se obtuvo un buen margen de tiempo, e inclusive el operador, trabajo a una velocidad normal, pesé a esto, logró ensamblar el circuito en menos de 5 minutos, obteniendo un tiempo de 4:17 min.
+Esto, a pesar de encontrarse en un área de trabajo con algunos inconvenientes, lo cual podrían entorpecer el proceso, aun así logró el objetivo.
+
+
+
+
+
+Tras haber analizado esta primera muestra, realizamos una segunda muestra para así poder calcular la media y tener un parámetro de los tiempos y procesos para el armado del circuito y poder planear una optimización del ensamble:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg21.pdf}
+    \caption{Evidencia 2.1}
+    \label{fig:Evidencia 2.1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg23.pdf}
+    \caption{Evidencia 2.2}
+    \label{fig:evidencia 2/2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg24.pdf}
+    \caption{Evidencia 2.3}
+    \label{fig:Evidencia 2.3}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg25.pdf}
+    \caption{Evidencia 2.4}
+    \label{fig:Evidencia 2.4}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg26.pdf}
+    \caption{Evidencia 2.5}
+    \label{fig:Evidencia 2.5}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.25]{5/img/evdeReg27.pdf}
+    \caption{Evidencia 2.6}
+    \label{fig:Evidencia 2.6}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.28]{5/img/registro2.pdf}
+    \caption{Registro 2}
+    \label{fig:Registro 2}
+\end{figure}
+
+Después de haber realizado el análisis pudimos ver que hubo una diferencia muy grande, pues esta vez el análisis se realizó en otro departamento, (Laboratorio de Electricidad), en el cual la iluminación es deficiente, y también el área de trabajo, (silla, mesa), no es ergonómico 
+
 Antes de comenzar a preparar tu artículo, es importante que lea primero la guía del autor, la cual incluye los temas o apartados que son necesarios para tener tu trabajo completo.
 Una vez completada la edición del texto, el documento está listo para el uso de esta plantilla. En este archivo recién creado, resalte todo el contenido e importe el archivo de texto preparado. Ahora está listo para estilizar su documento.
 En esta sección se deben presentar todo lo obtenido de la sección 2, incluidas deducciones o efectos del desarrollo. También se podrán incluir subsecciones numeradas de la siguiente forma:
 
-\subsection{Autores y Afiliaciones}
+\subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
 
-Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar solo el superíndice 1. 
+El análisis de métodos, materiales, herramientas e instalaciones en el ensamble de un circuito electrónico es crucial para optimizar la producción y garantizar la calidad del producto. El análisis de métodos busca mejorar la eficiencia identificando ineficiencias en los procedimientos de ensamble. El análisis de materiales asegura que los componentes del circuito sean de alta calidad. El análisis de herramientas evalúa si las herramientas utilizadas son adecuadas y están en buen estado. Finalmente, el análisis de instalaciones evalúa el entorno de trabajo para garantizar la eficiencia y seguridad de los trabajadores. Estos análisis son esenciales para la mejora continua y la optimización de costos en la producción de circuitos electrónicos. 
 
-\subsection{Identificar los encabezados}
 
-Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema. 
+\subsubsection{Verificación}
 
-\subsection{Tablas y Figuras}
+Costos de no calidad.
+% 
+% 
+\subsubsection{Desarrollo del sistema de tiempos predeterminado}
+
+Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios en la gestión de operaciones y eficiencia del trabajo. Esto incluye mejorar la eficiencia operacional, establecer metas claras, calcular con precisión los costos de producción, proporcionar una base para el diseño de trabajo y fomentar la mejora continua. Sin embargo, es importante revisar y actualizar regularmente estos tiempos para reflejar cualquier cambio en los procesos o condiciones de trabajo. 
+
+El tiempo estándar se calcula utilizando una combinación de observación directa, tiempos predeterminados y ajustes para factores como la fatiga y los retrasos inevitables. Para calcular el tiempo estándar:
 
 \begin{enumerate}
-    \item Posición de las tablas y figuras: Coloque las figuras y las tablas en la parte superior e inferior de las columnas. Evite colocarlos en medio. Las figuras y las tablas grandes pueden abarcar ambas columnas. Los títulos de las figuras deben de estar debajo de las mismas; los títulos de las tablas deben aparecer encima de ellas. Insértese las figuras y los cuadros después de citarse en el texto. Utilice la abreviatura “Fig. 1”, incluso al principio de una oración. 
+    \item  Observación Directa: Se observa y se mide el tiempo que un trabajador capacitado y calificado tarda en realizar una tarea trabajando a un ritmo normal. Esto se hace generalmente utilizando un cronómetro y se conoce como estudio de tiempos.
+    \item  Tiempos Predeterminados: Se utilizan tablas de tiempos predeterminados para calcular el tiempo que debería tomar cada movimiento o serie de movimientos en la tarea. Estas tablas se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+    \item Ajustes: Se hacen ajustes al tiempo observado para tener en cuenta factores como la fatiga y los retrasos inevitables. Estos ajustes se basan en tablas y fórmulas estándar y se expresan como un porcentaje del tiempo observado.
+    \item  Cálculo del Tiempo Estándar: Finalmente, se suma el tiempo observado ajustado y los tiempos predeterminados para obtener el tiempo estándar.
 \end{enumerate}
 
+Es importante mencionar que el tiempo estándar puede variar dependiendo de una serie de factores, incluyendo la habilidad y experiencia del trabajador, las condiciones de trabajo, la calidad de las herramientas y equipos utilizados, y otros factores. 
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstandelOperBonilla.pdf}
+    \caption{Tiempo Estándar del Operador}
+    \label{fig:Tiempo Estándar del Operador}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm1Bonilla.pdf}
+    \caption{Tabla MTM 1}
+    \label{fig:Tabla MTM 1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm2Bonilla.pdf}
+    \caption{Tabla MTM 2}
+    \label{fig:Tabla MTM 2}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm3Bonilla.pdf}
+    \caption{Tabla MTM 3}
+    \label{fig:Tabla MTM 3}
+\end{figure}
+
+Para desarrollar todo lo visto en la tabla de los tiempos Estándar \ref{fig:Tiempo Estándar del Operador} se tuvo que dividir cada paso en elementos, para posteriormente hacer el análisis de cada uno de ellos, usando como referencia las tablas \ref{fig:Tabla MTM 1},\ref{fig:Tabla MTM 2} y \ref{fig:Tabla MTM 3} para poder identificar cada uno de estos valores, y qué valor tiene según los TMU, en algunos casos no se puede identificar los valores exactos, así que se tiene que interpolar:
+$$ y = y_1 + \frac{(x - x_1)(y_2 - y_1)}{x_2 - x_1} $$
+
+Sin embargo, también tenemos que considerar las holguras, y otros contratiempos, los cuales pueden hacer que varíen los tiempos o se vean afectados, dado que estamos trabajando con operadores humanos, e inclusive inexpertos en el ensamble del circuito
+
+\textbf{Holguras Constantes}
+
+\textbf{Necesidades personales}
+
+Las necesidades personales incluyen las interrupciones del trabajo para mantener el bienestar general del empleado; entre los ejemplos están los viajes para beber agua e ir al sanitario. Las condiciones generales de trabajo y la clase de tarea afectan el tiempo necesario de las demoras personales.
+
+No existe una base científica para asignar un porcentaje numérico; sin embargo, la verificación detallada de la producción ha demostrado que una holgura de 5\% para tiempo personal, o cerca de 24 minutos en 8 horas, es adecuada para condiciones de trabajo de un taller típico. Lazarus (1968) reportó que en 235 plantas de 23 industrias la holgura personal oscila entre 4.6 y 6.5\%. Por lo tanto, la cifra de 5\% parece ser adecuada para la mayoría de los trabajadores
+
+\textbf{Fatiga básica}
+
+La holgura por fatiga básica es una constante que toma en cuenta la energía que se consume para realizar el trabajo y aliviar la monotonía. Se considera adecuado 4\% del tiempo normal para un operario que hace trabajo ligero, sentado, bajo buenas condiciones de trabajo, sin demandas especiales sobre sus sistemas motrices o sensoriales (ILO, 1957). Entre 5\% de holgura por necesidades personales y 4\% de holgura por fatiga básica, la mayor parte de los operarios tienen 9\% de holgura inicial constante, a la que se pueden agregar otras holguras, si es necesario.
+
+\textbf{Holguras por Fatiga Variable}
+La holgura por fatiga está estrechamente asociada con las necesidades personales, aunque suele aplicarse sólo a las partes de esfuerzo del estudio. La fatiga no es homogénea en ningún sentido. Puede ser desde estrictamente física hasta puramente psicológica o una combinación de ambas. El resultado es una disminución del deseo de trabajar. Los factores más importantes que afectan la fatiga incluyen las condiciones de trabajo, especialmente el ruido, el calor y la humedad; la naturaleza del trabajo, como la postura, el esfuerzo muscular y el tedio; y la salud general del trabajador. Aunque el trabajo manual pesado y, por lo tanto, la fatiga muscular, ha disminuido en la industria debido a la automatización, otros componentes de la fatiga, como el estrés mental y el tedio, pueden ir en aumento. 
+
+Un método para determinar la holgura por fatiga es medir la declinación de la producción a lo largo del periodo de trabajo. Se puede medir la tasa de producción cada cuarto de hora durante el curso de la jornada laboral. Cualquier declinación de la producción que no pueda atribuirse a cambios en el método o a demoras personales o inevitables se puede atribuir a la fatiga y expresarse como un porcentaje. 
+
+Las holguras en un proyecto representan el tiempo que se puede retrasar una actividad sin afectar la fecha de finalización del proyecto. Se calculan utilizando la diferencia entre la fecha de inicio o finalización más temprana y la fecha de inicio o finalización más tardía de una actividad. Aquí te dejo la fórmula para calcular la holgura total de una actividad:
+
+$$ \text{Holgura total} = \text{Fecha de finalización más tardía} - \text{Fecha de finalización más temprana} $$
+
+o bien,
+
+$$ \text{Holgura total} = \text{Fecha de inicio más tardío} - \text{Fecha de inicio más temprano} $$
+
+Donde:
+- La fecha de finalización más temprana es la fecha más temprana en la que una tarea puede completarse, considerando las dependencias y duraciones de las tareas anteriores.
+— La fecha de finalización más tardía es la fecha límite en la que una tarea debe completarse sin retrasar el proyecto.
+
+Si el resultado es positivo, significa que existe cierta flexibilidad en el cronograma para completar la actividad. En cambio, si el resultado es cero o negativo, indica que cualquier retraso en esa actividad afectará directamente al proyecto. 
+
+% 
+% 
+\subsubsection{Desarrollo del muestreo del trabajo}
+
+Como se mencionó anteriormente, se ha visto como calcular los tiempos predeterminados, los cuales hemos de usar para calcular y estandarizar en este proyecto del ensamble, con nuestro operador.
+
+Tras hacer la película, dividir cada elemento y asignarle un valor, para posteriormente interpolar y obtener la estandarización de los tiempos para el ensamble; Estos fueron los resultados:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.15]{5/img/tiempoCicloCircBonillaL.pdf}
+    \caption{Tiempo Ciclo de Ensamble del Circuito}
+    \label{fig:Tiempo Ciclo de Ensamble del Circuito}
+\end{figure}
+
+Para obtener los valores de la tabla anterior, (\ref{fig:Tiempo Ciclo de Ensamble del Circuito}), se consideraron las holguras, las cuales consideré de valores determinados por tablas:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasBonilla.pdf}
+    \caption{Tabla de holguras}
+    \label{fig:Tabla de holguras}
+\end{figure}
+
+Estos son para considerar holguras usuales que se pueden presentar ante cualquier operador, pues estamos trabajando con humanos inexpertos en el ensamble del circuito eléctrico. Sin embargo, también se consideró los valores o equivalencias porcentuales al tiempo del ensamble, esto con el fin de obtener el tiempo estándar:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasPorcentBonilla.pdf}
+    \caption{Tabla de holguras porcentuales}
+    \label{fig:Tabla de holguras porcentuales}
+\end{figure}
+
+Basándonos en el análisis que se llevó a cabo al operador, y en colaboración de mis compañeros, los cuales cada quien llevo su análisis de cada operador asignado, con los cuales obtuve aplicando los STP y MTM, el tiempo estándar para realizar el ensamble del circuito eléctrico
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstandarBonilla.pdf}
+    \caption{Tabla de Tiempo estándar}
+    \label{fig:Tabla de Tiempo estándar}
+\end{figure}
+% 
+% 
+\subsubsection{Corrección por balanceo de procesos}
+En esta sección buscaremos la forma de realizar una corrección mediante el balanceo de líneas. Una de las principales razones para realizar el balanceo de líneas es para igualar los tiempos de trabajo en cada estación. Esto significa que cada estación de trabajo en la línea de producción debe producir a la tasa adecuada para minimizar los tiempos de espera entre estaciones de trabajo y, en última instancia, aumentar la eficiencia general de la línea de producción.
+Además, el balanceo de líneas ayuda a evitar el ocio y los tiempos de espera. Al equilibrar el ritmo de producción en cada estación, se pueden minimizar los tiempos de espera entre estaciones de trabajo. Esto es crucial para mantener un flujo de trabajo constante y eficiente.
+Otra razón importante para realizar el balanceo de líneas es reducir los costos e inventarios. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en ahorros significativos en términos de costos de producción y almacenamiento de inventario.
+Finalmente, el balanceo de líneas puede ayudar a incrementar la productividad y mejorar la calidad y satisfacción del cliente. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en productos de mayor calidad y una mayor satisfacción del cliente.
+En resumen, el balanceo de líneas es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
+% 
+% 
+\subsubsection{Datos estándar continuos y discretos}
+
+% 
+% 
+\subsection{Diseño de la forma más económica de realizar el trabajo}
+
+% 
+% 
+\subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+
+% 
+% 
+\subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+
+
+% 
+% 
 \section{Conclusiones}
 
-Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
+El proyecto ha demostrado la importancia de la estandarización en el ensamble de circuitos. A pesar de las dificultades iniciales, como la falta de conocimiento previo de electrónica por parte de los operadores y la confusión con los cables, se logró establecer un tiempo estándar de aproximadamente 8 minutos para el ensamble. Esto se logró gracias a la aplicación de diversas herramientas del estudio del trabajo, el uso de los Tiempos Predeterminados Sintéticos (STP), el uso de probabilidades y la estandarización de los métodos.
+
+Además, este proyecto ha resaltado la necesidad de una formación adecuada para los operadores, especialmente en áreas técnicas como la electrónica. Con una formación adecuada, los operadores podrían realizar sus tareas de manera más eficiente, lo que podría reducir aún más el tiempo de ensamble.
+
+Finalmente, aunque se ha logrado el objetivo de encontrar un método más económico para el ensamble del circuito, es importante recordar que la mejora continua es un componente clave de cualquier proceso de producción. Por lo tanto, se deben buscar constantemente oportunidades para optimizar aún más el proceso de ensamble y reducir los costos.
+
+En resumen, este proyecto ha demostrado que, a pesar de los desafíos, es posible estandarizar y optimizar los procesos de ensamble para lograr un método más económico y eficiente. Sin embargo, la formación de los operadores y la mejora continua son aspectos cruciales que deben tenerse en cuenta para el éxito a largo plazo.
+
+
+Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
+
 
 \section{Agradecimientos}
+Agradecimientos
 
-Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros, que han sido partícipes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros, que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+Quisiera expresar mi más profundo agradecimiento a todas las personas que han hecho posible la realización de este trabajo.
 
-\section*{Referencias}
+En agradecimiento de todos los colaboradores, que fueron mis compañeros, con los cuales compartimos información para lograr el tiempo estándar, y a mi novia Alitza A. Piedra Moreno, con la que estuve realizando las investigaciones en el plantel, con el fin de saber sobre el plantel y con los recursos que contábamos y así poder continuar con el proyecto
 
-Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes 
-La puntuación de la oración que sigues sería  
-Refiérase simplemente al número de referencia, como en, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
-Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
-A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula solo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
+Agradezco al Instituto Tecnológico de Querétaro por brindarme las instalaciones y recursos necesarios para llevar a cabo mi investigación.
 
-
-% Ejemplo
-%  @Article{article,
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Article Title",
-% 	volume = "30",
-% 	number = "30",
-% 	pages = "10127-10134",
-% 	year = "2013",
-% 	doi = "10.3389/fnins.2013.12345",
-% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
-% 	journal = "Frontiers in Neuroscience"
-% }
-
-% @book{book,
-%   author    = {Author Name}, 
-%   title     = {The title of the work},
-%   publisher = {The name of the publisher},
-%   address   = {The city},
-%   year      = 1993,
-% }
-
-% @incollection{chapter,
-%   author       = {Bauthor Surname}, 
-%   title        = {The title of the work},
-%   editor       = {Editor Name},
-%   booktitle    = {The title of the book},
-%   publisher    = {The name of the publisher},
-%   address      = {The city},
-%   year         = 2002,
-%   pages        = {201-213},
-% }
-
-% @InProceedings{conference,
-%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
-%   title = {The title of the work},
-%   booktitle = {The title of the conference proceedings},
-%   year = 1996,
-%   publisher = {The name of the publisher},
-%   editor = {Editor Name1 and Editor Name2},
-%   pages = {41-50},
-% }
-
-% @book{cho,
-%   author       = {Gauthor Name1}, 
-%   title        = {The title of the work},
-%   publisher = {Country code and patent number},
-%   address      = {Patent Country},
-%   year = 2013
-% }
-
-% @book{patent,
-%   author    = {Hauthor Surname1}, 
-%   title     = {The title of the work},
-%   publisher = {Patent number},
-%   address   = {Patent country},
-%   year      = 2010,
-% }
-
-% % please use misc for datasets
-% @misc{dataset, 
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Data Title",
-% 	year = "2011",
-% 	doi = "10.000/55555",
-% 	URL = "http://www.frontiersin.org/",
-% }
-
+Finalmente, pero no menos importante, agradezco a mi familia y mi novia por la motivación y apoyo para realizar el trabajo.
 \bibliographystyle{ieeetr}
 \bibliography{5/referencias}
-% 
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
