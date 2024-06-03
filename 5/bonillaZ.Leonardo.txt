@@ -85,7 +85,7 @@ El objetivo principal del estudio de trabajo es incrementar la productividad sin
 En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
 
 
-El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020integracion}
+El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020}
 
 % define que es circuito electronico
 Un circuito electrónico es un conjunto de componentes eléctricos conectados que realizan una función específica. Los componentes pueden ser resistencias, condensadores, transistores, entre otros. Los circuitos electrónicos son fundamentales en la tecnología actual y se utilizan en dispositivos como televisores, computadoras y teléfonos celulares. Los circuitos pueden ser en serie, paralelo, mixto, abierto o cerrado, dependiendo de cómo estén conectados los componentes. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.
@@ -275,6 +275,13 @@ Los fundamentos teóricos del estudio del trabajo están formados por los antece
 En términos más específicos, el estudio del trabajo consiste en la aplicación de métodos y experiencias para la investigación y configuración de sistemas de trabajo, con el fin de aumentar la rentabilidad de la empresa, teniendo en cuenta el rendimiento y las necesidades del ser humano. Este estudio del trabajo es esencial en la formación de los ingenieros industriales, ya que les proporciona las herramientas necesarias para analizar y mejorar procesos productivos en las empresas, además de garantizar condiciones de trabajo seguras y confortables para los
 empleados.
 
+1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
+
+2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
+
+3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
+
+Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
 
 \textbf{Los Sistemas de Tiempos Predeterminados} (STP) son una colección de tiempos válidos asignados a movimientos y a grupos de movimientos básicos, que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Son el resultado del estudio de un gran número de muestras de operaciones diversificadas, con un dispositivo para tomar el tiempo, tal como la cámara de cine, que es capaz de medir elementos muy cortos.
 
@@ -508,7 +515,7 @@ Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un co
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
 
-Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009electronica}
+Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009}
 
 \begin{figure}
     \centering
@@ -527,7 +534,7 @@ Función: La principal función de un protoboard es permitir a los ingenieros y 
 
 el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de que se desconecte cualquier componente. Si la prueba no es satisfactoria, es fácil cambiar las conexiones y reemplazar los componentes.
 
-En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017arduino}
+En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017}
 
 \begin{figure}
     \centering
@@ -563,7 +570,7 @@ El protocolo SPI (Interfaz Periférica Serie) tiene una arquitectura maestro-esc
 
 Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una arquitectura maestro-esclavo, pero en lugar de utilizar múltiples líneas para la transmisión de datos como SPI, I2C utiliza solo dos líneas: la línea de datos serie (SDA) y la línea de reloj serié (SCL). Esto hace que I2C sea ideal para aplicaciones que requieren menos cables y menos pines del microcontrolador.
 
-En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014implementación}
+En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014}
 
 \begin{figure}
     \centering
@@ -576,7 +583,7 @@ Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar
 
 Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
 
-En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003fabricacion}
+En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003}
 
 \begin{figure}
     \centering
@@ -591,7 +598,7 @@ Composición y fabricación: Los cables Macho-Macho están compuestos por dos co
 
 Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
 
-En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023solar}
+En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023}
 
 \begin{figure}
     \centering
@@ -610,7 +617,7 @@ Detalles importantes para su manejo: La ESP32 tiene modos de bajo consumo de ene
 
 La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al tacto y envían información a la tarjeta. El ADC incorporado sirve para convertir cantidades analógicas en cantidades digitales, con 16 pines con esta funcionalidad. La placa tiene puertos de 5V y 3.3V, pines de comunicación serié GND, TX y RX, y otros. Por lo tanto, en algunos casos, se puede usar un solo pin en el tablero para diversas funcionalidades. El ESP32 también tiene un sensor de temperatura incorporado para controlar la temperatura de funcionamiento de la tarjeta.
 
-En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018demostrador}
+En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018}
 
 \begin{figure}
     \centering
@@ -625,7 +632,7 @@ Composición y fabricación: Los potenciómetros están compuestos por una banda
 
 Funciones: La principal función de un potenciómetro es permitir el ajuste manual de la resistencia en un circuito, lo que a su vez permite controlar la cantidad de corriente eléctrica que fluye a través del circuito. Esto puede ser útil para ajustar la intensidad de corriente, el brillo de una luz, el volumen de un sonido, entre otras aplicaciones. Además, los potenciómetros pueden ayudarte a medir un voltaje desconocido comparándolo con un voltaje conocido.
 
-En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{de2012medidas}
+En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{medidas2012}
 
 \begin{figure}
     \centering
@@ -640,7 +647,7 @@ Funciones: La principal función de un multicontacto es proporcionar múltiples 
 
 Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
-En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011autoria}
+En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011}
 
 \begin{figure}
     \centering
@@ -655,7 +662,7 @@ Composición y fabricación: Los cables tipo C a C están compuestos por dos con
 
 Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
 
-En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011autoria}
+En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011}
 
 \begin{figure}
     \centering
@@ -1230,11 +1237,6 @@ Finalmente, aunque se ha logrado el objetivo de encontrar un método más econó
 
 En resumen, este proyecto ha demostrado que, a pesar de los desafíos, es posible estandarizar y optimizar los procesos de ensamble para lograr un método más económico y eficiente. Sin embargo, la formación de los operadores y la mejora continua son aspectos cruciales que deben tenerse en cuenta para el éxito a largo plazo.
 
-1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
-
-2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
-
-3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
 
 Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
 
