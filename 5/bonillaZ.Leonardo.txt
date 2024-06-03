@@ -85,7 +85,7 @@ El objetivo principal del estudio de trabajo es incrementar la productividad sin
 En los últimos años, el estudio de trabajo ha experimentado cambios significativos debido a la aceleración de las innovaciones tecnológicas y la pandemia de COVID-19. Estos cambios han contribuido a mejorar la productividad, desarrollando mecanismos de protección ante la amenaza de posibles reducciones de empleo e ingresos. Se prevé que la automatización de la fuerza laboral crecerá a una velocidad sin precedentes, y se espera que la revolución tecnológica cree 97 millones de nuevos empleos al 2025.
 
 
-El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020integracion}
+El ensamble es un proceso en la fabricación industrial donde se unen módulos y subconjuntos para producir productos terminados. Se divide en ensamble primario (fijación de componentes) y secundario (manejo, medición, ajuste y limpieza de productos). Existen varios tipos de ensamble, incluyendo semipermanente, permanente y no permanente. Este proceso es esencial en varias industrias, como la automotriz, y su optimización es un objetivo en el Lean Manufacturing. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.\cite{cardenas2020}
 
 % define que es circuito electronico
 Un circuito electrónico es un conjunto de componentes eléctricos conectados que realizan una función específica. Los componentes pueden ser resistencias, condensadores, transistores, entre otros. Los circuitos electrónicos son fundamentales en la tecnología actual y se utilizan en dispositivos como televisores, computadoras y teléfonos celulares. Los circuitos pueden ser en serie, paralelo, mixto, abierto o cerrado, dependiendo de cómo estén conectados los componentes. La implementación de robots en el ensamble industrial ha aumentado, ofreciendo ventajas como la reducción de costos laborales y una mayor capacidad de respuesta a la demanda del mercado.
@@ -275,6 +275,13 @@ Los fundamentos teóricos del estudio del trabajo están formados por los antece
 En términos más específicos, el estudio del trabajo consiste en la aplicación de métodos y experiencias para la investigación y configuración de sistemas de trabajo, con el fin de aumentar la rentabilidad de la empresa, teniendo en cuenta el rendimiento y las necesidades del ser humano. Este estudio del trabajo es esencial en la formación de los ingenieros industriales, ya que les proporciona las herramientas necesarias para analizar y mejorar procesos productivos en las empresas, además de garantizar condiciones de trabajo seguras y confortables para los
 empleados.
 
+1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
+
+2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
+
+3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
+
+Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
 
 \textbf{Los Sistemas de Tiempos Predeterminados} (STP) son una colección de tiempos válidos asignados a movimientos y a grupos de movimientos básicos, que no pueden ser evaluados con exactitud con el procedimiento ordinario del estudio cronométrico de tiempos. Son el resultado del estudio de un gran número de muestras de operaciones diversificadas, con un dispositivo para tomar el tiempo, tal como la cámara de cine, que es capaz de medir elementos muy cortos.
 
@@ -282,14 +289,18 @@ Estos sistemas se utilizan para sintetizar las estimaciones hechas, puesto que l
 
 Existen más de 50 sistemas diferentes para realizar estudios de tiempos predeterminados. Algunos de los sistemas de tiempos predeterminados más conocidos son:
 
-1. MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
-2. GPD (General Purpose Data – Basado en MTM).
-3. BMT (Basic Motion Time Study).
-4. UAS (Universal Analyzing System).
-5. MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
-6. MICRO (Micro Motion Análisis).
-7. MODAPTS (Modular Arrangement of PTS).
-8. MACRO (Macro Motion Análisis).
+\begin{enumerate}
+    \item MTM (Medición de Tiempos de Método): Analiza cualquier operación manual o método por los movimientos básicos necesarios para ejecutarlos, asignando a cada movimiento un tiempo tipo predeterminado que se define por la índole del movimiento y las condiciones en que se efectúa.
+    \item GPD (General Purpose Data – Basado en MTM).
+    \item BMT (Basic Motion Time Study).
+    \item UAS (Universal Analyzing System)
+    \item MOST (Maynard’s Operation Séquense Techniques): Es una extensión del sistema MTM.
+    \item MICRO (Micro Motion Análisis)
+    \item MODAPTS (Modular Arrangement of PTS)
+    \item MACRO (Macro Motion Análisis)
+
+\end{enumerate}
+
 
 Cada uno de estos sistemas tiene sus propias características y aplicaciones, y se utilizan en diferentes contextos dependiendo de las necesidades específicas de la organización. 
 
@@ -306,6 +317,122 @@ Además, la Industria 4.0 se entiende como la aplicación de tecnologías disrup
 El desarrollo de fábricas inteligentes brinda una oportunidad increíble para que la industria manufacturera ingrese a la cuarta revolución industrial. El análisis de las grandes cantidades de datos recopilados de los sensores en la planta de producción garantiza la visibilidad en tiempo real de los activos de manufactura y puede proporcionar herramientas para realizar el mantenimiento predictivo a fin de minimizar el tiempo de inactividad del equipo.
 
 El uso de dispositivos del IoT de alta tecnología en fábricas inteligentes conduce a mayor productividad y mejor calidad. Reemplazar los modelos comerciales de inspección manual con insights visuales basados en IA, reduce los errores de manufactura y ahorra tiempo y dinero, la Industria 4.0 está revolucionando la forma en que las empresas fabrican, mejoran y distribuyen sus productos.
+
+Para poder calcular los tiempos estándar, tiempo, ciclo, y  los demás MTM, junto con el TMU, tenemos que apoyarnos de diferentes herramientas, como lo es la estadística y demás.
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+\begin{equation}
+        \label{equ:1}
+       \bar{x} {\pm} {\frac{zs}{\sqrt{n}}}
+    \end{equation}
+
+Siendo está la forma de calcular la media muestral, en una muestra>30, siendo una muestra grande, siendo así teniendo que utilizar el método T de Student para nuestro muestreo, pues no es mayor de 30. Con lo que deberemos calcular con la siguiente ecuación:
+
+\begin{equation}
+        \label{equ:ciclo}
+        \bar{x} {\pm} {\frac{ts}{\sqrt{n}}}
+    \end{equation}
+
+Además, uno de los principales interrogantes que nos planteamos es cuántos ciclos de estudio necesitaremos implementar. Dado que el estudio de tiempos es un proceso de muestreo, podemos asumir que las observaciones se distribuyen de manera normal con relación a una media poblacional y una varianza que son desconocidas. Si utilizamos la media de la muestra y la desviación estándar de la muestra s, la distribución normal para una muestra grande nos proporciona el siguiente intervalo de confianza. 
+
+Un operador calificado es un trabajador que ha recibido una formación específica y ha demostrado tener los conocimientos necesarios para operar de manera eficiente y segura un equipo o maquinaria específica. Esta formación suele incluir una combinación de instrucción teórica y práctica, y puede culminar en una evaluación o certificación.
+Además, un operador calificado debe estar familiarizado con las normas y leyes de seguridad e higiene relevantes para su trabajo¹. También debe tener experiencia en el campo en el que trabaja y conocimientos empíricos.
+
+En resumen, un operador calificado es un trabajador que ha demostrado tener la formación, los conocimientos y la experiencia necesarios para realizar su trabajo de manera eficiente y segura.
+
+ Para poder calificar el desempeño de cada operador, se debe ajustar el tiempo medio observado, para cada elemento que lleva a cabo el operador, para el tiempo normal que requiere cada uno de los operadores, con el cual se calcula:
+
+ \begin{equation}
+        \label{equ:TN}
+       TN= TO  \frac{C}{100}
+    \end{equation}
+
+Y en el caso del tiempo que requiere un operador completamente calificado, es decir, un operador lo suficientemente capaz, trabaja a un tiempo estándar, el cual se basa en una velocidad y movimiento "predeterminados" en un tiempo que no varía, el cual es el Tiempo Estándar, el cual se determina con los operadores calificados, y el tiempo estándar, el cual se calcula con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:TE}
+       TE = TN + TN x holgura = TN x (1 + holgura)
+    \end{equation}
+ 
+También debemos de considerar la eficiencia de los operadores, esto con el mismo fin de obtener la calificación del operador, y para calcular esta eficiencia es con la siguiente fórmula:
+
+ \begin{equation}
+        \label{equ:Eficiencia}
+       E= 100 * \frac{He}{Hc} = 100 * \frac{Oc}{Oe}
+    \end{equation}
+ donde:
+    \begin{itemize}
+        \item E = porcentaje de eficiencia,
+        \item He = horas estándar trabajadas,
+        \item Hc = horas de reloj en el trabajo,
+        \item Oe = producción esperada,
+        \item 0c = producción actual
+    \end{itemize}
+
+%Sistemas de calificación
+Con todo lo anterior, se usa para poder llevar a cabo la calificación de cada operador, y en base a ello determinar a los operadores más competentes, los cuales nos ayudan a mejorar los métodos para el trabajo, pero para ello debemos calificarlos con diversos sistemas los cuales nos ayudan a determinar la calificación en base a diversos factores, ya sea por los tiempos, movimientos, holguras y demás, entre ellos uno de los más destacables o más usados, es el sistema de calificación Westing House.
+
+El sistema de calificación Westinghouse es un método que se utiliza para evaluar el desempeño de un operario en base a cuatro factores: habilidad, esfuerzo, condiciones y consistencia.
+
+\begin{enumerate}
+    \item Habilidad: Se define como la destreza para seguir un método dado y se relaciona con la experiencia que se demuestra mediante la coordinación adecuada entre la mente y las manos. Existen seis grados de habilidad: malo, aceptable, promedio, bueno, excelente y superior.
+
+    \item Esfuerzo: Se define como una demostración de la voluntad para trabajar de manera eficaz. Se caracteriza por la rapidez con la que se aplica la habilidad. Los seis grados de calificación del esfuerzo son malo, aceptable, promedio, bueno, excelente y excesivo.
+
+    \item Condiciones: Son condiciones externas que afectan al operario, no a la operación. Tales como: temperatura, ventilación, luz y ruido. Los seis grados de calificación de las condiciones son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    \item  Consistencia: Se evalúa mientras el operario está trabajando. Los valores de tiempos elementales que se repiten constantemente tendrán una consistencia perfecta. Los seis grados de calificación de la consistencia son ideal o perfecta, excelente, bueno, promedio, aceptable y malo.
+    
+\end{enumerate}
+
+Este sistema de calificación fue desarrollado por Westinghouse Electric Corporation y es uno de los sistemas de calificación más antiguos y ampliamente utilizados. Al evaluar la actuación del operario con este método, se pueden obtener datos que ayuden a mejorar la eficiencia y productividad en el trabajo. 
+
+Además del Sistema Westing House, existen otros sistemas de calificación, algunos de ellos son:
+
+\begin{enumerate}
+    \item Clasificación de Velocidad: Este método de calificación consiste en juzgar la velocidad de los movimientos del operador en relación con un ritmo normal. Se puede aplicar a diferentes elementos del trabajo y matemáticamente.
+    \item Clasificación Sintética: Este sistema de calificación fue propuesto por Morrow. En este sistema, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS).
+    \item Calificación del Objetivo: Este sistema de calificación se basa en la evaluación del rendimiento del trabajador en relación con un objetivo o meta establecida.
+    \item Evaluación Psicológica de la Calificación de Desempeño: Este sistema de calificación se basa en la evaluación de las habilidades psicológicas y emocionales del trabajador, además de su rendimiento en el trabajo.
+\end{enumerate}
+
+Cada uno de estos sistemas tiene sus propias ventajas y desventajas, y la elección del sistema de calificación adecuado puede depender de varios factores, como el tipo de trabajo, las características del trabajador y los objetivos de la organización. 
+
+El sistema de calificación Morrow es un método de evaluación del desempeño de los trabajadores que se basa en la utilización de estándares de tiempo predeterminados. Este sistema fue propuesto por Morrow y es uno de los sistemas de calificación más antiguos y ampliamente utilizados.
+
+En el sistema de calificación Morrow, la frecuencia de paso de un operador se evalúa con la ayuda de estándares predeterminados de tiempo de movimiento (PMTS). Estos estándares de tiempo se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+
+El objetivo de este sistema de calificación es proporcionar una medida objetiva y estandarizada del desempeño de un trabajador. Al utilizar los estándares de tiempo predeterminados, se puede comparar el desempeño de diferentes trabajadores de manera justa y consistente.
+
+Además, el sistema de calificación Morrow puede ayudar a identificar áreas de mejora en el desempeño de los trabajadores. Al comparar el desempeño real de un trabajador con los estándares de tiempo predeterminados, se pueden identificar áreas donde el trabajador puede necesitar formación adicional o donde se pueden hacer cambios en el proceso de trabajo para mejorar la eficiencia.
+
+En resumen, el sistema de calificación Morrow es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
+Para calificar por Esfuerzo, se usa la siguiente fórmula:
+
+\begin{equation}
+        \label{equ:Factor de des}
+       P= \frac{Ft}{O}
+    \end{equation}
+    
+    donde: 
+    \begin{itemize}
+        \item P =  factor de desempeño o de calificación
+        \item Ft = tiempo del movimiento fundamental
+        \item O =  tiempo elemental medio observado para los elementos usados en Ft
+    \end{itemize}
+
+El sistema de calificación objetiva es un método de evaluación que se utiliza para medir el grado de consecución de objetivos, competencias o criterios de evaluación que ha alcanzado un alumno. Este sistema convierte una evaluación cualitativa en cuantitativa.
+
+En este sistema, los instrumentos de calificación son herramientas pedagógicas que determinan el grado de suficiencia o insuficiencia de los conocimientos demostrados por un alumno, tomando como referentes los criterios de calificación y, cuando proceda, los estándares de aprendizaje.
+
+Por otro lado, los criterios de calificación son especificaciones que indican qué es necesario para obtener una calificación en lugar de otra². Estos criterios se combinan con los instrumentos de evaluación para diseñar una evaluación completa.
+
+Es importante mencionar que este sistema de calificación requiere un análisis cuidadoso de los contenidos de cada unidad didáctica, con sus correspondientes criterios y estándares (o resultados de aprendizaje, en Formación Profesional).
+
+En resumen, el sistema de calificación objetiva es una herramienta útil para evaluar el conocimiento y la comprensión de hechos y conceptos específicos por parte de los alumnos. Sin embargo, es importante equilibrar el uso de evaluaciones objetivas con otros tipos de evaluaciones para proporcionar una evaluación completa del aprendizaje de los alumnos. 
+
+
 
 % 
 % 
@@ -388,7 +515,7 @@ Resistencias de 330 Ohms: Una resistencia de 330 ohmios y 1/4 de vatios es un co
 
 Composición y fabricación: Las resistencias están hechas de diferentes materiales dependiendo del tipo, pero una resistencia común de 330 ohmios y 1/4 de vatios suele estar hecha de una barra cerámica de carbón. Estas resistencias se encuentran en diferentes tamaños y formas, como las resistencias de película de carbón, resistencias de película metálica y resistencias de montaje superficial.
 
-Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009electronica}
+Función: La principal función de una resistencia es limitar la corriente en los circuitos. En el caso de una resistencia de 330 ohmios, si conocemos el voltaje aplicado al circuito, podemos usar la fórmula para determinar la corriente que fluye a través de la resistencia. Por ejemplo, si tenemos un voltaje de 5 voltios aplicado a la resistencia de 330 ohmios, podemos calcular la corriente dividiendo el voltaje entre la resistencia: I = V/R = 5V/330 ohms = 0.015 A. La corriente resultante sería de 0.015 amperios, o 15 mA. Este cálculo nos permite comprender cómo se comporta la resistencia de 330 ohmios en un circuito y cómo limita la corriente. \cite{mohan2009}
 
 \begin{figure}
     \centering
@@ -407,7 +534,7 @@ Función: La principal función de un protoboard es permitir a los ingenieros y 
 
 el circuito se diseña en una placa de cobre y se solda para evitar el riesgo de que se desconecte cualquier componente. Si la prueba no es satisfactoria, es fácil cambiar las conexiones y reemplazar los componentes.
 
-En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017arduino}
+En resumen, un protoboard es una herramienta esencial en el campo de la electrónica que permite la creación y prueba de circuitos electrónicos de manera rápida y eficiente, sin la necesidad de soldar componentes. \cite{millahual2017}
 
 \begin{figure}
     \centering
@@ -443,7 +570,7 @@ El protocolo SPI (Interfaz Periférica Serie) tiene una arquitectura maestro-esc
 
 Por otro lado, el protocolo I2C (Inter-Integrated Circuit) también utiliza una arquitectura maestro-esclavo, pero en lugar de utilizar múltiples líneas para la transmisión de datos como SPI, I2C utiliza solo dos líneas: la línea de datos serie (SDA) y la línea de reloj serié (SCL). Esto hace que I2C sea ideal para aplicaciones que requieren menos cables y menos pines del microcontrolador.
 
-En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014implementación}
+En resumen, un módulo SPI I2C es una herramienta esencial en el campo de la electrónica que permite la comunicación en serie de alta velocidad entre múltiples dispositivos en un bus. \cite{garcia2014}
 
 \begin{figure}
     \centering
@@ -456,7 +583,7 @@ Cable MH: Un cable macho-hembra es un tipo de cable que se utiliza para conectar
 
 Funciones: La principal función de un cable macho-hembra es permitir la conexión de dos elementos, uno ingresado en un dispositivo y el extremo opuesto al sensor (normalmente). Estos cables son fundamentales a la hora de conectar dispositivos electrónicos. Permiten la transmisión de la información o la energía eléctrica.
 
-En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003fabricacion}
+En resumen, un cable macho-hembra es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. Cable MM: Un cable Macho-Macho, también conocido como cable jumper, es un tipo de cable que se utiliza en electrónica y robótica para establecer conexiones entre diferentes componentes. \cite{montero2003}
 
 \begin{figure}
     \centering
@@ -466,11 +593,12 @@ En resumen, un cable macho-hembra es una herramienta esencial en el campo de la 
 \end{figure}
 
 cable Macho-Macho:
+
 Composición y fabricación: Los cables Macho-Macho están compuestos por dos conectores macho en cada extremo del cable. Los conectores macho tienen pines o clavijas que sobresalen y que se pueden insertar en los puertos hembra de otros componentes. Estos conectores suelen ser de metal, a menudo de una aleación de latón niquelado, y están protegidos por una carcasa de plástico. El cable que une los dos conectores puede ser de diferentes materiales, pero generalmente es de cobre, debido a su alta conductividad eléctrica.
 
 Funciones: La principal función de un cable Macho-Macho es permitir la conexión de dos elementos ingresados en un tablero protoboard. Estos cables son muy útiles para hacer conexiones temporales entre componentes en una placa de pruebas o protoboard, lo que permite probar y modificar circuitos sin necesidad de soldar. También se utilizan para extender cables o actuar como puentes para conectar dos dispositivos que tienen conectores hembra.
 
-En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023solar}
+En resumen, un cable Macho-Macho es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{dessimoni2023}
 
 \begin{figure}
     \centering
@@ -489,7 +617,7 @@ Detalles importantes para su manejo: La ESP32 tiene modos de bajo consumo de ene
 
 La tarjeta también tiene 10 sensores táctiles capacitivos, que reaccionan al tacto y envían información a la tarjeta. El ADC incorporado sirve para convertir cantidades analógicas en cantidades digitales, con 16 pines con esta funcionalidad. La placa tiene puertos de 5V y 3.3V, pines de comunicación serié GND, TX y RX, y otros. Por lo tanto, en algunos casos, se puede usar un solo pin en el tablero para diversas funcionalidades. El ESP32 también tiene un sensor de temperatura incorporado para controlar la temperatura de funcionamiento de la tarjeta.
 
-En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018demostrador}
+En resumen, la ESP32 es una herramienta esencial en el campo de la electrónica y la programación que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{moreno2018}
 
 \begin{figure}
     \centering
@@ -504,7 +632,7 @@ Composición y fabricación: Los potenciómetros están compuestos por una banda
 
 Funciones: La principal función de un potenciómetro es permitir el ajuste manual de la resistencia en un circuito, lo que a su vez permite controlar la cantidad de corriente eléctrica que fluye a través del circuito. Esto puede ser útil para ajustar la intensidad de corriente, el brillo de una luz, el volumen de un sonido, entre otras aplicaciones. Además, los potenciómetros pueden ayudarte a medir un voltaje desconocido comparándolo con un voltaje conocido.
 
-En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{de2012medidas}
+En resumen, un potenciómetro es una herramienta esencial en el campo de la electrónica que permite el ajuste manual de la resistencia en un circuito, facilitando el control de la cantidad de corriente eléctrica que fluye a través del circuito. \cite{medidas2012}
 
 \begin{figure}
     \centering
@@ -519,7 +647,7 @@ Funciones: La principal función de un multicontacto es proporcionar múltiples 
 
 Los puertos USB pueden ofrecer una velocidad de carga rápida  óptima de hasta 2.4 A. Además, algunos modelos cuentan con un interruptor de apagado que permite cortar la alimentación a todos los dispositivos conectados de manera simultánea. Esto puede ser útil para ahorrar energía cuando los dispositivos no están en uso.
 
-En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011autoria}
+En resumen, un multicontacto de 5 tomacorrientes es una herramienta esencial en la fábrica, hogar u oficina, que permite conectar y cargar múltiples dispositivos de manera segura y eficiente. \cite{roldan2011}
 
 \begin{figure}
     \centering
@@ -534,7 +662,7 @@ Composición y fabricación: Los cables tipo C a C están compuestos por dos con
 
 Funciones: La principal función de un cable tipo C a C es permitir la conexión de dos dispositivos que tienen puertos USB tipo C. Esto puede ser  útil para cargar dispositivos, transferir datos, o conectar dispositivos a un monitor o TV. El conector tipo C es reversible, lo que significa que se puede insertar en cualquier orientación, eliminando la frustración de intentar conectarlo al revés. Además, dependiendo del estándar USB que adopte el cable (USB 2.0, USB 3.0, USB 3.1), puede ofrecer diferentes velocidades de transferencia de datos y niveles de potencia.
 
-En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011autoria}
+En resumen, un cable tipo C a C es una herramienta esencial en el campo de la electrónica que permite la conexión segura y confiable de dos dispositivos, facilitando la transmisión de la información o la energía eléctrica. \cite{roldan2011}
 
 \begin{figure}
     \centering
@@ -952,7 +1080,27 @@ Costos de no calidad.
 % 
 % 
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+
 Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios en la gestión de operaciones y eficiencia del trabajo. Esto incluye mejorar la eficiencia operacional, establecer metas claras, calcular con precisión los costos de producción, proporcionar una base para el diseño de trabajo y fomentar la mejora continua. Sin embargo, es importante revisar y actualizar regularmente estos tiempos para reflejar cualquier cambio en los procesos o condiciones de trabajo. 
+
+El tiempo estándar se calcula utilizando una combinación de observación directa, tiempos predeterminados y ajustes para factores como la fatiga y los retrasos inevitables. Para calcular el tiempo estándar:
+
+\begin{enumerate}
+    \item  Observación Directa: Se observa y se mide el tiempo que un trabajador capacitado y calificado tarda en realizar una tarea trabajando a un ritmo normal. Esto se hace generalmente utilizando un cronómetro y se conoce como estudio de tiempos.
+    \item  Tiempos Predeterminados: Se utilizan tablas de tiempos predeterminados para calcular el tiempo que debería tomar cada movimiento o serie de movimientos en la tarea. Estas tablas se basan en estudios de tiempo y movimiento y proporcionan tiempos estándar para movimientos básicos como alcanzar, mover y presionar.
+    \item Ajustes: Se hacen ajustes al tiempo observado para tener en cuenta factores como la fatiga y los retrasos inevitables. Estos ajustes se basan en tablas y fórmulas estándar y se expresan como un porcentaje del tiempo observado.
+    \item  Cálculo del Tiempo Estándar: Finalmente, se suma el tiempo observado ajustado y los tiempos predeterminados para obtener el tiempo estándar.
+\end{enumerate}
+
+Es importante mencionar que el tiempo estándar puede variar dependiendo de una serie de factores, incluyendo la habilidad y experiencia del trabajador, las condiciones de trabajo, la calidad de las herramientas y equipos utilizados, y otros factores. 
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tiempoEstandelOperBonilla.pdf}
+    \caption{Tiempo Estándar del Operador}
+    \label{fig:Tiempo Estándar del Operador}
+\end{figure}
+
 \begin{figure}
     \centering
     \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tablaMtm1Bonilla.pdf}
@@ -974,15 +1122,76 @@ Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios 
     \label{fig:Tabla MTM 3}
 \end{figure}
 
+Para desarrollar todo lo visto en la tabla de los tiempos Estándar \ref{fig:Tiempo Estándar del Operador} se tuvo que dividir cada paso en elementos, para posteriormente hacer el análisis de cada uno de ellos, usando como referencia las tablas \ref{fig:Tabla MTM 1},\ref{fig:Tabla MTM 2} y \ref{fig:Tabla MTM 3} para poder identificar cada uno de estos valores, y qué valor tiene según los TMU, en algunos casos no se puede identificar los valores exactos, así que se tiene que interpolar:
+$$ y = y_1 + \frac{(x - x_1)(y_2 - y_1)}{x_2 - x_1} $$
+
+Sin embargo, también tenemos que considerar las holguras, y otros contratiempos, los cuales pueden hacer que varíen los tiempos o se vean afectados, dado que estamos trabajando con operadores humanos, e inclusive inexpertos en el ensamble del circuito
+
+\textbf{Holguras Constantes}
+
+\textbf{Necesidades personales}
+
+Las necesidades personales incluyen las interrupciones del trabajo para mantener el bienestar general del empleado; entre los ejemplos están los viajes para beber agua e ir al sanitario. Las condiciones generales de trabajo y la clase de tarea afectan el tiempo necesario de las demoras personales.
+
+No existe una base científica para asignar un porcentaje numérico; sin embargo, la verificación detallada de la producción ha demostrado que una holgura de 5\% para tiempo personal, o cerca de 24 minutos en 8 horas, es adecuada para condiciones de trabajo de un taller típico. Lazarus (1968) reportó que en 235 plantas de 23 industrias la holgura personal oscila entre 4.6 y 6.5\%. Por lo tanto, la cifra de 5\% parece ser adecuada para la mayoría de los trabajadores
+
+\textbf{Fatiga básica}
+
+La holgura por fatiga básica es una constante que toma en cuenta la energía que se consume para realizar el trabajo y aliviar la monotonía. Se considera adecuado 4\% del tiempo normal para un operario que hace trabajo ligero, sentado, bajo buenas condiciones de trabajo, sin demandas especiales sobre sus sistemas motrices o sensoriales (ILO, 1957). Entre 5\% de holgura por necesidades personales y 4\% de holgura por fatiga básica, la mayor parte de los operarios tienen 9\% de holgura inicial constante, a la que se pueden agregar otras holguras, si es necesario.
+
+\textbf{Holguras por Fatiga Variable}
+La holgura por fatiga está estrechamente asociada con las necesidades personales, aunque suele aplicarse sólo a las partes de esfuerzo del estudio. La fatiga no es homogénea en ningún sentido. Puede ser desde estrictamente física hasta puramente psicológica o una combinación de ambas. El resultado es una disminución del deseo de trabajar. Los factores más importantes que afectan la fatiga incluyen las condiciones de trabajo, especialmente el ruido, el calor y la humedad; la naturaleza del trabajo, como la postura, el esfuerzo muscular y el tedio; y la salud general del trabajador. Aunque el trabajo manual pesado y, por lo tanto, la fatiga muscular, ha disminuido en la industria debido a la automatización, otros componentes de la fatiga, como el estrés mental y el tedio, pueden ir en aumento. 
+
+Un método para determinar la holgura por fatiga es medir la declinación de la producción a lo largo del periodo de trabajo. Se puede medir la tasa de producción cada cuarto de hora durante el curso de la jornada laboral. Cualquier declinación de la producción que no pueda atribuirse a cambios en el método o a demoras personales o inevitables se puede atribuir a la fatiga y expresarse como un porcentaje. 
+
+Las holguras en un proyecto representan el tiempo que se puede retrasar una actividad sin afectar la fecha de finalización del proyecto. Se calculan utilizando la diferencia entre la fecha de inicio o finalización más temprana y la fecha de inicio o finalización más tardía de una actividad. Aquí te dejo la fórmula para calcular la holgura total de una actividad:
+
+$$ \text{Holgura total} = \text{Fecha de finalización más tardía} - \text{Fecha de finalización más temprana} $$
+
+o bien,
+
+$$ \text{Holgura total} = \text{Fecha de inicio más tardío} - \text{Fecha de inicio más temprano} $$
+
+Donde:
+- La fecha de finalización más temprana es la fecha más temprana en la que una tarea puede completarse, considerando las dependencias y duraciones de las tareas anteriores.
+— La fecha de finalización más tardía es la fecha límite en la que una tarea debe completarse sin retrasar el proyecto.
+
+Si el resultado es positivo, significa que existe cierta flexibilidad en el cronograma para completar la actividad. En cambio, si el resultado es cero o negativo, indica que cualquier retraso en esa actividad afectará directamente al proyecto. 
+
 % 
 % 
 \subsubsection{Desarrollo del muestreo del trabajo}
+
+Como se mencionó anteriormente, se ha visto como calcular los tiempos predeterminados, los cuales hemos de usar para calcular y estandarizar en este proyecto del ensamble, con nuestro operador.
+
+Tras hacer la película, dividir cada elemento y asignarle un valor, para posteriormente interpolar y obtener la estandarización de los tiempos para el ensamble; Estos fueron los resultados:
+
 \begin{figure}
     \centering
     \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.15]{5/img/tiempoCicloCircBonillaL.pdf}
-    \caption{Tiempo Ciclo de Ensamble del Ciruito}
+    \caption{Tiempo Ciclo de Ensamble del Circuito}
     \label{fig:Tiempo Ciclo de Ensamble del Circuito}
 \end{figure}
+
+Para obtener los valores de la tabla anterior, (\ref{fig:Tiempo Ciclo de Ensamble del Circuito}), se consideraron las holguras, las cuales consideré de valores determinados por tablas:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasBonilla.pdf}
+    \caption{Tabla de holguras}
+    \label{fig:Tabla de holguras}
+\end{figure}
+
+Estos son para considerar holguras usuales que se pueden presentar ante cualquier operador, pues estamos trabajando con humanos inexpertos en el ensamble del circuito eléctrico. Sin embargo, también se consideró los valores o equivalencias porcentuales al tiempo del ensamble, esto con el fin de obtener el tiempo estándar:
+
+\begin{figure}
+    \centering
+    \includegraphics[trim = {1mm 1mm 1mm 1mm},clip,scale=0.3]{5/img/tabladeHolgurasPorcentBonilla.pdf}
+    \caption{Tabla de holguras porcentuales}
+    \label{fig:Tabla de holguras porcentuales}
+\end{figure}
+
+Basándonos en el análisis que se llevó a cabo al operador, y en colaboración de mis compañeros, los cuales cada quien llevo su análisis de cada operador asignado, con los cuales obtuve aplicando los STP y MTM, el tiempo estándar para realizar el ensamble del circuito eléctrico
 
 \begin{figure}
     \centering
@@ -993,9 +1202,16 @@ Desarrollar un sistema de tiempos predeterminados puede traer varios beneficios 
 % 
 % 
 \subsubsection{Corrección por balanceo de procesos}
+En esta sección buscaremos la forma de realizar una corrección mediante el balanceo de líneas. Una de las principales razones para realizar el balanceo de líneas es para igualar los tiempos de trabajo en cada estación. Esto significa que cada estación de trabajo en la línea de producción debe producir a la tasa adecuada para minimizar los tiempos de espera entre estaciones de trabajo y, en última instancia, aumentar la eficiencia general de la línea de producción.
+Además, el balanceo de líneas ayuda a evitar el ocio y los tiempos de espera. Al equilibrar el ritmo de producción en cada estación, se pueden minimizar los tiempos de espera entre estaciones de trabajo. Esto es crucial para mantener un flujo de trabajo constante y eficiente.
+Otra razón importante para realizar el balanceo de líneas es reducir los costos e inventarios. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en ahorros significativos en términos de costos de producción y almacenamiento de inventario.
+Finalmente, el balanceo de líneas puede ayudar a incrementar la productividad y mejorar la calidad y satisfacción del cliente. Al optimizar el número de estaciones de trabajo necesarias para alcanzar la producción deseada, se puede minimizar el número de estaciones de trabajo necesarias para producir la cantidad requerida de productos. Esto puede resultar en productos de mayor calidad y una mayor satisfacción del cliente.
+En resumen, el balanceo de líneas es una herramienta valiosa para la gestión de la productividad y la eficiencia en el lugar de trabajo. Al proporcionar una medida objetiva y estandarizada del desempeño de los trabajadores, este sistema puede ayudar a mejorar la eficiencia, identificar áreas de mejora y garantizar una evaluación justa y consistente del desempeño de los trabajadores. 
+
 % 
 % 
 \subsubsection{Datos estándar continuos y discretos}
+
 % 
 % 
 \subsection{Diseño de la forma más económica de realizar el trabajo}
@@ -1021,11 +1237,6 @@ Finalmente, aunque se ha logrado el objetivo de encontrar un método más econó
 
 En resumen, este proyecto ha demostrado que, a pesar de los desafíos, es posible estandarizar y optimizar los procesos de ensamble para lograr un método más económico y eficiente. Sin embargo, la formación de los operadores y la mejora continua son aspectos cruciales que deben tenerse en cuenta para el éxito a largo plazo.
 
-1. Tiempo Predeterminado Sintético (STP): Los Tiempos Predeterminados Sintéticos son una técnica de medición del trabajo que se utiliza para calcular el tiempo que una persona capacitada y calificada tardaría en realizar una tarea dada, trabajando a un ritmo normal. Se basa en una serie de tablas de tiempos estándar para movimientos básicos (como alcanzar, mover, presionar) que se han establecido a través de estudios de tiempo y movimiento. Para obtener los STP, se descompone la tarea en sus movimientos básicos, se identifican los tiempos estándar para cada movimiento de las tablas y luego se suman para obtener el tiempo total.
-
-2. Tiempo de Ciclo: El tiempo de ciclo es el tiempo total desde el comienzo hasta el final de un proceso. En un sistema de producción o ensamble, es el tiempo que tarda en producirse una unidad desde el inicio hasta el final de la línea de producción. Se calcula dividiendo el tiempo total de producción disponible por la cantidad de unidades producidas en ese tiempo.
-
-3. Tiempo Estándar: El tiempo estándar es el tiempo que se espera que tome una tarea bajo condiciones normales, teniendo en cuenta las pausas y los retrasos previstos. Se calcula a partir del tiempo de ciclo y los STP, y se ajusta para tener en cuenta factores como la fatiga y los retrasos inevitables.
 
 Para estandarizar un proceso utilizando estos conceptos, primero se descompone la tarea en sus componentes básicos y se calculan los STP. Luego, se mide el tiempo de ciclo para varias iteraciones del proceso para obtener un promedio. A partir de estos dos, se puede calcular el tiempo estándar. Este tiempo estándar se utiliza entonces para establecer las expectativas y los objetivos de rendimiento, y para identificar las áreas donde se pueden hacer mejoras para aumentar la eficiencia. 
 
