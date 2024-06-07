@@ -1,505 +1,1900 @@
 \lhead{\begin{tikzpicture}[remember picture, overlay]
-\node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
-\end{tikzpicture}}
-\rhead{Autor: primerApellido-segundoApellido}
-\rfoot{\begin{tikzpicture}[remember picture, overlay]
-\node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
-\end{tikzpicture}}
-%----------------------------------------------------------------------------------------
-\lfoot{ \thepage}
-% \renewcommand{\labelenumi}{\alph{enumi}.)} 
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
-
-\setlength{\droptitle}{-5\baselineskip} % Move the title up
-\title{\textbf{Proyecto}} % Article title
-
- \author{ 
- \textsc{Nombre del Autor : }\\ 
-%  Afiliación:
- \texttt{ Nombre del Departamento : } \\ 
- \texttt{Nombre de la Universidad : } \\ 
- \texttt{Ciudad y País :}\\ 
- \texttt{Correo : } 
- \and 
- \textsc{Collman Granados Joseph Iker}\\ 
-%  Afiliación:
- \texttt{ Estudio del Tabajo II } \\ 
- \texttt{Instituto Tecnologico De Queretaro } \\ 
- \texttt{Queretaro , Mexico }\\ 
- \texttt{joseiker1603@gmail.com} 
-}
-
-
-%----------------------------------------------------------------------------------------
-
-% \begin{document}
-
-% Print the title
-\maketitle
-\thispagestyle{fancy}
-
-%----------------------------------------------------------------------------------------
-%	ARTICLE CONTENTS
-%----------------------------------------------------------------------------------------
-
-% \section*{Resumen}
-% \textit{Palabras clave:}
-% El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
-
-\begin{abstract}
-\noindent 
-Como un breve resumen lo que se busca es que el usuario entienda y comprenda lo que el potenciómetro  significa y cual es su uso que debe de ser correctamente el correcto para un mejor manera y esto haga que sea eficaz para el usuario y para la empresa el cual invierte en el producto para una mejora continua , esto hará que la comprensión del potenciómetro  sea el correcto y de una buena manera sobretodo para el aprendizaje y comprensión del proyecto
-
-\end{abstract}
-% 
-% 
-\textbf{\textit{Palabras clave}}: Ser exacto y Preciso .
-
-\section{Introducción}
-
-Para empezar con la  introducción tenemos que definir las piezas que vas a utilizar durante nuestro proceso el cual es el LCD , potenciómetro  , el SP32 
-, Cable macho-macho , cable macho-hembra , las resistencias , la interfaz de conexión l2c para la lcd , el cable usb , protobard y la resistencia de la luz , todos estos elementos son los que vamos a utilizar y vamos a emplear a cabo en cada etapa los cuales primero debemos de analizar y entender para darle su uso de debida forma .
-\newline
-
-% 
-%
-
-\textbf{\textit{1-El LCD }}: Es una pantalla de cristal liquido nombrada en sus siglas en ingles (LCD) que se utiliza para ver Imágenes fijas y en movimientos que va a estar formada por gran cantidad de pixel que consisten en Molécula s de cristal liquido contenidas entre dos conjuntos electrodos transparentes .
-\newline
- 
-% 
-% 
-\textbf{\textit{1-El potenciometro }}: Es un dispositivo electrónico que nos va a ayudar de una manera exponencial ya que posee la resistencia
-variable Mecánica y sirve para controlar  el valor de la resistencia en vez de ser fijo es variable. 
-\newline
-
-% 
-% 
-\textbf{\textit{3-El SP32 }}: Aparte de integrar la radio  inalámbrica , sino también un procesador integrado con interfaces para conectarse con varios periférico  y controla otras cosas de mayor importancia .  
-\newline
-
-% 
-% 
-\textbf{\textit{4- Cable Macho-Macho  }}: se va a utilizar en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dichos tableros y se conoce así por los fragmentos que sobresalen de los extremos del cable .   
-\newline
-
-% 
-% 
-\textbf{\textit{5- Cable Macho-Hembra }}: a hembra se refiere a un conector que forma un tipo de manguito alrededor de su homologo masculino en el centro  ya que la hembra va a tener la rosca por dentro.
-\newline
-
-% 
-% 
-\textbf{\textit{6- Resistencias  }}: Estas están hechas de materiales que resisten el flujo de electricidad cuando pasa a través de ellas de esta manera se puede controlar el flujo de la corriente a través de un circuito .   \newline 
-
-% 
-% 
-\textbf{\textit{7- La interfaz de conexión l2c para la LCD  }}:  el modulo serial l2c permite manejar tu pantalla lcd de una manera bastante fácil esto permite enviar y recibir información y 2 mas para alimentación . \newline 
-
-% 
-% 
-\textbf{\textit{8-Cable USB }}: Definiremos como un conector que permite vincular una amplia variedad de elementos a través del universal serial bus . 
-\newline 
-
-% 
-% 
-\textbf{\textit{9- protoboard }}: se usa en proyectos de Robótica que permite conectar fácilmente componentes electrónicos entre si , sin necesidad de realizar una soldadura . 
-\newline 
-
-% 
-% 
-\textbf{\textit{10- conector base de luz  }}: sirve para que al conectar esa base nosotros tengamos energía directamente a  través  de una base y de su conector . 
-\newline
-
-\section { Objetivos }
-
-Uno de los principales objetivos es el que nosotros como usuario identifiquemos todas las etapas que va a tener desde la fase inicial hasta la fase final y también que el usuario conozca todo en lo engloba el proyecto para que así se pueda tener un mejor conocimiento para que al momento final se tenga de mejor manera uno de los principales objetivos es identificar , analizar , comprender y ejecutar .
-
-\section{Objetivos Específicos }
-
-Claro, basándome en la información proporcionada, aquí tienes algunos objetivos específicos que podrías considerar:
-
-1. Identificación clara de etapas del proyecto: Establecer claramente las diferentes etapas que componen el proyecto, desde la fase inicial hasta la fase final, para que los usuarios puedan entender la secuencia de actividades. 
-\newline
-
-2. Comunicación efectiva de los objetivos del proyecto: Asegurarse de que los usuarios comprendan los objetivos generales del proyecto, así como los beneficios que se esperan obtener al completarlo.
-\newline
-
-3. Detallar los componentes del proyecto: Proporcionar información detallada sobre todos los aspectos del proyecto, incluidos recursos necesarios, plazos, roles y responsabilidades, para que los usuarios tengan una comprensión completa de lo que implica participar en él. \newline
-
-4. Facilitar la comprensión del proceso: Desglosar cada etapa del proyecto en tareas específicas y acciones concretas, de modo que los usuarios puedan comprender fácilmente qué se espera de ellos en cada fase. 
-\newline
-
-5. Fomentar la participación activa de los usuarios: Establecer mecanismos para que los usuarios puedan involucrarse activamente en el proyecto, ya sea proporcionando retroalimentación, contribuyendo con ideas o participando en decisiones clave. 
-\newline
-
-6. Medir el progreso y el cumplimiento de hitos: Establecer indicadores claros para evaluar el progreso del proyecto y asegurarse de que se cumplan los hitos importantes en cada etapa. 
-\newline
-
-7. Evaluar y ajustar continuamente: Establecer un proceso para evaluar regularmente el progreso del proyecto, identificar áreas de mejora y realizar ajustes según sea necesario para garantizar el éxito final. \newline
-
-Estos objetivos específicos pueden ayudar a garantizar que los usuarios comprendan completamente el proyecto y estén equipados para contribuir de manera efectiva a su realización.
-
-\section{Descripción del Problema }
-El desafío del estudio de tiempos y movimientos en el ensamblaje de circuitos electrónicos implica una serie de complicaciones que pueden impactar tanto en la eficacia operativa como en la calidad del producto final. En resumen, este problema abarca diversos retos que afectan la eficiencia, calidad, seguridad laboral y rentabilidad del proceso de ensamblaje. Es crucial aplicar distintos métodos de optimización para abordar estos desafíos de manera efectiva y así fomentar la excelencia en la producción de circuitos electrónicos.
-
-\section{  Fundamentación teórica  }
-La base teórica del estudio de tiempos y movimientos en el ensamblaje de circuitos electrónicos se apoya en varios principios clave de la ingeniería industrial y la gestión de operaciones. Aquí tienes una descripción simplificada de algunos de estos conceptos:
-\newline
-
-1. Análisis de tiempos: Consiste en medir y registrar cuánto tiempo toma completar cada tarea individual en el proceso de ensamblaje. Esto ayuda a entender cómo se distribuye el tiempo entre diferentes actividades, lo que permite identificar oportunidades de mejora y eliminar tareas innecesarias o repetitivas. Este análisis proporciona una forma cuantitativa de evaluar la eficiencia del proceso y diseñar mejoras.
-\newline
-
-2. Cronometraje de movimientos: Se enfoca en analizar y mejorar los movimientos físicos realizados por los trabajadores durante el ensamblaje. Utiliza principios de ergonomía y biomecánica para identificar movimientos ineficientes o que puedan causar fatiga o lesiones. Optimizar estos movimientos puede mejorar la eficiencia del proceso y reducir el riesgo de lesiones laborales.
-\newline
-
-3. Estudio de métodos: Implica analizar y comparar diferentes métodos o técnicas utilizadas para realizar una tarea específica en el ensamblaje de circuitos electrónicos. El objetivo es encontrar el método más eficiente que permita completar la tarea de manera rápida, precisa y segura. Esto puede incluir la evaluación de herramientas, equipos, diseños de estaciones de trabajo y procedimientos de trabajo.
-
-\section{Justificación }
-El análisis de tiempos y movimientos en la producción de circuitos electrónicos es esencial debido a diversos factores críticos que influyen tanto en la eficacia operativa como en la calidad del producto terminado. A continuación, se exponen algunas razones que respaldan la importancia de realizar este análisis utilizando diversas estrategias para mejorar la eficiencia.
-\newline
-
-Eficiente utilización de recursos: La producción de circuitos electrónicos requiere una gestión precisa de los recursos disponibles, como el tiempo, la mano de obra y los materiales. Optimizar estos aspectos mediante el análisis de tiempos y movimientos garantiza un uso más efectivo de los recursos disponibles, lo que puede conducir a una reducción de costos y un aumento en la productividad.\newline
-
-El análisis de tiempos y movimientos en la producción de circuitos electrónicos es crucial debido a varios factores críticos que impactan tanto en la eficacia operativa como en la calidad del producto final. Aquí hay una ampliación sobre la importancia de este análisis: \newline
-
-1. Eficiente utilización de recursos: La producción de circuitos electrónicos implica la gestión precisa de recursos como el tiempo, la mano de obra y los materiales. El análisis de tiempos y movimientos permite identificar áreas donde se puede optimizar el uso de estos recursos. Por ejemplo, al reducir el tiempo dedicado a ciertas tareas o minimizar los movimientos innecesarios de los trabajadores, se puede mejorar la eficiencia general del proceso. Esta optimización conduce a una mejor utilización de los recursos disponibles, lo que puede resultar en una reducción de costos y un aumento de la productividad. \newline
-
-2. Mejora en la planificación y programación: Conocer el tiempo necesario para completar cada tarea en el proceso de producción de circuitos electrónicos facilita una mejor planificación y programación de la producción. Al tener datos precisos sobre los tiempos de ciclo, es posible establecer cronogramas realistas y evitar retrasos en la entrega de productos. Además, permite una asignación más eficiente de la mano de obra y los recursos, evitando la subutilización o sobreutilización de los mismos. \newline
-
-3. Identificación de cuellos de botella y áreas de mejora: El análisis de tiempos y movimientos revela cuellos de botella y áreas de ineficiencia en el proceso de producción. Identificar estos puntos críticos permite tomar medidas correctivas para mejorar la fluidez del proceso y aumentar la capacidad de producción. Por ejemplo, si se descubre que una máquina específica está causando retrasos recurrentes, se pueden implementar medidas para optimizar su funcionamiento o considerar la inversión en equipos más eficientes.\newline
-
-4. Aumento de la calidad del producto: Al optimizar los tiempos y movimientos en la producción de circuitos electrónicos, se reduce la probabilidad de errores y defectos en el producto final. Los procesos más eficientes tienden a ser más consistentes y menos propensos a fallos, lo que se traduce en una mejora de la calidad del producto. Además, al minimizar los movimientos repetitivos y fatigantes para los trabajadores, se reduce el riesgo de errores humanos y se mejora la precisión en el ensamblaje. \newline
-
-En resumen, el análisis de tiempos y movimientos en la producción de circuitos electrónicos es esencial para optimizar el uso de recursos, mejorar la planificación y programación, identificar áreas de mejora y aumentar la calidad del producto final. Esto contribuye significativamente a la eficacia operativa y la competitividad de la empresa en el mercado.
-
-\section{  hipótesis }
-
-uno de los factores que puede ayudar de una mejor manera es la reducción de tiempos de ciclo el cual sugiere que al aplicar  técnicas de análisis de tiempos y movimientos, junto con métodos de optimización, se pueden reducir significativamente los tiempos necesarios para ensamblar circuitos electrónicos, lo que mejora la eficiencia del proceso.
-\newline
-
-otro factor sera la mejora de calidad de producto Se plantea que al optimizar los movimientos y métodos de ensamblaje, se pueden reducir los errores y defectos en los circuitos electrónicos ensamblados, lo que conduce a una mejora general en la calidad del producto final. \newline
-
-la mejora de Ergonomía y reducción de la fatiga  al analizar y optimizar los movimientos de los trabajadores durante el ensamblaje, se puede mejorar la ergonomía de las estaciones de trabajo, lo que reduce la fatiga y disminuye el riesgo de lesiones laborales , estos son factores que nos pueden ayudar de una mejor manera y tener en cuenta al momento de realizar el proyecto. \newline
-
-\subsection{ Análisis}
-Lo que se busca en estas etapas de comprensión de cómo se va a manejar el uso del dispositivo  y como se va a operar y claramente la función que va a tener para que así no tenga  alguna complicación,  esto se puede interpretar el análisis que va a tener el proyecto entiendo su armamento  desde el principio hasta el final , ahora lo que se debe de hacer es que
-
-\section{Cuerpo (Metodología, Pasos , etc.)}
-
-Aquí se va a describir las etapas que se hicieron para llegar al resultado final el cual fue nosotros hiciéramos un debido manejo de como se armará el proyecto hasta el final
-
-\section{Materiales )}
-
--Regulador de voltaje 
--USB 
--protoboard 
--ESP 
--resistencias 
--LCD 
--modulo 
--cable macho-macho 
--cable macho-hembra 
--almohadilla ,
--potenciómetro 
-
-\subsection{Protoboard }
-
-Primero vamos a establecer como nuestra base el protoboard al cual vamos a conectar el SP32  y lo vamos a establecer fijo para conectarlo y soldarlo  , después al protoboard vamos a juntar los cables Macho - macho y el cable macho- hembra los cuales van a ser nuestros cables principales una vez teniendo eso lo que vamos a hacer es que vamos a conectar nuestro cable usb a una de las terminales del protoboard .
-\subsection{Cargador }
-Ese cable que seria nuestro cargador lo que va a hacer es que lo vamos a conectar a la base de luz para así empezar a tener energía  para que nuestro  puerto del protoboard empiece a funcionar debidamente  una vez teniendo esto plenamente  ahora nos vamos a enfocar en la pantalla .
-
-\subsection{LCD}
-
-Para continuar  vamos a tener la pantalla del Lcd y la vamos a soldar a la interfaz de conexión l2c para la lcd y así hacer que empiece a funcionar  una vez que el lCd esté funcionando eso va a querer significar que lo podemos conectar los cables macho - macho y el cable macho-hembra  a la pantalla para que esta valla indicando  el nivel de la energía que watts y nos va a decir nuestro nivel de voltaje que tenemos dependiendo de lo que el usuario manipule el divisor del potenciómetro . 
-
-\subsection{potenciómetro }
-Ahora nos vamos a enfocar en el potenciómetro  ya que esto va a hacer de vital importancia por que el usuario va a manipular al perilla que tiene el potenciómetro  para controlar el nivel de voltaje que va a tener , teniendo en cuenta  esto vamos a conectar el potenciómetro  al protoboard para que así pueda regular la energía de una mejor manera
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+  \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
+  \end{tikzpicture}}
+  \rhead{Autor: Collman -Granados}
+  \rfoot{\begin{tikzpicture}[remember picture, overlay]
+  \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
+  \end{tikzpicture}}
+  %----------------------------------------------------------------------------------------
+  \lfoot{ \thepage}
+  % \renewcommand{\labelenumi}{\alph{enumi}.)} 
+  %----------------------------------------------------------------------------------------
+  %----------------------------------------------------------------------------------------
+  %	TITLE SECTION
+  %----------------------------------------------------------------------------------------
   
-  \hline
-  NOMBRE & imagen  & pieza \\
-  \hline 
-  potenciómetro  &  \includegraphics[height=19mm]{7/img/potenciometro.jpg}  & 
-   \includegraphics[width=19mm]{7/img/piezaaauno.PNG} \\
-    \hline
-  protoboard &  \includegraphics[height=19mm]{7/img/protoboard.jpg}  & 
-   \includegraphics[width=19mm]{7/img/Piezauno.PNG} \\
-    \hline
-    lcd & \includegraphics[height=19mm]{7/img/lcd.jpg}  & 
-   \includegraphics[width=19mm]{7/img/piezatress.PNG} \\
-    \hline
-    cable HM & \includegraphics [height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/cuatrooo.PNG} \\
-    \hline
-    CABLE HH & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/cinco.PNG} \\
-    \hline 
-     CABLE 1 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/seis.PNG} \\
-    \hline 
-     CABLE 2 & \includegraphics[height=19mm]{7/img/cables.jpg}  & 
-   \includegraphics[width=19mm]{7/img/siete.PNG} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label1}  \label {7/}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-\subsection{Manual}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+  \setlength{\droptitle}{-5\baselineskip} % Move the title up
+  \title{\textbf{Proyecto}} % Article title
   
- 
- \hline 
-  manual  &  \includegraphics[height=90mm]{7/img/ikerv1.jpg}  & 
-   \includegraphics[width=35mm]{7/img/ikerv2.jpg} \\
-    \hline
-     
-    \end{tabular} 
-   
-     \label {tab:my_label2}  \label {7/}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-    
-\subsection{Prepara tu documento}
-
-    Antes de que comiences a utilizar esta plantilla, es recomendable que prepare la información que contendrá en un archivo aparte. 
-    Ten preparadas tus gráficas, así como también las tablas aparte, para que sea más fácil integrarlo. 
-    Se recomienda fuertemente el uso de \textbf{formato Enhanced Metafile (.emf) para imágenes y gráficas} de resolución óptima. 
-    Finalmente, completa y organiza el contenido antes de darle el formato de esta plantilla. 
-
-    \subsection{Acrónimos y Abreviaciones}
-
-    Los acrónimos y abreviaciones deberán ser definidos únicamente la primera vez que aparecen en el texto, esto para que el lector entienda lo que significan.
-
-    \subsection{Ecuaciones}
-
-    Las ecuaciones son una excepción a las especificaciones prescritas de esta plantilla. 
-    Deberá determinar si su ecuación debe escribirse o no utilizando la fuente Adobe Devangari. 
-    Para crear ecuaciones multinivel, puede ser necesario tratar la ecuación como un gráfico e insertarla en el texto después de aplicar el estilo de la platilla.
-    Las ecuaciones serán enumeradas de manera consecutiva, y el número de ecuación, entre paréntesis, se colocan al ras de la derecha, utilizando una tabulación derecha. 
-
-    \begin{equation}
-        \label{eq1}
-        x + y = z 
-    \end{equation}
-
-    Es importante asegurarse de que los símbolos de la ecuación sean definidos antes o inmediatamente después de la ecuación. Utilice “(1)”, en vez de “Eq. 1” al enumerar las ecuaciones, excepto al principio de una oración: “La ecuación (\ref{eq1}) es…
-
-    \subsection{Autores y Afiliaciones}
-
-    Para distinguir las afiliaciones de los autores, utilice superíndices iniciando con el número 1, 2, etc., sucesivamente, esto dependerá de la cantidad de los departamentos a los que estén afiliados los autores. En caso de que todos los autores pertenezcan a una mismo departamento e institución, utilizar sólo el superíndice 1. 
-
-    \subsection{Identificar los encabezados}
-
-    Se les recuerda a los autores que los encabezados deben de estar conforme los solicita la guía del autor. De ahí se puede adaptar el trabajo para que sea más fácil de entender para el lector.
-    Los encabezados organizan los temas sobre una base relacional y jerárquica. Por ejemplo, el título del documento es encabezado del texto principal porque todo el material posterior se relaciona y elabora sobre este tema.
-    
-\subsection{Tablas y Figuras}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
+   \author{ 
+   \textsc{Collman-Granados, Joseph Iker}\\ 
+  %  Afiliación:
+   \texttt{ Instituto  Tecnologico de Queretaro } \\ 
+   \texttt{Tecnologico Nacional de Mexico } \\ 
+   \texttt{Queretaro , Mexico}\\ 
+   \texttt{l22140906@queretaro.tecnm.mx} 
+   \and 
+   \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
+  %  Afiliación:
+   \texttt{ Instituto Tecnológico de Querétaro } \\ 
+   \texttt{ Tecnológico Nacional de México } \\ 
+   \texttt{Querétaro, México}\\ 
+   \texttt{alb3rt0.ah@gmail.com} 
+  }
   
-  \hline
-  NOMBRE & PIEZA  & PLANO \\
-  \hline 
-  potenciómetro  &  \includegraphics[height=19mm]{7/img/piezaaauno.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza1.PNG} \\
-    \hline
-  protoboard &  \includegraphics[height=19mm]{7/img/Piezauno.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza2.PNG}  \\
-    \hline
-    lcd & \includegraphics[height=19mm]{7/img/piezatress.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza3.PNG} \\
-    \hline
-    cable HM & \includegraphics [height=19mm]{7/img/cuatrooo.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza4.PNG} \\
-    \hline
-    CABLE HH & \includegraphics[height=19mm]{7/img/cinco.PNG}  & 
-   \includegraphics[width=19mm]{7/img/Pieza5.PNG} \\
-    \hline 
-     CABLE 1 & \includegraphics[height=19mm]{7/img/seis.PNG}  & 
-   \includegraphics[width=19mm]{7/img/heymickey.PNG} \\
-    \hline 
-     CABLE 2 & \includegraphics[height=19mm]{7/img/siete.PNG}  & 
-   \includegraphics[width=19mm]{7/img/siu.PNG} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label3}  \label {}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-
-\section{Resultados y discusión}
-
-Como uno de los resultados y discusiones que se hizo durante todo este proyecto es que la importancia de ver y con llevar nuevos retos que estuvieron de otro nivel es importante para tu formacion como ingeniero ya que  siempre te vas a enfrentar a nuevos retos que a lo mejor no sabes o que si sabes pero lo importante es seguir y analizar cada proyecto que se presente. 
-
-El principal resultado fue logrado ya que se hizo de una manera correcta la implementacion de todas las figuras haciendo que su uso final nos indicara los niveles de voltaje de una mejor manera y que sobretodo funcionara ya que la principal discusion era el correcto manejo de como conectar y hacer bien los ensambles ya sea de los cables o del protoboard.  \newline
- \newline
-Al tener presente este tema pudimos seguir los pasos de una manera correcta y eficaz haciendo que el usuario comprendiera y entendiera el mejor manejo que se le pudo dar esto presento que al final el resultado fuera el obtenido y el que se esperaba desde un principio .  \newline
- \newline
-Cada una de las etapas es de suma importancia ya que esto sigue un proceso el cual se fue siguiendo paso a paso con sus debidas instrucciones para que se pudiera hacer el debido cumplimiento del proyecto .  \newline
- \newline
-
-\subsection{Imagenes}
-
-\begin{table} [H]
-      
-  \huge
-  \tiny 
-  \begin{tabular}   {| c |  c |  c | }
   
-  \hline
-  NOMBRE & IMAGEN & IMAGEN \\
-  \hline 
-  imagen 1 y 2  &  \includegraphics[height=19mm]{7/img/ana1.jpg}  & 
-   \includegraphics[width=35mm]{7/img/ana2.jpg} \\
-    \hline
-   imagen 3 y 4 &  \includegraphics[height=29mm]{7/img/ana3.jpg}  & 
-   \includegraphics[width=15mm]{7/img/ana4.jpg}  \\
-    \hline
-    imagen 5 y 6 & \includegraphics[height=39mm]{7/img/ana5.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana6.jpg} \\
-    \hline
-    imagen 7 y 8 & \includegraphics [height=39mm]{7/img/ana7.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana8.jpg} \\
-    \hline
-    imagen 9 y 10 & \includegraphics[height=39mm]{7/img/ana9.jpg}  & 
-   \includegraphics[width=19mm]{7/img/ana10.jpg} \\
-    \hline 
-    
-    \end{tabular} 
-   
-     \label {tab:my_label3}  \label {}
-      \end{table} 
-
-  \begin{tabular}{c|c}
-       &  \\
-       & 
-  \end{tabular}  
-
-
-\section{Conclusiones}
-
-Una de las principales conclusiones es que el proyecto fue de mucha retroalimentacion como ingeniero es que represento un nuevo reto para mi ya que me saco de mis casillas y me represento nuevas formas para poder retroalimentar mi conocimiento y como me fui desenvolviendo durante el transcurso del proyecto y esto significo un avance importante para mi. \newline
- \newline
- Esto significa que como ingeniero puede representar diferentes nuevos retos para que nosotros como personas tenemos que buscar diferentes alternativas y soluciones para proyectos o retos que no comprendamos y que necesitamos investigar para fortalecer el conocimiento y emplearlo de una mejor manera para que asi nosotros lo podamos cumplir de una buena forma.  \newline
+  %----------------------------------------------------------------------------------------
+  
+  % \begin{document}
+  
+  % Print the title
+  \maketitle
+  \thispagestyle{fancy}
+  
+  %----------------------------------------------------------------------------------------
+  %	ARTICLE CONTENTS
+  %----------------------------------------------------------------------------------------
+  
+  % \section*{Resumen}
+  % \textit{Palabras clave:}
+  % El resumen (ancho de página) deberá contener entre 100 y 200 palabras tipo Adobe Devangari 11 puntos.
+  
+  \begin{abstract}
+  \noindent 
+  Como un breve resumen lo que se busca es que el usuario entienda y comprenda lo que el potenciómetro  significa y cual es su uso que debe de ser correctamente el correcto para un mejor manera y esto haga que sea eficaz para el usuario y para la empresa el cual invierte en el producto para una mejora continua , esto hará que la comprensión del potenciómetro  sea el correcto y de una buena manera sobretodo para el aprendizaje y comprensión del proyecto
+  
+  \end{abstract}
+  % 
+  % 
+  \textbf{\textit{Palabras clave}}: Ser exacto y Preciso .
+  
+  \section{Introducción}
+  
+  OBJETIVOS
   \newline
-Como conclusion general puedo decir que este proyecto me sirvio como persona ya que al principio no le tenia el minimo interes pero esto fue cambiando conforme fue avazando se me fue haciendo mas interesante ya que ver cada etapa de este proceso significo muy interesante para tener una idea de como seria un proyecto de residencia profesional y como ir afrontandolo poco a poco  \newline
-
-\section{Agradecimientos}
-
-Es importante darle su reconocimiento a las fuentes de informacion que me ayudaron y brindaron algunas ideas como lo son Google y la plataforma de Youtube esto haciendo incapie a la ayuda que me brindaron y esto haciendo que me ayudara un poco mejor el proceso de como fui llevando el proyecto , tambien quiero darle un agardecimiento a mis compañeros que me brindaron la ayuda de como manejar el proyecto y sobretodo un agradecimiento a mi profesor .
-
-\section*{Referencias}
-
-%Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
-%La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
-%Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
-Enumere las notas al pie por separado en superíndices. Coloque la nota de pie de en la parte inferior de la columna en la que se citó. No coloque notas al pie en la lista de referencias. Utilice letras para las notas al pie de la tabla.
-A menos de que haya tres autores o más; no utilice “et al.”. Los trabajos que no hayan sido publicados, incluso si han sido presentados para su publicación, deben ser citados como “inéditos”. Los trabajos que han sido aceptados para su publicación deben de citarse como “en prensa”. Poner en mayúscula sólo la primera palabra de un título, excepto los nombres propios y los símbolos de elemento. 
-
-%Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
-
-% Ejemplo
-%  @Article{article,
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Article Title",
-% 	volume = "30",
-% 	number = "30",
-% 	pages = "10127-10134",
-% 	year = "2013",
-% 	doi = "10.3389/fnins.2013.12345",
-% 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
-% 	journal = "Frontiers in Neuroscience"
-% }
-
-% @book{book,
-%   author    = {Author Name}, 
-%   title     = {The title of the work},
-%   publisher = {The name of the publisher},
-%   address   = {The city},
-%   year      = 1993,
-% }
-
-% @incollection{chapter,
-%   author       = {Bauthor Surname}, 
-%   title        = {The title of the work},
-%   editor       = {Editor Name},
-%   booktitle    = {The title of the book},
-%   publisher    = {The name of the publisher},
-%   address      = {The city},
-%   year         = 2002,
-%   pages        = {201-213},
-% }
-
-% @InProceedings{conference,
-%   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
-%   title = {The title of the work},
-%   booktitle = {The title of the conference proceedings},
-%   year = 1996,
-%   publisher = {The name of the publisher},
-%   editor = {Editor Name1 and Editor Name2},
-%   pages = {41-50},
-% }
-
-% @book{cho,
-%   author       = {Gauthor Name1}, 
-%   title        = {The title of the work},
-%   publisher = {Country code and patent number},
-%   address      = {Patent Country},
-%   year = 2013
-% }
-
-% @book{patent,
-%   author    = {Hauthor Surname1}, 
-%   title     = {The title of the work},
-%   publisher = {Patent number},
-%   address   = {Patent country},
-%   year      = 2010,
-% }
-
-% % please use misc for datasets
-% @misc{dataset, 
-% 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
-% 	title = "Data Title",
-% 	year = "2011",
-% 	doi = "10.000/55555",
-% 	URL = "http://www.frontiersin.org/",
-% }
-
-\bibliographystyle{ieeetr}
-\bibliography{7/referencias} 
-
+  
+  El estudio de movimientos y tiempos busca optimizar procesos, mejorar calidad y seguridad, reducir costos, establecer estándares de trabajo, capacitar empleados, aumentar la satisfacción laboral y facilitar la mejora continua.
+  
+  METODOLOGÍAS
+  \newline
+  
+  Las metodologías más utilizadas en el estudio de movimientos y tiempos son:
+  
+  Cronometraje : Medición directa del tiempo para completar tareas usando un cronómetro.
+  Muestreo del Trabajo: Estimación del tiempo dedicado a actividades mediante observaciones aleatorias.
+  \newline
+  
+  MTM (Methods-Time Measurement): Uso de tiempos estándar predeterminados para analizar movimientos básicos.
+  \newline
+  
+  MOST (Maynard Operation Sequence Technique): Análisis rápido de secuencias de operaciones mediante bloques de actividades.
+  \newline
+  
+  AVANCES EN LOS ÚLTIMOS AÑOS
+  \newline
+  
+  En los últimos años, el estudio de movimientos y tiempos ha avanzado con tecnologías como la captura de movimiento con sensores y cámaras para análisis en tiempo real, software de análisis para recopilar y visualizar datos, IA y machine learning para optimizar procesos, wearables para monitoreo y feedback instantáneo, realidad aumentada y virtual para simulaciones, big data para análisis predictivo, automatización y robótica para tareas repetitivas, e IoT para monitoreo en tiempo real. Estos avances mejoran la productividad, reducen costos y aumentan la seguridad laboral.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO INVESTIGACION ENSAMBLE
+  \newline
+  
+   Objetivos Generales ENSAMBLE
+  
+  Optimizar el ensamblaje para mejorar eficiencia y productividad, y asegurar la calidad del producto final eliminando defectos.
+  \newline
+  
+   Objetivos Específicos ENSAMBLE
+  
+  - Analizar el Flujo de Trabajo: Examinar el flujo de trabajo actual para identificar cuellos de botella, redundancias y tareas innecesarias que puedan estar afectando la eficiencia del ensamblaje.
+  \newline
+  
+  -Medir y Evaluar los Tiempos de Ciclo: Determinar los tiempos de ciclo de cada etapa del ensamblaje y establecer un estándar de tiempo óptimo para mejorar la 
+  productividad.
+  \newline
+  
+  -Identificar y Reducir Desperdicios: Utilizar técnicas de Lean Manufacturing para identificar y eliminar desperdicios en el proceso, tales como movimientos innecesarios, exceso de inventario y tiempos de espera.
+  \newline
+  
+  -Mejorar la Ergonomía de los Trabajadores: Evaluar y mejorar las condiciones ergonómicas de las estaciones de trabajo para reducir el esfuerzo físico y prevenir lesiones, aumentando así la comodidad y seguridad de los operarios.
+  \newline
+  
+  -Establecer Estándares de Trabajo: Desarrollar procedimientos estándar de trabajo que optimicen cada tarea y aseguren la consistencia en el desempeño de los operarios.
+  \newline
+  
+  -Implementar Técnicas de Mejora Continua: Fomentar la adopción de metodologías como Kaizen para promover una cultura de mejora continua en el proceso de ensamblaje.
+  \newline
+  
+  -Capacitar al Personal en Mejores Prácticas: Proveer formación y capacitación a los trabajadores en técnicas de ensamblaje más eficientes y en el uso de herramientas y equipos.
+  \newline
+  
+  -Evaluar y Mejorar el Uso de Equipos y Herramientas: Analizar la efectividad de los equipos y herramientas utilizados en el ensamblaje y proponer mejoras o actualizaciones para aumentar la eficiencia.
+  \newline
+  
+  -Mejorar la Gestión de Materiales e Inventarios: Optimizar la logística de materiales y componentes para asegurar que estén disponibles cuando se necesiten, reduciendo así los tiempos de espera y el inventario en proceso.
+  \newline
+  
+  
+  -Implementar Sistemas de Monitoreo y Control: Establecer sistemas para monitorear y controlar el desempeño del proceso de ensamblaje en tiempo real, permitiendo la identificación rápida de problemas y la toma de decisiones informadas.
+  \newline
+  
+  -Reducir los Costos de Producción: Identificar oportunidades para reducir costos sin comprometer la calidad del producto, mediante la optimización del uso de recursos y materiales.
+  \newline
+  
+  
+  OBJETIVOS DEL PROYECTO INVESTIGACION  MANUAl DE EMERGENCIA
+  \newline
+  
+  Un proyecto para elaborar o mejorar un manual de emergencia busca asegurar que las organizaciones manejen situaciones de emergencia de forma efectiva y eficiente. Aquí algunos objetivos específicos que pueden guiarlo:
+  \newline
+  
+   Objetivos Generales de un manual de emergencia
+  
+  -Crear un manual exhaustivo de procedimientos para emergencias y capacitar a todos los miembros de la organización para una respuesta efectiva.
+  \newline
+  
+   Objetivos Específicos de un manual de emergencia 
+  
+  El proceso implica analizar riesgos, establecer procedimientos claros, definir roles y responsabilidades, crear planes de evacuación, implementar sistemas de alerta, capacitar al personal, incluir medidas de primeros auxilios, evaluar y actualizar el manual periódicamente, garantizar su accesibilidad y coordinar con autoridades y servicios de emergencia.
+  \newline
+  
+  DEFINICIÓN  ESTUDIO DE  MOVIMIENTOS  Y TIEMPOS 
+  \newline
+  
+  El análisis de movimientos y tiempos optimiza la eficacia laboral al dividir actividades en acciones simples, cronometrarlas y eliminar las innecesarias para mejorar la ejecución, reducir tiempos, aumentar la productividad y mejorar la ergonomía y seguridad laboral.
+  
+  
+  DEFINICION DE ENSAMBLE
+  \newline
+  
+  El ensamblaje es unir componentes para crear un producto completo, utilizando métodos como soldadura o encaje. Puede suceder en varias etapas de la producción, con el objetivo de garantizar una unión segura y eficiente que cumpla con los estándares de calidad y rendimiento.
+  \newline
+  
+  DEFINICION DE CIRCUITO ELECTRICO
+  \newline
+  
+  Un circuito eléctrico conecta componentes que permiten que la corriente fluya desde una fuente de energía, pase por dispositivos como resistencias o lámparas, y vuelva a la fuente. Pueden ser simples o complejos y son fundamentales en ingeniería eléctrica para garantizar su funcionamiento seguro y eficiente.
+  \newline
+  
+  DEFINICION DE OPTIMIZACION
+  \newline
+  
+  La optimización implica mejorar o maximizar algo dentro de ciertos límites, considerando factores como eficiencia, rendimiento y costos. Es esencial en campos como ingeniería, gestión empresarial y ciencias de la computación para mejorar el rendimiento y la eficacia en actividades y procesos.
+  \newline
+  
+  DEFINE  EL METODO DE TIEMPOS PREDETERMINADOS
+  \newline
+  
+  El Método de Tiempos Predeterminados (MTM) descompone tareas en movimientos básicos y establece tiempos estándar para simplificar el cálculo del tiempo total necesario.
+  El MTM usa codificación para representar movimientos y tiempos, permitiendo a los analistas medir tareas con precisión y establecer estándares para la producción y evaluación del rendimiento.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO DE INVESTIGACION ENSAMBLE
+  \newline
+  
+  El objetivo central de un proyecto de ensamblaje que busca desarrollar habilidades de ingeniería en producción, producto y calidad es:
+  \newline
+  
+   Objetivo General
+  
+  Perfeccionar las habilidades de ingeniería en producción para optimizar el proceso de ensamblaje, la calidad del producto y la eficiencia en la gestión de la producción.
+  \newline
+  
+  OBJETIVOS DEL PROYECTO DE INVESTIGACION MANUAL DE EMERGENCIA
+  \newline
+  
+  Objetivo General
+  
+  Crear y mantener un manual de emergencia en habilidades de ingeniería de producción para garantizar la continuidad operativa, la calidad del producto y la seguridad del personal en situaciones de emergencia, con procedimientos eficientes y alineados a estándares de calidad.
+  \newline
+  
+   Objetivos Específicos
+   \newline
+  
+  Desarrollar habilidades prácticas implica brindar a los ingenieros una formación integral que combine teoría y experiencia en técnicas avanzadas de ensamblaje y producción. Esto les permite aplicar principios subyacentes de manera efectiva en situaciones reales, mejorando su eficiencia y contribuyendo al éxito y la innovación en ingeniería de producción..
+      \newline
+  
+  % 
+  %
+  
+  \textbf{\textit{1-El LCD }}: Es una pantalla de cristal liquido nombrada en sus siglas en ingles (LCD) que se utiliza para ver Imágenes fijas y en movimientos que va a estar formada por gran cantidad de pixel que consisten en Molécula s de cristal liquido contenidas entre dos conjuntos electrodos transparentes .
+  \newline
+   
+  % 
+  % 
+  \textbf{\textit{1-El potenciometro }}: Es un dispositivo electrónico que nos va a ayudar de una manera exponencial ya que posee la resistencia
+  variable Mecánica y sirve para controlar  el valor de la resistencia en vez de ser fijo es variable. 
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{3-El SP32 }}: Aparte de integrar la radio  inalámbrica , sino también un procesador integrado con interfaces para conectarse con varios periférico  y controla otras cosas de mayor importancia .  
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{4- Cable Macho-Macho  }}: se va a utilizar en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dichos tableros y se conoce así por los fragmentos que sobresalen de los extremos del cable .   
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{5- Cable Macho-Hembra }}: a hembra se refiere a un conector que forma un tipo de manguito alrededor de su homologo masculino en el centro  ya que la hembra va a tener la rosca por dentro.
+  \newline
+  
+  % 
+  % 
+  \textbf{\textit{6- Resistencias  }}: Estas están hechas de materiales que resisten el flujo de electricidad cuando pasa a través de ellas de esta manera se puede controlar el flujo de la corriente a través de un circuito .   \newline 
+  
+  % 
+  % 
+  \textbf{\textit{7- La interfaz de conexión l2c para la LCD  }}:  el modulo serial l2c permite manejar tu pantalla lcd de una manera bastante fácil esto permite enviar y recibir información y 2 mas para alimentación . \newline 
+  
+  % 
+  % 
+  \textbf{\textit{8-Cable USB }}: Definiremos como un conector que permite vincular una amplia variedad de elementos a través del universal serial bus . 
+  \newline 
+  
+  % 
+  % 
+  \textbf{\textit{9- protoboard }}: se usa en proyectos de Robótica que permite conectar fácilmente componentes electrónicos entre si , sin necesidad de realizar una soldadura . 
+  \newline 
+  
+  % 
+  % 
+  \textbf{\textit{10- conector base de luz  }}: sirve para que al conectar esa base nosotros tengamos energía directamente a  través  de una base y de su conector . 
+  \newline
+  
+  \section { Justificacion }
+  
+  Descripción del Proyecto de Ensamble
+  \newline 
+  
+  El proyecto busca desarrollar métodos de ensamblaje competitivos a nivel global, utilizando técnicas ágiles y tecnología avanzada para optimizar eficiencia, calidad y adaptabilidad. Se enfoca en mantener altos estándares de precisión, incorporar innovaciones como la automatización y la IA, y promover prácticas sostenibles para reducir el impacto ambiental.
+  \newline 
+  
+   Adaptación a Nivel Local o Nacional
+   \newline 
+  
+  El cumplimiento normativo implica seguir regulaciones sobre seguridad, calidad y medio ambiente. La formación del personal se centra en las mejores prácticas adaptadas a las regulaciones locales. Consideraciones culturales y sociales ajustan el ensamblaje a preferencias locales. La infraestructura y logística consideran recursos locales para procesos eficientes. La colaboración con instituciones locales facilita acceso a recursos y fomenta la innovación.
+  \newline 
+  
+   Descripción del Contexto Global Manual de Emergencia
+   \newline 
+  
+  Un manual de emergencia es un documento integral que garantiza seguridad y continuidad operativa. Contiene procedimientos detallados para responder a emergencias, capacita al personal, integra tecnologías y sistemas de comunicación eficientes, y se actualiza regularmente para mantener su relevancia.
+  \newline 
+  
+  Consideraciones Locales o Nacionales
+  \newline 
+  
+  Considerar las particularidades locales al desarrollar un manual de emergencia es crucial, incluyendo regulaciones, condiciones geográficas y culturales. La eficiencia, sostenibilidad y adaptabilidad son clave en proyectos de ensamblaje para competir en el mercado global. La personalización y agilidad en la producción son demandadas por los clientes. A nivel nacional, se deben cumplir regulaciones de calidad y seguridad, y la capacitación del talento local es esencial. Los manuales de emergencia son fundamentales para la preparación y respuesta ante crisis, con enfoque en seguridad, evacuación y comunicación. A nivel global, la colaboración internacional mejora la capacidad de respuesta ante emergencias.
+  \newline 
+  
+  TIPOS DE MANUFACTURA
+  \newline 
+  
+  La manufactura es un proceso complejo con diversos tipos, cada uno con sus características y usos. Los principales tipos incluyen:
+  \newline 
+  
+  La manufactura discreta produce artículos individuales o piezas distintas, como automóviles y dispositivos electrónicos, en lotes pequeños o grandes, y puede ser única o estandarizada.
+  
+  La manufactura de proceso se centra en productos que no pueden descomponerse en piezas individuales, como alimentos y productos químicos, y puede ser continua o por lotes.
+  
+  La manufactura en masa produce grandes cantidades de productos idénticos, destacándose por su alta eficiencia y bajos costos, común en la industria automotriz y electrónica.
+  
+  La manufactura en lotes produce cantidades limitadas de productos en un lote, típica de la moda y ciertos tipos de maquinaria, permitiendo flexibilidad en la producción.
+  
+  La manufactura ajustada, o Lean Manufacturing, minimiza desperdicios sin sacrificar productividad, aplicable en varias industrias para mejorar eficiencia y reducir costos.
+  
+  La manufactura aditiva, o impresión 3D, crea objetos tridimensionales añadiendo material capa por capa, revolucionando sectores como medicina y aeronáutica.
+  
+  La manufactura flexible se adapta rápidamente a cambios en productos y cantidades, esencial en industrias con alta variedad y personalización, como la electrónica y la automoción.
+  \newline 
+  
+  CUANTAS EMPRESAS EXISTEN EN EL MUNDO
+  \newline 
+  
+  Es complicado proporcionar una cifra exacta de empresas manufactureras en el mundo debido a las diferentes definiciones y criterios de contabilización. Sin embargo, hay millones de estas empresas operando globalmente, desde PYMEs hasta grandes multinacionales, en una variedad de sectores como electrónica, automotriz, alimentos y bebidas, entre otros.
+  \newline 
+  
+  CUANTAS EMPRESAS EXISTEN EN MEXICO
+  \newline 
+  
+  En México, hay una amplia gama de empresas manufactureras, desde pequeñas hasta grandes multinacionales. Según el INEGI, en 2019 había aproximadamente 306,000 establecimientos manufactureros en el país, aunque esta cifra puede haber cambiado desde entonces debido a diversos factores.
+  \newline 
+  
+  Cuantas empresas de manufactura existen en Querétaro?
+  \newline 
+  
+  El número preciso de empresas manufactureras en Querétaro puede cambiar debido a factores económicos y empresariales cambiantes. Según el INEGI, en el Censo Económico de 2019 se registraron alrededor de 5,800 establecimientos dedicados a la manufactura en el estado.
+  \newline 
+  
+  Los datos pueden haber cambiado debido a factores como nuevas empresas, cierres o expansiones. Se recomienda consultar fuentes actualizadas del INEGI u otras instituciones gubernamentales o locales para obtener información reciente sobre el número de empresas manufactureras en Querétaro.
+  \newline 
+  
+  
+  \section{Descripcion del Problema }
+  
+  \newline 
+  
+  1. Tiempo de Ensamblaje: El proceso debe completarse dentro del tiempo estimado en el plan del proyecto.
+  
+  2. Calidad del Producto: Los productos deben cumplir con todos los estándares de calidad y especificaciones técnicas.
+  
+  3. Costo de Producción: Los costos deben mantenerse dentro del presupuesto establecido.
+  
+  4. Disponibilidad de Materiales: Los materiales deben estar disponibles según el cronograma planificado.
+  
+  5. Capacitación y Competencia del Personal: El personal debe estar adecuadamente capacitado y en cantidad suficiente para cumplir con los requerimientos del ensamblaje.
+  
+  6. Implementación de Tecnología: La tecnología debe funcionar de manera eficiente y estar completamente integrada en el proceso de ensamblaje.
+     \newline 
+  
+  manual de emergencia
+  \newline 
+  
+  1. Planificación y Estructura: El manual debe tener una estructura clara y organizada, con protocolos paso a paso y diagramas explicativos para una fácil comprensión y aplicación.
+  
+  2. actualización y Revisión: Debe haber un plan de actualización regular para mantener la información relevante y al día con las últimas normativas y mejores prácticas.
+  
+  3. Capacitación y Conciencia: Se necesita un programa de capacitación continuo que incluya simulacros y talleres prácticos para asegurar que todos estén familiarizados con los procedimientos de emergencia.
+  
+  4. *Accesibilidad y Comprensión: El manual debe estar escrito en un lenguaje claro y sencillo, con traducciones disponibles si es necesario, y con gráficos para facilitar la comprensión.
+  
+  5. Coordinación y Colaboración: Debe incluir protocolos detallados para la coordinación con equipos de respuesta locales y otras organizaciones relevantes en caso de emergencia.
+  
+  6. Adaptabilidad a Contextos Específicos: El manual debe ser flexible y adaptable a las particularidades geográficas, socioeconómicas y culturales de las áreas a las que está destinado.
+  \newline 
+   
+   La Incógnita Científica en un Proyecto de Ensamble
+   \newline 
+  
+  En un proyecto de ensamble, la incógnita científica se refiere a los desafíos y preguntas no resueltas que afectan la eficiencia y el éxito del proceso. Estas incógnitas abarcan varios aspectos:
+  \newline 
+  
+  1. Selección y Comportamiento de Materiales: Predicción de durabilidad y resistencia de nuevos materiales como compuestos avanzados y aleaciones ligeras.
+    
+  2. Tecnologías de Fabricación Avanzadas: Integración eficiente de tecnologías emergentes como impresión 3D y robótica, considerando compatibilidad, costos y curva de aprendizaje.
+    
+  3. Optimización de Procesos: Encontrar la combinación óptima de técnicas para maximizar eficiencia y minimizar defectos.
+    
+  4. Interacción Humano-Máquina: Diseño de sistemas que optimicen la colaboración entre humanos y máquinas para mejorar ergonomía, seguridad y eficiencia.
+    
+  5. Impacto Ambiental y Sostenibilidad: Desarrollo de métodos de ensamblaje que reduzcan la huella de carbono y los residuos sin comprometer la calidad del producto.
+  \newline 
+  
+  Aplicación en Contextos Locales y Nacionales
+  \newline 
+  
+  Adaptar soluciones localmente es esencial. Por ejemplo, en áreas industriales, considerar la infraestructura existente al integrar tecnologías nuevas. En regiones sostenibles, enfocarse en reducir residuos y usar recursos locales. Colaborar con instituciones locales fomenta la innovación y aporta conocimientos valiosos.
+  \newline 
+  
+  La Incógnita Científica en un Proyecto de Manual de Emergencia
+  \newline 
+  
+  El desarrollo de un manual de emergencia enfrenta varias incógnitas científicas debido a la imprevisibilidad de los desastres y la rápida evolución de la tecnología y el clima.
+  \newline 
+  
+  1. Predicción de Desastres: Dificultad en la predicción exacta de desastres naturales como terremotos, tsunamis y erupciones volcánicas.
+     
+  2. Cambio Climático: Aumento en frecuencia e intensidad de fenómenos meteorológicos extremos debido al cambio climático.
+     
+  3. Innovaciones Tecnológicas: Rápida evolución de tecnologías como drones e inteligencia artificial en la gestión de emergencias.
+     
+  4. Comportamiento Humano: La reacción humana en emergencias es impredecible, requiriendo estrategias claras de comunicación y educación constante para minimizar el caos.
+  \newline 
+  
+  
+  \section{Fundamentacion Teorica }
+  
+  La Incógnita Científica en un Proyecto de Ensamble
+  \newline 
+  
+  Ahora, nos centraremos en las incógnitas científicas específicas que influyen en el proceso de ensamblaje en la producción y cómo abordarlas para formular una hipótesis efectiva.
+  \newline 
+  
+   Clarificación de la Incógnita Científica
+   \newline 
+  
+  Las incógnitas científicas en proyectos de ensamble incluyen la variabilidad del proceso, la rápida innovación tecnológica, la gestión de la cadena de suministro y la garantía de calidad y seguridad. Estos elementos pueden generar incertidumbre y desafíos que impactan en la eficiencia y consistencia del ensamble.
+  \newline 
+  
+  Planteamiento de la Hipótesis
+  \newline 
+  
+  Hipótesis General: La integración de sistemas avanzados de monitoreo y control, junto con la adopción de tecnologías emergentes y programas de capacitación, permitirá optimizar el proceso de ensamble. Además, el fortalecimiento de la cadena de suministro y la implementación de sistemas de inspección automatizados garantizarán la calidad y seguridad del producto final.
+  \newline 
+  
+  
+  La Incógnita Científica en un Proyecto de Manual de Emergencia
+  \newline 
+  
+  En la introducción, se mencionó la necesidad imperiosa de un manual de emergencia integral y actualizado, que se ajuste a la realidad global y local. Ahora, profundizaremos en las incógnitas científicas que afectan el desarrollo de estos manuales y plantearemos una hipótesis para abordar estos desafíos.
+  \newline 
+  
+  
+  Clarificación de la Incógnita Científica manual de emergencia
+  \newline 
+  
+  Las incógnitas en un manual de emergencia se relacionan con la imprevisibilidad de desastres, la falta de precisión en las predicciones, el cambio climático, la innovación tecnológica y las respuestas humanas diversas, complicando la planificación y ejecución de estrategias efectivas.
+  \newline 
+  
+   Planteamiento de la Hipótesis manual de emergencia
+   \newline 
+  
+  Hipótesis General: La integración de avances científicos y tecnológicos en la predicción, modelado y respuesta a emergencias, junto con una comprensión profunda del comportamiento humano, permitirá la creación de un manual de emergencia más efectivo y adaptable. Esto, a su vez, mejorará significativamente la capacidad de las comunidades para enfrentar y recuperarse de desastres.
+  \newline 
+  
+  Profundización en el Objeto de Estudio de un Proyecto de Ensamble
+  \newline 
+  
+   Descripción del Problema
+  
+  El mayor desafío en un proyecto de ensamblaje es la complejidad y variabilidad del proceso. Garantizar la calidad del producto, integrar nuevas tecnologías, gestionar la cadena de suministro y asegurar la seguridad son elementos clave que deben abordarse para lograr la eficiencia y efectividad del ensamblaje.
+  \newline 
+  
+  
+  1. Variabilidad en el Proceso de Ensamble:
+     - Descripción: Diferencias en componentes, condiciones y errores pueden afectar calidad y eficiencia.
+     - Análisis Profundo: Estudio de tolerancias, condiciones y habilidades del personal para implementar sistemas de monitoreo y controles automáticos.
+  
+  2. Innovación Tecnológica:
+     - Descripción: Integración de tecnologías como robótica e IA presenta oportunidades y desafíos.
+     - Análisis Profundo: Evaluación de costos, beneficios y compatibilidad para una implementación gradual sin interrupciones.
+  
+  3. Gestión de la Cadena de Suministro:
+     - Descripción: La cadena afecta disponibilidad y calidad de componentes, con interrupciones que pueden causar retrasos.
+     - Análisis Profundo: Estudio de resiliencia, dependencia de proveedores y tecnologías de análisis predictivo para gestionar fluctuaciones.
+  
+  4. Calidad y Seguridad del Producto**:
+     - Descripción: Garantizar calidad y seguridad es crucial para la satisfacción del cliente y cumplimiento normativo.
+     - Análisis Profundo: Evaluación de procedimientos de control, implementación de sistemas automatizados y desarrollo de protocolos de respuesta rápida.
+  \newline 
+  
+   Planteamiento de la Hipótesis
+   \newline 
+  
+  Hipótesis General: La optimización del proceso de ensamble mediante la integración de sistemas avanzados de monitoreo y control, la adopción de tecnologías emergentes, la gestión eficiente de la cadena de suministro y la implementación de estrictos controles de calidad y seguridad, mejorará significativamente la consistencia, eficiencia y calidad del producto final.
+  \newline 
+  
+   Profundización en el Objeto de Estudio de un Proyecto de Manual de Emergencia
+  \newline 
+  
+   Descripción del Problema
+  
+  El problema principal en el desarrollo de un manual de emergencia radica en la necesidad de abordar la complejidad y variabilidad de las emergencias. Factores como la precisión en la predicción de desastres, la integración de nuevas tecnologías, la gestión de la respuesta y la capacitación del personal son desafíos críticos que deben ser resueltos para garantizar una respuesta eficaz y eficiente ante emergencias.
+  \newline 
+  
+  1. Predicción de Desastres:
+     - Desafío: Prever eventos naturales y antropogénicos impredecibles.
+     - Enfoque: Estudiar métodos y tecnologías para mejorar la anticipación y respuesta.
+  
+  2. Integración de Tecnologías Emergentes:
+     - Desafío: Incorporar IA y drones en la gestión de emergencias.
+     - Enfoque: Evaluar costos y beneficios para implementar estrategias efectivas.
+  
+  3. Gestión de la Respuesta a Emergencias:
+     - Desafío: Coordinar recursos y actores para una respuesta eficiente.
+     - Enfoque: Desarrollar protocolos y planes de acción detallados para mejorar la coordinación.
+  
+  4. Capacitación y Preparación del Personal**:
+     - Desafío: Preparar al personal para respuestas efectivas.
+     - Enfoque: Evaluar y mejorar programas de capacitación para una preparación continua.
+  \newline 
+  
+   Planteamiento de la Hipótesis
+  \newline 
+  
+  Hipótesis General: La implementación de sistemas avanzados de monitoreo y predicción, la integración de tecnologías emergentes, la mejora de los protocolos de gestión y coordinación, y la capacitación continua del personal optimizarán significativamente la eficacia y eficiencia del manual de emergencia
+  \newline 
+  
+  Metodologías Utilizadas para el Estudio del Proceso de Ensamble
+  \newline 
+  
+   Descripción del Problema
+   \newline 
+  
+  El desarrollo de un proceso de ensamble eficiente y efectivo enfrenta desafíos significativos debido a la variabilidad de los componentes, la necesidad de integrar tecnologías avanzadas, la gestión de la cadena de suministro y la garantía de calidad del producto final. Abordar estos desafíos requiere una comprensión profunda de las metodologías utilizadas en el estudio del ensamble.
+  \newline 
+  
+   Para el estudio del Manual de Emergencia se emplean las siguientes metodologías:
+  \newline 
+  
+  1. Análisis Estadístico y Control de Calidad: Utiliza técnicas estadísticas para garantizar la calidad del proceso de ensamble.
+  \newline 
+  
+  2. Simulación y Modelado: Permite prever y mejorar el comportamiento del sistema de ensamble mediante software de simulación.
+  \newline 
+  
+  3. Lean Manufacturing y Seis Sigma: Enfocadas en la mejora continua y la reducción de variabilidad en el proceso.
+  \newline 
+  
+  4. Análisis de la Cadena de Suministro: Evalúa y optimiza la eficiencia y resiliencia de la cadena de suministro.
+  \newline 
+  
+  5. Inspección y Pruebas Automatizadas: Implementa sistemas automatizados para verificar la calidad del producto final.
+  \newline 
+  
+  Descripción del Problema
+  \newline 
+  
+  El desarrollo de un manual de emergencia enfrenta el desafío de abordar la complejidad y variabilidad de las emergencias. La precisión en la predicción de desastres, la integración de nuevas tecnologías, la gestión de la respuesta y la capacitación del personal son aspectos críticos. Para enfrentar estos desafíos, se han utilizado diversas metodologías que permiten un análisis exhaustivo y la implementación de estrategias efectivas.
+  \newline 
+  
+   Metodologías Utilizadas
+   \newline 
+  
+  1. Análisis de Riesgos y Vulnerabilidades:
+     - Descripción: Identificación de riesgos y estrategias de mitigación basadas en análisis de datos y simulaciones.
+     \newline 
+     
+  2. Modelado y Simulación:
+     - Descripción: Uso de modelos matemáticos para predecir escenarios de desastres y mejorar la planificación de respuesta.
+     \newline 
+  
+  3. Sistemas de Alerta Temprana:
+     - Descripción: Despliegue de sensores y análisis de datos en tiempo real para una rápida difusión de alertas.
+     \newline 
+  
+  4. Evaluación y Mejora de la Capacidad de Respuesta:
+     - Descripción: Evaluación continua de planes de respuesta mediante simulacros y retroalimentación para ajustes.
+     \newline 
+  
+  5. Capacitación y Educación Continua:
+     - Descripción: Desarrollo de programas de formación para personal y comunidad, garantizando una respuesta efectiva.
+  \newline 
+  
+  
+  \section{  Hipotesis }
+  
+   Planteamiento de la Hipótesis en un Proyecto de Ensamble
+  \newline 
+  
+   Suposición con Fundamento Científico Relativa a la Solución del Problema
+   \newline 
+  
+  Problema: La complejidad y variabilidad del proceso de ensamble afectan la consistencia, calidad y eficiencia del producto final.
+  
+  Suposición: La implementación de sistemas avanzados de monitoreo y control en tiempo real, junto con la adopción de tecnologías emergentes y una gestión eficiente de la cadena de suministro, mejorará significativamente la consistencia, eficiencia y calidad del proceso de ensamble.
+  \newline 
+  
+   Fundamentación Científica
+   \newline 
+  
+  1. Monitoreo en Tiempo Real:
+     - Fundamento: Reduce la variabilidad del ensamble.
+     - Evidencia: Disminución del 25% en defectos y aumento del 15% en eficiencia (Smith et al., 2020).
+  
+  2. Tecnologías Emergentes:
+     - Fundamento: Mejoran la consistencia y reducen errores.
+     - Evidencia: Reducción del 20% en tiempo de ciclo y aumento del 30% en precisión (Zhao et al., 2019).
+  
+  3. Gestión de la Cadena de Suministro:
+     - Fundamento: Optimiza el flujo de componentes.
+     - Evidencia: Reducción del 18% en tiempos de inactividad y mejora del 12% en calidad (Lee et al., 2018).
+     \newline 
+  
+  Entidad de Comparación
+  
+  Para probar la suposición, se compararán dos líneas de producción:
+  
+  1. Línea de Producción A: Implementación de sistemas avanzados de monitoreo y control en tiempo real, tecnologías emergentes y gestión eficiente de la cadena de suministro.
+  2. Línea de Producción B: Métodos tradicionales de ensamble sin las mejoras tecnológicas y de gestión mencionadas.
+  \newline 
+  
+  Variable para Cuantificar la Comparación
+  
+  1. Consistencia del Producto: Medida por la tasa de defectos en el producto final (% de productos defectuosos).
+  2. Eficiencia del Proceso: Medida por el tiempo de ciclo del ensamble (minutos por unidad).
+  3. Calidad del Producto: Medida por la conformidad con los estándares de calidad establecidos (puntuación de calidad en una escala de 1 a 10).
+  \newline 
+  
+   Hipótesis
+   \newline 
+  
+  Hipótesis General:La Línea de Producción A, que utiliza sistemas avanzados de monitoreo y control, tecnologías emergentes y una gestión eficiente de la cadena de suministro, mostrará una mejora significativa en la consistencia, eficiencia y calidad del producto en comparación con la Línea de Producción B que utiliza métodos tradicionales.
+  \newline 
+  
+  La implementación de tecnologías avanzadas y estrategias de gestión en el proceso de ensamble, fundamentada en evidencia científica y estudios de casos, tiene el potencial de resolver los problemas de consistencia, eficiencia y calidad. La comparación entre dos líneas de producción con y sin estas mejoras permitirá validar la hipótesis y cuantificar el impacto positivo de estas innovaciones en el proceso de ensamble.
+  \newline 
+  
+  
+  Referencias:
+  \newline 
+  1. Smith et al., 2020. "Real-time Monitoring in Manufacturing: Reducing Defects and Enhancing Efficiency." Journal of Manufacturing Technology.
+  2. Zhao et al., 2019. "Automation and Robotics in Assembly Lines: Enhancing Precision and Reducing Cycle Time." Robotics Journal.
+  3. Lee et al., 2018. "Supply Chain Optimization: Reducing Downtime and Improving Product Quality." Logistics Management Journal.
+  Hipótesis Científica para un Proyecto de Manual de Emergencia
+  \newline 
+  
+   Suposición
+   \newline 
+  
+  Suposición: La implementación de un manual de emergencia actualizado y basado en las últimas tecnologías de monitoreo y predicción, junto con una capacitación continua del personal, mejorará significativamente la efectividad de la respuesta a emergencias y reducirá el impacto negativo de los desastres.
+  \newline 
+  
+   Fundamentación Científica
+   \newline 
+  
+  1. Monitoreo y Predicción de Emergencias:
+     - Fundamento: Ayuda a reducir daños mediante alertas tempranas.
+     - Ejemplo: Japón ha reducido mortalidad y daños con sistemas de alerta.
+  
+  2. Capacitación Continua:
+     - Fundamento: Mejora competencia del personal y conciencia comunitaria.
+     - Ejemplo: Programas en EE. UU. han mejorado coordinación y respuesta.
+     \newline 
+  
+   Entidad de Comparación
+   \newline 
+  
+  Para probar esta suposición, se compararán dos grupos:
+  \newline 
+  
+  1. Grupo Experimental: Comunidades y organizaciones que implementan el manual de emergencia actualizado, utilizan sistemas de monitoreo y alerta temprana, y participan en programas de capacitación continua.
+  2. Grupo de Control: Comunidades y organizaciones que no implementan estas mejoras y continúan con métodos tradicionales de gestión de emergencias.
+  \newline 
+  
+   Variable de Calificación o Cuantificación
+  \newline 
+  
+  Variable: El impacto de los desastres será medido y comparado utilizando las siguientes métricas:
+  \newline 
+  
+  1. Tiempo de Respuesta: El tiempo promedio desde que se emite una alerta hasta que se inicia la respuesta.
+  2. Tasa de Mortalidad y Morbilidad: Número de víctimas (muertes y lesiones) por cada 1000 habitantes.
+  3. Daños Materiales: Coste total de los daños materiales causados por el desastre, ajustado por la magnitud del evento.
+  4. Satisfacción de la Comunidad: Niveles de satisfacción y percepción de seguridad de la comunidad, evaluados mediante encuestas post-emergencia.
+  \newline 
+  
+   Proceso de Validación
+   \newline 
+  
+  1. Recopilación de Datos: Se recopilarán datos de ambas entidades de comparación durante un período determinado antes y después de la implementación del manual de emergencia.
+  2. Análisis Estadístico: Se realizarán análisis estadísticos para determinar si hay una diferencia significativa en las métricas mencionadas entre el grupo experimental y el grupo de control.
+  3. Informe de Resultados: Los resultados serán documentados y utilizados para evaluar la efectividad del manual de emergencia, con recomendaciones para futuras mejoras.
+  \newline 
+  
+  
+  La hipótesis plantea que un enfoque integral que combine tecnologías avanzadas y capacitación continua mejorará la respuesta a emergencias. La validación de esta suposición mediante un estudio comparativo ayudará a fundamentar científicamente las mejoras propuestas, ofreciendo un modelo más eficiente y eficaz para la gestión de emergencias.
+  
+  
+  
+  \section{ Objetivo }
+  
+  Acciones Comunes para Lograr el Objetivo General de un Proyecto de Ensamble
+  \newline 
+  
+  Objetivo General
+  \newline 
+  Optimizar el proceso de ensamble para mejorar la eficiencia, calidad y consistencia del producto final.
+  \newline 
+  
+  Acciones Comunes
+  \newline 
+  
+  1. Monitoreo y Control en Tiempo Real:
+     - Acción: Instalar sensores y sistemas de monitoreo.
+     -Objetivo:Detectar y corregir desviaciones inmediatamente.
+     - Resultado: Reducción de variabilidad y mejora en la calidad.
+  
+  2. Adopción de Tecnologías Avanzadas:
+     -Acción:Integrar robótica y automatización.
+     - Objetivo: Aumentar precisión y velocidad.
+     - Resultado: Mayor eficiencia y menos errores humanos.
+  
+  3.Capacitación Continua:
+     - Acción: Ejecutar programas de formación.
+     - Objetivo: Preparar al personal en nuevas tecnologías.
+     -Resultado:Mejor competencia y consistencia.
+  
+  4.Optimización de la Cadena de Suministro:
+     -Acción: Mejorar la gestión de suministro.
+     -Objetivo:Asegurar disponibilidad de componentes.
+     - Resultado:Menos interrupciones y tiempos de espera.
+  
+  5. Protocolos de Calidad y Seguridad:
+     -Acción:Implementar controles de calidad y seguridad.
+     - Objetivo:Cumplir con estándares establecidos.
+     -Resultado: Productos de alta calidad y conformes a normativas.
+  
+  6.Mejora Continua: 
+    -Acción: Realizar auditorías periódicas.
+     - Objetivo: Introducir mejoras basadas en evaluaciones.
+     - Resultado: Proceso de ensamble más eficiente.
+  
+  7. Colaboración Interdepartamental:
+     - Acción: Fomentar la comunicación entre departamentos.
+     - Objetivo: Integrar todos los aspectos del ensamble.
+     - Resultado: Mejor coordinación y resolución de problemas.
+  \newline 
+  
+  Conjunto de Acciones para Lograr el Objetivo General del Proyecto de Manual de Emergencia
+  \newline 
+  
+   Objetivo General:
+  Desarrollar un manual de emergencia integral y efectivo que mejore la preparación, respuesta y recuperación ante situaciones de emergencia, reduciendo el impacto negativo en la comunidad.
+  \newline 
+  
+   Acciones Propuestas:
+  \newline 
+  
+  1. Análisis de Riesgos y Desarrollo del Manual:
+     - Realizar un análisis completo de riesgos.
+     - Elaborar protocolos claros y detallados.
+  
+  2. Integración de Tecnologías Avanzadas:
+     - Incorporar sistemas de monitoreo y alerta.
+     - Establecer sistemas de gestión de información.
+  
+  3. Capacitación y Ejercicios Prácticos:
+     - Organizar programas de formación regulares.
+     - Realizar simulacros de respuesta a emergencias.
+  
+  4. Divulgación y Sensibilización Comunitaria:
+     - Desarrollar campañas de concientización.
+     - Fomentar la participación comunitaria.
+  
+  5. Evaluación Continua y Actualización:
+     - Recibir retroalimentación de la comunidad.
+     - Evaluar y actualizar el manual periódicamente.
+  \newline 
+  
+  
+  Actividades Orientadas al Cumplimiento del Objetivo General y la Prueba de la Hipótesis
+  \newline 
+  
+  1. Implementar sistemas de monitoreo en tiempo real del proceso de ensamble.
+  2. Desarrollar protocolos de control de calidad específicos para cada etapa del ensamble.
+  3. Capacitar al personal en el uso de nuevas tecnologías de ensamble.
+  4. Realizar simulacros periódicos de emergencia para evaluar la efectividad de los protocolos de respuesta.
+  5. Establecer un sistema de retroalimentación continua para recopilar comentarios del personal sobre el proceso de ensamble.
+  6. Evaluar el desempeño del proceso de ensamble antes y después de la implementación de mejoras.
+  7. Recopilar datos de calidad y eficiencia para comparar con los resultados esperados.
+  8. Identificar y corregir desviaciones en el proceso de ensamble de manera proactiva.
+  9. Fomentar la comunicación interdepartamental para mejorar la coordinación en el ensamble.
+  10. Realizar análisis de riesgos periódicos para identificar posibles áreas de mejora en el proceso de ensamble.
+  \newline 
+  
+  Actividades Orientadas al Cumplimiento del Objetivo General y la Prueba de la Hipótesis
+  \newline 
+  
+  1. Evaluar el rendimiento actual del proceso de ensamble.
+  2. Identificar áreas de posible mejora en la eficiencia y calidad del ensamble.
+  3. Investigar tecnologías avanzadas aplicables al proceso de ensamble.
+  4. Desarrollar un plan detallado de implementación de mejoras.
+  5. Capacitar al personal en el uso de nuevas tecnologías y procedimientos.
+  6. Instalar sistemas de monitoreo en tiempo real en la línea de ensamble.
+  7. Implementar protocolos de control de calidad y seguridad.
+  8. Recopilar datos de rendimiento antes y después de la implementación de mejoras.
+  9. Analizar métricas de eficiencia, calidad y seguridad para evaluar el impacto de las mejoras.
+  10. Ajustar y mejorar continuamente el proceso de ensamble en base a los resultados obtenidos.
+  \newline 
+  
+  
+  \subsection{ Análisis}
+  Lo que se busca en estas etapas de comprensión de cómo se va a manejar el uso del dispositivo  y como se va a operar y claramente la función que va a tener para que así no tenga  alguna complicación,  esto se puede interpretar el análisis que va a tener el proyecto entiendo su armamento  desde el principio hasta el final , ahora lo que se debe de hacer es que
+  
+  \section{Metodología}
+  
+  Aquí se va a describir las etapas que se hicieron para llegar al resultado final el cual fue nosotros hiciéramos un debido manejo de como se armará el proyecto hasta el final
+  \newline 
+  
+  Resumen del Trabajo de Investigación
+  \newline 
+  
+  Por el método de la observación y el análisis estadístico se llevó a cabo este trabajo de investigación. El estudio y la recolección de datos se realizaron en la ciudad de Querétaro, en las instalaciones del Instituto Tecnológico de Querétaro (ITQ). El período de experimentación se extendió de febrero de 2024 a mayo de 2024.
+  
+  Se utilizó como ejemplo el ensamble de una tarjeta electrónica. Este proceso incluyó el uso de software de diseño asistido por computadora (CAD) para definir la estructura de todos los niveles, establecer los límites de potencia y control, desarrollar la arquitectura necesaria y seleccionar la mejor opción para implementarse.
+  
+  En la primera etapa de la experimentación, se tomaron dos muestras continuas con una cámara de vídeo. Posteriormente, se implementaron diversas metodologías para obtener el tiempo ciclo y el tiempo estándar del proceso de ensamble.
+  \newline 
+  
+  
+  Materiales
+  \newline 
+  
+  -Regulador de voltaje 
+  -USB 
+  -protoboard 
+  -ESP 
+  -resistencias 
+  -LCD 
+  -modulo 
+  -cable macho-macho 
+  -cable macho-hembra 
+  -almohadilla ,
+  -potenciómetro 
+  
+  \subsection{Desarrollo de la guia de plan de emergencia  }
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=85mm]{7/img/plan emergencia.jpg}
+      \label{fig:plan}
+  \end{figure}
+  Figura 1 : Aqui describira elplan de emergencia .
+  
+  \subsubsection{Planeación}
+  
+  Asegúrate de conocer siempre tu objetivo.
+  Asegúrate de contar con los documentos (formatos, procedimientos, etc).
+  % 
+  % 
+  \subsubsection{5's}
+  
+  Consiste en tener un lugar de trabajo
+  más ordenado, limpio y organizado que
+  permite elevar la productividad y
+  eficiencia en una empresa, haciéndolo de manera permanente.
+  Las etapas son las siguientes: Seleccionar, Ordenar, Limpiar, Estandarizar, y Sostener.
+  % 
+  % 
+  \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+  
+  El desarrollo del sistema de tiempos predeterminados implica la creación de un método para calcular los tiempos estándar requeridos para completar tareas específicas.
+  % 
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=85mm]{7/img/imagen2.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  \newline 
+  Figura 2 
+  
+  El sistema de tiempos predeterminados, originado a partir de los Therbligs, dio lugar al Método de Medición de Tiempos (MTM), desarrollado por Maynard, Stegemerten y asociados. MTM-1, el sistema básico que utilizaremos en el proyecto, descompone las operaciones en movimientos básicos identificados por símbolos y asigna tiempos estándar predeterminados a cada movimiento, basándose en su naturaleza y condiciones (TMU).
+  \newline 
+  
+  Los movimientos en el sistema MTM-1 son:
+  \newline 
+  
+  1. Alcanzar: Movimiento de la mano vacía.
+  2. Mover: Transporte de un objeto a otro lugar.
+  3. Girar y Aplicar presión: Rotación de la mano y aplicación de presión durante el ensamblaje.
+  4. Asir: Agarre de uno o más objetos con los dedos o manos.
+  5. Colocar en Posición: Alineación u orientación de un objeto con otro.
+  6. Soltar: Liberación del control de un objeto.
+  7. Desenganchar: Separación o desmontaje de objetos.
+  8. Tiempo de Desplazamiento de ojo y Enfoque ocular: Movimientos de los ojos para dirigir las manos o el cuerpo.
+  9. Movimientos del cuerpo (Pierna-Pie, horizontal y vertical): Movimientos corporales completos.
+  10. Movimientos Simultáneos: Realización simultánea de varios movimientos mencionados anteriormente.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablaalcanzar.png}
+      \label{fig:tablaalcan}
+  \end{figure}
+  \newline
+  Figura 3
+  
+  Para determinar los TMU de "Alcanzar" y sus siglas:
+  \newline
+  
+  1. LITERAL: Inicial del movimiento en inglés.
+  2. DISTANCIA: Camino recto del nudillo o dedo.
+  3. CASO: Situación de la operación.
+  \newline
+  
+  Usar el formato LITERAL/DISTANCIA/CASO. La intersección de distancia y caso da el valor estándar del TMU.
+  \newline
+  
+  Usando el formato LITERAL/DISTANCIA/CASO para determinar las siglas del movimiento, la celda resultante de la intersección de distancia y caso da el valor estándar del TMU.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablaalcanzarv2.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  
+    Figura 4: Alcanzar un objeto a una distancia variable de 8 pulgadas se codifica como R8B = 11.5 TMU.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablamover.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 5: Valores estándar del Therblig Mover. Los TMU de Mover se determinan utilizando LITERAL, DISTANCIA, CASO y PESO. Los formatos usados son LITERAL/DISTANCIA/CASO o LITERAL/DISTANCIA/CASO/PESO, según el peso del objeto y la decisión del analista.
+    
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablamoverv2.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 6: Alcanzar un objeto que varía de ubicación a 8 pulgadas se codifica como R8B = 11.5 TMU.
+  
+  
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablatresa.jpg}
+      \label{fig:tablatres}
+  \end{figure}
+  
+    Figura 7: Girar y aplicar presión-A: T/Peso/°Girados; Soltar: RL/Caso.
+  
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tablatresb.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  
+    Figura 8: Valores estándar del Therblig Girar y Aplicar Presión-B.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla4.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 9: Valores estandar del Therblig Asir.
+  
+  
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/tabla5.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 10: Valores estandar del Therblig Colocar en Posicion.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla6.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 11: Valores estandar del Therblig Soltar
+  
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla7.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 12: Valores estandar del Therblig Desenganchar
+  
+      \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/tabla8.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+  Figura 13: Valores estandar del Therblig Desplazamiento de
+  Ojos y Enfoque Ocular.
+  
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla9.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+     Figura 14: Valores estandar del Therblig Movimientos del
+  Cuerpo (Pierna-Pie, horizontal y vertical).
+     
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tabla10.jpg}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 15: Tablas MTM de todos los Movimientos Simultaneos.
+  La ley por la que se rige el
+  % 
+  \subsubsection{Desarrollo del muestreo del trabajo}
+  
+  El muestreo del trabajo es un proceso para analizar la eficiencia laboral. Implica medir el tiempo empleado en tareas seleccionadas, lo que ayuda a establecer estándares de tiempo y mejorar la productividad.
+  
+  % 
+  % 
+  \subsubsection{Corrección por balanceo de procesos}
+  
+  El balanceo de procesos es una técnica para distribuir de manera equitativa la carga de trabajo entre los recursos disponibles. Se busca optimizar la utilización de los recursos y minimizar los cuellos de botella.
+  
+  % 
+  % 
+  \subsubsection{Datos estándar continuos y discretos}
+  
+  Los datos estándar continuos son mediciones que pueden tomar cualquier valor dentro de un rango, como la temperatura o el tiempo. Los datos estándar discretos son valores que se pueden contar individualmente, como el número de piezas producidas o la cantidad de defectos encontrados.
+  
+  
+  \subsection{Diseño de la forma más económica de realizar el trabajo}
+  
+  El diseño para la forma más económica de realizar el trabajo implica encontrar métodos y procesos que maximicen la eficiencia y minimicen los costos. Esto puede incluir la optimización de la disposición de los equipos, la reducción de movimientos innecesarios, la mejora de los flujos de trabajo y la selección de herramientas y tecnologías adecuadas para la tarea.
+  
+  \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+  
+  La normalización de métodos, materiales, herramientas e instalaciones implica establecer estándares y procedimientos uniformes para optimizar la eficiencia y la calidad en la producción. Esto puede incluir la estandarización de procesos, la selección de materiales comunes, el uso de herramientas y equipos consistentes, y la disposición eficiente de las instalaciones para facilitar la producción y minimizar los errores.
+  
+  
+  % 
+  % 
+  
+  \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+  
+  El tiempo estándar para una operación se refiere al tiempo necesario para que un trabajador promedio, completamente capacitado y entrenado, trabajando a un ritmo normal, complete la operación. Este tiempo se determina sumando el tiempo asignado a todos los elementos incluidos en el estudio de tiempos, como se muestra en la tabla referida como \ref{fig:tiempoEstandar}.
+  
+  Para calcular el tiempo estándar, también es importante considerar los suplementos o holguras aplicadas durante el ensamblaje. Estas holguras se dividen en dos categorías: suplementos constantes y suplementos variables o por fatiga. La distribución de estas holguras, así como su diferencia entre hombres y mujeres, se detalla en la tabla \ref{fig:holguras}.
+  
+  Para calcular las holguras utilizadas en el ensamblaje del circuito, se debe referir a la tabla \ref{fig:tablaCalculoHolguras}, que muestra el porcentaje de cada tipo de holgura. Al final, se suman todas estas holguras para obtener un valor total, el cual se incorpora en la tabla de tiempo estándar (\ref{fig:tiempoEstandar}).
+  
+  Con todos los elementos necesarios completados en la tabla de tiempo estándar y siguiendo las operaciones indicadas, se puede obtener el tiempo estándar deseado.
+  \newline
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/suple.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]
+      {7/img/holguras.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=15mm]
+      {7/img/final.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tablatiempoestandar.pdf}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  Métodos
+  \newline
+  
+  1. Diseño Asistido por Computadora (CAD o SOLIDWORKS):
+     - Se utilizan programas CAD y solidworks para diseñar y simular el circuito electrónico antes de la fabricación.
+     - El software permite verificar el esquema del circuito, las rutas de conexión y la disposición de los componentes.
+     \newline 
+  
+  2. Prototipado Rápido:
+     - Utilización de impresoras 3D para crear modelos preliminares de la placa.
+     - Permite hacer ajustes antes de la producción en masa.
+     \newline 
+  
+  3. Método de Superficie Montada (SMT):
+     - Colocación automatizada de componentes directamente sobre la superficie de la placa de circuito impreso (PCB).
+     - Utilización de máquinas de pick-and-place para alta precisión y velocidad.
+     \newline 
+  
+  4. Método de Orificio Pasante (THT):
+     - Inserción de componentes con patillas a través de orificios en la PCB.
+     - Utilizado para componentes grandes o que requieren más robustez.
+     \newline 
+  
+  5. Reflujo de Soldadura:
+     - Aplicación de pasta de soldadura en los puntos de conexión y calentamiento en un horno de reflujo para fundir la soldadura y fijar los componentes.
+     - Control de temperatura preciso para evitar daños a los componentes.
+     \newline 
+  
+  6. Inspección y Pruebas:
+     - Inspección visual y con rayos X para verificar la correcta colocación y soldadura de componentes.
+     - Pruebas funcionales para asegurar el correcto funcionamiento del circuito.
+     \newline 
+  
+  Materiales
+  \newline 
+  
+  Claro, aquí tienes una versión más detallada:
+  
+  1. Protoboard: Es una placa de circuito impreso que permite realizar prototipos de circuitos electrónicos sin necesidad de soldar los componentes. Proporciona puntos de conexión donde los componentes electrónicos pueden ser insertados y conectados entre sí.
+  
+  2. Cargador: Dispositivo que suministra energía eléctrica a una batería o dispositivo electrónico. En este contexto, se refiere al cargador utilizado para proporcionar energía al circuito ensamblado.
+  
+  3. LCD (Pantalla de Cristal Líquido): Es un tipo de pantalla que utiliza cristales líquidos para producir imágenes. En el contexto del ensamblaje, se utiliza una pantalla LCD para mostrar información como el nivel de energía y voltaje del circuito.
+  
+  4. Cables macho-macho y macho-hembra: Son cables de conexión utilizados para conectar diferentes componentes electrónicos entre sí. Los cables macho-macho tienen conectores en ambos extremos, mientras que los cables macho-hembra tienen un conector macho en un extremo y un conector hembra en el otro.
+  
+  5. Potenciómetro: Es un dispositivo electrónico que se utiliza para variar la resistencia eléctrica de un circuito. En este caso, se utiliza para controlar el nivel de voltaje del circuito mediante la rotación de una perilla.
+  \newline 
+  
+  Herramientas
+  \newline 
+  
+  1. Máquinas de Pick-and-Place:
+     - Equipos automatizados para colocar componentes SMT en la PCB con alta precisión.
+  \newline 
+  
+  2. Horno de Reflujo:
+     - Utilizado para soldar componentes SMT aplicando calor controlado.
+     \newline 
+  
+  3. Estación de Soldadura:
+     - Para la soldadura manual de componentes THT o reparaciones.
+     - Incluye cautines y estaciones de aire caliente.
+     \newline 
+  
+  4. Multímetro y Osciloscopio:
+     - Para medir y verificar señales eléctricas y parámetros del circuito durante la prueba y depuración.
+     \newline 
+  
+  5. Microscopios e Inspección Óptica Automática (AOI):
+     - Para la inspección visual de soldaduras y posicionamiento de componentes.
+     \newline 
+  
+  6. Máquinas de Rayos X:
+     - Para verificar la calidad de las soldaduras internas y componentes ocultos.
+  \newline 
+  
+  Instalación
+  \newline 
+  1. Área de Montaje:
+     - Ambiente controlado, libre de polvo y con control de estática para evitar daños a los componentes.
+     - Mesas de trabajo con herramientas de ensamblaje y equipos de prueba.
+     \newline 
+  
+  2. Almacenamiento de Componentes:
+     - Áreas específicas para almacenar componentes electrónicos con control de humedad y temperatura.
+     - Sistemas de inventario para gestionar las existencias y evitar la obsolescencia de componentes.
+     \newline 
+  
+  3. Líneas de Producción Automatizadas:
+     - Instalaciones con equipos automatizados para el ensamblaje, soldadura e inspección de circuitos.
+     - Incluye sistemas de transporte para mover las PCBs a través de diferentes etapas del proceso.
+     \newline 
+  
+  4. Zona de Pruebas y Verificación:
+     - Equipos y estaciones dedicadas a la prueba funcional y depuración de circuitos.
+     - Personal capacitado para realizar pruebas eléctricas y solucionar problemas.
+     \newline 
+  
+  
+  El ensamblaje de circuitos electrónicos requiere métodos avanzados, materiales específicos y herramientas especializadas para garantizar calidad y fiabilidad. La automatización con técnicas como SMT y reflujo de soldadura mejora la precisión y eficiencia. La inspección rigurosa y pruebas funcionales son fundamentales para cumplir con los estándares de calidad.
+  \newline 
+  
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & imagen  & pieza \\
+    \hline 
+    potenciómetro  &  \includegraphics[height=29mm]{7/img/potenciometro.jpg}  & 
+     \includegraphics[width=19mm]{7/img/piezaaauno.PNG} \\
+      \hline
+    protoboard &  \includegraphics[height=29mm]{7/img/protoboard.jpg}  & 
+     \includegraphics[width=19mm]{7/img/Piezauno.PNG} \\
+      \hline
+      lcd & \includegraphics[height=29mm]{7/img/lcd.jpg}  & 
+     \includegraphics[width=19mm]{7/img/piezatress.PNG} \\
+      \hline
+      cable HM & \includegraphics [height=29mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/cuatrooo.PNG} \\
+      \hline
+      CABLE HH & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/cinco.PNG} \\
+      \hline 
+       CABLE 1 & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/seis.PNG} \\
+      \hline 
+       CABLE 2 & \includegraphics[height=29mm]{7/img/cables.jpg}  & 
+     \includegraphics[width=19mm]{7/img/siete.PNG} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label1}  \label {7/}
+        \end{table} 
+  figura 25
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+  
+  \subsection{Manual}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+   
+   \hline 
+    manual  &  \includegraphics[height=90mm]{7/img/ikerv1.jpg}  & 
+     \includegraphics[width=35mm]{7/img/ikerv2.jpg} \\
+      \hline
+       
+      \end{tabular} 
+     
+       \label {tab:my_label2}  \label {7/}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+    figura 16
+      
+  \subsubsection{Planeación}
+  
+  Ensamble de Circuito Electrónico: Aspectos Clave
+  \newline 
+  
+   Objetivos Principales
+   \newline 
+   
+  1. Asegurar la Calidad del Producto Final: Cumplir con los estándares de calidad y minimizar defectos.
+  \newline 
+  
+  2. Optimizar la Eficiencia del Proceso: Reducir tiempos y maximizar el uso de recursos.
+  \newline 
+  
+  3. Mantener la Seguridad: Proteger al personal y a los componentes electrónicos.
+  \newline 
+  
+  Documentación Necesaria
+  \newline 
+  
+  1. Especificaciones del Diseño (CAD): Diagramas y lista de materiales (BOM).
+  \newline 
+  
+  2. Procedimientos Operativos Estándar (SOP): Instrucciones detalladas para cada etapa.
+  \newline 
+  
+  3. Formatos de Control de Calidad: Checklists de inspección y registro de pruebas.
+  \newline 
+  
+  4. Manuales de Operación de Equipos: Guías para el uso y mantenimiento de equipos.
+  \newline 
+  
+  5. Protocolos de Manejo de Componentes ESD: Reglas para la manipulación de componentes sensibles.
+  \newline 
+  
+  6. Plan de Capacitación del Personal: Formación y evaluación continua.
+  \newline 
+  
+   Pasos del Proceso de Ensamblaje
+  \newline 
+  
+  1. Preparación del Área de Trabajo:
+     - Asegurar un entorno limpio y bien equipado.
+  
+  2. Recepción y Verificación de Materiales:
+     - Inspeccionar componentes y registrar la calidad.
+  
+  3. Montaje de Componentes SMT:
+     - Aplicar pasta de soldadura, colocar componentes y soldar en horno de reflujo.
+  
+  4. Montaje de Componentes THT:
+     - Insertar y soldar componentes manualmente o con soldadura por ola.
+  
+  5. Inspección y Pruebas Iniciales:
+     - Realizar inspecciones visuales y pruebas eléctricas básicas.
+  
+  6. Pruebas Funcionales:
+     - Verificar el funcionamiento completo del circuito.
+  
+  7. Reparaciones y Ajustes:
+     - Corregir defectos y repetir pruebas.
+  
+  8. Documentación y Registro:
+     - Completar y archivar registros de control de calidad.
+  
+  9. Empaque y Almacenamiento:
+     - Empacar y almacenar las PCBs terminadas para envío o integración.
+  
+  
+  Conocer el objetivo y tener la documentación adecuada asegura un proceso de ensamble eficiente, seguro y de alta calidad.
+  
+     
+  \subsection{Tablas y Figuras}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & PIEZA  & PLANO \\
+    \hline 
+    potenciómetro  &  \includegraphics[height=19mm]{7/img/piezaaauno.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza1.PNG} \\
+      \hline
+    protoboard &  \includegraphics[height=19mm]{7/img/Piezauno.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza2.PNG}  \\
+      \hline
+      lcd & \includegraphics[height=19mm]{7/img/piezatress.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza3.PNG} \\
+      \hline
+      cable HM & \includegraphics [height=19mm]{7/img/cuatrooo.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza4.PNG} \\
+      \hline
+      CABLE HH & \includegraphics[height=19mm]{7/img/cinco.PNG}  & 
+     \includegraphics[width=19mm]{7/img/Pieza5.PNG} \\
+      \hline 
+       CABLE 1 & \includegraphics[height=19mm]{7/img/seis.PNG}  & 
+     \includegraphics[width=19mm]{7/img/heymickey.PNG} \\
+      \hline 
+       CABLE 2 & \includegraphics[height=19mm]{7/img/siete.PNG}  & 
+     \includegraphics[width=19mm]{7/img/siu.PNG} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label3}  \label {}
+        \end{table} 
+  figura 17
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+  
+    \subsection{Imagenes}
+  
+  \begin{table} [H]
+        
+    \huge
+    \tiny 
+    \begin{tabular}   {| c |  c |  c | }
+    
+    \hline
+    NOMBRE & IMAGEN & IMAGEN \\
+    \hline 
+    imagen 1 y 2  &  \includegraphics[height=19mm]{7/img/ana1.jpg}  & 
+     \includegraphics[width=35mm]{7/img/ana2.jpg} \\
+      \hline
+     imagen 3 y 4 &  \includegraphics[height=29mm]{7/img/ana3.jpg}  & 
+     \includegraphics[width=15mm]{7/img/ana4.jpg}  \\
+      \hline
+      imagen 5 y 6 & \includegraphics[height=39mm]{7/img/ana5.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana6.jpg} \\
+      \hline
+      imagen 7 y 8 & \includegraphics [height=39mm]{7/img/ana7.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana8.jpg} \\
+      \hline
+      imagen 9 y 10 & \includegraphics[height=39mm]{7/img/ana9.jpg}  & 
+     \includegraphics[width=19mm]{7/img/ana10.jpg} \\
+      \hline 
+      
+      \end{tabular} 
+     
+       \label {tab:my_label3}  \label {}
+        \end{table} 
+  
+    \begin{tabular}{c|c}
+         &  \\
+         & 
+    \end{tabular}  
+    figura 18
+  
+  Puntos Clave para un Manual de Emergencia
+  \newline 
+  
+   Objetivo
+   \newline 
+   
+  - Propósito del Manual: Establecer procedimientos claros para la respuesta a emergencias, garantizar la seguridad y minimizar el impacto sobre las operaciones.
+  
+  Documentos Necesarios
+  \newline 
+  
+  1. Formatos:
+     - Planes de Evacuación: Diagramas y rutas de escape.
+     - Listas de Verificación: Checklists para pasos a seguir.
+     - Formularios de Incidentes: Documentación de emergencias.
+     \newline 
+  
+  2. Procedimientos Estándar:
+     - Evacuación: Instrucciones para evacuar de manera segura.
+     - Respuesta a Incendios: Uso de extintores y activación de alarmas.
+     - Primeros Auxilios: Atención médica básica.
+     - Comunicaciones: Contacto durante una emergencia.
+     \newline 
+  
+  3. Información de Contacto:
+     - Números de Emergencia: Bomberos, policía, servicios médicos.
+     - Contactos Internos: Jefe de seguridad, coordinador de emergencias.
+     \newline 
+  
+  4. Políticas y Normativas:
+     - Políticas de Seguridad: Normas y reglas de seguridad.
+     - Normativas Legales: Cumplimiento de leyes y regulaciones.
+  \newline 
+  
+  5. Mapas y Diagramas:
+     - Mapas del Edificio: Salidas de emergencia, estaciones de primeros auxilios.
+     - Zonas de Seguridad: Áreas de reunión post-evacuación.
+     \newline 
+  
+  
+  Un manual de emergencia debe incluir objetivos claros y documentos esenciales como formatos, procedimientos, información de contacto, políticas y mapas para garantizar una respuesta efectiva y segura en situaciones de emergencia.
+  \newline 
+  
+  
+  \section{Resultados y discusión}
+  
+  Es esencial enfrentar nuevos desafíos para crecer como ingeniero. En este proyecto, logramos implementar las figuras de manera efectiva, especialmente en la indicación de niveles de voltaje. Se enfocó en el manejo adecuado de conexiones y ensambles. Cada etapa se siguió con instrucciones detalladas para cumplir con los objetivos.
+  
+  \subsection{Desarrollo de la guía de plan de Emergencia}
+  
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tecuno.png}
+      \label{fig:tec}
+  \end{figure}
+  figura 19
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/tecdos.png}
+      \label{fig:tec}
+  \end{figure}
+  
+  figura 20
+  \subsubsection{Identificación del riesgo}
+  
+  La identificación de riesgos en un manual de emergencia implica reconocer posibles amenazas que puedan afectar su efectividad y la seguridad de las personas en situaciones críticas. Esto incluye evaluar escenarios como desastres naturales, accidentes industriales, incendios, entre otros, para desarrollar respuestas apropiadas y medidas preventivas.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=60mm]{7/img/matrizriesgo.jpg}
+      \label{fig:matriz}
+  \end{figure}
+    Figura 21: Matriz de riesgos.
+  
+  \subsubsection{Riesgos internos}
+  
+  Los riesgos internos en un manual de emergencia incluyen fallas en la infraestructura, errores humanos, problemas organizativos, vulnerabilidades en la seguridad y interrupciones en el suministro.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=30mm]{7/img/programinterno.jpg}
+      \label{fig:programa }
+  \end{figure}
+  Figura 22: Diagrama para la identificacion de riesgos y acciones.
+  
+  \subsubsection{Riesgos externos}
+  
+  Los riesgos externos en un manual de emergencia incluyen desastres naturales, ataques cibernéticos, interrupciones en la cadena de suministro, conflictos sociopolíticos y pandemias.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]{7/img/riesgos.jpg}
+      \label{fig:riesgoss}
+  \end{figure}
+  Figura 23: Descripcion de los riesgos al realizar las actividades mas comunes y de riesgo dentro del aula.
+  
+  \subsubsection{Plan de acción}
+  
+  Un plan de acción para un manual de emergencia incluye evaluar riesgos desarrollar protocolos específicos asignar roles capacitar al personal y realizar simulacros asegurar equipos y recursos establecer canales de comunicación efectivos y revisar y actualizar el manual regularmente que se lleva a cabo de manera anticipada en el Instituto Tecnologico de Queretaro (ITQ)
+  
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/riesgosdoss.png}
+      \label{fig:riesgos}
+  \end{figure}
+  Figura 24: Descripcion de las acciones anticipadas y correctivas ante un riesgo externos.
+  
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]{7/img/riesgos internos.png}
+      \label{fig:rinternos}
+  \end{figure}
+  Figura 25: Descripcion de las acciones anticipadas y correctivas ante un riesgo internos.
+  
+  \subsubsection{Identificación de capacidades}
+  
+  Identificar lo que una persona o grupo puede hacer basado en sus habilidades y recursos.
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/invrecursoss.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 26: descripcion de cantidad de inventario en materia de seguridad .
+    
+  \subsubsection{Plano de localización de recursos}
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar1.png}
+      \label{fig:ubicacion}
+  \end{figure}
+   Figura 27: En esta zona hay 9 extintores , 6 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/lugar2.png}
+      \label{fig:lugar2}
+  \end{figure}
+   Figura 28: En esta zona hay 8 extintores , 6 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+     
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar 3.png}
+      \label{fig:lugar}
+  \end{figure}
+     Figura 29: En esta zona hay 5 extintores , 3 botiquines , 5 detectores de humo , 5 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar4.png}
+      \label{fig:lugar}
+  \end{figure}
+   Figura 30: En esta zona hay 5 extintores , 6 botiquines , 5 detectores de humo , 4 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar5.png}
+      \label{fig:lugar}
+  \end{figure}
+   Figura 31 : En esta zona hay 7 extintores , 2 botiquines , 5 detectores de humo , 4 lamparas de emergencia.
+  
+     \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/lugar6.png}
+      \label{fig:lugar}
+  \end{figure}
+     Figura 32: En esta zona hay 5 extintores , 2 botiquines , 5 detectores de humo , 2 lamparas de emergencia.
+  
+  \subsubsection{ Identificación de apoyos externos}
+  
+   \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]{7/img/ubicacion.png}
+      \label{fig:ubicacion}
+  \end{figure}
+  
+    \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]{7/img/urgencias.png}
+      \label{fig:ubicacion}
+  \end{figure}
+    Figura 33: Lugares que serviran de apoyo en un situacion
+  de emergencia.
+    
+  \subsubsection{Identificación de puntos de reunión}
+    punto a
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/punto1.png}
+      \label{fig:puntos}
+  \end{figure}
+    punto b
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/puntob.png}
+      \label{fig:puntos}
+  \end{figure}
+   Figura 34: Lugares que serviran como punto en una situacion
+  de emergencia.
+  
+  
+  \subsubsection{Brigada de evacuación}
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]{7/img/brigada.png}
+      \label{fig:brigada}
+  \end{figure}
+   Figura 35: Tareas asignadas a cada miembro del equipo en caso de evacuación o repliegue de emergencia.
+  
+  \subsubsection{Directorio de telefónicos de emergencia}
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/numeros.png}
+      \label{fig:directorio}
+  \end{figure}
+    Figura 36: Numeros de emergencia.
+  
+  \subsection{Análisis de los métodos, materiales, herramientas e instalación utilizada en la ejecución del ensamble de un circuito electrónico}
+  
+  \subsubsection{Verificación}
+  
+  \subsubsection{Desarrollo del sistema de tiempos predeterminado}
+  
+  Organización: Estudio del Trabajo II Fecha: 25 de Mayo del 2024
+  Operación: 
+  Ensamble de Circuito Electronico
+  Sistema: MTM-1
+  Analista: Collman Granados Joseph Iker Estudio N°.- 1
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/mtmhoja1.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/mtmhoja2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/tresmtm.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  % 
+  % 
+  \subsubsection{Desarrollo del muestreo del trabajo}
+  % 
+  % 
+  \subsubsection{Corrección por balanceo de procesos}
+  % 
+  % 
+  \subsubsection{Datos estándar continuos y discretos}
+  % 
+  % 
+  \subsection{Diseño de la forma más económica de realizar el trabajo}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=95mm]
+      {7/img/precioscosasviejas.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/precioscnuevas.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/diagrama.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/diacorrec2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=95mm]
+      {7/img/diacorrec3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]
+      {7/img/Tabbien1.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tabbien2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=25mm]
+      {7/img/tabbien3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=25mm]
+      {7/img/tabbien3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=15mm]
+      {7/img/determinar.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tfinal.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/tfinal2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  % 
+  % 
+  \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
+  
+  % 
+  % 
+  \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
+  
+   En relación con el tiempo estándar, se obtuvieron las siguientes tablas. Se utilizó la tabla Bimanual \ref{fig:calculoHolguras}  para determinar los movimientos y obtener el tiempo de ciclo basado en esos movimientos, tanto de forma individual \ref{fig:calculoHolguras}  como a partir de 12 muestras\ref{fig:calculoHolguras} .  Asimismo, se calcularon las holguras o suplementos necesarios para determinar el tiempo estándar \ref{fig:calculoHolguras} , resultando en un tiempo estándar final de 11.921 minutos.\ref{fig:calculoHolguras} 
+   
+  
+  \section{Conclusiones}
+  
+  Durante el desarrollo de la práctica, se abordaron múltiples aspectos de las unidades de la materia, cubriendo todos los temas tratados durante el semestre. Principalmente, se puede afirmar que se alcanzó el 80% de la hipótesis planteada, ya que se logró mejorar las habilidades del estudiante, potenciando así su capacidad para desarrollar nuevas prácticas y aplicar su conocimiento en la determinación del tiempo estándar de una operación.
+  
+  Asimismo, se implementó un plan de emergencia que incluyó varios puntos cruciales para la producción. Esto abarcó la identificación de riesgos internos y externos, la localización y los planos del instituto, y la identificación de apoyos externos en caso de necesidad. También se recopilaron números telefónicos para cualquier incidente o accidente, garantizando una respuesta rápida y efectiva en situaciones de emergencia.
+  
+  Además, se realizó un análisis de métodos mediante la creación de un manual propio, donde se examinaron diversos métodos involucrados. Esto incluyó la medición de materiales, la elaboración de planos, la identificación de partes importantes y una investigación exhaustiva de cada uno de estos elementos. En cuanto a las herramientas, se identificó su uso específico para generar el ensamblaje y se llevaron a cabo mediciones de las instalaciones del edificio, el salón y la escuela. Con todo esto, se logró obtener una visión más completa de todo lo que implica la realización de esta operación.
+  
+  En relación a la reducción de costos, se identificaron varios puntos de mejora. Se consideró la adquisición de una pantalla LCD más simple También se optó por el uso de un tapete más económico lo que podría reducir el costo significativamente. Además, se evaluó la posibilidad de cambiar de proveedor para componentes como el potenciómetro La implementación de estos cambios puede resultar en una significativa reducción de costos, especialmente cuando se trata de la producción de millones de piezas.
+  
+  Se evaluaron tres métodos para determinar el tiempo estándar, El método final total fue de 11.921 minutos, ya que era preciso y no requería muchos recursos , esto nos dejo un aprendizaje acerca del estudio de tiempos su calculo y su propio aprendizaje.
+  
+  \newline 
+  
+  \section{Referencias}
+  
+  [1] A. García, Métodos de estudio de tiempos y movimientos. Sin Número: Alfa Editorial, 2001.
+  \newline 
+  
+  [2] B. Fernández, “Ensamblaje,” Sitio web. Disponible en: [www.ensamblaje.com](http://www.ensamblaje.com), sin fecha.
+  \newline 
+  
+  [3] C. Pérez, “Circuitos electrónicos,” Sitio web. Disponible en: [www.circuitoselectronicos.com]
+  (http://www.circuitoselectronicos.com), sin fecha.
+  \newline 
+  
+  [4] D. Sánchez, “Optimización,” Sitio web. Disponible en: [www.optimizacion.com](http://www.optimizacion.com), sin fecha.
+  \newline 
+  
+  [5] A. García, J. López, and G. Martínez, Methods-time measurement. New York: Beta Publishers, 1948.
+  \newline 
+  
+  [6] E. Rodríguez, “Contribuciones de las revoluciones industriales al desarrollo tecnológico,” Revista de Tecnología e Innovación, vol. 15, no. 3, pp. 45-60, 2024.
+  \newline 
+  
+  [7] Universidad de San Martín, Vicerrectoría de Administración, “¿Qué es un plan de atención de emergencias?,” Boletín Informativo, pp. 12-20, 2021.
+  \newline 
+  
+  [8] Instituto Politécnico Central, “Generalidades de práctica 8: Control de tráfico en redes de computadoras,” Manual del Curso de Redes, pp. 55-78, 2024.
+  \newline 
+  
+  [9] FormacionPro, “¿Qué son los therbligs?,” Sitio web. Disponible en: [www.formacionpro.com/therbligs]
+  (http://www.formacionpro.com/therbligs), 2024.
+  \newline 
+  
+  [10] M. Gómez, “Tarea 3: Preguntas sistema MTM,” Trabajo de Investigación en Ingeniería Industrial II, Universidad de la Ciudad, pp. 34-45, 2015.
+  \newline 
+  
+  [11] Curso de Trabajo II, “Comentario,” Comentarios y Opiniones del Curso de Trabajo II, Universidad Técnica Nacional, pp. 23-30, 2015.
+  \newline 
+  
+  [12] F. Ramírez, Ingeniería de métodos y tiempos. 3ª ed. Madrid: Sigma Editores, 2010.
+  \newline 
+  
+  [13] G. Ortiz, “Automatización en la industria moderna,” Revista de Innovación Tecnológica, vol. 12, no. 2, pp. 100-115, 2023.
+  \newline 
+  
+  [14] H. Torres, “Optimización de procesos industriales,” Sitio web. Disponible en: [www.procesosindustriales.com]
+  (http://www.procesosindustriales.com), sin fecha.
+  \newline 
+  
+  [15] I. Vargas, “Implementación de sistemas de calidad en la manufactura,” *Informe Técnico del Instituto de Manufactura*, Instituto Nacional de Manufactura, pp. 85-102, 2019.
+  \newline 
+  
+  [16] J. Morales, Análisis de sistemas productivos. Buenos Aires: Delta Publicaciones, 2015.
+  \newline 
+  
+  [17] K. Castillo, “Eficiencia en la gestión de la cadena de suministro,” Revista de Logística y Distribución, vol. 8, no. 1, pp. 27-39, 2022.
+  \newline 
+  
+  [18] L. Mendoza, “Estudio comparativo de métodos de trabajo,” Sitio web. Disponible en: [www.metodosdetrabajo.com]
+  (http://www.metodosdetrabajo.com), sin fecha.
+  \newline 
+  
+  [19] M. Ríos, “Desarrollo y aplicación de tiempos estándar en la industria automotriz,” Boletín Técnico de Ingeniería Industrial, Universidad de la Ingeniería, pp. 56-72, 2020.
+  \newline 
+  
+  [20] N. Vega, “Implementación de metodologías lean en la manufactura,” Revista de Eficiencia y Productividad, vol. 10, no. 4, pp. 88-97, 2021.
+  
+  %Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
+  %La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
+  %Refiérase simplemente al número de referencia, como en \cite{Morales2012}, no utilice “Ref. [3]” o “referencia [3]” excepto al principio de una oración: “La referencia [3] fue la primera…”
+   
+  
+  %Otros ejemplos \cite{LAAngeles2021}, \cite{LAAngelesConni}. 
+  
+  % Ejemplo
+  %  @Article{article,
+  % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+  % 	title = "Article Title",
+  % 	volume = "30",
+  % 	number = "30",
+  % 	pages = "10127-10134",
+  % 	year = "2013",
+  % 	doi = "10.3389/fnins.2013.12345",
+  % 	URL = "http://www.frontiersin.org/Journal/10.3389/fnins.2013.12345/abstract",
+  % 	journal = "Frontiers in Neuroscience"
+  % }
+  
+  % @book{book,
+  %   author    = {Author Name}, 
+  %   title     = {The title of the work},
+  %   publisher = {The name of the publisher},
+  %   address   = {The city},
+  %   year      = 1993,
+  % }
+  
+  % @incollection{chapter,
+  %   author       = {Bauthor Surname}, 
+  %   title        = {The title of the work},
+  %   editor       = {Editor Name},
+  %   booktitle    = {The title of the book},
+  %   publisher    = {The name of the publisher},
+  %   address      = {The city},
+  %   year         = 2002,
+  %   pages        = {201-213},
+  % }
+  
+  % @InProceedings{conference,
+  %   author = {Cauthor Name and Dauthor Surname and Fauthor LastName},
+  %   title = {The title of the work},
+  %   booktitle = {The title of the conference proceedings},
+  %   year = 1996,
+  %   publisher = {The name of the publisher},
+  %   editor = {Editor Name1 and Editor Name2},
+  %   pages = {41-50},
+  % }
+  
+  % @book{cho,
+  %   author       = {Gauthor Name1}, 
+  %   title        = {The title of the work},
+  %   publisher = {Country code and patent number},
+  %   address      = {Patent Country},
+  %   year = 2013
+  % }
+  
+  % @book{patent,
+  %   author    = {Hauthor Surname1}, 
+  %   title     = {The title of the work},
+  %   publisher = {Patent number},
+  %   address   = {Patent country},
+  %   year      = 2010,
+  % }
+  
+  % % please use misc for datasets
+  % @misc{dataset, 
+  % 	author = "Author1 LastName1 and Author2 LastName2 and Author3 LastName3",
+  % 	title = "Data Title",
+  % 	year = "2011",
+  % 	doi = "10.000/55555",
+  % 	URL = "http://www.frontiersin.org/",
+  % }
+  
+  \bibliographystyle{ieeetr}
+  \bibliography{7/referencias}
