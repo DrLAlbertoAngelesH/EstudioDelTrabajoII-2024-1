@@ -17,19 +17,19 @@
     \title{\textbf{Estudio de tiempos y movimientos en el ensamble de un circuito electrónico utilizando diferentes métodos para su optimización }} % Article title
     
      \author{ 
-     \textsc{Apellidos, Nombre/s}\\ 
+     \textsc{Flores-Antonio, David Ricardo}\\ 
     %  Afiliación:
-     \texttt{ Nombre Instituto } \\ 
-     \texttt{Nombre de la Organización } \\ 
-     \texttt{Ciudad y País}\\ 
-     \texttt{Correo} 
+     \texttt{ Instituto Tecnológico de Querétaro } \\ 
+     \texttt{Tecnológico Nacional de México} \\ 
+     \texttt{Querétaro, México}\\ 
+     \texttt{daroan13@gmail.com} 
      \and 
-     \textsc{Flores Antonio David Ricardo}\\ 
+     \textsc{áNGELES-HURTADO, LUIS ALBERTO}\\ 
     %  Afiliación:
      \texttt{ Instituto Tecnológico de Querétaro } \\ 
      \texttt{ Tecnológico Nacional de México } \\ 
      \texttt{Querétaro, México}\\ 
-     \texttt{daroan13@gmail.com} 
+     \texttt{alb3rto.ah@gmail.com} 
     }
     
     
@@ -466,13 +466,13 @@ Un regulador multicontacto, también conocido como regulador de voltaje o estabi
         \label{Multicontacto}
 \end{figure}
 
-\textbf{Cabe tipo C}
+\textbf{Cable tipo C}
 
 Un cable tipo C, también conocido como USB-C, es un estándar de conexión de cables y conectores desarrollado para ser más versátil que sus predecesores. Su diseño permite una conexión reversible, lo que significa que no importa cuál sea la orientación del conector, siempre se puede insertar correctamente en el puerto. Además, el cable tipo C puede transportar datos, energía y señales de video, lo que lo hace muy versátil para una amplia gama de dispositivos, desde teléfonos inteligentes hasta computadoras portátiles y periféricos. Es un estándar cada vez más común en la industria electrónica debido a su capacidad para simplificar la conectividad y la carga de dispositivos.
 
 \begin{figure}[H]
         \centering
-        \includegraphics[trim = {90mm 45mm 90mm 80mm},clip,scale=0.2]{10/Img/cableUsb.pdf}
+        \includegraphics[trim = {90mm 45mm 90mm 80mm},clip,scale=0.05]{10/Img/cableUsb.pdf}
         \caption{Cable Usb}
         \label{Cable usb}
     \end{figure}
@@ -499,6 +499,20 @@ piezas que se utilizaron en el ensamble, en cada dibujo se muestra las medidas d
     \includegraphics[scale=0.4]{10/Img/cotasResistencia.pdf}
     \caption{Dibujo Resistencia}
     \label{fig:cotasResistencia.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{10/Img/cotasEsp-32.pdf}
+    \caption{Dibujo ESP-32}
+    \label{fig:cotasEsp-32.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{10/Img/cotasPotenciómetro.pdf}
+    \caption{Dibujo Potenciómetro}
+    \label{fig:cotasPotenciómetro.png}
 \end{figure}
 %
 %
@@ -831,32 +845,83 @@ Como se puede ver en la figura \ref{muestra1Prueba4}, se logra ver que cuando el
 %
 \subsubsection{Desarrollo del sistema de tiempos predeterminado}
 
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{10/Img/diagramaBimanual1.jpg}
+        \label{diagramaBimanual1}
+    \end{figure}
 
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{10/Img/diagramaBimanual2.jpg}
+        \label{diagramaBimanual2}
+    \end{figure}
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.2]{10/Img/diagramaBimanual3.jpg}
+        \caption{Diagrama Bimanual}
+        \label{diagramaBimanual3}
+    \end{figure}
 \subsubsection{Desarrollo del muestreo de trabajo}
 
-\subsubsection{Corrección por balanceo de procesos}
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.4]{10/Img/tiempoEstándar.png}
+        \caption{Tiempo ciclo}
+        \label{tiempoEstándar}
+    \end{figure}
 
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.4]{10/Img/muestreo1.png}
+        \label{muestreo1}
+    \end{figure}
 
-\subsubsection{Datos estándar continuos y discretos}
-%
-%
-\subsection{Diseño de la forma más económica de realizar el trabajo}
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.4]{10/Img/muestreo2.png}
+        \label{muestreo2}
+    \end{figure}
 
+\begin{figure}[H]
+        \centering
+        \includegraphics[trim = {0mm 0mm 0mm 0mm},clip,scale=0.4]{10/Img/muestreo3.png}
+        \caption{Muestreo}
+        \label{muestreo3}
+    \end{figure}
+La media de la variable aleatoria discreta (X) es:
+\begin{equation}
+     \mu_x=\dfrac{b+a}{2}
+\end{equation}
 
-\subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
-
-\subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
-
-
+La desviación estándar de X es:
+\begin{equation}
+     \sigma_x=\sqrt{\dfrac{(b-a+1)^2-1}{12}}
+\end{equation}
 \section{Conclusiones}
     
-    Se describe aquí el alcance del trabajo, logros obtenidos y perspectivas para el futuro de este. Se sugiere colocar información cuantitativa obtenida.
-    
+Al realizar las tomas de muestras, se obtuvo un tiempo de ciclo de 2.64 minutos. Estas muestras, mostradas en la tabla \ref{muestreo3}, permitieron determinar un tiempo estándar de 5.31 minutos e identificar al operador promedio y al más lento. Esto facilitó el balanceo de líneas y la reducción de tiempos con la ayuda de los therblings, lo que resultó en una producción balanceada y con costos operativos bajos. 
+El propósito de este trabajo fue desarrollar un proyecto integrador mediante el ensamblaje de un circuito, aplicando todos los temas vistos a lo largo del semestre como estudio de movimientos y tiempos, muestras continuas o discretas, y conocimientos de otras materias como probabilidad y estadística, higiene y salud, y estudio del trabajo I.
+
+El objetivo principal era diseñar, mejorar e integrar sistemas productivos de bienes y servicios, determinando el tiempo estándar en el ensamblaje del circuito. Sin embargo, el proyecto no se completó debido a complicaciones como retrasos con la ESP32. A pesar de esto, se aprendió mucho sobre la normalización de procesos a nivel profesional y la integración de conocimientos de distintas materias.
+
+Se diseñó un ensamblaje electrónico y se creó un manual para capacitar a operarios sin experiencia. A través de dos pruebas de ensamblaje, se realizaron análisis para optimizar y reducir costos. Se usaron herramientas como Overleaf, GitHub y Visual Studio, ganando experiencia con tecnologías industriales.
+
+El trabajo permitió obtener un tiempo estándar basado en los ciclos de las actividades del ensamblaje y múltiples mediciones de tiempos de distintos operarios. Aunque el proyecto no se terminó, se alcanzaron la mayoría de los objetivos y se cubrió casi completamente la hipótesis, proporcionando una valiosa experiencia para futuros trabajos como ingenieros industriales.
+
     \section{Agradecimientos}
     
-    Es importante darles su debido reconocimiento a los laboratorios, instituciones, organizaciones, entre otros que han sido participes para la culminación de este trabajo. También es importante mencionar, fondos, proyectos, becas, entre otros que se le han otorgado al o los autores para realizar el trabajo de investigación. Ejemplo: “Los autores agradecen al Concejo Nacional de Ciencia y Tecnología por los recursos otorgados…”
+Quisiera expresar mi más sincero agradecimiento a todas las personas y organizaciones que han contribuido al desarrollo de este proyecto.
+
+En primer lugar, agradezco a mi profesor de Estudio del Trabajo II por su orientación y apoyo constante. Su conocimiento y experiencia fueron fundamentales para la realización de este trabajo.
+
+También quiero agradecer a mis compañeros de grupo, por su dedicación, colaboración y esfuerzo. Su compromiso fue clave para superar los desafíos que encontramos en el camino.
+
+Agradezco al Instituto Tecnológico de Querétaro por brindarnos los recursos y el entorno adecuado para llevar a cabo este proyecto. Sin su apoyo, no habría sido posible lograr nuestros objetivos.
+
     
-%\section*{Referencias}
+%\section{Referencias}
     
   %  Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes 
    % La puntuación de la oración que sigues sería  
@@ -932,29 +997,16 @@ Como se puede ver en la figura \ref{muestra1Prueba4}, se logra ver que cuando el
     % 	doi = "10.000/55555",
     % 	URL = "http://www.frontiersin.org/",
     % }
-
-    \newpage
     \bibliographystyle{ieeetr}
     \bibliography{10/referencias}
     % 
     % 
-    % 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %\appendix
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    % 
-    % 
-    \centering{\section[\appendixautorefname{}]{Apéndice Materiales}}\label{Figura:Materiales}
-    \includepdf[pages=-]{10/Img/material.pdf}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %\appendix
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    % 
-    % 
-    \centering{\section[\appendixautorefname{}]{Apéndice Manual}}\label{Figura:Manual}
-    \includepdf[pages=-]{10/Img/ensamble.pdf}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    % \newpage
-    % \bibliographystyle{ieeetr}
-    % \bibliography{10/referencias}
+   \newpage
+   \appendix
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   %
+   %
+   \centering{\section[\appendixautorefname{}]{APÉNDICE}}\label{anexo:manualOperador}
+    \includepdf[pages=-]{10/Img/manualOperador.pdf}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
