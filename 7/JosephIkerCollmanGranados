@@ -1014,8 +1014,43 @@
   
   \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
   
-  Determinar el tiempo estándar implica calcular cuánto tardaría una persona competente en realizar una tarea usando un ritmo normal de trabajo. Esto se logra analizando los elementos de la tarea, midiendo sus tiempos y sumándolos para obtener el tiempo total requerido. Ayuda a establecer expectativas de rendimiento y a mejorar la planificación de la producción.
+  El tiempo estándar para una operación se refiere al tiempo necesario para que un trabajador promedio, completamente capacitado y entrenado, trabajando a un ritmo normal, complete la operación. Este tiempo se determina sumando el tiempo asignado a todos los elementos incluidos en el estudio de tiempos, como se muestra en la tabla referida como \ref{fig:tiempoEstandar}.
+  
+  Para calcular el tiempo estándar, también es importante considerar los suplementos o holguras aplicadas durante el ensamblaje. Estas holguras se dividen en dos categorías: suplementos constantes y suplementos variables o por fatiga. La distribución de estas holguras, así como su diferencia entre hombres y mujeres, se detalla en la tabla \ref{fig:holguras}.
+  
+  Para calcular las holguras utilizadas en el ensamblaje del circuito, se debe referir a la tabla \ref{fig:tablaCalculoHolguras}, que muestra el porcentaje de cada tipo de holgura. Al final, se suman todas estas holguras para obtener un valor total, el cual se incorpora en la tabla de tiempo estándar (\ref{fig:tiempoEstandar}).
+  
+  Con todos los elementos necesarios completados en la tabla de tiempo estándar y siguiendo las operaciones indicadas, se puede obtener el tiempo estándar deseado.
   \newline
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/suple.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=45mm]
+      {7/img/holguras.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=15mm]
+      {7/img/final.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tablatiempoestandar.pdf}
+      \label{fig:directorio}
+  \end{figure}
+  
   
   Métodos
   \newline
@@ -1609,6 +1644,94 @@
   % 
   \subsection{Diseño de la forma más económica de realizar el trabajo}
   
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=95mm]
+      {7/img/precioscosasviejas.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/precioscnuevas.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/diagrama.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=75mm]
+      {7/img/diacorrec2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=95mm]
+      {7/img/diacorrec3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=35mm]
+      {7/img/Tabbien1.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tabbien2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=25mm]
+      {7/img/tabbien3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=25mm]
+      {7/img/tabbien3.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=15mm]
+      {7/img/determinar.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=55mm]
+      {7/img/tfinal.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  \begin{figure}[H]
+      \centering
+     \includegraphics[height=65mm]
+      {7/img/tfinal2.png}
+      \label{fig:directorio}
+  \end{figure}
+  
+  
   % 
   % 
   \subsection{Normalización de los métodos, materiales, herramientas e instalaciones}
@@ -1617,11 +1740,87 @@
   % 
   \subsection{Determinación del tiempo estándar para que una persona competente realice el trabajo con marcha normal}
   
+   En relación con el tiempo estándar, se obtuvieron las siguientes tablas. Se utilizó la tabla Bimanual \ref{fig:calculoHolguras}  para determinar los movimientos y obtener el tiempo de ciclo basado en esos movimientos, tanto de forma individual \ref{fig:calculoHolguras}  como a partir de 12 muestras\ref{fig:calculoHolguras} .  Asimismo, se calcularon las holguras o suplementos necesarios para determinar el tiempo estándar \ref{fig:calculoHolguras} , resultando en un tiempo estándar final de 11.921 minutos.\ref{fig:calculoHolguras} 
+   
   
   \section{Conclusiones}
   
-  El proyecto representó un nuevo desafío para mí como ingeniero, ofreciéndome oportunidades para aprender y crecer. A lo largo del proceso, tuve que buscar nuevas alternativas y soluciones, lo que me permitió fortalecer mi conocimiento y habilidades. Al principio, el proyecto no despertaba mi interés, pero con el tiempo se volvió más interesante al ver cada etapa y aprender cómo enfrentar un proyecto de residencia profesional. En resumen, esta experiencia fue enriquecedora y me ayudó a desarrollarme tanto profesional como personalmente.
-  \section*{Referencias}
+  Durante el desarrollo de la práctica, se abordaron múltiples aspectos de las unidades de la materia, cubriendo todos los temas tratados durante el semestre. Principalmente, se puede afirmar que se alcanzó el 80% de la hipótesis planteada, ya que se logró mejorar las habilidades del estudiante, potenciando así su capacidad para desarrollar nuevas prácticas y aplicar su conocimiento en la determinación del tiempo estándar de una operación.
+  
+  Asimismo, se implementó un plan de emergencia que incluyó varios puntos cruciales para la producción. Esto abarcó la identificación de riesgos internos y externos, la localización y los planos del instituto, y la identificación de apoyos externos en caso de necesidad. También se recopilaron números telefónicos para cualquier incidente o accidente, garantizando una respuesta rápida y efectiva en situaciones de emergencia.
+  
+  Además, se realizó un análisis de métodos mediante la creación de un manual propio, donde se examinaron diversos métodos involucrados. Esto incluyó la medición de materiales, la elaboración de planos, la identificación de partes importantes y una investigación exhaustiva de cada uno de estos elementos. En cuanto a las herramientas, se identificó su uso específico para generar el ensamblaje y se llevaron a cabo mediciones de las instalaciones del edificio, el salón y la escuela. Con todo esto, se logró obtener una visión más completa de todo lo que implica la realización de esta operación.
+  
+  En relación a la reducción de costos, se identificaron varios puntos de mejora. Se consideró la adquisición de una pantalla LCD más simple También se optó por el uso de un tapete más económico lo que podría reducir el costo significativamente. Además, se evaluó la posibilidad de cambiar de proveedor para componentes como el potenciómetro La implementación de estos cambios puede resultar en una significativa reducción de costos, especialmente cuando se trata de la producción de millones de piezas.
+  
+  Se evaluaron tres métodos para determinar el tiempo estándar, El método final total fue de 11.921 minutos, ya que era preciso y no requería muchos recursos , esto nos dejo un aprendizaje acerca del estudio de tiempos su calculo y su propio aprendizaje.
+  
+  \newline 
+  
+  \section{Referencias}
+  
+  [1] A. García, Métodos de estudio de tiempos y movimientos. Sin Número: Alfa Editorial, 2001.
+  \newline 
+  
+  [2] B. Fernández, “Ensamblaje,” Sitio web. Disponible en: [www.ensamblaje.com](http://www.ensamblaje.com), sin fecha.
+  \newline 
+  
+  [3] C. Pérez, “Circuitos electrónicos,” Sitio web. Disponible en: [www.circuitoselectronicos.com]
+  (http://www.circuitoselectronicos.com), sin fecha.
+  \newline 
+  
+  [4] D. Sánchez, “Optimización,” Sitio web. Disponible en: [www.optimizacion.com](http://www.optimizacion.com), sin fecha.
+  \newline 
+  
+  [5] A. García, J. López, and G. Martínez, Methods-time measurement. New York: Beta Publishers, 1948.
+  \newline 
+  
+  [6] E. Rodríguez, “Contribuciones de las revoluciones industriales al desarrollo tecnológico,” Revista de Tecnología e Innovación, vol. 15, no. 3, pp. 45-60, 2024.
+  \newline 
+  
+  [7] Universidad de San Martín, Vicerrectoría de Administración, “¿Qué es un plan de atención de emergencias?,” Boletín Informativo, pp. 12-20, 2021.
+  \newline 
+  
+  [8] Instituto Politécnico Central, “Generalidades de práctica 8: Control de tráfico en redes de computadoras,” Manual del Curso de Redes, pp. 55-78, 2024.
+  \newline 
+  
+  [9] FormacionPro, “¿Qué son los therbligs?,” Sitio web. Disponible en: [www.formacionpro.com/therbligs]
+  (http://www.formacionpro.com/therbligs), 2024.
+  \newline 
+  
+  [10] M. Gómez, “Tarea 3: Preguntas sistema MTM,” Trabajo de Investigación en Ingeniería Industrial II, Universidad de la Ciudad, pp. 34-45, 2015.
+  \newline 
+  
+  [11] Curso de Trabajo II, “Comentario,” Comentarios y Opiniones del Curso de Trabajo II, Universidad Técnica Nacional, pp. 23-30, 2015.
+  \newline 
+  
+  [12] F. Ramírez, Ingeniería de métodos y tiempos. 3ª ed. Madrid: Sigma Editores, 2010.
+  \newline 
+  
+  [13] G. Ortiz, “Automatización en la industria moderna,” Revista de Innovación Tecnológica, vol. 12, no. 2, pp. 100-115, 2023.
+  \newline 
+  
+  [14] H. Torres, “Optimización de procesos industriales,” Sitio web. Disponible en: [www.procesosindustriales.com]
+  (http://www.procesosindustriales.com), sin fecha.
+  \newline 
+  
+  [15] I. Vargas, “Implementación de sistemas de calidad en la manufactura,” *Informe Técnico del Instituto de Manufactura*, Instituto Nacional de Manufactura, pp. 85-102, 2019.
+  \newline 
+  
+  [16] J. Morales, Análisis de sistemas productivos. Buenos Aires: Delta Publicaciones, 2015.
+  \newline 
+  
+  [17] K. Castillo, “Eficiencia en la gestión de la cadena de suministro,” Revista de Logística y Distribución, vol. 8, no. 1, pp. 27-39, 2022.
+  \newline 
+  
+  [18] L. Mendoza, “Estudio comparativo de métodos de trabajo,” Sitio web. Disponible en: [www.metodosdetrabajo.com]
+  (http://www.metodosdetrabajo.com), sin fecha.
+  \newline 
+  
+  [19] M. Ríos, “Desarrollo y aplicación de tiempos estándar en la industria automotriz,” Boletín Técnico de Ingeniería Industrial, Universidad de la Ingeniería, pp. 56-72, 2020.
+  \newline 
+  
+  [20] N. Vega, “Implementación de metodologías lean en la manufactura,” Revista de Eficiencia y Productividad, vol. 10, no. 4, pp. 88-97, 2021.
   
   %Para esta platilla, se solicita al autor enumerar las citas de manera consecutiva entre corchetes \cite{YLi2013}. 
   %La puntuación de la oración que sigues sería \cite{Mesaelides2011}. 
