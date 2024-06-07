@@ -1,7 +1,7 @@
 \lhead{\begin{tikzpicture}[remember picture, overlay]
   \node [anchor=100,inner sep=0] (imagenIZQUIERDA) at (current page header area.north){\includegraphics[width=18cm]{img/Encabezado.PNG}};
   \end{tikzpicture}}
-  \rhead{Autor: primerApellido-segundoApellido}
+  \rhead{Autor: Collman -Granados}
   \rfoot{\begin{tikzpicture}[remember picture, overlay]
   \node [anchor=140,inner sep=0] (imagenDERECHA) at (current page footer area.south){\includegraphics[width=18cm]{img/Foot.PNG}};
   \end{tikzpicture}}
@@ -17,19 +17,19 @@
   \title{\textbf{Proyecto}} % Article title
   
    \author{ 
-   \textsc{Nombre del Autor : }\\ 
+   \textsc{Collman-Granados, Joseph Iker}\\ 
   %  Afiliación:
-   \texttt{ Nombre del Departamento : } \\ 
-   \texttt{Nombre de la Universidad : } \\ 
-   \texttt{Ciudad y País :}\\ 
-   \texttt{Correo : } 
+   \texttt{ Instituto  Tecnologico de Queretaro } \\ 
+   \texttt{Tecnologico Nacional de Mexico } \\ 
+   \texttt{Queretaro , Mexico}\\ 
+   \texttt{l22140906@queretaro.tecnm.mx} 
    \and 
-   \textsc{Collman Granados Joseph Iker}\\ 
+   \textsc{Ángeles-Hurtado, Luis Alberto}\\ 
   %  Afiliación:
-   \texttt{ Estudio del Tabajo II } \\ 
-   \texttt{Instituto Tecnologico De Queretaro } \\ 
-   \texttt{Queretaro , Mexico }\\ 
-   \texttt{joseiker1603@gmail.com} 
+   \texttt{ Instituto Tecnológico de Querétaro } \\ 
+   \texttt{ Tecnológico Nacional de México } \\ 
+   \texttt{Querétaro, México}\\ 
+   \texttt{alb3rt0.ah@gmail.com} 
   }
   
   
